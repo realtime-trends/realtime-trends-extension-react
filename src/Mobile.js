@@ -7,6 +7,9 @@ import Typography from '@material-ui/core/Typography';
 
 class Mobile extends Component {
   componentDidMount() {
+    const mobileWebUrl = window.location.protocol + '//' + window.location.host + '/' + process.env.REACT_APP_MOBILE_WEB_ENDPOINT
+    const webUrl = window.location.protocol + '//' + window.location.host + '/' + process.env.REACT_APP_WEB_ENDPOINT
+    
     window.Kakao.init('b06b1e7032d222810c11094ca8ce1f81');
 
     window.Kakao.Link.createDefaultButton({
@@ -17,8 +20,8 @@ class Mobile extends Component {
         description: '크롬 확장 프로그램 (PC)',
         imageUrl: 'https://lh3.googleusercontent.com/MjrAFi69V1a9F1dU76Y2Rq-cvU-tIiE3dOfhddNxnIEY-0cl9mwyhUzrN2IAC2f4nJfGQcZpZN3OoAN3bhYg5PMB_A=w440-h280-e365-rj-sc0x00ffffff',
         link: {
-          mobileWebUrl: window.location.host + "/" + process.env.REACT_APP_MOBILE_WEB_ENDPOINT,
-          webUrl: window.location.host + "/" + process.env.REACT_APP_WEB_ENDPOINT
+          mobileWebUrl: mobileWebUrl,
+          webUrl: webUrl
         }
       },
       social: {
@@ -35,8 +38,8 @@ class Mobile extends Component {
         {
           title: '웹페이지 방문',
           link: {
-            mobileWebUrl: window.location.host + "/" + process.env.REACT_APP_MOBILE_WEB_ENDPOINT,
-            webUrl: window.location.host + "/" + process.env.REACT_APP_WEB_ENDPOINT
+            mobileWebUrl: mobileWebUrl,
+            webUrl: webUrl
           }
         }
       ]
