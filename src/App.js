@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Chart from './Chart';
 import Mobile from './Mobile';
 import 'bulma/css/bulma.min.css';
+import { isMobile } from 'react-device-detect';
 // import { Container } from 'react-bulma-components';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
         return (
           <Router>
             <Switch>
-              <Route exact path="/mobile" component={Mobile}/>
+              <Route exact path="/" component={isMobile ? Mobile : Mobile}/>
               <Route path="/privacy.html" onEnter={reload} />
             </Switch>
           </Router>
