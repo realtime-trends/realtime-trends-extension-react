@@ -7,8 +7,7 @@
     "default_title": "#Realtime Trends"
   },
   "permissions": [
-    "<all_urls>",
-    "activeTab"
+    "<all_urls>"
   ],
   "description": "실시간 급상승 검색어를 언제 어디서나 페이지 이동 없이 팝업으로 제공합니다.",
   "icons": {
@@ -16,13 +15,6 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "content_scripts": [
-    { 
-      "matches": ["http://*.google.com/search*", "http://*.daum.net/search*", "http://*.zum.com/search.zum*", "http://*.daum.net/nate*", "http://*.naver.com/search.naver*", "https://*.google.com/search*", "https://*.daum.net/search*", "https://*.zum.com/search.zum*", "https://*.daum.net/nate*", "https://*.naver.com/search.naver*"],
-     "js": ["background.js"],
-     "run_at": "document_end"
-    }
-   ], 
-  "version": "1.3.1",
-  "content_security_policy": "script-src 'self' 'sha256-ZR4b4lAchqOXgmX6uUgGAbDBzB10NgSoElr5A4+bLKY=' https://developers.kakao.com 'unsafe-inline'; object-src 'self'"
+  "version": "1.4.1",
+  "content_security_policy": "script-src https://*.kakao.com 'self' 'sha256-clzTZYwT+Um/gM5H1SBEKDa0ZHHf6i7mYO12sOHrrDg=' 'unsafe-inline'; object-src 'self'"
 }
