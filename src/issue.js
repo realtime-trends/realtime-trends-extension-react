@@ -1,15 +1,12 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-// import iconv from 'iconv'
 
 const WEIGHTS = [20, 19, 18, 17, 16, 15, 14, 13, 12, 11];
-const WAIT_TIME_SECONDS = 300;
 const ENGINE_BIAS = {
     nate: 0.7,
     zum: 1.0
 };
 const SIMILARITY_WEIGHT = 0.7;
-const MAX_RANK = 10;
 const DELTA_NEW = 999;
 
 String.prototype.hashCode = function() {

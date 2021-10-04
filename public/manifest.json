@@ -16,5 +16,5 @@
     "128": "icon128.png"
   },
   "version": "1.4.1",
-  "content_security_policy": "script-src https://*.kakao.com 'self' 'sha256-clzTZYwT+Um/gM5H1SBEKDa0ZHHf6i7mYO12sOHrrDg=' 'unsafe-inline'; object-src 'self'"
+  "content_security_policy": "script-src 'self' 'sha256-clzTZYwT+Um/gM5H1SBEKDa0ZHHf6i7mYO12sOHrrDg=' 'unsafe-inline'; object-src 'self'"
 }

@@ -1,37 +1,24 @@
 /* global chrome */
 import React, { useState, useEffect, useRef } from 'react';
 import TextTransition, { presets } from "react-text-transition";
-import { createGlobalStyle } from 'styled-components';
-import process from 'process';
+
 import { makeStyles } from '@material-ui/core/styles';
-import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import RemoveIcon from '@material-ui/icons/Remove';
-import FiberNewIcon from '@material-ui/icons/FiberNew';
-import Chip from '@material-ui/core/Chip';
-import InputLabel from '@material-ui/core/InputLabel';
-import MenuItem from '@material-ui/core/MenuItem';
-import Fab from '@material-ui/core/Fab';
 import FormControl from '@material-ui/core/FormControl';
-import Button from '@material-ui/core/Button';
-import Grid from '@material-ui/core/Grid';
 import Select from '@material-ui/core/Select';
-import OutlinedInput from '@material-ui/core/OutlinedInput';
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
-import { EngineIcon } from './EngineIcon'
-import { Tips } from './Tips'
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-import Paper from '@material-ui/core/Paper';
-import { Box, Columns, Container } from 'react-bulma-components';
-import Kakao from './Kakao'
+import OutlinedInput from '@material-ui/core/OutlinedInput';
+import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import RemoveIcon from '@material-ui/icons/Remove';
+import FiberNewIcon from '@material-ui/icons/FiberNew';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
+import { EngineIcon } from './EngineIcon'
+import { Tips } from './Tips'
 import { updateRanking } from './issue';
 
 const engineCandidates = ["NAVER", "Google", "Daum", "ZUM", "nate"];
