@@ -58,42 +58,16 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const cachedFetch = (url, expiry) => {
-  let cacheKey = url;
-  let cached = localStorage.getItem(cacheKey);
-  let whenCached = localStorage.getItem(cacheKey + ':ts');
-  if (cached !== null && whenCached !== null) {
-    let age = (Date.now() - whenCached) / 1000;
-    if (age < expiry) {
-      let response = new Response(new Blob([cached]))
-      return Promise.resolve(response)
-    } else {
-      // We need to clean up this old key
-      localStorage.removeItem(cacheKey);
-      localStorage.removeItem(cacheKey + ':ts');
-    }
-  }
-  return fetch(url).then(response => {
-    if (response.status === 200) {
-      response.clone().text().then(content => {
-        //console.log(content)
-        localStorage.setItem(cacheKey, content)
-        localStorage.setItem(cacheKey+':ts', Date.now())
-      })
-    }
-    return response
-  })
-}
 
 function getEngineColor(engine) {
   var color = "rgb(43, 200, 67)";
-  if (engine == "google") {
+  if (engine === "google") {
     color = "rgb(0, 0, 0)";
-  } else if (engine == "daum") {
+  } else if (engine === "daum") {
     color = "rgb(78, 139, 230)";
-  } else if (engine == "zum") {
+  } else if (engine === "zum") {
     color = "rgb(27, 82, 237)";
-  } else if (engine == "nate") {
+  } else if (engine === "nate") {
     color = "rgb(255, 44, 46)";
   }
   return color;
@@ -105,18 +79,17 @@ function Chart(props) {
   const [bold, setBold] = useState(0);
   const handlerRef = useRef(false);
   const [defaultEngine, setDefaultEngine] = React.useState('');
-  const inputLabel = React.useRef(null);
 
   function query(event, engine, term) {
     const encodedTerm = encodeURI(term);
     var url = "";
-    if (engine == "google") {
+    if (engine === "google") {
       url = 'https://www.google.com/search?q=' + encodedTerm;
-    } else if (engine == "daum") {
+    } else if (engine === "daum") {
       url = 'https://search.daum.net/search?q=' + encodedTerm;
-    } else if (engine == "zum") {
+    } else if (engine === "zum") {
       url = 'https://search.zum.com/search.zum?query=' + encodedTerm;
-    } else if (engine == "nate") {
+    } else if (engine === "nate") {
       url = 'https://search.daum.net/nate?q=' + encodedTerm;
     } else {
       url = 'https://search.naver.com/search.naver?query=' + encodedTerm;
@@ -233,8 +206,6 @@ function Chart(props) {
     <Table className={classes.table} aria-label="custom pagination table" style={{width: "250px"}}>
     <TableBody>
     {ranking && ranking.map((issue, index) => {
-        const labelId = `label-${issue.rank}`;
-        if (index < 10) {
       return (
       <TableRow key={issue.rank} role={undefined} onClick={event => query(event, defaultEngine, issue.keyword)} hover={true}>
       <TableCell align='left' width="10%" style={{padding: "5px 10px 5px 10px", height: "30px", border: "0px"}}>
@@ -263,12 +234,8 @@ function Chart(props) {
                               <RemoveIcon style={{ color: 'lightgray' }} />}
                               </TableCell>
     </TableRow>
-      );}
-    else {
-      // return (
-      //     <Chip size="small" label={"#"+issue.keyword} component="a" onClick={event => query(event, defaultEngine, issue.keyword)} />
-      // );
-    }}
+      );
+    }
       )}
        </TableBody>
        </Table>

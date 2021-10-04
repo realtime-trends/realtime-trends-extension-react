@@ -9,9 +9,10 @@ const ENGINE_BIAS = {
 const SIMILARITY_WEIGHT = 0.7;
 const DELTA_NEW = 999;
 
+// eslint-disable-next-line no-extend-native
 String.prototype.hashCode = function() {
     var hash = 0;
-    if (this.length == 0) {
+    if (this.length === 0) {
         return hash;
     }
     for (var i = 0; i < this.length; i++) {
@@ -90,30 +91,6 @@ function sortKeywords(keywords) {
     });
 }
 
-function countSpaces(string) {
-    return string.split(" ").length - 1;
-}
-
-async function convertSpaces(word) {
-    let converted = word;
-    try {
-        await axios.get('https://www.saramin.co.kr/zf_user/tools/spell-check?content=' + word
-            ).then(response => {
-            for (let cand of response.data['word_list']) {
-                let errorWord = cand.errorWord;
-                let candWord = cand.candWordList;
-                if (errorWord.replace(" ", "") == candWord.replace(" ", "")) {
-                    converted = converted.replace(errorWord, candWord);
-                }
-            }
-        })
-
-    } catch (e) {
-        console.error("convert error " + e);
-    }
-    return converted
-}
-
 function get(object, key, default_value) {
     var result = object[key];
     return (typeof result !== "undefined") ? result : default_value;
@@ -151,7 +128,7 @@ async function updateKeyword(setRanking) {
 
 function getRankByHashedKeyword(keywords, hashedKeyword) {
     for (let keyword of keywords) {
-        if (keyword.hashedKeyword == hashedKeyword) {
+        if (keyword.hashedKeyword === hashedKeyword) {
             return keyword.rank;
         }
     }
