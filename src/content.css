@@ -1,0 +1,16 @@
+.slick-list,
+.slick-track,
+.slick-slide,
+.slick-slide div,
+.slick-slide div div {
+    height: 100% !important;
+}
+
+.slick-list
+{
+    padding: 0px !important;
+}
+
+#NM_WEATHER {
+    overflow: visible !important;
+}
