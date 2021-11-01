@@ -186,11 +186,19 @@ export function updateRanking(setRanking, timeBefore = TIME_BEFORE) {
     let ranking = [];
     for (let newKeyword of newKeywords) {
       const hashedKeyword = newKeyword.hashedKeyword;
-      const beforeRank = getRankByHashedKeyword(beforeKeywords, hashedKeyword);
+      let beforeRank = -1;
+      if (beforeKeywords.length > 0) {
+        beforeRank = getRankByHashedKeyword(beforeKeywords, hashedKeyword);
+      }
       ranking.push({
         rank: newKeyword.rank,
         keyword: newKeyword.keyword,
-        delta: beforeRank == null ? DELTA_NEW : beforeRank - newKeyword.rank,
+        delta:
+          beforeRank == null
+            ? DELTA_NEW
+            : beforeRank === -1
+            ? 0
+            : beforeRank - newKeyword.rank,
       });
     }
     setRanking(ranking);
