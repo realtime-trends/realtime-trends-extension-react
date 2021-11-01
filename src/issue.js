@@ -135,7 +135,6 @@ export async function updateKeyword() {
   const sortedKeywords = sortKeywords(keywords);
   // const ranking = saveRankingToStorage(sortedKeywords);
   saveKeywordToStorage(sortedKeywords);
-  console.log(sortedKeywords);
   console.log('Finish to update keyword');
 }
 
@@ -182,7 +181,6 @@ export function updateRanking(setRanking, timeBefore = TIME_BEFORE) {
       Object.keys(keywords).filter((ts) => ts < Date.now() - timeBefore * 1000)
     );
     let newKeywords = keywords[newKeywordsTs];
-    console.log(keywords, newKeywordsTs, newKeywords);
     let beforeKeywords =
       beforeKeywordsTs === -Infinity ? [] : keywords[beforeKeywordsTs];
     let ranking = [];
@@ -227,7 +225,6 @@ function getStorage(callback, expiry = null) {
     if (items.hasOwnProperty('keywords')) {
       cached = items['keywords'];
     }
-    console.log(cached);
     callback(cached);
   });
 }
