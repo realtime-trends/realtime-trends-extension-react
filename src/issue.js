@@ -170,7 +170,7 @@ function getRankByHashedKeyword(keywords, hashedKeyword) {
       return keyword.rank;
     }
   }
-  return null;
+  return DELTA_NEW;
 }
 
 export function updateRanking(setRanking, timeBefore = TIME_BEFORE) {
@@ -186,7 +186,7 @@ export function updateRanking(setRanking, timeBefore = TIME_BEFORE) {
     let ranking = [];
     for (let newKeyword of newKeywords) {
       const hashedKeyword = newKeyword.hashedKeyword;
-      let beforeRank = -1;
+      let beforeRank = null;
       if (beforeKeywords.length > 0) {
         beforeRank = getRankByHashedKeyword(beforeKeywords, hashedKeyword);
       }
@@ -195,9 +195,9 @@ export function updateRanking(setRanking, timeBefore = TIME_BEFORE) {
         keyword: newKeyword.keyword,
         delta:
           beforeRank == null
-            ? DELTA_NEW
-            : beforeRank === -1
             ? 0
+            : beforeRank === DELTA_NEW
+            ? DELTA_NEW
             : beforeRank - newKeyword.rank,
       });
     }
