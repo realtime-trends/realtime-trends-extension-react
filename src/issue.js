@@ -228,7 +228,7 @@ function saveKeywordToStorage(sortedKeywords) {
 }
 
 function getStorage(callback, expiry = null) {
-  chrome.storage.sync.get('keywords', function (items) {
+  chrome.storage.local.get('keywords', function (items) {
     let cached = {};
     if (items.hasOwnProperty('keywords')) {
       cached = items['keywords'];
@@ -238,13 +238,13 @@ function getStorage(callback, expiry = null) {
 }
 
 function setStorage(content) {
-  chrome.storage.sync.set({ keywords: content }, function () {
+  chrome.storage.local.set({ keywords: content }, function () {
     console.log('saved keyword items');
   });
 }
 
 function addStorage(keywords, timestamp = Date.now()) {
-  chrome.storage.sync.get('keywords', function (items) {
+  chrome.storage.local.get('keywords', function (items) {
     let cached = {};
     if (items.hasOwnProperty('keywords')) {
       cached = items['keywords'];
@@ -255,7 +255,7 @@ function addStorage(keywords, timestamp = Date.now()) {
         (_, index, arr) => index > arr.length - MAX_STORAGE
       )
     );
-    chrome.storage.sync.set({ keywords: cached }, function () {
+    chrome.storage.local.set({ keywords: cached }, function () {
       console.log('saved keyword items');
     });
   });
