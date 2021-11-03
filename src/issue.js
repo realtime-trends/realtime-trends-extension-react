@@ -210,10 +210,10 @@ export function getStandardTime(setStandardTime) {
     let standardTimeTs = Math.max.apply(null, Object.keys(keywords));
     let standardTime = new Date(standardTimeTs);
     let year = standardTime.getFullYear();
-    let month = standardTime.getMonth() + 1;
-    let day = standardTime.getDate();
-    let hour = standardTime.getHours();
-    let minute = standardTime.getMinutes();
+    let month = ('0' + (standardTime.getMonth() + 1)).slice(-2);
+    let day = ('0' + standardTime.getDate()).slice(-2);
+    let hour = ('0' + standardTime.getHours()).slice(-2);
+    let minute = ('0' + standardTime.getMinutes()).slice(-2);
     setStandardTime(`${year}년 ${month}월 ${day}일 ${hour}:${minute}`);
   });
 }

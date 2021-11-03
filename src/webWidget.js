@@ -5,12 +5,12 @@ import { getStandardTime, updateRanking, getTableRow } from './issue';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Card, Grid, Typography } from '@material-ui/core';
+import { Box, Grid, Typography } from '@material-ui/core';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
-export function Naver() {
+export function Naver({ boxOnly = false }) {
   const [ranking, setRanking] = useState([]);
-  const [cardVisibility, setCardVisibility] = useState('hidden');
+  const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
   const [standardTime, setStandardTime] = useState('');
   var settings = {
@@ -34,17 +34,20 @@ export function Naver() {
 
   return (
     <>
-      <Card
+      <Box
         onMouseLeave={() => {
-          setCardVisibility('hidden');
+          if (!boxOnly) setBoxDisplay('none');
         }}
         style={{
-          zIndex: 10,
-          visibility: cardVisibility,
-          position: 'absolute',
-          backgroundColor: 'white',
+          zIndex: boxOnly ? 0 : 10,
+          display: boxDisplay,
+          position: boxOnly ? 'relative' : 'absolute',
+          backgroundColor: boxOnly ? 'transparent' : 'white',
           width: '100%',
         }}
+        border={boxOnly ? 0 : 1}
+        borderRadius="borderRadius"
+        borderColor="lightgray"
       >
         <Grid
           container
@@ -148,15 +151,19 @@ export function Naver() {
                     verticalAlign: 'middle',
                   }}
                 />
-                &nbsp;#실시간 검색어 제공
+                &nbsp;확장프로그램 '#실시간 검색어' 제공
               </Typography>
             </div>
           </Grid>
         </Grid>
-      </Card>
+      </Box>
       <Slider
         {...settings}
-        style={{ height: '100%', backgroundColor: 'white' }}
+        style={{
+          height: '100%',
+          backgroundColor: 'white',
+          display: boxOnly ? 'none' : 'block',
+        }}
       >
         {ranking &&
           ranking.slice(0, 10).map((issue) => (
@@ -164,7 +171,7 @@ export function Naver() {
               key={issue.rank}
               style={{ flexGrow: 1, height: '100%' }}
               onMouseEnter={() => {
-                setCardVisibility('visible');
+                setBoxDisplay('block');
               }}
             >
               {getTableRow('naver', false)(issue)}
