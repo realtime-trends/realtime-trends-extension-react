@@ -32,7 +32,6 @@ jobs:
         zip -r ../realtime-trends.zip *
         
     - name: Archive zip file
-          - name: Archive zip file
       uses: actions/upload-artifact@v2
       with:
         name: realtime-trends.zip
