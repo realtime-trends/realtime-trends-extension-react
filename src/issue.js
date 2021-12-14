@@ -40,9 +40,9 @@ axios.defaults.headers = {
 async function getKeywordsByEngine(engine) {
   var keywords = {};
   if (engine.localeCompare('zum') === 0) {
-    await axios.get('https://issue.zum.com/').then((data) => {
+    await axios.get('https://search.zum.com/search.zum').then((data) => {
       const $ = cheerio.load(data.data);
-      $('#issueKeywordList > li > .cont > .word').each((index, item) => {
+      $('#issue_wrap > ul > li > div > a:nth-child(1) > span.txt').each((index, item) => {
         const keyword = item.children[0].data;
         keywords[keyword] = WEIGHTS[index] * ENGINE_BIAS[engine];
       });
