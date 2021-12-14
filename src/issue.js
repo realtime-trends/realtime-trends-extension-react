@@ -43,6 +43,7 @@ async function getKeywordsByEngine(engine) {
     await axios.get('https://search.zum.com/search.zum').then((data) => {
       const $ = cheerio.load(data.data);
       $('#issue_wrap > ul > li > div > a:nth-child(1) > span.txt').each((index, item) => {
+        console.log(item);
         const keyword = item.innerText;
         keywords[keyword] = WEIGHTS[index] * ENGINE_BIAS[engine];
       });
