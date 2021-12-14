@@ -65,5 +65,5 @@ jobs:
     - name: Archive zip file
       uses: actions/upload-artifact@v2
       with:
-        name: realtime-trends.zip
-        path: ./realtime-trends.zip
+        name: realtime-trends
+        path: ./build
