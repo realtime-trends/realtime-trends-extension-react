@@ -43,7 +43,7 @@ export function Chart({ boxOnly = false, engine = "naver" }) {
           display: boxDisplay,
           position: boxOnly ? 'relative' : 'absolute',
           backgroundColor: boxOnly ? 'transparent' : 'white',
-          width: boxOnly ? '100%' : '300px',
+          width: boxOnly ? '100%' : '270px',
         }}
         border={boxOnly ? 0 : 1}
         borderRadius="borderRadius"
