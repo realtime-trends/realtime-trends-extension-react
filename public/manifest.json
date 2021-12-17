@@ -3,7 +3,10 @@
   "name": "#실시간 검색어",
   "manifest_version": 2,
   "permissions": [
-    "<all_urls>","storage","alarms", "tabs"
+    "<all_urls>",
+    "storage",
+    "alarms",
+    "tabs"
   ],
   "description": "네이버 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
   "icons": {
@@ -15,20 +18,24 @@
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "content_scripts": [
     {
-        "runt_at" : "document_start",
-        "matches": [
-          "https://www.naver.com/*", "https://search.naver.com/*"
-        ],
-        "js": [
-            "/static/js/content.js"
-        ],
-        "css": [
-            "/static/css/content.css"
-        ]
+      "runt_at": "document_start",
+      "matches": [
+        "https://www.naver.com/*",
+        "https://search.naver.com/*",
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "/static/js/content.js"
+      ],
+      "css": [
+        "/static/css/content.css"
+      ]
     }
   ],
   "background": {
-    "scripts": ["/static/js/background.js"],
+    "scripts": [
+      "/static/js/background.js"
+    ],
     "persistent": false
   }
 }

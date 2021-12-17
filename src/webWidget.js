@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Box, Grid, Typography } from '@material-ui/core';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
-export function Naver({ boxOnly = false }) {
+export function Chart({ boxOnly = false, engine = "naver" }) {
   const [ranking, setRanking] = useState([]);
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
@@ -43,7 +43,7 @@ export function Naver({ boxOnly = false }) {
           display: boxDisplay,
           position: boxOnly ? 'relative' : 'absolute',
           backgroundColor: boxOnly ? 'transparent' : 'white',
-          width: '100%',
+          width: boxOnly ? '100%' : '300px',
         }}
         border={boxOnly ? 0 : 1}
         borderRadius="borderRadius"
@@ -108,9 +108,18 @@ export function Naver({ boxOnly = false }) {
               key={issue.rank}
               style={{ flexGrow: 1, height: '100%', margin: '10px' }}
               onClick={() => {
-                window.location.href =
-                  'https://search.naver.com/search.naver?query=' +
-                  issue.keyword;
+                const encodedKeyword = encodeURI(issue.keyword);
+                if (engine === 'google') {
+                  window.location.href = 'https://www.google.com/search?q=' + encodedKeyword;
+                } else if (engine === 'daum') {
+                  window.location.href = 'https://search.daum.net/search?q=' + encodedKeyword;
+                } else if (engine === 'zum') {
+                  window.location.href = 'https://search.zum.com/search.zum?query=' + encodedKeyword;
+                } else if (engine === 'nate') {
+                  window.location.href = 'https://search.daum.net/nate?q=' + encodedKeyword;
+                } else {
+                  window.location.href = 'https://search.naver.com/search.naver?query=' + encodedKeyword;
+                }
               }}
             >
               {getTableRow('naver', issue.rank === activeIndex + 1)(issue)}
