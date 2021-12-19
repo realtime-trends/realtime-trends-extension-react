@@ -49,7 +49,7 @@ if (['www.naver.com', 'naver.com'].includes(window.location.hostname)) {
   checkElement("#gb > div", (appBarElement) => {
     appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
-    let backgroundSeletor = (window.location.hostname == "/search") ? "#searchform > div > div" : "#gb";
+    let backgroundSeletor = (window.location.pathname == "/search") ? "#searchform > div > div" : "body";
 
     ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor}/>, chartElement);
   });
