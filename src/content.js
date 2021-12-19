@@ -18,7 +18,7 @@ const checkElement = (selector, callback) => {
 const chartElement = document.createElement('div');
 chartElement.style.height = '100%';
 
-if (['www.naver.com', 'naver.com'].includes(window.location.hostname)) {
+if (['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
   chartElement.style.minWidth = '270px';
   chartElement.style.maxWidth = '270px';
   checkElement("#NM_WEATHER", (weatherElement) => {
@@ -31,7 +31,7 @@ if (['www.naver.com', 'naver.com'].includes(window.location.hostname)) {
   
     ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor}/>, chartElement);
   });
-} else if (['search.naver.com'].includes(window.location.hostname)) {
+} else if (['search.naver.com'].includes(window.location.hostname) && ['/search.naver'].includes(window.location.pathname)) {
   checkElement("#sub_pack", (sidebar) => {
     const section = document.createElement('section');
     section.classList.add('sc_new');
@@ -43,7 +43,7 @@ if (['www.naver.com', 'naver.com'].includes(window.location.hostname)) {
 
     ReactDOM.render(<Chart boxOnly={true} engine="naver" backgroundSelector={backgroundSeletor}/>, chartElement);
   });  
-} else if (['www.google.com', 'google.com'].includes(window.location.hostname)) {
+} else if (['www.google.com', 'google.com'].includes(window.location.hostname) && ['/', '/webhp', '/search'].includes(window.location.pathname)) {
   chartElement.style.minWidth = '270px';
   chartElement.style.maxWidth = '270px';
   checkElement("#gb > div", (appBarElement) => {
