@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Box, Grid, Typography } from '@material-ui/core';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
-export function Chart({ boxOnly = false, engine = "naver" }) {
+export function Chart({ boxOnly = false, engine = "naver", backgroundSelector = "body" }) {
   const [ranking, setRanking] = useState([]);
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
@@ -32,6 +32,20 @@ export function Chart({ boxOnly = false, engine = "naver" }) {
     getStandardTime(setStandardTime);
   }, []);
 
+  let backgroundElement = document.querySelector(backgroundSelector);
+  if (backgroundElement == null) {
+    backgroundElement = document.querySelector("body");
+  }
+
+  let backgroundColor = window.getComputedStyle(backgroundElement).backgroundColor;
+  if (backgroundColor.includes("rgba")) {
+    let colorArr = backgroundColor.slice(
+      backgroundColor.indexOf("(") + 1, 
+      backgroundColor.indexOf(")")
+    ).split(", ");
+    backgroundColor = "rgb(" + colorArr.slice(0, 3).join(", ") + ")";
+  }
+  
   return (
     <>
       <Box
@@ -42,7 +56,7 @@ export function Chart({ boxOnly = false, engine = "naver" }) {
           zIndex: boxOnly ? 0 : 10,
           display: boxDisplay,
           position: boxOnly ? 'relative' : 'absolute',
-          backgroundColor: boxOnly ? 'transparent' : 'white',
+          backgroundColor: backgroundColor,
           width: boxOnly ? '100%' : '270px',
         }}
         border={boxOnly ? 0 : 1}
@@ -151,7 +165,7 @@ export function Chart({ boxOnly = false, engine = "naver" }) {
                 }}
                 onClick={() => {
                   window.location.href =
-                    'https://chrome.google.com/webstore/detail/%EC%8B%A4%EC%8B%9C%EA%B0%84-%EA%B2%80%EC%83%89%EC%96%B4-realtime-trends/dmbaagbmhlhdnlmbcncneijndejlalie';
+                    'https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie';
                 }}
               >
                 <HelpOutlineIcon
@@ -170,7 +184,7 @@ export function Chart({ boxOnly = false, engine = "naver" }) {
         {...settings}
         style={{
           height: '100%',
-          backgroundColor: 'white',
+          backgroundColor: backgroundColor,
           display: boxOnly ? 'none' : 'block',
         }}
       >

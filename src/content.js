@@ -26,8 +26,10 @@ if (['www.naver.com', 'naver.com'].includes(window.location.hostname)) {
       weatherElement.removeChild(weatherElement.firstChild);
     }
     weatherElement.appendChild(chartElement);
+
+    let backgroundSeletor = "#header"
   
-    ReactDOM.render(<Chart boxOnly={false} engine="naver"/>, chartElement);
+    ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor}/>, chartElement);
   });
 } else if (['search.naver.com'].includes(window.location.hostname)) {
   checkElement("#sub_pack", (sidebar) => {
@@ -37,7 +39,9 @@ if (['www.naver.com', 'naver.com'].includes(window.location.hostname)) {
     section.appendChild(chartElement);
     sidebar.insertBefore(section, sidebar.firstChild);
 
-    ReactDOM.render(<Chart boxOnly={true} engine="naver"/>, chartElement);
+    let backgroundSeletor = "#lnb"
+
+    ReactDOM.render(<Chart boxOnly={true} engine="naver" backgroundSelector={backgroundSeletor}/>, chartElement);
   });  
 } else if (['www.google.com', 'google.com'].includes(window.location.hostname)) {
   chartElement.style.minWidth = '270px';
@@ -45,6 +49,8 @@ if (['www.naver.com', 'naver.com'].includes(window.location.hostname)) {
   checkElement("#gb > div", (appBarElement) => {
     appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
-    ReactDOM.render(<Chart boxOnly={false} engine="google"/>, chartElement);
+    let backgroundSeletor = (window.location.hostname == "/search") ? "#searchform > div > div" : "#gb";
+
+    ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor}/>, chartElement);
   });
 }
