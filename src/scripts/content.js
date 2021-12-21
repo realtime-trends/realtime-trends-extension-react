@@ -1,7 +1,5 @@
 import ReactDOM from 'react-dom';
-
-import { Chart } from './webWidget';
-
+import Chart from '../components/Chart';
 import './content.css';
 
 const checkElement = (selector, callback) => {

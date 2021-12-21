@@ -1,14 +1,15 @@
 /* global chrome */
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import { getStandardTime, updateRanking, getTableRow } from './issue';
+import { getStandardTime, updateRanking } from '../issue';
+import ChartRow from './ChartRow';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Box, Grid, Typography } from '@material-ui/core';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
-export function Chart({ boxOnly = false, engine = "naver", backgroundSelector = "body" }) {
+export default function Chart({ boxOnly = false, engine = "naver", backgroundSelector = "body" }) {
   const [ranking, setRanking] = useState([]);
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
@@ -136,7 +137,7 @@ export function Chart({ boxOnly = false, engine = "naver", backgroundSelector = 
                 }
               }}
             >
-              {getTableRow('naver', issue.rank === activeIndex + 1)(issue)}
+              <ChartRow issue={issue} activeRanking={activeIndex + 1} />
             </div>
           ))}
         <Grid
@@ -197,7 +198,7 @@ export function Chart({ boxOnly = false, engine = "naver", backgroundSelector = 
                 setBoxDisplay('block');
               }}
             >
-              {getTableRow('naver', false)(issue)}
+              <ChartRow issue={issue} activeRanking={-1} />
             </div>
           ))}
       </Slider>

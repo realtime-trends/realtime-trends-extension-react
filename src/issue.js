@@ -1,9 +1,4 @@
 /* global chrome */
-import { Grid, Typography } from '@material-ui/core';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import RemoveIcon from '@material-ui/icons/Remove';
-import FiberNewIcon from '@material-ui/icons/FiberNew';
 import axios from 'axios';
 import cheerio from 'cheerio';
 
@@ -133,36 +128,9 @@ export async function updateKeyword() {
   }
   const keywords = removeSimilarKeywords(checked);
   const sortedKeywords = sortKeywords(keywords);
-  // const ranking = saveRankingToStorage(sortedKeywords);
   saveKeywordToStorage(sortedKeywords);
   console.log('Finish to update keyword');
 }
-
-function shallowEqual(object1, object2) {
-  const keys1 = Object.keys(object1);
-  const keys2 = Object.keys(object2);
-  if (keys1.length !== keys2.length) {
-    return false;
-  }
-  for (let key of keys1) {
-    if (object1[key] !== object2[key]) {
-      return false;
-    }
-  }
-  return true;
-}
-
-// export function removeKeyword() {
-//     const hourBefore = 3600;
-//     getStorage(function(keywords) {
-//         let hourBeforeKeywords = Object.fromEntries(Object.entries(keywords).filter(([ts, _]) => ts > Date.now() - hourBefore*1000));
-//         if (!shallowEqual(keywords, hourBeforeKeywords)) {
-//             console.log(keywords);
-//             console.log(hourBeforeKeywords);
-//             setStorage(hourBeforeKeywords);
-//         }
-//     });
-// }
 
 function getRankByHashedKeyword(keywords, hashedKeyword) {
   for (let keyword of keywords) {
@@ -174,7 +142,7 @@ function getRankByHashedKeyword(keywords, hashedKeyword) {
 }
 
 export function updateRanking(setRanking, timeBefore = TIME_BEFORE) {
-  getStorage(function (keywords) {
+  getStorageByKeywords((keywords) => {
     let newKeywordsTs = Math.max.apply(null, Object.keys(keywords));
     let beforeKeywordsTs = Math.max.apply(
       null,
@@ -206,7 +174,7 @@ export function updateRanking(setRanking, timeBefore = TIME_BEFORE) {
 }
 
 export function getStandardTime(setStandardTime) {
-  getStorage(function (keywords) {
+  getStorageByKeywords((keywords) => {
     let standardTimeTs = Math.max.apply(null, Object.keys(keywords));
     let standardTime = new Date(standardTimeTs);
     let year = standardTime.getFullYear();
@@ -227,7 +195,7 @@ function saveKeywordToStorage(sortedKeywords) {
   addStorage(keywords);
 }
 
-function getStorage(callback, expiry = null) {
+function getStorageByKeywords(callback, expiry = null) {
   chrome.storage.local.get('keywords', function (items) {
     let cached = {};
     if (items.hasOwnProperty('keywords')) {
@@ -237,139 +205,20 @@ function getStorage(callback, expiry = null) {
   });
 }
 
-function setStorage(content) {
+function setStorageByKeywords(content) {
   chrome.storage.local.set({ keywords: content }, function () {
     console.log('saved keyword items');
   });
 }
 
 function addStorage(keywords, timestamp = Date.now()) {
-  chrome.storage.local.get('keywords', function (items) {
-    let cached = {};
-    if (items.hasOwnProperty('keywords')) {
-      cached = items['keywords'];
-    }
+  getStorageByKeywords((cached) => {
     cached[timestamp] = keywords;
     cached = Object.fromEntries(
       Object.entries(cached).filter(
         (_, index, arr) => index > arr.length - MAX_STORAGE
       )
     );
-    chrome.storage.local.set({ keywords: cached }, function () {
-      console.log('saved keyword items');
-    });
-  });
-}
-
-export function getTableRow(defaultEngine, bold) {
-  return function (issue, index) {
-    return (
-      <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
-        <Grid item xs={1}>
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              flexWrap: 'wrap',
-              textAlign: 'center',
-              height: '100%',
-            }}
-          >
-            <Typography
-              style={{
-                fontWeight: 'bold',
-                fontSize: '15px',
-                display: 'inline-block',
-                width: '100%',
-              }}
-            >
-              {issue.rank}
-            </Typography>
-          </div>
-        </Grid>
-        <Grid item xs={9}>
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              flexWrap: 'wrap',
-              textAlign: 'left',
-              height: '100%',
-            }}
-          >
-            <Typography
-              noWrap
-              style={{
-                fontWeight: bold ? 'bold' : 'normal',
-                fontSize: '12px',
-                display: 'inline-block',
-                width: '100%',
-              }}
-            >
-              {'#' + issue.keyword}
-            </Typography>
-          </div>
-        </Grid>
-        <Grid item xs={2}>
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              flexWrap: 'wrap',
-              textAlign: 'center',
-              height: '100%',
-            }}
-          >
-            <Typography
-              style={{
-                fontWeight: 'bold',
-                fontSize: '12px',
-                display: 'inline-block',
-                width: '100%',
-              }}
-            >
-              {issue.delta === 999 ? (
-                <FiberNewIcon
-                  style={{
-                    color: 'orange',
-                    width: '35px',
-                    height: '25px',
-                    verticalAlign: 'middle',
-                  }}
-                />
-              ) : issue.delta > 0 ? (
-                <>
-                  <ArrowDropUpIcon
-                    style={{
-                      color: 'red',
-                      width: '15px',
-                      height: '15px',
-                      verticalAlign: 'middle',
-                    }}
-                  />
-                  <span>{Math.abs(issue.delta)}</span>
-                </>
-              ) : issue.delta < 0 ? (
-                <>
-                  <ArrowDropDownIcon
-                    style={{
-                      color: 'blue',
-                      width: '15px',
-                      height: '15px',
-                      verticalAlign: 'middle',
-                    }}
-                  />
-                  <span>{Math.abs(issue.delta)}</span>
-                </>
-              ) : (
-                <RemoveIcon
-                  style={{ color: 'lightgray', verticalAlign: 'middle' }}
-                />
-              )}
-            </Typography>
-          </div>
-        </Grid>
-      </Grid>
-    );
-  };
+    setStorageByKeywords(cached);
+  })
 }

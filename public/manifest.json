@@ -1,5 +1,5 @@
 {
-  "short_name": "#Realtime Trends",
+  "short_name": "#실검",
   "name": "#실시간 검색어",
   "manifest_version": 2,
   "permissions": [
@@ -8,7 +8,7 @@
     "alarms",
     "tabs"
   ],
-  "description": "네이버 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
+  "description": "네이버, 구글 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
