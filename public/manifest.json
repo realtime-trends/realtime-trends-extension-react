@@ -8,6 +8,11 @@
     "alarms"
   ],
   "description": "네이버, 구글 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_title": "#실시간 검색어",
+    "default_popup": "index.html"
+  },
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
