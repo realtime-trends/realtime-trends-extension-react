@@ -44,13 +44,13 @@ getStorageBySettings((settings) => {
   
       ReactDOM.render(<Chart boxOnly={true} engine="naver" backgroundSelector={backgroundSeletor}/>, chartElement);
     });  
-  } else if (settings.google && ['www.google.com', 'google.com', 'new-tab-page'].includes(window.location.hostname) && ['/', '/webhp', '/search'].includes(window.location.pathname)) {
+  } else if (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname) && ['/', '/webhp', '/search'].includes(window.location.pathname)) {
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
     checkElement("#gb > div", (appBarElement) => {
       appBarElement.insertBefore(chartElement, appBarElement.firstChild);
   
-      let backgroundSeletor = (window.location.pathname == "/search") ? "#searchform > div > div" : "body";
+      let backgroundSeletor = "body";
   
       ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor}/>, chartElement);
     });
