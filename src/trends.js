@@ -10,7 +10,7 @@ axios.defaults.headers = {
 export function updateTrends(setTrends) {
   const trendsObejct = JSON.parse(localStorage.getItem("trends"));
   const latestTimeStamp = Math.max.apply(null, trendsObejct["timestamps"]);
-  setTrends(res.data[latestTimeStamp]);
+  setTrends(trendsObejct[latestTimeStamp]);
 }
 
 export function getStandardTime(setStandardTime) {
