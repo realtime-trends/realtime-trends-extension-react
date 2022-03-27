@@ -172,7 +172,6 @@ module.exports = function (webpackEnv) {
     entry: {
       main: paths.appIndexJs,
       content: paths.appContentJs,
-      background: paths.appBackgroundJs,
     },
     output: {
       // The build folder.
