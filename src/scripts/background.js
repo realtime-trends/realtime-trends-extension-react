@@ -12,8 +12,8 @@ async function saveJsonfileinLocal() {
         "https://raw.githubusercontent.com/hoyaaaa/realtime-trends-data/main/trends.json"
       )
       .then((res) => {
-        localStorage.setItem('trends', JSON.stringify(res.data);
-      }
+        localStorage.setItem('trends', JSON.stringify(res.data));
+      });
 }
 
 chrome.alarms.create('saveJsonfileinLocal', {
