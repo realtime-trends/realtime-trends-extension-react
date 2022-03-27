@@ -1,5 +1,6 @@
 /* global chrome */
 import axios from 'axios';
+import { setStorageByTrends } from '../trends';
 
 axios.defaults.headers = {
   'Cache-Control': 'no-cache',
@@ -7,20 +8,19 @@ axios.defaults.headers = {
   Expires: '0',
 };
 
-async function saveJsonfileinLocal() {
+async function saveTrendsInStorage() {
     await axios.get(
         "https://raw.githubusercontent.com/hoyaaaa/realtime-trends-data/main/trends.json"
-      )
-      .then((res) => {
-        localStorage.setItem('trends', JSON.stringify(res.data));
-      });
+    ).then((res) => {
+        setStorageByTrends(res.data);
+    });
 }
 
-chrome.alarms.create('saveJsonfileinLocal', {
+chrome.alarms.create('saveTrendsInStorage', {
     when: 1000,
     periodInMinutes: 1
 });
 
 chrome.alarms.onAlarm.addListener(async function() {
-    await saveJsonfileinLocal();
+    await saveTrendsInStorage();
 });
