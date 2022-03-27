@@ -18,7 +18,7 @@ function getStorageByTrends(callback) {
 }
 
 export function setStorageByTrends(trendsObejct) {
-  chrome.storage.local.set({ 'trends': content }, function () {
+  chrome.storage.local.set({ 'trends': trendsObejct }, function () {
     console.log('saved trends');
   });
 }
