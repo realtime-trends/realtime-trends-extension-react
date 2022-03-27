@@ -1,7 +1,7 @@
 /* global chrome */
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import { getStandardTime, updateRanking } from '../issue';
+import { getStandardTime, updateTrends } from '../trends';
 import ChartRow from './ChartRow';
 
 import 'slick-carousel/slick/slick.css';
@@ -10,7 +10,7 @@ import { Box, Grid, Typography } from '@material-ui/core';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
 export default function Chart({ boxOnly = false, engine = "naver", backgroundSelector = "body" }) {
-  const [ranking, setRanking] = useState([]);
+  const [trends, setTrends] = useState([]);
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
   const [standardTime, setStandardTime] = useState('');
@@ -29,7 +29,7 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
   };
 
   useEffect(() => {
-    updateRanking(setRanking, 600);
+    updateTrends(setTrends);
     getStandardTime(setStandardTime);
   }, []);
 
@@ -117,13 +117,13 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
           </Grid>
         </Grid>
 
-        {ranking &&
-          ranking.slice(0, 10).map((issue) => (
+        {trends &&
+          trends.slice(0, 10).map((trend, index) => (
             <div
-              key={issue.rank}
+              key={index + 1}
               style={{ flexGrow: 1, height: '100%', margin: '10px' }}
               onClick={() => {
-                const encodedKeyword = encodeURI(issue.keyword);
+                const encodedKeyword = encodeURI(trend.keyword);
                 if (engine === 'google') {
                   window.location.href = 'https://www.google.com/search?q=' + encodedKeyword;
                 } else if (engine === 'daum') {
@@ -137,7 +137,7 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
                 }
               }}
             >
-              <ChartRow issue={issue} activeRanking={activeIndex + 1} />
+              <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1}/>
             </div>
           ))}
         <Grid
@@ -189,16 +189,16 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
           display: boxOnly ? 'none' : 'block',
         }}
       >
-        {ranking &&
-          ranking.slice(0, 10).map((issue) => (
+        {trends &&
+          trends.slice(0, 10).map((trend, index) => (
             <div
-              key={issue.rank}
+              key={index + 1}
               style={{ flexGrow: 1, height: '100%' }}
               onMouseEnter={() => {
                 setBoxDisplay('block');
               }}
             >
-              <ChartRow issue={issue} activeRanking={-1} />
+              <ChartRow trend={trend} activeRanking={-1} ranking={index + 1} />
             </div>
           ))}
       </Slider>

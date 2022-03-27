@@ -8,8 +8,8 @@ import FiberNewIcon from '@material-ui/icons/FiberNew';
 
 class ChartRow extends Component {
     render() {
-        const { issue, activeRanking } = this.props;
-        const bold = issue.rank === activeRanking;
+        const { trend, activeRanking, ranking } = this.props;
+        const bold = ranking === activeRanking;
         return (
             <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
                 <Grid item xs={1}>
@@ -30,7 +30,7 @@ class ChartRow extends Component {
                         width: '100%',
                     }}
                     >
-                    {issue.rank}
+                    {ranking}
                     </Typography>
                 </div>
                 </Grid>
@@ -53,7 +53,7 @@ class ChartRow extends Component {
                             width: '100%',
                         }}
                         >
-                        {'#' + issue.keyword}
+                        {'#' + trend.keyword}
                         </Typography>
                     </div>
                 </Grid>
@@ -75,7 +75,7 @@ class ChartRow extends Component {
                                 width: '100%',
                             }}
                         >
-                        {issue.delta === 999 ? (
+                        {trend.delta === 999 ? (
                             <FiberNewIcon
                                 style={{
                                     color: 'orange',
@@ -84,7 +84,7 @@ class ChartRow extends Component {
                                     verticalAlign: 'middle',
                                 }}
                             />
-                        ) : issue.delta > 0 ? (
+                        ) : trend.delta > 0 ? (
                             <>
                             <ArrowDropUpIcon
                                 style={{
@@ -94,9 +94,9 @@ class ChartRow extends Component {
                                 verticalAlign: 'middle',
                                 }}
                             />
-                            <span>{Math.abs(issue.delta)}</span>
+                            <span>{Math.abs(trend.delta)}</span>
                             </>
-                        ) : issue.delta < 0 ? (
+                        ) : trend.delta < 0 ? (
                             <>
                             <ArrowDropDownIcon
                                 style={{
@@ -106,7 +106,7 @@ class ChartRow extends Component {
                                 verticalAlign: 'middle',
                                 }}
                             />
-                            <span>{Math.abs(issue.delta)}</span>
+                            <span>{Math.abs(trend.delta)}</span>
                             </>
                         ) : (
                             <RemoveIcon

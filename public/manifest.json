@@ -35,11 +35,5 @@
         "/static/css/content.css"
       ]
     }
-  ],
-  "background": {
-    "scripts": [
-      "/static/js/background.js"
-    ],
-    "persistent": false
-  }
+  ]
 }
