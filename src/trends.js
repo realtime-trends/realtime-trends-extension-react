@@ -32,7 +32,6 @@ export function updateTrends(setTrends) {
 
 export function getStandardTime(setStandardTime) {
   getStorageByTrends((trendsObejct) => {
-    const trendsObejct = JSON.parse(localStorage.getItem("trends"));
     const latestTimeStamp = Math.max.apply(null, trendsObejct["timestamps"]);
     let standardTime = new Date(latestTimeStamp*1000);
     let year = standardTime.getFullYear();
