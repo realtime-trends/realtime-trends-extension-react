@@ -61,7 +61,7 @@ export default function Popup() {
   <Card variant="outlined" style={{ width: "200px" }}>
     <CardContent>
       <Typography align="center" variant="h6" component="div" style={{ fontWeight: 600 }}>
-        리얼타임 실시간 검색어
+        리얼타임 실시간검색어
       </Typography>
     </CardContent>
     <CardActions>
