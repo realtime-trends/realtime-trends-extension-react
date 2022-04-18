@@ -175,7 +175,7 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
                     verticalAlign: 'middle',
                   }}
                 />
-                &nbsp;확장프로그램 '#실시간 검색어' 제공
+                &nbsp;확장프로그램 '리얼타임 실시간 검색어' 제공
               </Typography>
             </div>
           </Grid>
