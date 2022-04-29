@@ -1,6 +1,6 @@
 {
   "short_name": "리얼타임 실검",
-  "name": "리얼타임 실시간 검색어",
+  "name": "리얼타임 실시간검색어",
   "manifest_version": 2,
   "permissions": [
     "<all_urls>",
