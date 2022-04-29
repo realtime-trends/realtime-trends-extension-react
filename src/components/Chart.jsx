@@ -1,20 +1,24 @@
-/* global chrome */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
+import PropTypes from 'prop-types';
+import { Box, Grid, Typography } from '@material-ui/core';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+
 import { getStandardTime, updateTrends } from '../trends';
 import ChartRow from './ChartRow';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Box, Grid, Typography } from '@material-ui/core';
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
-export default function Chart({ boxOnly = false, engine = "naver", backgroundSelector = "body" }) {
+function Chart({ boxOnly = false, engine = 'naver', backgroundSelector = 'body' }) {
   const [trends, setTrends] = useState([]);
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
   const [standardTime, setStandardTime] = useState('');
-  var settings = {
+  const settings = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -35,18 +39,18 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
 
   let backgroundElement = document.querySelector(backgroundSelector);
   if (backgroundElement == null) {
-    backgroundElement = document.querySelector("body");
+    backgroundElement = document.querySelector('body');
   }
 
-  let backgroundColor = window.getComputedStyle(backgroundElement).backgroundColor;
-  if (backgroundColor.includes("rgba")) {
-    let colorArr = backgroundColor.slice(
-      backgroundColor.indexOf("(") + 1, 
-      backgroundColor.indexOf(")")
-    ).split(", ");
-    backgroundColor = "rgb(" + colorArr.slice(0, 3).join(", ") + ")";
+  let { backgroundColor } = window.getComputedStyle(backgroundElement);
+  if (backgroundColor.includes('rgba')) {
+    const colorArr = backgroundColor.slice(
+      backgroundColor.indexOf('(') + 1,
+      backgroundColor.indexOf(')'),
+    ).split(', ');
+    backgroundColor = `rgb(${colorArr.slice(0, 3).join(', ')})`;
   }
-  
+
   return (
     <>
       <Box
@@ -57,7 +61,7 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
           zIndex: boxOnly ? 0 : 10,
           display: boxDisplay,
           position: boxOnly ? 'relative' : 'absolute',
-          backgroundColor: backgroundColor,
+          backgroundColor,
           width: boxOnly ? '100%' : '270px',
         }}
         border={boxOnly ? 0 : 1}
@@ -111,33 +115,35 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
                   color: 'lightgray',
                 }}
               >
-                {standardTime} 기준
+                {standardTime}
+                {' '}
+                기준
               </Typography>
             </div>
           </Grid>
         </Grid>
 
-        {trends &&
-          trends.slice(0, 10).map((trend, index) => (
+        {trends
+          && trends.slice(0, 10).map((trend, index) => (
             <div
               key={index + 1}
               style={{ flexGrow: 1, height: '100%', margin: '10px' }}
               onClick={() => {
                 const encodedKeyword = encodeURI(trend.keyword);
                 if (engine === 'google') {
-                  window.location.href = 'https://www.google.com/search?q=' + encodedKeyword;
+                  window.location.href = `https://www.google.com/search?q=${encodedKeyword}`;
                 } else if (engine === 'daum') {
-                  window.location.href = 'https://search.daum.net/search?q=' + encodedKeyword;
+                  window.location.href = `https://search.daum.net/search?q=${encodedKeyword}`;
                 } else if (engine === 'zum') {
-                  window.location.href = 'https://search.zum.com/search.zum?query=' + encodedKeyword;
+                  window.location.href = `https://search.zum.com/search.zum?query=${encodedKeyword}`;
                 } else if (engine === 'nate') {
-                  window.location.href = 'https://search.daum.net/nate?q=' + encodedKeyword;
+                  window.location.href = `https://search.daum.net/nate?q=${encodedKeyword}`;
                 } else {
-                  window.location.href = 'https://search.naver.com/search.naver?query=' + encodedKeyword;
+                  window.location.href = `https://search.naver.com/search.naver?query=${encodedKeyword}`;
                 }
               }}
             >
-              <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1}/>
+              <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1} />
             </div>
           ))}
         <Grid
@@ -165,8 +171,7 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
                   color: 'gray',
                 }}
                 onClick={() => {
-                  window.location.href =
-                    'https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie';
+                  window.location.href = 'https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie';
                 }}
               >
                 <HelpOutlineIcon
@@ -175,22 +180,23 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
                     verticalAlign: 'middle',
                   }}
                 />
-                &nbsp;확장프로그램 '리얼타임 실시간검색어' 제공
+                &nbsp;확장프로그램 &lsquo;리얼타임 실시간검색어&rsquo; 제공
               </Typography>
             </div>
           </Grid>
         </Grid>
       </Box>
       <Slider
+        // eslint-disable-next-line react/jsx-props-no-spreading
         {...settings}
         style={{
           height: '100%',
-          backgroundColor: backgroundColor,
+          backgroundColor,
           display: boxOnly ? 'none' : 'block',
         }}
       >
-        {trends &&
-          trends.slice(0, 10).map((trend, index) => (
+        {trends
+          && trends.slice(0, 10).map((trend, index) => (
             <div
               key={index + 1}
               style={{ flexGrow: 1, height: '100%' }}
@@ -205,3 +211,17 @@ export default function Chart({ boxOnly = false, engine = "naver", backgroundSel
     </>
   );
 }
+
+Chart.propTypes = {
+  boxOnly: PropTypes.bool,
+  engine: PropTypes.string,
+  backgroundSelector: PropTypes.string,
+};
+
+Chart.defaultProps = {
+  boxOnly: false,
+  engine: 'naver',
+  backgroundSelector: 'body',
+};
+
+export default Chart;

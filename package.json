@@ -45,6 +45,7 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "5.0.2",
     "prompts": "2.4.0",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
     "react-async": "^10.0.1",
@@ -103,6 +104,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-dev-utils": "^9.0.10",
     "eslint": "^8.13.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",

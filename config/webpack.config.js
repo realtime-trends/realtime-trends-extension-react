@@ -1,3 +1,6 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable global-require */
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -6,10 +9,7 @@ const PnpWebpackPlugin = require('pnp-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const InlineChunkHtmlPlugin = require('react-dev-utils/InlineChunkHtmlPlugin');
-const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const safePostCssParser = require('postcss-safe-parser');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
@@ -48,6 +48,7 @@ const disableESLintPlugin = process.env.DISABLE_ESLINT_PLUGIN === 'true';
 
 const imageInlineSizeLimit = parseInt(
   process.env.IMAGE_INLINE_SIZE_LIMIT || '10000',
+  10,
 );
 
 // Check if TypeScript is setup
@@ -77,6 +78,7 @@ const hasJsxRuntime = (() => {
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
+// eslint-disable-next-line func-names
 module.exports = function (webpackEnv) {
   const isEnvDevelopment = webpackEnv === 'development';
   const isEnvProduction = webpackEnv === 'production';
@@ -159,6 +161,7 @@ module.exports = function (webpackEnv) {
     mode: isEnvProduction ? 'production' : isEnvDevelopment && 'development',
     // Stop compilation early in production
     bail: isEnvProduction,
+    // eslint-disable-next-line no-nested-ternary
     devtool: isEnvProduction
       ? shouldUseSourceMap
         ? 'source-map'
@@ -548,6 +551,7 @@ module.exports = function (webpackEnv) {
         publicPath: paths.publicUrlOrPath,
         generate: (seed, files, entrypoints) => {
           const manifestFiles = files.reduce((manifest, file) => {
+            // eslint-disable-next-line no-param-reassign
             manifest[file.name] = file.path;
             return manifest;
           }, seed);
