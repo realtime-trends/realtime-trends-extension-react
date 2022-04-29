@@ -9,18 +9,18 @@ axios.defaults.headers = {
 };
 
 async function saveTrendsInStorage() {
-    await axios.get(
-        "https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json"
-    ).then((res) => {
-        setStorageByTrends(res.data);
-    });
+  await axios.get(
+    'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json',
+  ).then((res) => {
+    setStorageByTrends(res.data);
+  });
 }
 
 chrome.alarms.create('saveTrendsInStorage', {
-    when: 1000,
-    periodInMinutes: 1
+  when: 1000,
+  periodInMinutes: 1,
 });
 
-chrome.alarms.onAlarm.addListener(async function() {
-    await saveTrendsInStorage();
+chrome.alarms.onAlarm.addListener(async () => {
+  await saveTrendsInStorage();
 });
