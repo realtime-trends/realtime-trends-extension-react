@@ -1,6 +1,6 @@
 {
-  "short_name": "리얼타임 실검",
-  "name": "리얼타임 실시간검색어",
+  "short_name": "#실검",
+  "name": "#실시간 검색어",
   "manifest_version": 2,
   "permissions": [
     "<all_urls>",
@@ -10,7 +10,7 @@
   "description": "네이버, 구글 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
   "browser_action": {
     "default_icon": "icon128.png",
-    "default_title": "리얼타임 실시간 검색어",
+    "default_title": "#실시간 검색어",
     "default_popup": "index.html"
   },
   "icons": {
@@ -36,6 +36,7 @@
       ]
     }
   ],
+  "web_accessible_resources": ["/static/css/content.css"],
   "background": {
     "scripts": [
       "/static/js/background.js"

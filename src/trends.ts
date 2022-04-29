@@ -1,5 +1,11 @@
 /* global chrome */
 import axios from 'axios';
+import Trend from './models/trend'
+
+interface TrendsObject {
+  timestamps: number[];
+  [timestamp: number]: Trend
+}
 
 axios.defaults.headers = {
   'Cache-Control': 'no-cache',
@@ -7,7 +13,7 @@ axios.defaults.headers = {
   Expires: '0',
 };
 
-function getStorageByTrends(callback) {
+function getStorageByTrends(callback: Function) {
   chrome.storage.local.get('trends', function (items) {
     let trendsObejct = {};
     if (items.hasOwnProperty('trends')) {
@@ -17,21 +23,21 @@ function getStorageByTrends(callback) {
   });
 }
 
-export function setStorageByTrends(trendsObejct) {
+export function setStorageByTrends(trendsObejct: TrendsObject) {
   chrome.storage.local.set({ 'trends': trendsObejct }, function () {
     console.log('saved trends');
   });
 }
 
-export function updateTrends(setTrends) {
-  getStorageByTrends((trendsObejct) => {
-    const latestTimeStamp = Math.max.apply(null, trendsObejct["timestamps"]);
+export function updateTrends(setTrends: Function) {
+  getStorageByTrends((trendsObejct: TrendsObject) => {
+    const latestTimeStamp = Math.max.apply(null, trendsObejct.timestamps);
     setTrends(trendsObejct[latestTimeStamp]);
   });  
 }
 
-export function getStandardTime(setStandardTime) {
-  getStorageByTrends((trendsObejct) => {
+export function getStandardTime(setStandardTime: Function) {
+  getStorageByTrends((trendsObejct: TrendsObject) => {
     const latestTimeStamp = Math.max.apply(null, trendsObejct["timestamps"]);
     let standardTime = new Date(latestTimeStamp*1000);
     let year = standardTime.getFullYear();

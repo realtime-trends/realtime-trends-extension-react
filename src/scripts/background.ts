@@ -10,7 +10,7 @@ axios.defaults.headers = {
 
 async function saveTrendsInStorage() {
     await axios.get(
-        "https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json"
+        "https://raw.githubusercontent.com/hoyaaaa/realtime-trends-data/main/trends.json"
     ).then((res) => {
         setStorageByTrends(res.data);
     });
@@ -18,7 +18,7 @@ async function saveTrendsInStorage() {
 
 chrome.alarms.create('saveTrendsInStorage', {
     when: 1000,
-    periodInMinutes: 1
+    periodInMinutes: 5
 });
 
 chrome.alarms.onAlarm.addListener(async function() {
