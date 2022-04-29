@@ -10,7 +10,7 @@ axios.defaults.headers = {
 
 async function saveTrendsInStorage() {
     await axios.get(
-        "https://raw.githubusercontent.com/hoyaaaa/realtime-trends-data/main/trends.json"
+        "https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json"
     ).then((res) => {
         setStorageByTrends(res.data);
     });
