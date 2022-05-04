@@ -15,19 +15,36 @@ const INITIAL_STATE = {
 
 function setStorageBySettings(content) {
   chrome.storage.local.set({ settings: content }, () => {
-    console.log('saved settings items');
+    if (chrome.runtime.lastError) {
+      console.error({
+        status: 'error',
+        msg: chrome.runtime.lastError,
+      });
+    } else {
+      console.log({
+        status: 'success',
+        msg: 'save settings items',
+      });
+    }
   });
 }
 
 export function getStorageBySettings(callback) {
   chrome.storage.local.get('settings', (items) => {
-    let cached = {};
-    if (items.hasOwnProperty('settings')) {
-      cached = items.settings;
-      callback(cached);
+    if (chrome.runtime.lastError) {
+      console.error({
+        status: 'error',
+        msg: chrome.runtime.lastError,
+      });
     } else {
-      setStorageBySettings(INITIAL_STATE);
-      callback(INITIAL_STATE);
+      let cached = {};
+      if (items.hasOwnProperty('settings')) {
+        cached = items.settings;
+        callback(cached);
+      } else {
+        setStorageBySettings(INITIAL_STATE);
+        callback(INITIAL_STATE);
+      }
     }
   });
 }

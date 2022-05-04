@@ -1,8 +1,20 @@
+/* eslint-disable no-console */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Chart from '../components/Chart';
 import { getStorageBySettings } from '../popup';
 import './content.css';
+
+window.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
+  console.error('Caught content script error');
+  console.error(`errorMsg: ${errorMsg}`);
+  console.error(`url: ${url}`);
+  console.error(`lineNumber: ${lineNumber}`);
+  console.error(`column: ${column}`);
+  console.error('errorObj follows:');
+  console.error(errorObj);
+  return true;
+};
 
 const checkElement = (selector, callback) => {
   const check = setInterval(() => {
