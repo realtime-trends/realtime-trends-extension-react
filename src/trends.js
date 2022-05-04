@@ -10,18 +10,35 @@ axios.defaults.headers = {
 
 function getStorageByTrends(callback) {
   chrome.storage.local.get('trends', (items) => {
-    let trendsObejct = {};
-    // eslint-disable-next-line no-prototype-builtins
-    if (items.hasOwnProperty('trends')) {
-      trendsObejct = items.trends;
+    if (chrome.runtime.lastError) {
+      console.error({
+        status: 'error',
+        msg: chrome.runtime.lastError,
+      });
+    } else {
+      let trendsObejct = {};
+      // eslint-disable-next-line no-prototype-builtins
+      if (items.hasOwnProperty('trends')) {
+        trendsObejct = items.trends;
+      }
+      callback(trendsObejct);
     }
-    callback(trendsObejct);
   });
 }
 
 export function setStorageByTrends(trendsObejct) {
   chrome.storage.local.set({ trends: trendsObejct }, () => {
-    console.log('saved trends');
+    if (chrome.runtime.lastError) {
+      console.log({
+        status: 'error',
+        msg: chrome.runtime.lastError,
+      });
+    } else {
+      console.log({
+        status: 'success',
+        msg: 'saved trends',
+      });
+    }
   });
 }
 
