@@ -29,14 +29,9 @@ function getStorageByTrends(callback) {
 export function setStorageByTrends(trendsObejct) {
   chrome.storage.local.set({ trends: trendsObejct }, () => {
     if (chrome.runtime.lastError) {
-      console.log({
+      console.error({
         status: 'error',
         msg: chrome.runtime.lastError,
-      });
-    } else {
-      console.log({
-        status: 'success',
-        msg: 'saved trends',
       });
     }
   });
