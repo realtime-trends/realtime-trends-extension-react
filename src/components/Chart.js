@@ -61,7 +61,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           display: boxDisplay,
           position: boxOnly ? 'relative' : 'absolute',
           backgroundColor,
-          width: boxWidth',
+          width: boxWidth,
         }}
         border={boxOnly ? 0 : 1}
         borderRadius="borderRadius"
