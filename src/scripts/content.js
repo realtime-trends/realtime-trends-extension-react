@@ -39,6 +39,7 @@ getStorageBySettings((settings) => {
         outline.removeChild(outline.firstChild);
       }
       outline.appendChild(chartElement);
+      outline.style.height = '50px';
       sidebar.insertBefore(outline, sidebar.firstChild);
       
       const backgroundSeletor = '#account';
