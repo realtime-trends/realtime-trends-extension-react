@@ -34,7 +34,7 @@ getStorageBySettings((settings) => {
     checkElement('#right-content-area > div', (rightsidebar) => {
       const div = document.createElement('div');
       div.appendChild(chartElement);
-      sidebar.insertBefore(div, rightsidebar.firstChild);
+      rightsidebar.insertBefore(div, rightsidebar.firstChild);
 
       const backgroundSeletor = '#account';
 
