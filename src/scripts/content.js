@@ -22,9 +22,6 @@ const checkElement = (selector, callback) => {
     if (e) {
       callback(e);
       clearInterval(check);
-    } else {
-      console.log(selector);
-      console.error("Please wait..."); 
     }
   }, 100);
 };
@@ -33,13 +30,11 @@ const chartElement = document.createElement('div');
 chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
-  console.log(settings);
-  console.log(chartElement);
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
-    checkElement('#root', (sidebar) => {
+    checkElement('#right-side-area > div', (sidebar) => {
       sidebar.insertBefore(chartElement, sidebar.firstChild);
 
-      const backgroundSeletor = 'body';
+      const backgroundSeletor = '#account';
 
       ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} />, chartElement);
     });
