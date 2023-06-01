@@ -31,15 +31,10 @@ chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
-    chartElement.style.minWidth = '270px';
-    chartElement.style.maxWidth = '270px';
-    checkElement('#NM_WEATHER', (weatherElement) => {
-      while (weatherElement.hasChildNodes()) {
-        weatherElement.removeChild(weatherElement.firstChild);
-      }
-      weatherElement.appendChild(chartElement);
+    checkElement('#right-side-area > div', (sidebar) => {
+      sidebar.insertBefore(chartElement, sidebar.firstChild);
 
-      const backgroundSeletor = '#header';
+      const backgroundSeletor = '#account';
 
       ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} />, chartElement);
     });
