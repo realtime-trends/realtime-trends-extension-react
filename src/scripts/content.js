@@ -31,10 +31,8 @@ chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
-    checkElement('#right-content-area > div', (rightsidebar) => {
-      const div = document.createElement('div');
-      div.appendChild(chartElement);
-      rightsidebar.insertBefore(div, rightsidebar.firstChild);
+    checkElement('#right-content-area > div', (sidebar) => {
+      sidebar.insertBefore(chartElement, sidebar.firstChild);
 
       const backgroundSeletor = '#account';
 
