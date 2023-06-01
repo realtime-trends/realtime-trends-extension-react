@@ -27,12 +27,11 @@ const checkElement = (selector, callback) => {
 };
 
 const chartElement = document.createElement('div');
-chartElement.setAttribute('id', 'realtime-chart');
 chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
-    checkElement('#right-content-area > div', (sidebar) => {
+    checkElement('#root', (sidebar) => {
       sidebar.insertBefore(chartElement, sidebar.firstChild);
 
       const backgroundSeletor = '#account';
