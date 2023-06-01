@@ -23,7 +23,7 @@ const checkElement = (selector, callback) => {
       callback(e);
       clearInterval(check);
     }
-  }, 100);
+  }, 1000);
 };
 
 const chartElement = document.createElement('div');
