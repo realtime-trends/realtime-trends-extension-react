@@ -23,10 +23,11 @@ const checkElement = (selector, callback) => {
       callback(e);
       clearInterval(check);
     }
-  }, 1000);
+  }, 100);
 };
 
 const chartElement = document.createElement('div');
+chartElement.setAttribute('id', 'realtime-chart');
 chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
