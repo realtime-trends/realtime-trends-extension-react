@@ -31,9 +31,16 @@ chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
+    chartElement.style.minWidth = '420px';
+    chartElement.style.maxWidth = '420px';
     checkElement('#right-content-area > div', (sidebar) => {
-      sidebar.insertBefore(chartElement, sidebar.firstChild);
-
+      const outline = document.getElementById('account').cloneNode(true);
+      while (outline.hasChildNodes()) {
+        outline.removeChild(outline.firstChild);
+      }
+      outline.appendChild(chartElement);
+      sidebar.insertBefore(outline, sidebar.firstChild);
+      
       const backgroundSeletor = '#account';
 
       ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} />, chartElement);
