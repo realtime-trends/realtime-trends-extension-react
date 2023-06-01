@@ -44,7 +44,7 @@ getStorageBySettings((settings) => {
       
       const backgroundSeletor = '#account';
 
-      ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} />, chartElement);
+      ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} boxWidth="420px"/>, chartElement);
     });
   } else if (settings.naver && ['search.naver.com'].includes(window.location.hostname) && ['/search.naver'].includes(window.location.pathname)) {
     checkElement('#sub_pack', (sidebar) => {
@@ -56,7 +56,7 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = '#lnb';
 
-      ReactDOM.render(<Chart boxOnly engine="naver" backgroundSelector={backgroundSeletor} />, chartElement);
+      ReactDOM.render(<Chart boxOnly engine="naver" backgroundSelector={backgroundSeletor} boxWidth="100%"/>, chartElement);
     });
   } else if (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname) && ['/', '/webhp', '/search'].includes(window.location.pathname)) {
     chartElement.style.minWidth = '270px';
@@ -66,7 +66,7 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = 'body';
 
-      ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor} />, chartElement);
+      ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor} boxWidth="270px" />, chartElement);
     });
   }
 });
