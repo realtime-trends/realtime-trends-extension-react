@@ -31,7 +31,7 @@ chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
-    checkElement('#right-contect-area > div', (rightsidebar) => {
+    checkElement('#right-content-area > div', (rightsidebar) => {
       const div = document.createElement('div');
       div.appendChild(chartElement);
       sidebar.insertBefore(div, rightsidebar.firstChild);
