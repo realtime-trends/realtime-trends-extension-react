@@ -31,20 +31,13 @@ chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
-    chartElement.style.minWidth = '420px';
-    chartElement.style.maxWidth = '420px';
-    checkElement('#right-content-area > div', (sidebar) => {
-      const outline = document.getElementById('account').cloneNode(true);
-      while (outline.hasChildNodes()) {
-        outline.removeChild(outline.firstChild);
-      }
-      outline.appendChild(chartElement);
-      outline.style.height = '50px';
-      sidebar.insertBefore(outline, sidebar.firstChild);
-      
-      const backgroundSeletor = '#account';
+    chartElement.style.minWidth = '270px';
+    chartElement.style.maxWidth = '270px';
+    checkElement('#search_area > div.search_group', (searchbar) => {
+      searchbar.appendChild(chartElement);      
+      const backgroundSeletor = 'body';
 
-      ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} boxWidth="420px"/>, chartElement);
+      ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} boxWidth="270px"/>, chartElement);
     });
   } else if (settings.naver && ['search.naver.com'].includes(window.location.hostname) && ['/search.naver'].includes(window.location.pathname)) {
     checkElement('#sub_pack', (sidebar) => {
