@@ -33,7 +33,7 @@ getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
-    checkElement('#search_area > div.search_group', (searchbar) => {
+    checkElement('#search_area', (searchbar) => {
       searchbar.appendChild(chartElement);      
       const backgroundSeletor = 'body';
 
