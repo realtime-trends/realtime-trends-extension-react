@@ -31,12 +31,20 @@ chartElement.style.height = '100%';
 
 getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
-    checkElement('#right-side-area > div', (sidebar) => {
-      sidebar.insertBefore(chartElement, sidebar.firstChild);
-
+    chartElement.style.minWidth = '420px';
+    chartElement.style.maxWidth = '420px';
+    checkElement('#right-content-area > div', (sidebar) => {
+      const outline = document.getElementById('account').cloneNode(true);
+      while (outline.hasChildNodes()) {
+        outline.removeChild(outline.firstChild);
+      }
+      outline.appendChild(chartElement);
+      outline.style.height = '50px';
+      sidebar.insertBefore(outline, sidebar.firstChild);
+      
       const backgroundSeletor = '#account';
 
-      ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} />, chartElement);
+      ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} boxWidth="420px"/>, chartElement);
     });
   } else if (settings.naver && ['search.naver.com'].includes(window.location.hostname) && ['/search.naver'].includes(window.location.pathname)) {
     checkElement('#sub_pack', (sidebar) => {
@@ -48,7 +56,7 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = '#lnb';
 
-      ReactDOM.render(<Chart boxOnly engine="naver" backgroundSelector={backgroundSeletor} />, chartElement);
+      ReactDOM.render(<Chart boxOnly engine="naver" backgroundSelector={backgroundSeletor} boxWidth="100%"/>, chartElement);
     });
   } else if (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname) && ['/', '/webhp', '/search'].includes(window.location.pathname)) {
     chartElement.style.minWidth = '270px';
@@ -58,7 +66,7 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = 'body';
 
-      ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor} />, chartElement);
+      ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor} boxWidth="270px" />, chartElement);
     });
   }
 });

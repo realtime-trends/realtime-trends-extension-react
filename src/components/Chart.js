@@ -12,7 +12,7 @@ import ChartRow from './ChartRow';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function Chart({ boxOnly, engine, backgroundSelector }) {
+function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
   const [trends, setTrends] = useState([]);
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
@@ -61,7 +61,7 @@ function Chart({ boxOnly, engine, backgroundSelector }) {
           display: boxDisplay,
           position: boxOnly ? 'relative' : 'absolute',
           backgroundColor,
-          width: boxOnly ? '100%' : '270px',
+          width: boxWidth,
         }}
         border={boxOnly ? 0 : 1}
         borderRadius="borderRadius"
