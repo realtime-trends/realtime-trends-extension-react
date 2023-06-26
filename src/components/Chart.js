@@ -145,6 +145,10 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
               <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1} />
             </div>
           ))}
+        {trends
+          && <iframe src="https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=270&height=100&tsource=" width="270" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+        }
+
         <Grid
           container
           direction="row"
