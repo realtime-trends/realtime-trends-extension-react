@@ -37,9 +37,9 @@ getStorageBySettings((settings) => {
       while (rightBanner.firstChild) {
         rightBanner.removeChild(rightBanner.lastChild);
       }
-      chartElement.classList.add('link_search_banner');
-      rightBanner.appendChild(chartElement);      
-      const backgroundSeletor = 'body';
+      rightBanner.classList.add('link_search_banner');
+      rightBanner.appendChild(chartElement);
+      const backgroundSeletor = '#search_area';
 
       ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} boxWidth="270px"/>, chartElement);
     });
