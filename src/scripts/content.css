@@ -11,6 +11,17 @@
     padding: 0px !important;
 }
 
-#NM_WEATHER {
-    overflow: visible !important;
+#header.ani_fixed .header_inner .link_search_banner {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    width: fit-content;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    -webkit-animation: ani_dropdown .3s cubic-bezier(0.33, 1, 0.68, 1);
+    animation: ani_dropdown .3s cubic-bezier(0.33, 1, 0.68, 1);
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0)
 }
