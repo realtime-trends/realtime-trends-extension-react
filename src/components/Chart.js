@@ -190,49 +190,52 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             </div>
           </Grid>
         </Grid>
-        <Grid
-          container
-          direction="row"
-          spacing={0}
-          style={{ height: '100%', padding: '10px' }}
-        >
-          <Grid item xs={12}>
-            <div
-              onMouseOver={() => {
-                setIsHover(true);
-              }}
-              onMouseOut={() => {
-                setIsHover(false);
-              }}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'left',
-                height: '100%',
-                opacity: isHover ? 0.7 : 0.3,
-              }}
-            >
-              <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + (parseInt(boxWidth) - 20) + "&height=70&tsource="} width={parseInt(boxWidth) - 20} height="70" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-              <Typography
+        
+        {!boxOnly &&
+          <Grid
+            container
+            direction="row"
+            spacing={0}
+            style={{ height: '100%', padding: '10px' }}
+          >
+            <Grid item xs={12}>
+              <div
+                onMouseOver={() => {
+                  setIsHover(true);
+                }}
+                onMouseOut={() => {
+                  setIsHover(false);
+                }}
                 style={{
-                  fontSize: '4px',
-                  display: 'inline-block',
-                  width: '100%',
-                  whiteSpace: 'pre-wrap',
+                  display: 'flex',
+                  alignItems: 'center',
+                  flexWrap: 'wrap',
+                  textAlign: 'left',
+                  height: '100%',
+                  opacity: isHover ? 0.7 : 0.3,
                 }}
               >
-                <WarningIcon
-                  fontSize='small'
+                <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + (parseInt(boxWidth) - 20) + "&height=70&tsource="} width={parseInt(boxWidth) - 20} height="70" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+                <Typography
                   style={{
-                    verticalAlign: 'middle',
+                    fontSize: '4px',
+                    display: 'inline-block',
+                    width: '100%',
+                    whiteSpace: 'pre-wrap',
                   }}
-                />
-                이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
-              </Typography>
-            </div>            
+                >
+                  <WarningIcon
+                    fontSize='small'
+                    style={{
+                      verticalAlign: 'middle',
+                    }}
+                  />
+                  이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+                </Typography>
+              </div>            
+            </Grid>
           </Grid>
-        </Grid>
+        }
       </Box>
       <Slider
         // eslint-disable-next-line react/jsx-props-no-spreading
