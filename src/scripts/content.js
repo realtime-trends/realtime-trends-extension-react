@@ -33,8 +33,12 @@ getStorageBySettings((settings) => {
   if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
-    checkElement('#search_area', (searchbar) => {
-      searchbar.appendChild(chartElement);      
+    checkElement('#search-right-banner', (rightBanner) => {
+      while (rightBanner.firstChild) {
+        rightBanner.removeChild(rightBanner.lastChild);
+      }
+      chartElement.classList.add('link_search_banner');
+      rightBanner.appendChild(chartElement);      
       const backgroundSeletor = 'body';
 
       ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} boxWidth="270px"/>, chartElement);
