@@ -37,6 +37,7 @@ getStorageBySettings((settings) => {
       while (rightBanner.firstChild) {
         rightBanner.removeChild(rightBanner.lastChild);
       }
+      rightBanner.style.height = '60px';
       rightBanner.classList.add('link_search_banner');
       rightBanner.appendChild(chartElement);
       const backgroundSeletor = '#search_area';
