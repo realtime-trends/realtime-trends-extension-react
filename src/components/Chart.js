@@ -18,6 +18,15 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
   const [standardTime, setStandardTime] = useState('');
+  const [isHover, setIsHover] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHover(true);
+  };
+  const handleMouseLeave = () => {
+    setIsHover(false);
+  };
+  
   const settings = {
     dots: false,
     infinite: true,
@@ -202,7 +211,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 flexWrap: 'wrap',
                 textAlign: 'left',
                 height: '100%',
-                opacity: 0.5,
+                opacity: isHover ? 0.7 : 0.3,
               }}
             >
               <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + (parseInt(boxWidth) - 20) + "&height=70&tsource="} width={parseInt(boxWidth) - 20} height="70" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
