@@ -14,7 +14,7 @@
 #header.ani_fixed .header_inner .link_search_banner {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 20%;
     z-index: 2000;
     width: fit-content;
     border-radius: 0;
