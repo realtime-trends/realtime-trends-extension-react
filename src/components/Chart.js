@@ -165,40 +165,12 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             >
               <Typography
                 style={{
-                  fontSize: '5px',
-                  display: 'inline-block',
-                  width: '100%',
-                  color: 'orange',
-                }}
-              >
-                <WarningIcon
-                  style={{
-                    color: 'orange',
-                    verticalAlign: 'middle',
-                  }}
-                />
-                이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
-              </Typography>
-              <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + (parseInt(boxWidth) - 20) + "&height=70&tsource="} width={parseInt(boxWidth) - 20} height="70" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-            </div>            
-          </Grid>
-          <Grid item xs={12}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'left',
-                height: '100%',
-              }}
-            >
-              <Typography
-                style={{
                   fontWeight: 'bold',
                   fontSize: '10px',
                   display: 'inline-block',
                   width: '100%',
                   color: 'gray',
+                  whiteSpace: 'pre-wrap',
                 }}
                 onClick={() => {
                   window.location.href = 'https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie';
@@ -213,6 +185,43 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 &nbsp;확장프로그램 &lsquo;리얼타임 실시간 검색어&rsquo; 제공
               </Typography>
             </div>
+          </Grid>
+        </Grid>
+        <Grid
+          container
+          direction="row"
+          spacing={0}
+          style={{ height: '100%', padding: '10px' }}
+        >
+          <Grid item xs={12}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                textAlign: 'left',
+                height: '100%',
+              }}
+            >
+              <Typography
+                style={{
+                  fontSize: '4px',
+                  display: 'inline-block',
+                  width: '100%',
+                  color: 'orange',
+                  whiteSpace: 'pre-wrap',
+                }}
+              >
+                <WarningIcon
+                  style={{
+                    color: 'orange',
+                    verticalAlign: 'middle',
+                  }}
+                />
+                이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</br>
+              </Typography>
+              <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + (parseInt(boxWidth) - 20) + "&height=70&tsource="} width={parseInt(boxWidth) - 20} height="70" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+            </div>            
           </Grid>
         </Grid>
       </Box>
