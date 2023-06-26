@@ -54,7 +54,7 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = '#lnb';
 
-      ReactDOM.render(<Chart boxOnly engine="naver" backgroundSelector={backgroundSeletor} boxWidth="100%"/>, chartElement);
+      ReactDOM.render(<Chart boxOnly engine="naver" backgroundSelector={backgroundSeletor} boxWidth="400px"/>, chartElement);
     });
   } else if (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname) && ['/', '/webhp', '/search'].includes(window.location.pathname)) {
     chartElement.style.minWidth = '270px';
