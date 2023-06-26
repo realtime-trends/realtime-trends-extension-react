@@ -20,13 +20,6 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
   const [standardTime, setStandardTime] = useState('');
   const [isHover, setIsHover] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsHover(true);
-  };
-  const handleMouseLeave = () => {
-    setIsHover(false);
-  };
-  
   const settings = {
     dots: false,
     infinite: true,
@@ -205,6 +198,12 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
         >
           <Grid item xs={12}>
             <div
+              onMouseOver={() => {
+                setIsHover(true);
+              }}
+              onMouseOut={() => {
+                setIsHover(false);
+              }}
               style={{
                 display: 'flex',
                 alignItems: 'center',
