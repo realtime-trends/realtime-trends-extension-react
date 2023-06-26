@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import { Box, Grid, Typography } from '@material-ui/core';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import WarningIcon from '@material-ui/icons/Warning';
 import PropTypes from 'prop-types';
 import { getStandardTime, updateTrends } from '../trends';
 import ChartRow from './ChartRow';
@@ -61,7 +62,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           display: boxDisplay,
           position: boxOnly ? 'relative' : 'absolute',
           backgroundColor,
-          width: boxWidth,
+          width: boxWidth + 'px',
         }}
         border={boxOnly ? 0 : 1}
         borderRadius="borderRadius"
@@ -145,9 +146,6 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
               <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1} />
             </div>
           ))}
-        {trends
-          && <iframe src="https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=270&height=100&tsource=" width="270" height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
-        }
 
         <Grid
           container
@@ -155,6 +153,39 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           spacing={0}
           style={{ height: '100%', padding: '10px' }}
         >
+          <Grid item xs={12}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                textAlign: 'left',
+                height: '100%',
+              }}
+            >
+              <Typography
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '10px',
+                  display: 'inline-block',
+                  width: '100%',
+                  color: 'orange',
+                }}
+                onClick={() => {
+                  window.location.href = 'https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie';
+                }}
+              >
+                <WarningIcon
+                  style={{
+                    color: 'orange',
+                    verticalAlign: 'middle',
+                  }}
+                />
+                이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+              </Typography>
+              <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + boxWidth + "&height=100&tsource="} width={boxWidth} height="100" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+            </div>            
+          </Grid>
           <Grid item xs={12}>
             <div
               style={{
