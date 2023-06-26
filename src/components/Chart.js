@@ -202,6 +202,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 flexWrap: 'wrap',
                 textAlign: 'left',
                 height: '100%',
+                opacity: 0.5,
               }}
             >
               <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + (parseInt(boxWidth) - 20) + "&height=70&tsource="} width={parseInt(boxWidth) - 20} height="70" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
@@ -210,14 +211,12 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                   fontSize: '4px',
                   display: 'inline-block',
                   width: '100%',
-                  color: 'lightgray',
                   whiteSpace: 'pre-wrap',
                 }}
               >
                 <WarningIcon
                   fontSize='small'
                   style={{
-                    color: 'lightgray',
                     verticalAlign: 'middle',
                   }}
                 />
