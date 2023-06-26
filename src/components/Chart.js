@@ -203,6 +203,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 textAlign: 'left',
                 height: '100%',
               }}
+            >
               <iframe src={"https://ads-partners.coupang.com/widgets.html?id=674217&template=carousel&trackingCode=AF5927408&subId=&width=" + (parseInt(boxWidth) - 20) + "&height=70&tsource="} width={parseInt(boxWidth) - 20} height="70" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
               <Typography
                 style={{
