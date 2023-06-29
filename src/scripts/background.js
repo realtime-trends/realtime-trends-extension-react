@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
 /* global chrome */
-import axios from 'axios';
 import { setStorageByTrends } from '../trends';
 
 self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
@@ -14,17 +13,16 @@ self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   return true;
 };
 
-axios.defaults.headers = {
-  'Cache-Control': 'no-cache',
-  Pragma: 'no-cache',
-  Expires: '0',
-};
-
 async function saveTrendsInStorage() {
-  await axios.get(
-    'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json',
+  await fetch(
+    'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json', {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    }
   ).then((res) => {
-    setStorageByTrends(res.data);
+    setStorageByTrends(res.json());
   }).catch((error) => {
     if (error.response) {
       console.error(error.response.data);
