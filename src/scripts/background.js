@@ -14,16 +14,14 @@ self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
 };
 
 async function saveTrendsInStorage() {
-  await fetch(
+  const response = await fetch(
     'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json', {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
       }
     }
-  ).then((res) => {
-    setStorageByTrends(res.json());
-  }).catch((error) => {
+  ).catch((error) => {
     if (error.response) {
       console.error(error.response.data);
       console.error(error.response.status);
@@ -35,6 +33,9 @@ async function saveTrendsInStorage() {
     }
     console.error(error.config);
   });
+
+  const json = await response.json();
+  setStorageByTrends(json);
 }
 
 chrome.alarms.create('saveTrendsInStorage', {
