@@ -18,7 +18,8 @@ async function saveTrendsInStorage() {
     'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json', {
       method: "GET",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Accept": "application/json"        
       }
     }
   ).catch((error) => {
