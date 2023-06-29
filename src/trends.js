@@ -18,6 +18,7 @@ function getStorageByTrends(callback) {
     } else {
       let trendsObejct = {};
       // eslint-disable-next-line no-prototype-builtins
+      console.log(items);
       if (items.hasOwnProperty('trends')) {
         trendsObejct = items.trends;
       }
