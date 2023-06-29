@@ -20,7 +20,7 @@
   },
   "version": "0.0.0",
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'",
+    "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "content_scripts": [
     {
