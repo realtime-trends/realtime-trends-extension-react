@@ -39,6 +39,6 @@
     }
   ],
   "background": {
-    "service_worker": "/static/js/background.js",
+    "service_worker": "/static/js/background.js"
   }
 }
