@@ -22,6 +22,7 @@ async function saveTrendsInStorage() {
       }
     }
   ).then((res) => {
+    console.log(res.json());
     setStorageByTrends(res.json());
   }).catch((error) => {
     if (error.response) {
