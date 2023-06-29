@@ -3,7 +3,7 @@
 import axios from 'axios';
 import { setStorageByTrends } from '../trends';
 
-window.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
+self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   console.error('Caught background script error');
   console.error(`errorMsg: ${errorMsg}`);
   console.error(`url: ${url}`);
