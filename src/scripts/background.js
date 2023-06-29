@@ -1,9 +1,8 @@
 /* eslint-disable no-console */
 /* global chrome */
-import axios from 'axios';
 import { setStorageByTrends } from '../trends';
 
-window.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
+self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   console.error('Caught background script error');
   console.error(`errorMsg: ${errorMsg}`);
   console.error(`url: ${url}`);
@@ -14,18 +13,16 @@ window.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   return true;
 };
 
-axios.defaults.headers = {
-  'Cache-Control': 'no-cache',
-  Pragma: 'no-cache',
-  Expires: '0',
-};
-
 async function saveTrendsInStorage() {
-  await axios.get(
-    'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json',
-  ).then((res) => {
-    setStorageByTrends(res.data);
-  }).catch((error) => {
+  const response = await fetch(
+    'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json', {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"        
+      }
+    }
+  ).catch((error) => {
     if (error.response) {
       console.error(error.response.data);
       console.error(error.response.status);
@@ -37,6 +34,9 @@ async function saveTrendsInStorage() {
     }
     console.error(error.config);
   });
+
+  const json = await response.json();
+  setStorageByTrends(json);
 }
 
 chrome.alarms.create('saveTrendsInStorage', {

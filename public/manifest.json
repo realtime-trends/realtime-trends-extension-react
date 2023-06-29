@@ -1,14 +1,14 @@
 {
   "short_name": "리얼타임 실검",
   "name": "리얼타임 실시간검색어",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": [
-    "<all_urls>",
     "storage",
     "alarms"
   ],
+  "host_permissions": ["http://*/*", "https://*/*"],
   "description": "네이버, 구글 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
-  "browser_action": {
+  "action": {
     "default_icon": "icon128.png",
     "default_title": "리얼타임 실시간 검색어",
     "default_popup": "index.html"
@@ -19,7 +19,9 @@
     "128": "icon128.png"
   },
   "version": "0.0.0",
-  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
   "content_scripts": [
     {
       "runt_at": "document_start",
@@ -37,9 +39,6 @@
     }
   ],
   "background": {
-    "scripts": [
-      "/static/js/background.js"
-    ],
-    "persistent": false
+    "service_worker": "/static/js/background.js"
   }
 }
