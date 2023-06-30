@@ -4,6 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import { Box, Grid, Typography } from '@material-ui/core';
+import FeedbackIcon from '@material-ui/icons/Feedback';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import PropTypes from 'prop-types';
 import { getStandardTime, updateTrends } from '../trends';
@@ -144,7 +145,73 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             >
               <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1} />
             </div>
-          ))}
+          ))
+        }
+            
+        <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
+          <Grid item xs={1}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                textAlign: 'center',
+                height: '100%',
+              }}
+            >
+              <Typography
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '15px',
+                  display: 'inline-block',
+                  width: '100%',
+                }}
+              >
+                <FeedbackIcon
+                  style={{
+                    color: 'gray',
+                    verticalAlign: 'small',
+                  }}
+                />
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={9}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                textAlign: 'left',
+                height: '100%',
+              }}
+            >
+              <Typography
+                noWrap
+                style={{
+                  fontWeight: 'normal',
+                  fontSize: '12px',
+                  display: 'inline-block',
+                  width: '100%',
+                }}
+              >
+                이 서비스가 마음에 드신다면...
+              </Typography>
+            </div>
+          </Grid>
+          <Grid 
+            item 
+            xs={2}
+            direction="column"
+          >
+            <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank">
+              리뷰쓰기
+            </Button>
+            <Button variant="outlined" size="small" href="https://hoyaaaa.github.io/donate" target="_blank">
+              후원하기
+            </Button>
+          </Grid>
+        </Grid>
         <Grid
           container
           direction="row"
@@ -169,14 +236,11 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                   width: '100%',
                   color: 'gray',
                 }}
-                onClick={() => {
-                  window.location.href = 'https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie';
-                }}
               >
                 <HelpOutlineIcon
                   style={{
                     color: 'gray',
-                    verticalAlign: 'middle',
+                    verticalAlign: 'small',
                   }}
                 />
                 &nbsp;확장프로그램 &lsquo;리얼타임 실시간 검색어&rsquo; 제공
