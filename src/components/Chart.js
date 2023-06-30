@@ -148,18 +148,18 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           ))
         }
             
-        <Grid container direction="row" style={{ height: '100%' }}>
+        <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
           <Grid item xs={1}>
             <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
                 flexWrap: 'wrap',
-                textAlign: 'center',
+                textAlign: 'right',
                 height: '100%',
               }}
             >
-              <FeedbackIcon
+              <HelpOutlineIcon
                 style={{
                   color: 'gray',
                   verticalAlign: 'small',
@@ -181,11 +181,14 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 noWrap
                 style={{
                   fontWeight: 'bold',
-                  fontSize: '10px',
+                  fontSize: '9px',
                   display: 'inline-block',
                   width: '100%',
+                  color: 'gray',
                 }}
               >
+                &nbsp;확장프로그램 &lsquo;리얼타임 실시간 검색어&rsquo; 제공
+                <br/>
                 이 서비스가 마음에 드신다면
               </Typography>
             </div>
@@ -199,50 +202,6 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 후원하기
               </Button>
             </Grid>
-          </Grid>
-        </Grid>
-
-        <Grid container direction="row" style={{ height: '100%' }}>
-          <Grid item xs={1}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'center',
-                height: '100%',
-              }}
-            >
-              <HelpOutlineIcon
-                style={{
-                  color: 'gray',
-                  verticalAlign: 'small',
-                }}
-              />
-            </div>
-          </Grid>
-          <Grid item xs={11}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'left',
-                height: '100%',
-              }}
-            >
-              <Typography
-                style={{
-                  fontWeight: 'bold',
-                  fontSize: '10px',
-                  display: 'inline-block',
-                  width: '100%',
-                  color: 'gray',
-                }}
-              >
-                &nbsp;확장프로그램 &lsquo;리얼타임 실시간 검색어&rsquo; 제공
-              </Typography>
-            </div>
           </Grid>
         </Grid>
       </Box>
