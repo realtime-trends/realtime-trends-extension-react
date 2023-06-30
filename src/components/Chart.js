@@ -3,7 +3,7 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import { Box, Grid, Typography } from '@material-ui/core';
+import { Box, Button, Grid, Typography } from '@material-ui/core';
 import FeedbackIcon from '@material-ui/icons/Feedback';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import PropTypes from 'prop-types';
