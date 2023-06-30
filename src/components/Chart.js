@@ -159,24 +159,15 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 height: '100%',
               }}
             >
-              <Typography
+              <FeedbackIcon
                 style={{
-                  fontWeight: 'bold',
-                  fontSize: '15px',
-                  display: 'inline-block',
-                  width: '100%',
+                  color: 'gray',
+                  verticalAlign: 'small',
                 }}
-              >
-                <FeedbackIcon
-                  style={{
-                    color: 'gray',
-                    verticalAlign: 'small',
-                  }}
-                />
-              </Typography>
+              />
             </div>
           </Grid>
-          <Grid item xs={9}>
+          <Grid item xs={8}>
             <div
               style={{
                 display: 'flex',
@@ -189,20 +180,21 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
               <Typography
                 noWrap
                 style={{
-                  fontWeight: 'normal',
-                  fontSize: '12px',
+                  fontWeight: 'bold',
+                  fontSize: '10px',
                   display: 'inline-block',
                   width: '100%',
                 }}
               >
-                이 서비스가 마음에 드신다면...
+                이 서비스가 마음에 드신다면
               </Typography>
             </div>
           </Grid>
           <Grid 
             item 
-            xs={2}
+            xs={3}
             direction="column"
+            spacing={0}
           >
             <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank">
               리뷰쓰기
@@ -212,13 +204,27 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             </Button>
           </Grid>
         </Grid>
-        <Grid
-          container
-          direction="row"
-          spacing={0}
-          style={{ height: '100%', padding: '10px' }}
-        >
-          <Grid item xs={12}>
+
+        <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
+          <Grid item xs={1}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                textAlign: 'center',
+                height: '100%',
+              }}
+            >
+              <HelpOutlineIcon
+                style={{
+                  color: 'gray',
+                  verticalAlign: 'small',
+                }}
+              />
+            </div>
+          </Grid>
+          <Grid item xs={11}>
             <div
               style={{
                 display: 'flex',
