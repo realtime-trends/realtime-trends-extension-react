@@ -148,7 +148,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           ))
         }
             
-        <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
+        <Grid container direction="row" style={{ height: '100%' }}>
           <Grid item xs={1}>
             <div
               style={{
@@ -190,22 +190,19 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
               </Typography>
             </div>
           </Grid>
-          <Grid 
-            item 
-            xs={3}
-            direction="column"
-            spacing={0}
-          >
-            <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank">
-              리뷰쓰기
-            </Button>
-            <Button variant="outlined" size="small" href="https://hoyaaaa.github.io/donate" target="_blank">
-              후원하기
-            </Button>
+          <Grid item xs={3}>
+            <Grid container spacing={0} direction="column">
+              <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank">
+                리뷰쓰기
+              </Button>
+              <Button variant="outlined" size="small" href="https://hoyaaaa.github.io/donate" target="_blank">
+                후원하기
+              </Button>
+            </Grid>
           </Grid>
         </Grid>
 
-        <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
+        <Grid container direction="row" style={{ height: '100%' }}>
           <Grid item xs={1}>
             <div
               style={{
@@ -243,12 +240,6 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                   color: 'gray',
                 }}
               >
-                <HelpOutlineIcon
-                  style={{
-                    color: 'gray',
-                    verticalAlign: 'small',
-                  }}
-                />
                 &nbsp;확장프로그램 &lsquo;리얼타임 실시간 검색어&rsquo; 제공
               </Typography>
             </div>
