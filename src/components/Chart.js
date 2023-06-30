@@ -182,6 +182,13 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
               </Typography>
             </div>
           </Grid>
+        </Grid>
+        <Grid
+          container
+          direction="row"
+          spacing={0}
+          style={{ height: '100%', padding: '10px' }}
+        >
           <Grid item xs={12}>
             <div
               style={{
@@ -212,12 +219,12 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             </div>
           </Grid>
           <Grid item xs={6}>
-            <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank">
+            <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank" style={{ width: '100%' }}>
               리뷰쓰기
             </Button>
           </Grid>
           <Grid item xs={6}>
-            <Button variant="outlined" size="small" href="https://hoyaaaa.github.io/donate" target="_blank">
+            <Button variant="outlined" size="small" href="https://hoyaaaa.github.io/donate" target="_blank" style={{ width: '100%' }}>
               후원하기
             </Button>
           </Grid>
