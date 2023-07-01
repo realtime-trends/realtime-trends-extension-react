@@ -191,7 +191,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           style={{
             height: '100%',
             padding: '10px',
-            opacity: isFooterHover ? 1.0 : 0.5,
+            opacity: isFooterHover ? 0.8 : 0.3,
           }}
           onMouseOver={() => {
             setIsFooterHover(true);
@@ -200,7 +200,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             setIsFooterHover(false);
           }}
         >
-          <Grid item xs={12}>
+          <Grid item xs={12} sx={{ mb: 2 }}>
             <div
               style={{
                 display: 'flex',
