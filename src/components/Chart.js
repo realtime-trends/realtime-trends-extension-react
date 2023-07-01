@@ -3,7 +3,8 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import { Box, Grid, Typography } from '@material-ui/core';
+import { Box, Button, Grid, Typography } from '@material-ui/core';
+import FeedbackIcon from '@material-ui/icons/Feedback';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import PropTypes from 'prop-types';
 import { getStandardTime, updateTrends } from '../trends';
@@ -17,6 +18,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
   const [standardTime, setStandardTime] = useState('');
+  const [isFooterHover, setIsFooterHover] = useState(false);
   const settings = {
     dots: false,
     infinite: true,
@@ -144,7 +146,8 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             >
               <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1} />
             </div>
-          ))}
+          ))
+        }
         <Grid
           container
           direction="row"
@@ -169,9 +172,6 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                   width: '100%',
                   color: 'gray',
                 }}
-                onClick={() => {
-                  window.location.href = 'https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie';
-                }}
               >
                 <HelpOutlineIcon
                   style={{
@@ -182,6 +182,62 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 &nbsp;확장프로그램 &lsquo;리얼타임 실시간 검색어&rsquo; 제공
               </Typography>
             </div>
+          </Grid>
+        </Grid>
+        <Grid
+          container
+          direction="row"
+          spacing={0}
+          style={{
+            height: '100%',
+            padding: '10px',
+            opacity: isFooterHover ? 0.8 : 0.3,
+          }}
+          onMouseOver={() => {
+            setIsFooterHover(true);
+          }}
+          onMouseOut={() => {
+            setIsFooterHover(false);
+          }}
+        >
+          <Grid item xs={12} sx={{ mb: '3px' }}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                textAlign: 'left',
+                height: '100%',
+              }}
+            >
+              <Typography
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '10px',
+                  display: 'inline-block',
+                  width: '100%',
+                  color: 'black',
+                }}
+              >
+                <FeedbackIcon
+                  style={{
+                    color: 'black',
+                    verticalAlign: 'middle',
+                  }}
+                />
+                이 서비스가 마음에 드신다면...
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={6}>
+            <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank" style={{ width: '100%' }}>
+              리뷰쓰기
+            </Button>
+          </Grid>
+          <Grid item xs={6}>
+            <Button variant="outlined" size="small" href="https://hoyaaaa.github.io/donate" target="_blank" style={{ width: '100%' }}>
+              후원하기
+            </Button>
           </Grid>
         </Grid>
       </Box>
