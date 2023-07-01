@@ -200,7 +200,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             setIsFooterHover(false);
           }}
         >
-          <Grid item xs={12} sx={{ mb: 2 }}>
+          <Grid item xs={12} sx={{ mb: '3px' }}>
             <div
               style={{
                 display: 'flex',
