@@ -191,7 +191,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           style={{
             height: '100%',
             padding: '10px',
-            opacity: isHover ? 1.0 : 0.5,
+            opacity: isFooterHover ? 1.0 : 0.5,
           }}
           onMouseOver={() => {
             setIsFooterHover(true);
