@@ -18,6 +18,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
   const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
   const [activeIndex, setActiveIndex] = useState(0);
   const [standardTime, setStandardTime] = useState('');
+  const [isFooterHover, setIsFooterHover] = useState(false);
   const settings = {
     dots: false,
     infinite: true,
@@ -187,7 +188,17 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           container
           direction="row"
           spacing={0}
-          style={{ height: '100%', padding: '10px' }}
+          style={{
+            height: '100%',
+            padding: '10px',
+            opacity: isHover ? 1.0 : 0.5,
+          }}
+          onMouseOver={() => {
+            setIsFooterHover(true);
+          }}
+          onMouseOut={() => {
+            setIsFooterHover(false);
+          }}
         >
           <Grid item xs={12}>
             <div
