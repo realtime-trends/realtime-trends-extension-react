@@ -89,22 +89,26 @@ getStorageBySettings((settings) => {
     ['www.google.com', 'google.com'].includes(window.location.hostname) &&
     ['/', '/webhp', '/search'].includes(window.location.pathname)
   ) {
+    chartElement.style.height = '48px';
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
-    checkElement('#gb', (appBarElement) => {
-      appBarElement.insertBefore(chartElement, appBarElement.firstChild);
+    checkElement(
+      '/search'.includes(window.location.pathname) ? '#gb' : '#gb > div',
+      (appBarElement) => {
+        appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
-      const backgroundSeletor = 'body';
+        const backgroundSeletor = 'body';
 
-      ReactDOM.render(
-        <Chart
-          boxOnly={false}
-          engine="google"
-          backgroundSelector={backgroundSeletor}
-          boxWidth="270px"
-        />,
-        chartElement
-      );
-    });
+        ReactDOM.render(
+          <Chart
+            boxOnly={false}
+            engine="google"
+            backgroundSelector={backgroundSeletor}
+            boxWidth="270px"
+          />,
+          chartElement
+        );
+      }
+    );
   }
 });
