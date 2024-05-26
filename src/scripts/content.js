@@ -89,13 +89,9 @@ getStorageBySettings((settings) => {
     ['www.google.com', 'google.com'].includes(window.location.hostname) &&
     ['/', '/webhp', '/search'].includes(window.location.pathname)
   ) {
-    chartElement.style.position = 'absolute';
-    chartElement.style.height = '48px';
-    chartElement.style.top = '48px';
-    chartElement.style.right = '6px';
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
-    checkElement('#main', (appBarElement) => {
+    checkElement('#gb', (appBarElement) => {
       appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
       const backgroundSeletor = 'body';
