@@ -28,9 +28,6 @@ const checkElement = (selector, callback) => {
 
 const chartElement = document.createElement('div');
 chartElement.style.height = '100%';
-chartElement.style.position = 'absolute';
-chartElement.style.top = '32px';
-chartElement.style.right = '0';
 
 getStorageBySettings((settings) => {
   if (
@@ -38,6 +35,9 @@ getStorageBySettings((settings) => {
     ['www.naver.com', 'naver.com'].includes(window.location.hostname) &&
     ['/'].includes(window.location.pathname)
   ) {
+    chartElement.style.position = 'absolute';
+    chartElement.style.top = '32px';
+    chartElement.style.right = '50px';
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
 
@@ -88,6 +88,9 @@ getStorageBySettings((settings) => {
     ['www.google.com', 'google.com'].includes(window.location.hostname) &&
     ['/', '/webhp', '/search'].includes(window.location.pathname)
   ) {
+    chartElement.style.position = 'absolute';
+    chartElement.style.top = '48px';
+    chartElement.style.right = '6px';
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
     checkElement('#gb > div', (appBarElement) => {
