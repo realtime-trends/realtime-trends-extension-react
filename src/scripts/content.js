@@ -36,8 +36,9 @@ getStorageBySettings((settings) => {
     ['/'].includes(window.location.pathname)
   ) {
     chartElement.style.position = 'absolute';
-    chartElement.style.top = '32px';
-    chartElement.style.right = '50px';
+    chartElement.style.height = '60px';
+    chartElement.style.top = '50px';
+    chartElement.style.right = '0px';
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
 
@@ -89,11 +90,12 @@ getStorageBySettings((settings) => {
     ['/', '/webhp', '/search'].includes(window.location.pathname)
   ) {
     chartElement.style.position = 'absolute';
+    chartElement.style.height = '48px';
     chartElement.style.top = '48px';
     chartElement.style.right = '6px';
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
-    checkElement('#gb > div', (appBarElement) => {
+    checkElement('body > div', (appBarElement) => {
       appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
       const backgroundSeletor = 'body';
