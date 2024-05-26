@@ -95,7 +95,7 @@ getStorageBySettings((settings) => {
     chartElement.style.right = '6px';
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
-    checkElement('body > div', (appBarElement) => {
+    checkElement('#main', (appBarElement) => {
       appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
       const backgroundSeletor = 'body';
