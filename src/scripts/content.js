@@ -93,7 +93,7 @@ getStorageBySettings((settings) => {
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
     checkElement(
-      '/search'.includes(window.location.pathname) ? '#gb' : '#gb > div',
+      window.location.pathname === '/search' ? '#gb' : '#gb > div',
       (appBarElement) => {
         appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
