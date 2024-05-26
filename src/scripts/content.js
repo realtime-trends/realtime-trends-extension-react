@@ -28,23 +28,42 @@ const checkElement = (selector, callback) => {
 
 const chartElement = document.createElement('div');
 chartElement.style.height = '100%';
+chartElement.style.position = 'absolute';
+chartElement.style.top = '32px';
+chartElement.style.right = '0';
 
 getStorageBySettings((settings) => {
-  if (settings.naver && ['www.naver.com', 'naver.com'].includes(window.location.hostname) && ['/'].includes(window.location.pathname)) {
+  if (
+    settings.naver &&
+    ['www.naver.com', 'naver.com'].includes(window.location.hostname) &&
+    ['/'].includes(window.location.pathname)
+  ) {
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
-    checkElement('#search-right-banner', (rightBanner) => {
-      while (rightBanner.firstChild) {
-        rightBanner.removeChild(rightBanner.lastChild);
-      }
-      rightBanner.style.height = '60px';
-      rightBanner.classList.add('link_search_banner');
+
+    const elements = document.querySelectorAll('[id^="search-right-"]');
+    elements.forEach((element) => {
+      element.parentNode.removeChild(element);
+    });
+
+    checkElement('#topSearchWrap', (rightBanner) => {
       rightBanner.appendChild(chartElement);
       const backgroundSeletor = '#search_area';
-
-      ReactDOM.render(<Chart boxOnly={false} engine="naver" backgroundSelector={backgroundSeletor} boxWidth="270px"/>, chartElement);
+      ReactDOM.render(
+        <Chart
+          boxOnly={false}
+          engine="naver"
+          backgroundSelector={backgroundSeletor}
+          boxWidth="270px"
+        />,
+        chartElement
+      );
     });
-  } else if (settings.naver && ['search.naver.com'].includes(window.location.hostname) && ['/search.naver'].includes(window.location.pathname)) {
+  } else if (
+    settings.naver &&
+    ['search.naver.com'].includes(window.location.hostname) &&
+    ['/search.naver'].includes(window.location.pathname)
+  ) {
     checkElement('#sub_pack', (sidebar) => {
       const section = document.createElement('section');
       section.classList.add('sc_new');
@@ -54,9 +73,21 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = '#lnb';
 
-      ReactDOM.render(<Chart boxOnly engine="naver" backgroundSelector={backgroundSeletor} boxWidth="100%"/>, chartElement);
+      ReactDOM.render(
+        <Chart
+          boxOnly
+          engine="naver"
+          backgroundSelector={backgroundSeletor}
+          boxWidth="100%"
+        />,
+        chartElement
+      );
     });
-  } else if (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname) && ['/', '/webhp', '/search'].includes(window.location.pathname)) {
+  } else if (
+    settings.google &&
+    ['www.google.com', 'google.com'].includes(window.location.hostname) &&
+    ['/', '/webhp', '/search'].includes(window.location.pathname)
+  ) {
     chartElement.style.minWidth = '270px';
     chartElement.style.maxWidth = '270px';
     checkElement('#gb > div', (appBarElement) => {
@@ -64,7 +95,15 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = 'body';
 
-      ReactDOM.render(<Chart boxOnly={false} engine="google" backgroundSelector={backgroundSeletor} boxWidth="270px" />, chartElement);
+      ReactDOM.render(
+        <Chart
+          boxOnly={false}
+          engine="google"
+          backgroundSelector={backgroundSeletor}
+          boxWidth="270px"
+        />,
+        chartElement
+      );
     });
   }
 });
