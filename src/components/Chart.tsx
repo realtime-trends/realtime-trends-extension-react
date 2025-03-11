@@ -6,19 +6,25 @@ import Slider from 'react-slick';
 import { Box, Button, Grid, Typography } from '@material-ui/core';
 import FeedbackIcon from '@material-ui/icons/Feedback';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
-import PropTypes from 'prop-types';
-import { getStandardTime, updateTrends } from '../trends';
+import { getStandardTime, updateTrends, TrendItem } from '../trends';
 import ChartRow from './ChartRow';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
-  const [trends, setTrends] = useState([]);
-  const [boxDisplay, setBoxDisplay] = useState(boxOnly ? 'block' : 'none');
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [standardTime, setStandardTime] = useState('');
-  const [isFooterHover, setIsFooterHover] = useState(false);
+interface ChartProps {
+  boxOnly: boolean;
+  engine: string;
+  backgroundSelector: string;
+  boxWidth: string;
+}
+
+function Chart({ boxOnly, engine, backgroundSelector, boxWidth }: ChartProps): React.ReactElement {
+  const [trends, setTrends] = useState<TrendItem[]>([]);
+  const [boxDisplay, setBoxDisplay] = useState<string>(boxOnly ? 'block' : 'none');
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const [standardTime, setStandardTime] = useState<string>('');
+  const [isFooterHover, setIsFooterHover] = useState<boolean>(false);
   const settings = {
     dots: false,
     infinite: true,
@@ -43,7 +49,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
     backgroundElement = document.querySelector('body');
   }
 
-  let { backgroundColor } = window.getComputedStyle(backgroundElement);
+  let { backgroundColor } = window.getComputedStyle(backgroundElement || document.body);
   if (backgroundColor.includes('rgba')) {
     const colorArr = backgroundColor.slice(
       backgroundColor.indexOf('(') + 1,
@@ -103,7 +109,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
                 display: 'flex',
                 alignItems: 'center',
                 flexWrap: 'wrap',
-                textAlign: 'Right',
+                textAlign: 'right',
                 height: '100%',
               }}
             >
@@ -200,7 +206,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
             setIsFooterHover(false);
           }}
         >
-          <Grid item xs={12} sx={{ mb: '3px' }}>
+          <Grid item xs={12} style={{ marginBottom: '3px' }}>
             <div
               style={{
                 display: 'flex',
@@ -241,6 +247,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
           </Grid>
         </Grid>
       </Box>
+      {/* @ts-ignore: react-slick 타입 문제 */}
       <Slider
         // eslint-disable-next-line react/jsx-props-no-spreading
         {...settings}
@@ -267,16 +274,11 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }) {
   );
 }
 
-Chart.propTypes = {
-  boxOnly: PropTypes.bool,
-  engine: PropTypes.string,
-  backgroundSelector: PropTypes.string,
-};
-
 Chart.defaultProps = {
   boxOnly: false,
   engine: 'naver',
   backgroundSelector: 'body',
+  boxWidth: '100%',
 };
 
 export default Chart;

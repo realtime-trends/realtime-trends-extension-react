@@ -2,6 +2,7 @@
 /* global chrome */
 import { setStorageByTrends } from '../trends';
 
+// @ts-ignore: 브라우저 환경에서의 오류 핸들러 타입 문제
 self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   console.error('Caught background script error');
   console.error(`errorMsg: ${errorMsg}`);
@@ -13,7 +14,7 @@ self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   return true;
 };
 
-async function saveTrendsInStorage() {
+async function saveTrendsInStorage(): Promise<void> {
   const response = await fetch(
     'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json', {
       method: "GET",
@@ -33,6 +34,7 @@ async function saveTrendsInStorage() {
       console.error('Error', error.message);
     }
     console.error(error.config);
+    throw error;
   });
 
   const json = await response.json();

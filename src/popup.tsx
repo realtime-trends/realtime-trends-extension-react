@@ -1,19 +1,25 @@
 /* eslint-disable no-console */
 /* eslint-disable no-prototype-builtins */
 /* global chrome */
-import React, { useEffect } from 'react';
+import React, { useEffect, ChangeEvent } from 'react';
 import './index.css';
 import {
   FormControl, FormControlLabel, FormGroup, Card,
-  Switch, CardContent, CardActions, styled, alpha, Typography,
+  Switch, CardContent, CardActions, styled, alpha, Typography, Theme,
 } from '@material-ui/core';
 
-const INITIAL_STATE = {
+interface SettingsState {
+  naver: boolean;
+  google: boolean;
+  [key: string]: boolean;
+}
+
+const INITIAL_STATE: SettingsState = {
   naver: true,
   google: true,
 };
 
-function setStorageBySettings(content) {
+function setStorageBySettings(content: SettingsState): void {
   chrome.storage.local.set({ settings: content }, () => {
     if (chrome.runtime.lastError) {
       console.error({
@@ -29,7 +35,7 @@ function setStorageBySettings(content) {
   });
 }
 
-export function getStorageBySettings(callback) {
+export function getStorageBySettings(callback: (settings: SettingsState) => void): void {
   chrome.storage.local.get('settings', (items) => {
     if (chrome.runtime.lastError) {
       console.error({
@@ -37,9 +43,9 @@ export function getStorageBySettings(callback) {
         msg: chrome.runtime.lastError,
       });
     } else {
-      let cached = {};
+      let cached: SettingsState = {} as SettingsState;
       if (items.hasOwnProperty('settings')) {
-        cached = items.settings;
+        cached = items.settings as SettingsState;
         callback(cached);
       } else {
         setStorageBySettings(INITIAL_STATE);
@@ -49,7 +55,12 @@ export function getStorageBySettings(callback) {
   });
 }
 
-const ColorSwitch = styled(Switch)(({ theme, switchColor }) => ({
+interface ColorSwitchProps {
+  switchColor: string;
+  theme: Theme;
+}
+
+const ColorSwitch = styled(Switch)(({ theme, switchColor }: ColorSwitchProps) => ({
   '& .MuiSwitch-switchBase.Mui-checked': {
     color: switchColor,
     '&:hover': {
@@ -61,10 +72,10 @@ const ColorSwitch = styled(Switch)(({ theme, switchColor }) => ({
   },
 }));
 
-export default function Popup() {
-  const [state, setState] = React.useState(INITIAL_STATE);
+export default function Popup(): React.ReactElement {
+  const [state, setState] = React.useState<SettingsState>(INITIAL_STATE);
 
-  const handleChange = (event) => {
+  const handleChange = (event: ChangeEvent<HTMLInputElement>): void => {
     const changed = {
       ...state,
       [event.target.name]: event.target.checked,

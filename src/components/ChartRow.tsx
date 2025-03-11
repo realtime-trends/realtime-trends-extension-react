@@ -5,9 +5,19 @@ import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import RemoveIcon from '@material-ui/icons/Remove';
 import FiberNewIcon from '@material-ui/icons/FiberNew';
-import PropTypes from 'prop-types';
 
-function getIconByDelta(delta) {
+interface TrendItem {
+  keyword: string;
+  delta: number;
+}
+
+interface ChartRowProps {
+  trend: TrendItem;
+  activeRanking: number;
+  ranking: number;
+}
+
+function getIconByDelta(delta: number): React.ReactNode {
   let icon = (
     <RemoveIcon
       style={{ color: 'lightgray', verticalAlign: 'middle' }}
@@ -56,7 +66,12 @@ function getIconByDelta(delta) {
   return icon;
 }
 
-function ChartRow({ trend, activeRanking, ranking }) {
+function ChartRow({ trend, activeRanking, ranking }: ChartRowProps): React.ReactElement {
+  // 디버깅을 위한 콘솔 로그 추가
+  console.log('trend 객체:', trend);
+  console.log('trend.keyword:', trend.keyword);
+  console.log('trend 타입:', typeof trend);
+
   const bold = ranking === activeRanking;
   return (
     <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
@@ -130,12 +145,5 @@ function ChartRow({ trend, activeRanking, ranking }) {
     </Grid>
   );
 }
-
-ChartRow.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  trend: PropTypes.object.isRequired,
-  activeRanking: PropTypes.number.isRequired,
-  ranking: PropTypes.number.isRequired,
-};
 
 export default ChartRow;

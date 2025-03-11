@@ -5,6 +5,13 @@ import Chart from '../components/Chart';
 import { getStorageBySettings } from '../popup';
 import './content.css';
 
+interface Settings {
+  naver: boolean;
+  google: boolean;
+  [key: string]: boolean;
+}
+
+// @ts-ignore: 브라우저 환경에서의 오류 핸들러 타입 문제
 window.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   console.error('Caught content script error');
   console.error(`errorMsg: ${errorMsg}`);
@@ -16,7 +23,7 @@ window.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
   return true;
 };
 
-const checkElement = (selector, callback) => {
+const checkElement = (selector: string, callback: (element: Element) => void): void => {
   const check = setInterval(() => {
     const e = document.querySelector(selector);
     if (e) {
@@ -29,7 +36,7 @@ const checkElement = (selector, callback) => {
 const chartElement = document.createElement('div');
 chartElement.style.height = '100%';
 
-getStorageBySettings((settings) => {
+getStorageBySettings((settings: Settings) => {
   if (
     settings.naver &&
     ['www.naver.com', 'naver.com'].includes(window.location.hostname) &&
@@ -44,12 +51,13 @@ getStorageBySettings((settings) => {
 
     const elements = document.querySelectorAll('[id^="search-right-"]');
     elements.forEach((element) => {
-      element.parentNode.removeChild(element);
+      element.parentNode?.removeChild(element);
     });
 
     checkElement('#topSearchWrap', (rightBanner) => {
       rightBanner.appendChild(chartElement);
       const backgroundSeletor = '#search_area';
+      // @ts-ignore: React 18 이전 버전의 ReactDOM.render 사용
       ReactDOM.render(
         <Chart
           boxOnly={false}
@@ -74,6 +82,7 @@ getStorageBySettings((settings) => {
 
       const backgroundSeletor = '#lnb';
 
+      // @ts-ignore: React 18 이전 버전의 ReactDOM.render 사용
       ReactDOM.render(
         <Chart
           boxOnly
@@ -99,6 +108,7 @@ getStorageBySettings((settings) => {
 
         const backgroundSeletor = 'body';
 
+        // @ts-ignore: React 18 이전 버전의 ReactDOM.render 사용
         ReactDOM.render(
           <Chart
             boxOnly={false}
