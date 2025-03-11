@@ -82,6 +82,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider node scripts/build.js",
+    "build:queries": "cross-env NODE_OPTIONS=--openssl-legacy-provider INLINE_RUNTIME_CHUNK=false node scripts/build.js --entry=./src/queries-index.tsx",
     "test": "node scripts/test.js",
     "release": "git tag $npm_config_tag && git push origin main --tag",
     "tsc": "tsc --noEmit",

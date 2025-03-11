@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Chart from '../components/Chart';
 import { getStorageBySettings } from '../popup';
+import { addSearchQuery } from '../searchQueries';
 import './content.css';
 
 interface Settings {
@@ -122,3 +123,59 @@ getStorageBySettings((settings: Settings) => {
     );
   }
 });
+
+// 네이버 검색 쿼리 감지 함수
+function detectNaverSearchQuery(): void {
+  // 네이버 메인 페이지
+  if (['www.naver.com', 'naver.com'].includes(window.location.hostname) && window.location.pathname === '/') {
+    const searchForm = document.querySelector('#search_form') as HTMLFormElement;
+    if (searchForm) {
+      searchForm.addEventListener('submit', (e) => {
+        const inputElement = document.querySelector('#query') as HTMLInputElement;
+        if (inputElement && inputElement.value) {
+          addSearchQuery(inputElement.value, 'naver');
+        }
+      });
+    }
+  }
+  
+  // 네이버 검색 결과 페이지
+  if (['search.naver.com'].includes(window.location.hostname)) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('query');
+    if (query) {
+      addSearchQuery(query, 'naver');
+    }
+  }
+}
+
+// 구글 검색 쿼리 감지 함수
+function detectGoogleSearchQuery(): void {
+  if (['www.google.com', 'google.com'].includes(window.location.hostname)) {
+    // 검색 결과 페이지
+    if (window.location.pathname === '/search') {
+      const urlParams = new URLSearchParams(window.location.search);
+      const query = urlParams.get('q');
+      if (query) {
+        addSearchQuery(query, 'google');
+      }
+    }
+    
+    // 구글 메인 페이지
+    if (['/', '/webhp'].includes(window.location.pathname)) {
+      const searchForm = document.querySelector('form[action="/search"]') as HTMLFormElement;
+      if (searchForm) {
+        searchForm.addEventListener('submit', (e) => {
+          const inputElement = searchForm.querySelector('input[name="q"]') as HTMLInputElement;
+          if (inputElement && inputElement.value) {
+            addSearchQuery(inputElement.value, 'google');
+          }
+        });
+      }
+    }
+  }
+}
+
+// 검색 쿼리 감지 함수 실행
+detectNaverSearchQuery();
+detectGoogleSearchQuery();

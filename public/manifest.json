@@ -4,7 +4,8 @@
   "manifest_version": 3,
   "permissions": [
     "storage",
-    "alarms"
+    "alarms",
+    "webNavigation"
   ],
   "host_permissions": ["http://*/*", "https://*/*"],
   "description": "네이버, 구글 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
@@ -24,7 +25,7 @@
   },
   "content_scripts": [
     {
-      "runt_at": "document_start",
+      "run_at": "document_start",
       "matches": [
         "https://www.naver.com/*",
         "https://search.naver.com/*",
@@ -40,5 +41,11 @@
   ],
   "background": {
     "service_worker": "/static/js/background.js"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["queries.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }

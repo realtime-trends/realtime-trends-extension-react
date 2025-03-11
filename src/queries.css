@@ -1,0 +1,65 @@
+.queries-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filter-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-controls button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.filter-controls button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #0069d9;
+}
+
+.export-button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.queries-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.queries-table th, .queries-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.queries-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.queries-table tr:hover {
+  background-color: #f5f5f5;
+}

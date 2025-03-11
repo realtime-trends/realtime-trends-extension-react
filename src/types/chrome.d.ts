@@ -21,6 +21,14 @@ interface Chrome {
       addListener: (callback: () => void) => void;
     };
   };
+  action: {
+    onClicked: {
+      addListener: (callback: () => void) => void;
+    };
+  };
+  tabs: {
+    create: (createProperties: { url: string }) => void;
+  };
 }
 
 declare global {
