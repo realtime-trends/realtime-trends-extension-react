@@ -157,11 +157,17 @@ async function getAccessToken(userId: string): Promise<string | null> {
       console.error('서버 설정을 가져올 수 없어 토큰 요청을 건너뜁니다.');
       return null;
     }
-    
+
     const tokenUrl = `${config.server_endpoint}/api/token?user_id=${userId}`;
     console.log('토큰 요청 URL:', tokenUrl);
 
-    const response = await fetch(tokenUrl);
+    const response = await fetch(tokenUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    });
     if (!response.ok) {
       console.error(`토큰 요청 실패: ${response.status} ${response.statusText}`);
       return null;
@@ -202,7 +208,7 @@ async function getSavedAccessToken(): Promise<string | null> {
 async function sendQueryToKeywordsAPI(query: string): Promise<any> {
   let retryCount = 0;
   const MAX_RETRIES = 3;
-  
+
   async function attemptSendQuery(): Promise<any> {
     try {
       // 서버 설정 가져오기
@@ -211,7 +217,7 @@ async function sendQueryToKeywordsAPI(query: string): Promise<any> {
         console.error('서버 설정을 가져올 수 없어 쿼리 전송을 건너뜁니다.');
         return null;
       }
-      
+
       // 액세스 토큰 가져오기
       let accessToken = await getSavedAccessToken();
       if (!accessToken) {
@@ -223,10 +229,10 @@ async function sendQueryToKeywordsAPI(query: string): Promise<any> {
           return null;
         }
       }
-      
+
       const keywordsUrl = `${config.server_endpoint}/api/keywords`;
       console.log('키워드 API 요청 URL:', keywordsUrl);
-      
+
       const response = await fetch(keywordsUrl, {
         method: 'POST',
         headers: {
@@ -235,13 +241,13 @@ async function sendQueryToKeywordsAPI(query: string): Promise<any> {
         },
         body: JSON.stringify({ query })
       });
-      
+
       if (response.status === 401) {
         // 401 Unauthorized 오류 - 토큰 만료 또는 유효하지 않음
         if (retryCount < MAX_RETRIES) {
           console.log(`토큰 인증 오류, 새 토큰 요청 중... (재시도 ${retryCount + 1}/${MAX_RETRIES})`);
           retryCount++;
-          
+
           // 새 토큰 요청
           const userId = await getUserId();
           const newToken = await getAccessToken(userId);
@@ -249,7 +255,7 @@ async function sendQueryToKeywordsAPI(query: string): Promise<any> {
             console.error('새 액세스 토큰을 가져올 수 없어 쿼리 전송을 건너뜁니다.');
             return null;
           }
-          
+
           // 재시도
           return attemptSendQuery();
         } else {
@@ -257,19 +263,19 @@ async function sendQueryToKeywordsAPI(query: string): Promise<any> {
           return null;
         }
       }
-      
+
       if (!response.ok) {
         console.error(`키워드 API 요청 실패: ${response.status} ${response.statusText}`);
         return null;
       }
-      
+
       return await response.json();
     } catch (error) {
       console.error('키워드 API 요청 오류:', error);
       return null;
     }
   }
-  
+
   return attemptSendQuery();
 }
 
@@ -289,7 +295,7 @@ chrome.runtime.onMessage.addListener(
         .catch(error => {
           sendResponse({ success: false, error: error.message });
         });
-      
+
       // 비동기 응답을 위해 true 반환
       return true;
     }
