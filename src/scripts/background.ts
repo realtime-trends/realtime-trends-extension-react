@@ -16,14 +16,13 @@ self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
 
 async function saveTrendsInStorage(): Promise<void> {
   const response = await fetch(
-    'https://raw.githubusercontent.com/realtime-trends/realtime-trends-data/data/trends.json', {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json"        
-      }
+    'https://realtime-trends.github.io/realtime-trends-data/trends.json', {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
     }
-  ).catch((error) => {
+  }).catch((error) => {
     if (error.response) {
       console.error(error.response.data);
       console.error(error.response.status);
