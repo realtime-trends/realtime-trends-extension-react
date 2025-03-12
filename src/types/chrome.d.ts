@@ -5,10 +5,21 @@ interface Chrome {
       get: (key: string, callback: (items: any) => void) => void;
       set: (items: object, callback?: () => void) => void;
     };
+    sync: {
+      get: (keys: string | string[] | object | null, callback: (items: { [key: string]: any }) => void) => void;
+      set: (items: object, callback?: () => void) => void;
+    };
   };
   runtime: {
     lastError?: {
       message?: string;
+    };
+    onInstalled: {
+      addListener: (callback: (details: {
+        reason: string;
+        previousVersion?: string;
+        id?: string;
+      }) => void) => void;
     };
   };
   alarms: {
