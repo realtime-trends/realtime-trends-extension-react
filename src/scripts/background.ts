@@ -130,36 +130,47 @@ async function getUserId(): Promise<string> {
 }
 
 // 서버 설정 가져오기
-async function getServerConfig(): Promise<{ server_endpoint: string }> {
+async function getServerConfig(): Promise<{ server_endpoint: string } | null> {
   try {
     const response = await fetch('https://realtime-trends.github.io/realtime-trends-data/config.json');
     if (!response.ok) {
-      throw new Error('서버 설정을 가져오는데 실패했습니다');
+      console.error('서버 설정을 가져오는데 실패했습니다. 상태 코드:', response.status);
+      return null;
     }
-    return await response.json();
+    const data = await response.json();
+    if (!data.server_endpoint) {
+      console.error('서버 설정에 server_endpoint가 없습니다:', data);
+      return null;
+    }
+    return data;
   } catch (error) {
     console.error('서버 설정 가져오기 오류:', error);
-    // 기본 설정 반환
-    return { server_endpoint: 'https://realtime.hoyaaaa.duckdns.org' };
+    return null;
   }
 }
 
 // 액세스 토큰 가져오기
 async function getAccessToken(userId: string): Promise<string | null> {
   try {
-    const { server_endpoint } = await getServerConfig();
-    const tokenUrl = `${server_endpoint}/api/token?user_id=${userId}`;
-
+    const config = await getServerConfig();
+    if (!config || !config.server_endpoint) {
+      console.error('서버 설정을 가져올 수 없어 토큰 요청을 건너뜁니다.');
+      return null;
+    }
+    
+    const tokenUrl = `${config.server_endpoint}/api/token?user_id=${userId}`;
     console.log('토큰 요청 URL:', tokenUrl);
 
     const response = await fetch(tokenUrl);
     if (!response.ok) {
-      throw new Error(`토큰 요청 실패: ${response.status} ${response.statusText}`);
+      console.error(`토큰 요청 실패: ${response.status} ${response.statusText}`);
+      return null;
     }
 
     const data = await response.json();
     if (!data.access_token) {
-      throw new Error('응답에 액세스 토큰이 없습니다');
+      console.error('응답에 액세스 토큰이 없습니다');
+      return null;
     }
 
     // 토큰을 로컬 스토리지에 저장
@@ -189,43 +200,77 @@ async function getSavedAccessToken(): Promise<string | null> {
 
 // 키워드 API에 쿼리 전송하기
 async function sendQueryToKeywordsAPI(query: string): Promise<any> {
-  try {
-    // 액세스 토큰 가져오기
-    const accessToken = await getSavedAccessToken();
-    if (!accessToken) {
-      // 토큰이 없으면 사용자 ID로 새로 요청
-      const userId = await getUserId();
-      const newToken = await getAccessToken(userId);
-      if (!newToken) {
-        throw new Error('액세스 토큰을 가져올 수 없습니다');
+  let retryCount = 0;
+  const MAX_RETRIES = 3;
+  
+  async function attemptSendQuery(): Promise<any> {
+    try {
+      // 서버 설정 가져오기
+      const config = await getServerConfig();
+      if (!config || !config.server_endpoint) {
+        console.error('서버 설정을 가져올 수 없어 쿼리 전송을 건너뜁니다.');
+        return null;
       }
+      
+      // 액세스 토큰 가져오기
+      let accessToken = await getSavedAccessToken();
+      if (!accessToken) {
+        // 토큰이 없으면 사용자 ID로 새로 요청
+        const userId = await getUserId();
+        accessToken = await getAccessToken(userId);
+        if (!accessToken) {
+          console.error('액세스 토큰을 가져올 수 없어 쿼리 전송을 건너뜁니다.');
+          return null;
+        }
+      }
+      
+      const keywordsUrl = `${config.server_endpoint}/api/keywords`;
+      console.log('키워드 API 요청 URL:', keywordsUrl);
+      
+      const response = await fetch(keywordsUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${accessToken}`
+        },
+        body: JSON.stringify({ query })
+      });
+      
+      if (response.status === 401) {
+        // 401 Unauthorized 오류 - 토큰 만료 또는 유효하지 않음
+        if (retryCount < MAX_RETRIES) {
+          console.log(`토큰 인증 오류, 새 토큰 요청 중... (재시도 ${retryCount + 1}/${MAX_RETRIES})`);
+          retryCount++;
+          
+          // 새 토큰 요청
+          const userId = await getUserId();
+          const newToken = await getAccessToken(userId);
+          if (!newToken) {
+            console.error('새 액세스 토큰을 가져올 수 없어 쿼리 전송을 건너뜁니다.');
+            return null;
+          }
+          
+          // 재시도
+          return attemptSendQuery();
+        } else {
+          console.error(`최대 재시도 횟수(${MAX_RETRIES})를 초과했습니다. 쿼리 전송을 중단합니다.`);
+          return null;
+        }
+      }
+      
+      if (!response.ok) {
+        console.error(`키워드 API 요청 실패: ${response.status} ${response.statusText}`);
+        return null;
+      }
+      
+      return await response.json();
+    } catch (error) {
+      console.error('키워드 API 요청 오류:', error);
+      return null;
     }
-    
-    // 최신 토큰으로 다시 가져오기
-    const token = await getSavedAccessToken();
-    const { server_endpoint } = await getServerConfig();
-    const keywordsUrl = `${server_endpoint}/api/keywords`;
-    
-    console.log('키워드 API 요청 URL:', keywordsUrl);
-    
-    const response = await fetch(keywordsUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${token}`
-      },
-      body: JSON.stringify({ query })
-    });
-    
-    if (!response.ok) {
-      throw new Error(`키워드 API 요청 실패: ${response.status} ${response.statusText}`);
-    }
-    
-    return await response.json();
-  } catch (error) {
-    console.error('키워드 API 요청 오류:', error);
-    return null;
   }
+  
+  return attemptSendQuery();
 }
 
 // 전역 객체에 함수 노출
@@ -239,7 +284,7 @@ chrome.runtime.onMessage.addListener(
       // 비동기 함수 호출 및 응답 처리
       sendQueryToKeywordsAPI(message.query)
         .then(result => {
-          sendResponse({ success: true, data: result });
+          sendResponse({ success: !!result, data: result });
         })
         .catch(error => {
           sendResponse({ success: false, error: error.message });

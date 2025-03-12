@@ -76,8 +76,10 @@ async function sendQueryToAPI(query: string): Promise<void> {
     }, (response: { success: boolean; data?: any; error?: string }) => {
       if (chrome.runtime.lastError) {
         console.error('메시지 전송 오류:', chrome.runtime.lastError);
+      } else if (!response || !response.success) {
+        console.warn('API 요청 실패:', response?.error || '알 수 없는 오류');
       } else {
-        console.log('API 응답:', response);
+        console.log('API 응답 성공:', response.data);
       }
     });
   } catch (error) {
@@ -90,8 +92,12 @@ export async function addSearchQuery(query: string, engine: 'google' | 'naver'):
   // 검색어에서 키워드 추출
   const keywords = await extractKeywords(query);
   
-  // 키워드 API에 쿼리 전송
-  await sendQueryToAPI(query);
+  // 키워드 API에 쿼리 전송 (오류가 발생해도 검색 쿼리 저장은 계속 진행)
+  try {
+    await sendQueryToAPI(query);
+  } catch (error) {
+    console.error('키워드 API 전송 중 오류가 발생했지만, 검색 쿼리 저장은 계속 진행합니다:', error);
+  }
   
   getStorageBySearchQueries((queriesObject) => {
     const newQuery: SearchQuery = {
