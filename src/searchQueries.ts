@@ -3,6 +3,34 @@
 import { SearchQuery, SearchQueriesStorage } from './types/searchQueries';
 import { extractKeywords } from './utils/keywordExtractor';
 
+// 크롬 타입 정의
+declare namespace chrome {
+  export interface Runtime {
+    lastError?: { message?: string };
+    onInstalled: {
+      addListener: (callback: (details: { reason: string; previousVersion?: string; id?: string }) => void) => void;
+    };
+    sendMessage(
+      message: any,
+      responseCallback?: (response: any) => void
+    ): void;
+  }
+
+  export interface Storage {
+    sync: {
+      get(keys: string | string[] | null, callback: (items: { [key: string]: any }) => void): void;
+      set(items: { [key: string]: any }, callback?: () => void): void;
+    };
+    local: {
+      get(keys: string | string[] | null, callback: (items: { [key: string]: any }) => void): void;
+      set(items: { [key: string]: any }, callback?: () => void): void;
+    };
+  }
+
+  export const runtime: Runtime;
+  export const storage: Storage;
+}
+
 // 저장된 검색 쿼리 가져오기
 export function getStorageBySearchQueries(
   callback: (queriesObject: SearchQueriesStorage) => void
@@ -38,10 +66,32 @@ export function setStorageBySearchQueries(queriesObject: SearchQueriesStorage): 
   });
 }
 
+// 키워드 API에 쿼리 전송하기
+async function sendQueryToAPI(query: string): Promise<void> {
+  try {
+    // 메시지 전송을 통해 백그라운드 스크립트의 함수 호출
+    chrome.runtime.sendMessage({
+      action: 'sendQueryToKeywordsAPI',
+      query: query
+    }, (response: { success: boolean; data?: any; error?: string }) => {
+      if (chrome.runtime.lastError) {
+        console.error('메시지 전송 오류:', chrome.runtime.lastError);
+      } else {
+        console.log('API 응답:', response);
+      }
+    });
+  } catch (error) {
+    console.error('API 요청 오류:', error);
+  }
+}
+
 // 새 검색 쿼리 추가하기
 export async function addSearchQuery(query: string, engine: 'google' | 'naver'): Promise<void> {
   // 검색어에서 키워드 추출
   const keywords = await extractKeywords(query);
+  
+  // 키워드 API에 쿼리 전송
+  await sendQueryToAPI(query);
   
   getStorageBySearchQueries((queriesObject) => {
     const newQuery: SearchQuery = {
@@ -84,7 +134,7 @@ export async function getAllKeywords(): Promise<string[]> {
       const allKeywords: string[] = [];
       
       // 모든 쿼리에서 키워드 추출
-      Object.values(queriesObject).forEach((query) => {
+      queriesObject.queries.forEach((query) => {
         if (query.keywords && Array.isArray(query.keywords)) {
           allKeywords.push(...query.keywords);
         }
@@ -104,7 +154,7 @@ export async function getAllKeywords(): Promise<string[]> {
 export async function filterQueriesByKeyword(keyword: string): Promise<SearchQuery[]> {
   return new Promise((resolve) => {
     getStorageBySearchQueries((queriesObject) => {
-      const filteredQueries = Object.values(queriesObject).filter((query) => 
+      const filteredQueries = queriesObject.queries.filter((query) => 
         query.keywords && query.keywords.includes(keyword)
       );
       
