@@ -67,11 +67,6 @@ function getIconByDelta(delta: number): React.ReactNode {
 }
 
 function ChartRow({ trend, activeRanking, ranking }: ChartRowProps): React.ReactElement {
-  // 디버깅을 위한 콘솔 로그 추가
-  console.log('trend 객체:', trend);
-  console.log('trend.keyword:', trend.keyword);
-  console.log('trend 타입:', typeof trend);
-
   const bold = ranking === activeRanking;
   return (
     <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
