@@ -12,7 +12,6 @@ interface Settings {
   [key: string]: boolean;
 }
 
-// Content Script에서의 전역 오류 핸들러
 window.onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, column?: number, errorObj?: Error) => {
   console.error('Caught content script error');
   console.error(`errorMsg: ${errorMsg}`);
@@ -58,7 +57,6 @@ getStorageBySettings((settings: Settings) => {
     checkElement('#topSearchWrap', (rightBanner) => {
       rightBanner.appendChild(chartElement);
       const backgroundSeletor = '#search_area';
-      // React 17 ReactDOM.render 사용
       ReactDOM.render(
         <Chart
           boxOnly={false}
@@ -82,8 +80,6 @@ getStorageBySettings((settings: Settings) => {
       sidebar.insertBefore(section, sidebar.firstChild);
 
       const backgroundSeletor = '#lnb';
-
-      // React 17 ReactDOM.render 사용
       ReactDOM.render(
         <Chart
           boxOnly
@@ -108,8 +104,6 @@ getStorageBySettings((settings: Settings) => {
         appBarElement.insertBefore(chartElement, appBarElement.firstChild);
 
         const backgroundSeletor = 'body';
-
-        // React 17 ReactDOM.render 사용
         ReactDOM.render(
           <Chart
             boxOnly={false}
@@ -124,9 +118,7 @@ getStorageBySettings((settings: Settings) => {
   }
 });
 
-// 네이버 검색 쿼리 감지 함수
 function detectNaverSearchQuery(): void {
-  // 네이버 메인 페이지
   if (['www.naver.com', 'naver.com'].includes(window.location.hostname) && window.location.pathname === '/') {
     const searchForm = document.querySelector('#search_form') as HTMLFormElement;
     if (searchForm) {
@@ -139,7 +131,6 @@ function detectNaverSearchQuery(): void {
     }
   }
   
-  // 네이버 검색 결과 페이지
   if (['search.naver.com'].includes(window.location.hostname)) {
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('query');
@@ -149,10 +140,8 @@ function detectNaverSearchQuery(): void {
   }
 }
 
-// 구글 검색 쿼리 감지 함수
 function detectGoogleSearchQuery(): void {
   if (['www.google.com', 'google.com'].includes(window.location.hostname)) {
-    // 검색 결과 페이지
     if (window.location.pathname === '/search') {
       const urlParams = new URLSearchParams(window.location.search);
       const query = urlParams.get('q');
@@ -161,7 +150,6 @@ function detectGoogleSearchQuery(): void {
       }
     }
     
-    // 구글 메인 페이지
     if (['/', '/webhp'].includes(window.location.pathname)) {
       const searchForm = document.querySelector('form[action="/search"]') as HTMLFormElement;
       if (searchForm) {
@@ -176,6 +164,5 @@ function detectGoogleSearchQuery(): void {
   }
 }
 
-// 검색 쿼리 감지 함수 실행
 detectNaverSearchQuery();
 detectGoogleSearchQuery();

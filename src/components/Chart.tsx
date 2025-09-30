@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import { getStandardTime, updateTrends, TrendItem } from '../trends';
@@ -157,7 +154,6 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }: ChartProps): R
         </div>
       </div>
       <Slider
-        // eslint-disable-next-line react/jsx-props-no-spreading
         {...settings}
         style={{
           height: '100%',

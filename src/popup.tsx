@@ -1,6 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-prototype-builtins */
-/* global chrome */
 import React, { useEffect, ChangeEvent } from 'react';
 import './index.css';
 

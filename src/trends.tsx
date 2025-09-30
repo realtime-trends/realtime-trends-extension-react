@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* global chrome */
 import React from 'react';
 import axios from 'axios';
 
@@ -28,7 +26,6 @@ function getStorageByTrends(callback: (trendsObject: TrendsObject) => void): voi
       });
     } else {
       let trendsObject: TrendsObject = { timestamps: [] };
-      // eslint-disable-next-line no-prototype-builtins
       console.log(items);
       if (items.hasOwnProperty('trends')) {
         trendsObject = items.trends as TrendsObject;
