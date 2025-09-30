@@ -3,9 +3,6 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import { Box, Button, Grid, Typography } from '@material-ui/core';
-import FeedbackIcon from '@material-ui/icons/Feedback';
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import { getStandardTime, updateTrends, TrendItem } from '../trends';
 import ChartRow from './ChartRow';
 
@@ -60,143 +57,66 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }: ChartProps): R
 
   return (
     <>
-      <Box
+      <div
         onMouseLeave={() => {
           if (!boxOnly) setBoxDisplay('none');
         }}
+        className={`${boxOnly ? 'relative' : 'absolute'} ${boxOnly ? '' : 'border border-gray-300 rounded-md'}`}
         style={{
           zIndex: boxOnly ? 0 : 10,
           display: boxDisplay,
-          position: boxOnly ? 'relative' : 'absolute',
           backgroundColor,
           width: boxWidth,
         }}
-        border={boxOnly ? 0 : 1}
-        borderRadius="borderRadius"
-        borderColor="lightgray"
       >
-        <Grid
-          container
-          direction="row"
-          spacing={0}
-          style={{ height: '100%', padding: '10px' }}
-        >
-          <Grid item xs={5}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'left',
-                height: '100%',
-              }}
-            >
-              <Typography
-                style={{
-                  fontWeight: 'bold',
-                  fontSize: '14px',
-                  display: 'inline-block',
-                  width: '100%',
-                }}
-              >
-                급상승 검색어
-              </Typography>
-            </div>
-          </Grid>
-          <Grid item xs={7}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'right',
-                height: '100%',
-              }}
-            >
-              <Typography
-                style={{
-                  fontWeight: 'normal',
-                  fontSize: '9px',
-                  display: 'inline-block',
-                  width: '100%',
-                  color: 'lightgray',
-                }}
-              >
-                {standardTime}
-                {' '}
-                기준
-              </Typography>
-            </div>
-          </Grid>
-        </Grid>
+        <div className="flex h-full p-2.5">
+          <div className="flex-[5] flex items-center flex-wrap text-left h-full">
+            <span className="font-bold text-sm block w-full font-pretendard">
+              급상승 검색어
+            </span>
+          </div>
+          <div className="flex-[7] flex items-center flex-wrap text-right h-full">
+            <span className="font-normal text-xs block w-full text-gray-400 font-pretendard">
+              {standardTime} 기준
+            </span>
+          </div>
+        </div>
 
-        {trends
-          && trends.slice(0, 10).map((trend, index) => (
-            <div
-              key={index + 1}
-              style={{ flexGrow: 1, height: '100%', margin: '10px' }}
-              onClick={() => {
-                const encodedKeyword = encodeURI(trend.keyword);
-                if (engine === 'google') {
-                  window.location.href = `https://www.google.com/search?q=${encodedKeyword}`;
-                } else if (engine === 'daum') {
-                  window.location.href = `https://search.daum.net/search?q=${encodedKeyword}`;
-                } else if (engine === 'zum') {
-                  window.location.href = `https://search.zum.com/search.zum?query=${encodedKeyword}`;
-                } else if (engine === 'nate') {
-                  window.location.href = `https://search.daum.net/nate?q=${encodedKeyword}`;
-                } else {
-                  window.location.href = `https://search.naver.com/search.naver?query=${encodedKeyword}`;
-                }
-              }}
-            >
-              <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1} />
-            </div>
-          ))
-        }
-        <Grid
-          container
-          direction="row"
-          spacing={0}
-          style={{ height: '100%', padding: '10px' }}
-        >
-          <Grid item xs={12}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'left',
-                height: '100%',
-              }}
-            >
-              <Typography
-                style={{
-                  fontWeight: 'bold',
-                  fontSize: '10px',
-                  display: 'inline-block',
-                  width: '100%',
-                  color: 'gray',
-                }}
-              >
-                <HelpOutlineIcon
-                  style={{
-                    color: 'gray',
-                    verticalAlign: 'middle',
-                  }}
-                />
-                &nbsp;확장프로그램 &lsquo;리얼타임 실시간 검색어&rsquo; 제공
-              </Typography>
-            </div>
-          </Grid>
-        </Grid>
-        <Grid
-          container
-          direction="row"
-          spacing={0}
+        {trends && trends.slice(0, 10).map((trend, index) => (
+          <div
+            key={index + 1}
+            className="flex-grow h-full m-2.5 cursor-pointer hover:bg-gray-50 rounded transition-colors"
+            onClick={() => {
+              const encodedKeyword = encodeURI(trend.keyword);
+              if (engine === 'google') {
+                window.location.href = `https://www.google.com/search?q=${encodedKeyword}`;
+              } else if (engine === 'daum') {
+                window.location.href = `https://search.daum.net/search?q=${encodedKeyword}`;
+              } else if (engine === 'zum') {
+                window.location.href = `https://search.zum.com/search.zum?query=${encodedKeyword}`;
+              } else if (engine === 'nate') {
+                window.location.href = `https://search.daum.net/nate?q=${encodedKeyword}`;
+              } else {
+                window.location.href = `https://search.naver.com/search.naver?query=${encodedKeyword}`;
+              }
+            }}
+          >
+            <ChartRow trend={trend} activeRanking={activeIndex + 1} ranking={index + 1} />
+          </div>
+        ))}
+        <div className="flex h-full p-2.5">
+          <div className="w-full flex items-center flex-wrap text-left h-full">
+            <span className="font-bold text-xs block w-full text-gray-500 font-pretendard">
+              <svg className="inline w-4 h-4 text-gray-500 align-middle mr-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-6h2v6zm0-8h-2V7h2v4z"/>
+              </svg>
+              확장프로그램 '리얼타임 실시간 검색어' 제공
+            </span>
+          </div>
+        </div>
+        <div
+          className="flex flex-col h-full p-2.5 transition-opacity duration-200"
           style={{
-            height: '100%',
-            padding: '10px',
             opacity: isFooterHover ? 0.8 : 0.3,
           }}
           onMouseOver={() => {
@@ -206,47 +126,36 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }: ChartProps): R
             setIsFooterHover(false);
           }}
         >
-          <Grid item xs={12} style={{ marginBottom: '3px' }}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                textAlign: 'left',
-                height: '100%',
-              }}
-            >
-              <Typography
-                style={{
-                  fontWeight: 'bold',
-                  fontSize: '10px',
-                  display: 'inline-block',
-                  width: '100%',
-                  color: 'black',
-                }}
-              >
-                <FeedbackIcon
-                  style={{
-                    color: 'black',
-                    verticalAlign: 'middle',
-                  }}
-                />
+          <div className="w-full mb-1">
+            <div className="flex items-center flex-wrap text-left h-full">
+              <span className="font-bold text-xs block w-full text-black font-pretendard">
+                <svg className="inline w-4 h-4 text-black align-middle mr-1" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 13.5l-6-6 1.5-1.5L13 12.5l7.5-7.5L22 6.5l-9 9z"/>
+                </svg>
                 이 서비스가 마음에 드신다면...
-              </Typography>
+              </span>
             </div>
-          </Grid>
-          <Grid item xs={6}>
-            <Button variant="outlined" size="small" href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie" target="_blank" style={{ width: '100%' }}>
+          </div>
+          <div className="flex gap-2">
+            <a 
+              href="https://chrome.google.com/webstore/detail/dmbaagbmhlhdnlmbcncneijndejlalie"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 px-3 py-1.5 text-xs border border-gray-300 rounded text-center hover:bg-gray-50 transition-colors font-pretendard"
+            >
               리뷰쓰기
-            </Button>
-          </Grid>
-          <Grid item xs={6}>
-            <Button variant="outlined" size="small" href="https://hoyaaaa.github.io/donate" target="_blank" style={{ width: '100%' }}>
+            </a>
+            <a
+              href="https://hoyaaaa.github.io/donate"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 px-3 py-1.5 text-xs border border-gray-300 rounded text-center hover:bg-gray-50 transition-colors font-pretendard"
+            >
               후원하기
-            </Button>
-          </Grid>
-        </Grid>
-      </Box>
+            </a>
+          </div>
+        </div>
+      </div>
       <Slider
         // eslint-disable-next-line react/jsx-props-no-spreading
         {...settings}
@@ -256,18 +165,17 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }: ChartProps): R
           display: boxOnly ? 'none' : 'block',
         }}
       >
-        {trends
-          && trends.slice(0, 10).map((trend, index) => (
-            <div
-              key={index + 1}
-              style={{ flexGrow: 1, height: '100%' }}
-              onMouseEnter={() => {
-                setBoxDisplay('block');
-              }}
-            >
-              <ChartRow trend={trend} activeRanking={-1} ranking={index + 1} />
-            </div>
-          ))}
+        {trends && trends.slice(0, 10).map((trend, index) => (
+          <div
+            key={index + 1}
+            className="flex-grow h-full"
+            onMouseEnter={() => {
+              setBoxDisplay('block');
+            }}
+          >
+            <ChartRow trend={trend} activeRanking={-1} ranking={index + 1} />
+          </div>
+        ))}
       </Slider>
     </>
   );

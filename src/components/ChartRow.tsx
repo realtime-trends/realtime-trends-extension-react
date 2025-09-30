@@ -1,11 +1,5 @@
 import React from 'react';
 
-import { Grid, Typography } from '@material-ui/core';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import RemoveIcon from '@material-ui/icons/Remove';
-import FiberNewIcon from '@material-ui/icons/FiberNew';
-
 interface TrendItem {
   keyword: string;
   delta: number;
@@ -18,126 +12,65 @@ interface ChartRowProps {
 }
 
 function getIconByDelta(delta: number): React.ReactNode {
-  let icon = (
-    <RemoveIcon
-      style={{ color: 'lightgray', verticalAlign: 'middle' }}
-    />
-  );
   if (delta === 999) {
-    icon = (
-      <FiberNewIcon
-        style={{
-          color: 'orange',
-          width: '35px',
-          height: '25px',
-          verticalAlign: 'middle',
-        }}
-      />
+    return (
+      <div className="flex items-center text-orange-500">
+        <svg className="w-7 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm-5 14H9v-2h6v2zm3.5-4L15 10.5 12.5 14 10 10.5 6.5 14H4.5l5.5-7 5.5 7z"/>
+        </svg>
+      </div>
     );
   } else if (delta > 0) {
-    icon = (
-      <>
-        <ArrowDropUpIcon
-          style={{
-            color: 'red',
-            width: '15px',
-            height: '15px',
-            verticalAlign: 'middle',
-          }}
-        />
-        <span>{Math.abs(delta)}</span>
-      </>
+    return (
+      <div className="flex items-center text-red-500">
+        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M7 14l5-5 5 5z"/>
+        </svg>
+        <span className="text-xs">{Math.abs(delta)}</span>
+      </div>
     );
   } else if (delta < 0) {
-    icon = (
-      <>
-        <ArrowDropDownIcon
-          style={{
-            color: 'blue',
-            width: '15px',
-            height: '15px',
-            verticalAlign: 'middle',
-          }}
-        />
-        <span>{Math.abs(delta)}</span>
-      </>
+    return (
+      <div className="flex items-center text-blue-500">
+        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M7 10l5 5 5-5z"/>
+        </svg>
+        <span className="text-xs">{Math.abs(delta)}</span>
+      </div>
+    );
+  } else {
+    return (
+      <div className="flex items-center text-gray-400">
+        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M19 13H5v-2h14v2z"/>
+        </svg>
+      </div>
     );
   }
-  return icon;
 }
 
 function ChartRow({ trend, activeRanking, ranking }: ChartRowProps): React.ReactElement {
   const bold = ranking === activeRanking;
   return (
-    <Grid container direction="row" spacing={0} style={{ height: '100%' }}>
-      <Grid item xs={1}>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            textAlign: 'center',
-            height: '100%',
-          }}
+    <div className="flex items-center h-full w-full">
+      <div className="flex-shrink-0 w-8 flex items-center justify-center">
+        <span className="font-bold text-base text-gray-800">
+          {ranking}
+        </span>
+      </div>
+      <div className="flex-1 flex items-center px-2">
+        <span 
+          className={`text-xs truncate w-full ${
+            bold ? 'font-bold' : 'font-normal'
+          } text-gray-800`}
         >
-          <Typography
-            style={{
-              fontWeight: 'bold',
-              fontSize: '15px',
-              display: 'inline-block',
-              width: '100%',
-            }}
-          >
-            {ranking}
-          </Typography>
-        </div>
-      </Grid>
-      <Grid item xs={9}>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            textAlign: 'left',
-            height: '100%',
-          }}
-        >
-          <Typography
-            noWrap
-            style={{
-              fontWeight: bold ? 'bold' : 'normal',
-              fontSize: '12px',
-              display: 'inline-block',
-              width: '100%',
-            }}
-          >
-            {`#${trend.keyword}`}
-          </Typography>
-        </div>
-      </Grid>
-      <Grid item xs={2}>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            textAlign: 'center',
-            height: '100%',
-          }}
-        >
-          <Typography
-            style={{
-              fontWeight: 'bold',
-              fontSize: '12px',
-              display: 'inline-block',
-              width: '100%',
-            }}
-          >
-            {getIconByDelta(trend.delta)}
-          </Typography>
-        </div>
-      </Grid>
-    </Grid>
+          #{trend.keyword}
+        </span>
+      </div>
+      <div className="flex-shrink-0 w-12 flex items-center justify-center">
+        {getIconByDelta(trend.delta)}
+      </div>
+    </div>
   );
 }
 

@@ -3,10 +3,6 @@
 /* global chrome */
 import React, { useEffect, ChangeEvent } from 'react';
 import './index.css';
-import {
-  FormControl, FormControlLabel, FormGroup, Card,
-  Switch, CardContent, CardActions, styled, alpha, Typography, Theme,
-} from '@material-ui/core';
 
 interface SettingsState {
   naver: boolean;
@@ -56,21 +52,41 @@ export function getStorageBySettings(callback: (settings: SettingsState) => void
 }
 
 interface ColorSwitchProps {
+  checked: boolean;
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  name: string;
   switchColor: string;
-  theme: Theme;
+  label: string;
 }
 
-const ColorSwitch = styled(Switch)(({ theme, switchColor }: ColorSwitchProps) => ({
-  '& .MuiSwitch-switchBase.Mui-checked': {
-    color: switchColor,
-    '&:hover': {
-      backgroundColor: alpha(switchColor, theme.palette.action.hoverOpacity),
-    },
-  },
-  '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
-    backgroundColor: switchColor,
-  },
-}));
+const ColorSwitch: React.FC<ColorSwitchProps> = ({ checked, onChange, name, switchColor, label }) => (
+  <div className="flex items-center justify-between mb-3">
+    <span className="text-sm font-medium text-gray-700">{label}</span>
+    <div className="relative">
+      <input
+        type="checkbox"
+        id={name}
+        name={name}
+        checked={checked}
+        onChange={onChange}
+        className="sr-only"
+      />
+      <label
+        htmlFor={name}
+        className={`flex items-center cursor-pointer w-12 h-6 rounded-full transition-colors duration-200 ${
+          checked ? 'bg-opacity-100' : 'bg-gray-300'
+        }`}
+        style={{ backgroundColor: checked ? switchColor : undefined }}
+      >
+        <div
+          className={`w-5 h-5 bg-white rounded-full shadow-md transition-transform duration-200 ${
+            checked ? 'translate-x-6' : 'translate-x-1'
+          }`}
+        />
+      </label>
+    </div>
+  </div>
+);
 
 export default function Popup(): React.ReactElement {
   const [state, setState] = React.useState<SettingsState>(INITIAL_STATE);
@@ -91,36 +107,30 @@ export default function Popup(): React.ReactElement {
   }, []);
 
   return (
-    <Card variant="outlined" style={{ width: '200px' }}>
-      <CardContent>
-        <Typography align="center" variant="h6" component="div" style={{ fontWeight: 600 }}>
+    <div className="w-52 bg-white border border-gray-200 rounded-lg shadow-sm font-pretendard">
+      <div className="p-4 text-center">
+        <h1 className="text-lg font-semibold text-gray-800">
           리얼타임 실시간 검색어
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <FormControl
-          component="fieldset"
-          variant="standard"
-          style={{
-            width: '100%', padding: 10, border: '1px solid #ddd', borderRadius: 5,
-          }}
-        >
-          <FormGroup>
-            <FormControlLabel
-              control={
-                <ColorSwitch checked={state.naver} onChange={handleChange} name="naver" switchColor="#19ce60" />
-          }
-              label="Naver"
-            />
-            <FormControlLabel
-              control={
-                <ColorSwitch checked={state.google} onChange={handleChange} name="google" switchColor="#000000" />
-          }
-              label="Google"
-            />
-          </FormGroup>
-        </FormControl>
-      </CardActions>
-    </Card>
+        </h1>
+      </div>
+      <div className="px-4 pb-4">
+        <div className="w-full p-3 border border-gray-200 rounded-md bg-gray-50">
+          <ColorSwitch
+            checked={state.naver}
+            onChange={handleChange}
+            name="naver"
+            switchColor="#19ce60"
+            label="Naver"
+          />
+          <ColorSwitch
+            checked={state.google}
+            onChange={handleChange}
+            name="google"
+            switchColor="#000000"
+            label="Google"
+          />
+        </div>
+      </div>
+    </div>
   );
 }
