@@ -2,94 +2,10 @@
 /* global chrome */
 import { setStorageByTrends } from '../trends';
 
-// 크롬 타입 정의
-declare namespace chrome {
-  export interface Runtime {
-    lastError?: { message?: string };
-    onInstalled: {
-      addListener: (callback: (details: { reason: string; previousVersion?: string; id?: string }) => void) => void;
-    };
-    onMessage: {
-      addListener: (
-        callback: (
-          message: any,
-          sender: chrome.runtime.MessageSender,
-          sendResponse: (response?: any) => void
-        ) => boolean | void
-      ) => void;
-    };
-    getURL(path: string): string;
-    sendMessage(message: any, responseCallback?: (response: any) => void): void;
-  }
+import type { ChromeMessage, ChromeMessageResponse, MessageSender } from '../types/chrome-extension';
 
-  export namespace runtime {
-    export interface MessageSender {
-      tab?: chrome.tabs.Tab;
-      frameId?: number;
-      id?: string;
-      url?: string;
-      tlsChannelId?: string;
-    }
-  }
-
-  export interface Tabs {
-    create(createProperties: { url: string }): void;
-  }
-
-  export namespace tabs {
-    export interface Tab {
-      id?: number;
-      url?: string;
-    }
-  }
-
-  export interface Storage {
-    sync: {
-      get(keys: string | string[] | null, callback: (items: { [key: string]: any }) => void): void;
-      set(items: { [key: string]: any }, callback?: () => void): void;
-    };
-    local: {
-      get(keys: string | string[] | null, callback: (items: { [key: string]: any }) => void): void;
-      set(items: { [key: string]: any }, callback?: () => void): void;
-    };
-  }
-
-  export interface Alarms {
-    create(name: string, alarmInfo: { when?: number; periodInMinutes?: number }): void;
-    onAlarm: {
-      addListener: (callback: () => void) => void;
-    };
-  }
-
-  export interface Action {
-    onClicked: {
-      addListener: (callback: () => void) => void;
-    };
-  }
-
-  export const runtime: Runtime;
-  export const tabs: Tabs;
-  export const storage: Storage;
-  export const alarms: Alarms;
-  export const action: Action;
-}
-
-// 크롬 메시지 인터페이스 정의
-interface ChromeMessage {
-  action: string;
-  query?: string;
-  [key: string]: any;
-}
-
-// 크롬 메시지 응답 인터페이스 정의
-interface ChromeMessageResponse {
-  success: boolean;
-  data?: any;
-  error?: string;
-}
-
-// @ts-ignore: 브라우저 환경에서의 오류 핸들러 타입 문제
-self.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
+// Service Worker에서의 전역 오류 핸들러
+(self as any).onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, column?: number, errorObj?: Error) => {
   console.error('Caught background script error');
   console.error(`errorMsg: ${errorMsg}`);
   console.error(`url: ${url}`);
@@ -112,7 +28,7 @@ function generateUUID(): string {
 // 사용자 ID 가져오기 또는 생성하기
 async function getUserId(): Promise<string> {
   return new Promise((resolve) => {
-    chrome.storage.sync.get(['userId'], (result) => {
+    chrome.storage.sync.get('userId', (result) => {
       if (result.userId) {
         // 기존 사용자 ID가 있으면 그대로 사용
         console.log('기존 사용자 ID 사용:', result.userId);
@@ -194,7 +110,7 @@ async function getAccessToken(userId: string): Promise<string | null> {
 // 저장된 액세스 토큰 가져오기
 async function getSavedAccessToken(): Promise<string | null> {
   return new Promise((resolve) => {
-    chrome.storage.local.get(['access_token'], (result) => {
+    chrome.storage.local.get('access_token', (result) => {
       if (result.access_token) {
         resolve(result.access_token);
       } else {
@@ -280,12 +196,12 @@ async function sendQueryToKeywordsAPI(query: string): Promise<any> {
 }
 
 // 전역 객체에 함수 노출
-// @ts-ignore: 전역 객체에 함수 추가
-self.sendQueryToKeywordsAPI = sendQueryToKeywordsAPI;
+// 전역 객체에 함수 노출
+(self as any).sendQueryToKeywordsAPI = sendQueryToKeywordsAPI;
 
 // 메시지 리스너 추가
 chrome.runtime.onMessage.addListener(
-  (message: ChromeMessage, sender: chrome.runtime.MessageSender, sendResponse: (response: ChromeMessageResponse) => void) => {
+  (message: ChromeMessage, sender: MessageSender, sendResponse: (response: ChromeMessageResponse) => void) => {
     if (message.action === 'sendQueryToKeywordsAPI' && message.query) {
       // 비동기 함수 호출 및 응답 처리
       sendQueryToKeywordsAPI(message.query)

@@ -12,8 +12,8 @@ interface Settings {
   [key: string]: boolean;
 }
 
-// @ts-ignore: 브라우저 환경에서의 오류 핸들러 타입 문제
-window.onerror = (errorMsg, url, lineNumber, column, errorObj) => {
+// Content Script에서의 전역 오류 핸들러
+window.onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, column?: number, errorObj?: Error) => {
   console.error('Caught content script error');
   console.error(`errorMsg: ${errorMsg}`);
   console.error(`url: ${url}`);
@@ -58,7 +58,7 @@ getStorageBySettings((settings: Settings) => {
     checkElement('#topSearchWrap', (rightBanner) => {
       rightBanner.appendChild(chartElement);
       const backgroundSeletor = '#search_area';
-      // @ts-ignore: React 18 이전 버전의 ReactDOM.render 사용
+      // React 17 ReactDOM.render 사용
       ReactDOM.render(
         <Chart
           boxOnly={false}
@@ -83,7 +83,7 @@ getStorageBySettings((settings: Settings) => {
 
       const backgroundSeletor = '#lnb';
 
-      // @ts-ignore: React 18 이전 버전의 ReactDOM.render 사용
+      // React 17 ReactDOM.render 사용
       ReactDOM.render(
         <Chart
           boxOnly
@@ -109,7 +109,7 @@ getStorageBySettings((settings: Settings) => {
 
         const backgroundSeletor = 'body';
 
-        // @ts-ignore: React 18 이전 버전의 ReactDOM.render 사용
+        // React 17 ReactDOM.render 사용
         ReactDOM.render(
           <Chart
             boxOnly={false}
@@ -130,7 +130,7 @@ function detectNaverSearchQuery(): void {
   if (['www.naver.com', 'naver.com'].includes(window.location.hostname) && window.location.pathname === '/') {
     const searchForm = document.querySelector('#search_form') as HTMLFormElement;
     if (searchForm) {
-      searchForm.addEventListener('submit', (e) => {
+      searchForm.addEventListener('submit', () => {
         const inputElement = document.querySelector('#query') as HTMLInputElement;
         if (inputElement && inputElement.value) {
           addSearchQuery(inputElement.value, 'naver');
@@ -165,7 +165,7 @@ function detectGoogleSearchQuery(): void {
     if (['/', '/webhp'].includes(window.location.pathname)) {
       const searchForm = document.querySelector('form[action="/search"]') as HTMLFormElement;
       if (searchForm) {
-        searchForm.addEventListener('submit', (e) => {
+        searchForm.addEventListener('submit', () => {
           const inputElement = searchForm.querySelector('input[name="q"]') as HTMLInputElement;
           if (inputElement && inputElement.value) {
             addSearchQuery(inputElement.value, 'google');

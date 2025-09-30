@@ -58,7 +58,7 @@ declare module 'react-slick' {
     style?: React.CSSProperties;
   }
 
-  export default class Slider extends React.Component<Settings> {
+  export default class Slider extends React.Component<Settings & { children?: React.ReactNode }> {
     slickNext(): void;
     slickPause(): void;
     slickPlay(): void;

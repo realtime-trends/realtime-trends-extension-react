@@ -3,33 +3,6 @@
 import { SearchQuery, SearchQueriesStorage } from './types/searchQueries';
 import { extractKeywords } from './utils/keywordExtractor';
 
-// 크롬 타입 정의
-declare namespace chrome {
-  export interface Runtime {
-    lastError?: { message?: string };
-    onInstalled: {
-      addListener: (callback: (details: { reason: string; previousVersion?: string; id?: string }) => void) => void;
-    };
-    sendMessage(
-      message: any,
-      responseCallback?: (response: any) => void
-    ): void;
-  }
-
-  export interface Storage {
-    sync: {
-      get(keys: string | string[] | null, callback: (items: { [key: string]: any }) => void): void;
-      set(items: { [key: string]: any }, callback?: () => void): void;
-    };
-    local: {
-      get(keys: string | string[] | null, callback: (items: { [key: string]: any }) => void): void;
-      set(items: { [key: string]: any }, callback?: () => void): void;
-    };
-  }
-
-  export const runtime: Runtime;
-  export const storage: Storage;
-}
 
 // 저장된 검색 쿼리 가져오기
 export function getStorageBySearchQueries(

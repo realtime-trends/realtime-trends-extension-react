@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 /* global chrome */
+import React from 'react';
 import axios from 'axios';
 
 axios.defaults.headers = {
@@ -67,10 +68,9 @@ export function updateTrends(setTrends: React.Dispatch<React.SetStateAction<Tren
         if (typeof keyword === 'string') {
           keywordStr = keyword;
         } else if (keyword && typeof keyword === 'object') {
-          // @ts-ignore: 런타임에 확인할 속성
-          if ('keyword' in keyword) {
-            // @ts-ignore: 런타임에 확인할 속성
-            keywordStr = keyword.keyword;
+          const keywordObj = keyword as { keyword?: string };
+          if ('keyword' in keywordObj && typeof keywordObj.keyword === 'string') {
+            keywordStr = keywordObj.keyword;
           }
         }
         

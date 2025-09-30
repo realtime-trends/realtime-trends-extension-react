@@ -247,7 +247,6 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth }: ChartProps): R
           </Grid>
         </Grid>
       </Box>
-      {/* @ts-ignore: react-slick 타입 문제 */}
       <Slider
         // eslint-disable-next-line react/jsx-props-no-spreading
         {...settings}
