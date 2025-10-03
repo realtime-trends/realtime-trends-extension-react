@@ -6,7 +6,12 @@ import { getStorageBySettings } from '../popup';
 import { addSearchQuery } from '../searchQueries';
 import './content.css';
 
-console.log('Content script loaded!', window.location.href);
+// 개발 모드 또는 크롬 개발자 모드에서 로드된 경우 로그 표시
+const isDev = process.env.NODE_ENV === 'development' || !('update_url' in (chrome.runtime as any).getManifest());
+
+if (isDev) {
+  console.log('Content script loaded!', window.location.href);
+}
 
 interface Settings {
   naver: boolean;
@@ -103,7 +108,9 @@ const makeDraggable = (element: HTMLElement): void => {
 
 // 플로팅 위젯을 업데이트하는 함수
 const updateFloatingWidget = (settings: Settings) => {
-  console.log('Updating floating widget with settings:', settings);
+  if (isDev) {
+    console.log('Updating floating widget with settings:', settings);
+  }
   
   const existingContainer = document.getElementById('realtime-trends-floating');
   
@@ -117,7 +124,9 @@ const updateFloatingWidget = (settings: Settings) => {
     
     // 컨테이너가 없으면 새로 생성
     if (!floatingContainer) {
-      console.log('Creating new floating trends chart...');
+      if (isDev) {
+        console.log('Creating new floating trends chart...');
+      }
       floatingContainer = createFloatingContainer();
       
       // 헤더에 드래그 핸들 클래스 추가
@@ -154,7 +163,9 @@ const updateFloatingWidget = (settings: Settings) => {
     const opacitySetting = settings.opacity ?? 30; // 0-70 범위, 설정 없으면 기본값 30
     const opacity = 1 - (opacitySetting / 100); // 0(불투명) -> 1.0, 70(투명) -> 0.3
     
-    console.log(`Opacity setting: ${opacitySetting} -> CSS opacity: ${opacity}`);
+    if (isDev) {
+      console.log(`Opacity setting: ${opacitySetting} -> CSS opacity: ${opacity}`);
+    }
     
     // 기존 transform과 위치 스타일 초기화
     floatingContainer.style.transform = '';
@@ -186,14 +197,17 @@ const updateFloatingWidget = (settings: Settings) => {
     floatingContainer.addEventListener('mouseenter', handleMouseEnter);
     floatingContainer.addEventListener('mouseleave', handleMouseLeave);
     
-    console.log(`Applied styles: position=${position}, bottom=${bottomOffset}px, side=${sideOffset}px, opacity=${opacity}`);
-    
-    console.log('Floating chart updated successfully!');
+    if (isDev) {
+      console.log(`Applied styles: position=${position}, bottom=${bottomOffset}px, side=${sideOffset}px, opacity=${opacity}`);
+      console.log('Floating chart updated successfully!');
+    }
   } else {
     // 설정이 비활성화되면 위젯 제거
     if (existingContainer) {
       existingContainer.remove();
-      console.log('Floating chart removed due to disabled settings');
+      if (isDev) {
+        console.log('Floating chart removed due to disabled settings');
+      }
     }
   }
 };
@@ -202,7 +216,9 @@ const updateFloatingWidget = (settings: Settings) => {
 if (typeof chrome !== 'undefined' && chrome.storage && (chrome.storage as any).onChanged) {
   (chrome.storage as any).onChanged.addListener((changes: any, areaName: string) => {
     if (areaName === 'local' && changes.settings) {
-      console.log('Settings changed, updating widget...');
+      if (isDev) {
+        console.log('Settings changed, updating widget...');
+      }
       updateFloatingWidget(changes.settings.newValue);
     }
   });
