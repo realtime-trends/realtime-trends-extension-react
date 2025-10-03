@@ -73,12 +73,12 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth, disablePadding }
         <div className="trend-header">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <svg className="w-4 h-4 mr-1.5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
+              <svg className="mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
               </svg>
-              <span className="font-semibold text-sm text-gray-800">실시간 급상승</span>
+              <span className="font-medium">실시간 트렌드</span>
             </div>
-            <span className="text-xs text-gray-500">{standardTime}</span>
+            <span className="text-gray-500">{standardTime}</span>
           </div>
         </div>
 
@@ -109,9 +109,9 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth, disablePadding }
         </div>
         
         {/* 간단한 footer */}
-                <div className={disablePadding ? 'py-2 border-t border-gray-100' : 'px-3 py-2 border-t border-gray-100'}>
-          <div className="text-center text-xs text-gray-400">
-            리얼타임 실시간검색어
+                <div className={disablePadding ? 'py-3 border-t border-gray-100' : 'px-4 py-3 border-t border-gray-100'}>
+          <div className="text-center text-xs text-gray-400 font-medium">
+            Realtime Trends
           </div>
         </div>
       </div>

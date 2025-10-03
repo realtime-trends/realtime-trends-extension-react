@@ -65,22 +65,38 @@
     font-weight: normal !important;
 }
 
-/* 헤더 스타일 */
+/* 헤더 스타일 - 모던하고 깔끔한 디자인 */
 .trend-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-    padding: 10px 12px !important;
-    border-bottom: none !important;
-    font-size: 12px !important;
-    color: white !important;
-    font-weight: 600 !important;
+    background: #ffffff !important;
+    padding: 16px 16px 12px 16px !important;
+    border-bottom: 1px solid #f1f3f4 !important;
+    font-size: 13px !important;
+    color: #202124 !important;
+    font-weight: 500 !important;
+    position: relative !important;
+}
+
+.trend-header::before {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 16px !important;
+    right: 16px !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, #4285f4 0%, #34a853 25%, #fbbc04 50%, #ea4335 75%, #9c27b0 100%) !important;
+    border-radius: 1px !important;
 }
 
 .trend-header svg {
-    color: white !important;
+    color: #4285f4 !important;
+    width: 18px !important;
+    height: 18px !important;
 }
 
 .trend-header .text-gray-500 {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: #5f6368 !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
 }
 
 /* ChartRow 스타일 강제 적용 */
