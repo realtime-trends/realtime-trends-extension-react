@@ -2,7 +2,7 @@ import React from 'react';
 
 interface TrendsObject {
   timestamps: number[];
-  [key: number]: string[];
+  [key: number]: {keyword: string, delta: number}[];
 }
 
 export interface TrendItem {
@@ -43,18 +43,18 @@ export function updateTrends(setTrends: React.Dispatch<React.SetStateAction<Tren
   getStorageByTrends((trendsObject) => {
     const latestTimeStamp = Math.max.apply(null, trendsObject.timestamps);
     const keywords = trendsObject[latestTimeStamp];
-    
+
     // 디버깅을 위한 콘솔 로그 추가
     console.log('keywords 배열:', keywords);
-    
+
     // 키워드 배열을 TrendItem 배열로 변환
     const trendItems: TrendItem[] = [];
-    
+
     if (Array.isArray(keywords)) {
       keywords.forEach((keyword, index) => {
         // 키워드가 문자열인지 확인
         let keywordStr = `키워드${index+1}`;
-        
+
         if (typeof keyword === 'string') {
           keywordStr = keyword;
         } else if (keyword && typeof keyword === 'object') {
@@ -63,13 +63,11 @@ export function updateTrends(setTrends: React.Dispatch<React.SetStateAction<Tren
             keywordStr = keywordObj.keyword;
           }
         }
-        
-        // 임의로 delta 값을 설정합니다
-        const delta = Math.floor(Math.random() * 10) - 5; // -5에서 4 사이의 임의의 값
-        trendItems.push({ keyword: keywordStr, delta });
+
+        trendItems.push({ keyword: keywordStr, delta: keyword.delta });
       });
     }
-    
+
     console.log('생성된 trendItems:', trendItems);
     setTrends(trendItems);
   });
