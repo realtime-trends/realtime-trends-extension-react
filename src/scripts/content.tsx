@@ -1,10 +1,12 @@
 /* eslint-disable no-console */
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Chart from '../components/Chart';
 import { getStorageBySettings } from '../popup';
 import { addSearchQuery } from '../searchQueries';
 import './content.css';
+
+console.log('Content script loaded!', window.location.href);
 
 interface Settings {
   naver: boolean;
@@ -23,98 +25,126 @@ window.onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, c
   return true;
 };
 
-const checkElement = (selector: string, callback: (element: Element) => void): void => {
-  const check = setInterval(() => {
-    const e = document.querySelector(selector);
-    if (e) {
-      callback(e);
-      clearInterval(check);
-    }
-  }, 100);
-};
 
 const chartElement = document.createElement('div');
 chartElement.style.height = '100%';
 
+// 플로팅 컨테이너 생성
+const createFloatingContainer = (): HTMLElement => {
+  const container = document.createElement('div');
+  container.className = 'realtime-trends-floating';
+  container.id = 'realtime-trends-floating';
+  
+  
+  // 차트 컨테이너
+  const chartWrapper = document.createElement('div');
+  chartWrapper.className = 'trend-content';
+  chartWrapper.appendChild(chartElement);
+  container.appendChild(chartWrapper);
+  
+  return container;
+};
+
+// 드래그 기능 구현
+const makeDraggable = (element: HTMLElement): void => {
+  let isDragging = false;
+  let currentX = 0;
+  let currentY = 0;
+  let initialX = 0;
+  let initialY = 0;
+  
+  const dragStart = (e: MouseEvent) => {
+    
+    initialX = e.clientX - currentX;
+    initialY = e.clientY - currentY;
+    
+    if (e.target === element || (e.target as HTMLElement).closest('.drag-handle')) {
+      isDragging = true;
+      element.style.cursor = 'grabbing';
+    }
+  };
+  
+  const dragEnd = () => {
+    initialX = currentX;
+    initialY = currentY;
+    isDragging = false;
+    element.style.cursor = 'grab';
+  };
+  
+  const drag = (e: MouseEvent) => {
+    if (isDragging) {
+      e.preventDefault();
+      currentX = e.clientX - initialX;
+      currentY = e.clientY - initialY;
+      
+      const rect = element.getBoundingClientRect();
+      const maxX = window.innerWidth - rect.width;
+      const maxY = window.innerHeight - rect.height;
+      
+      currentX = Math.max(0, Math.min(currentX, maxX));
+      currentY = Math.max(0, Math.min(currentY, maxY));
+      
+      element.style.transform = `translate(${currentX}px, ${currentY}px)`;
+      element.style.right = 'auto';
+      element.style.bottom = 'auto';
+      element.style.left = '0';
+      element.style.top = '0';
+    }
+  };
+  
+  element.addEventListener('mousedown', dragStart);
+  document.addEventListener('mousemove', drag);
+  document.addEventListener('mouseup', dragEnd);
+};
+
 getStorageBySettings((settings: Settings) => {
-  if (
-    settings.naver &&
-    ['www.naver.com', 'naver.com'].includes(window.location.hostname) &&
-    ['/'].includes(window.location.pathname)
-  ) {
-    chartElement.style.position = 'absolute';
-    chartElement.style.height = '60px';
-    chartElement.style.top = '50px';
-    chartElement.style.right = '0px';
-    chartElement.style.minWidth = '270px';
-    chartElement.style.maxWidth = '270px';
-
-    const elements = document.querySelectorAll('[id^="search-right-"]');
-    elements.forEach((element) => {
-      element.parentNode?.removeChild(element);
-    });
-
-    checkElement('#topSearchWrap', (rightBanner) => {
-      rightBanner.appendChild(chartElement);
-      const backgroundSeletor = '#search_area';
-      ReactDOM.render(
-        <Chart
-          boxOnly={false}
-          engine="naver"
-          backgroundSelector={backgroundSeletor}
-          boxWidth="270px"
-        />,
-        chartElement
-      );
-    });
-  } else if (
-    settings.naver &&
-    ['search.naver.com'].includes(window.location.hostname) &&
-    ['/search.naver'].includes(window.location.pathname)
-  ) {
-    checkElement('#sub_pack', (sidebar) => {
-      const section = document.createElement('section');
-      section.classList.add('sc_new');
-      chartElement.classList.add('api_subject_bx');
-      section.appendChild(chartElement);
-      sidebar.insertBefore(section, sidebar.firstChild);
-
-      const backgroundSeletor = '#lnb';
-      ReactDOM.render(
-        <Chart
-          boxOnly
-          engine="naver"
-          backgroundSelector={backgroundSeletor}
-          boxWidth="100%"
-        />,
-        chartElement
-      );
-    });
-  } else if (
-    settings.google &&
-    ['www.google.com', 'google.com'].includes(window.location.hostname) &&
-    ['/', '/webhp', '/search'].includes(window.location.pathname)
-  ) {
-    chartElement.style.height = '48px';
-    chartElement.style.minWidth = '270px';
-    chartElement.style.maxWidth = '270px';
-    checkElement(
-      window.location.pathname === '/search' ? '#gb' : '#gb > div',
-      (appBarElement) => {
-        appBarElement.insertBefore(chartElement, appBarElement.firstChild);
-
-        const backgroundSeletor = 'body';
-        ReactDOM.render(
-          <Chart
-            boxOnly={false}
-            engine="google"
-            backgroundSelector={backgroundSeletor}
-            boxWidth="270px"
-          />,
-          chartElement
-        );
-      }
+  console.log('Settings loaded:', settings);
+  console.log('Current hostname:', window.location.hostname);
+  
+  // 네이버나 구글 사이트에서 설정이 활성화된 경우 플로팅 차트 표시
+  const shouldShowFloating = 
+    (settings.naver && ['www.naver.com', 'naver.com', 'search.naver.com'].includes(window.location.hostname)) ||
+    (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname));
+  
+  if (shouldShowFloating) {
+    console.log('Creating floating trends chart...');
+    
+    // 기존 플로팅 컨테이너가 있다면 제거
+    const existingContainer = document.getElementById('realtime-trends-floating');
+    if (existingContainer) {
+      existingContainer.remove();
+    }
+    
+    const floatingContainer = createFloatingContainer();
+    
+    // 헤더에 드래그 핸들 클래스 추가
+    const trendHeader = chartElement.querySelector('.trend-header');
+    if (trendHeader) {
+      trendHeader.classList.add('drag-handle');
+    }
+    
+    // body에 플로팅 컨테이너 추가
+    document.body.appendChild(floatingContainer);
+    
+    // 드래그 기능 활성화
+    makeDraggable(floatingContainer);
+    
+    // 엔진 결정
+    const engine = ['www.naver.com', 'naver.com', 'search.naver.com'].includes(window.location.hostname) ? 'naver' : 'google';
+    
+    // React 차트 렌더링
+    const root = createRoot(chartElement);
+    root.render(
+      <Chart
+        boxOnly={false}
+        engine={engine}
+        backgroundSelector="body"
+        boxWidth="100%"
+      />
     );
+    
+    
+    console.log('Floating chart rendered successfully!');
   }
 });
 

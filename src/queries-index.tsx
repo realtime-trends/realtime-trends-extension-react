@@ -1,11 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './queries.css';
 import QueriesPage from './queries';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <QueriesPage />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const container = document.getElementById('root');
+if (container) {
+  const root = createRoot(container);
+  root.render(
+    <React.StrictMode>
+      <QueriesPage />
+    </React.StrictMode>
+  );
+}

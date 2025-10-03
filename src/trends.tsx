@@ -1,11 +1,4 @@
 import React from 'react';
-import axios from 'axios';
-
-axios.defaults.headers = {
-  'Cache-Control': 'no-cache',
-  Pragma: 'no-cache',
-  Expires: '0',
-};
 
 interface TrendsObject {
   timestamps: number[];

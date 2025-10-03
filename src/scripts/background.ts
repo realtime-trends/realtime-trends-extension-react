@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 /* global chrome */
-import { setStorageByTrends } from '../trends';
+import { setStorageByTrends } from '../background-trends';
 
 import type { ChromeMessage, ChromeMessageResponse, MessageSender } from '../types/chrome-extension';
 

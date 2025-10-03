@@ -1,14 +1,165 @@
-.slick-list,
-.slick-track,
-.slick-slide,
-.slick-slide div,
-.slick-slide div div {
-    height: 100% !important;
+
+/* 확장 프로그램 컨테이너 스타일 개선 */
+.realtime-trends-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif !important;
+    background: #ffffff !important;
+    border: 1px solid #e1e5e9 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+    overflow: hidden !important;
+    position: relative !important;
+    max-width: 270px !important;
+    font-size: 12px !important;
 }
 
-.slick-list
-{
-    padding: 0px !important;
+.realtime-trends-container .slick-slider {
+    padding: 8px 12px !important;
+    margin: 0 !important;
+}
+
+.realtime-trends-container .slick-list {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.realtime-trends-container .slick-track {
+    margin: 0 !important;
+}
+
+/* space-y 클래스 구현 */
+.realtime-trends-container .space-y-1 > * + * {
+    margin-top: 4px !important;
+}
+
+/* 트렌드 아이템 스타일 */
+.trend-item {
+    display: block !important;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+    color: #333 !important;
+    text-decoration: none !important;
+    border-radius: 6px !important;
+    transition: background-color 0.2s ease !important;
+    margin: 2px 0 !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+.trend-item:hover {
+    background-color: #f8f9fa !important;
+    color: #333 !important;
+}
+
+.trend-keyword {
+    font-weight: 500 !important;
+    margin-bottom: 3px !important;
+    display: block !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+.trend-delta {
+    font-size: 10px !important;
+    color: #666 !important;
+    font-weight: normal !important;
+}
+
+/* 헤더 스타일 */
+.trend-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    padding: 10px 12px !important;
+    border-bottom: none !important;
+    font-size: 12px !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.trend-header svg {
+    color: white !important;
+}
+
+.trend-header .text-gray-500 {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ChartRow 스타일 강제 적용 */
+.realtime-trends-container .trend-item > div {
+    display: flex !important;
+    align-items: center !important;
+    flex: 1 !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    transition: background-color 0.2s ease !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+}
+
+.realtime-trends-container .trend-item > div:hover {
+    background-color: #f8f9fa !important;
+}
+
+.realtime-trends-container .trend-item {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+.realtime-trends-container .trend-item .flex-shrink-0:first-child {
+    width: 24px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.realtime-trends-container .trend-item .flex-1 {
+    flex: 1 !important;
+    padding: 0 8px !important;
+    min-width: 0 !important;
+}
+
+.realtime-trends-container .trend-item .flex-1 span {
+    font-size: 13px !important;
+    display: block !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    font-weight: 500 !important;
+    color: #374151 !important;
+}
+
+.realtime-trends-container .trend-item .flex-shrink-0:last-child {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+}
+
+/* 순위 스타일 */
+.realtime-trends-container .trend-item .text-blue-600 {
+    color: #2563eb !important;
+    font-weight: 700 !important;
+}
+
+.realtime-trends-container .trend-item .text-gray-500 {
+    color: #6b7280 !important;
+    font-weight: 700 !important;
+}
+
+/* 변화량 아이콘 스타일 */
+.realtime-trends-container .trend-item .text-red-500 {
+    color: #ef4444 !important;
+}
+
+.realtime-trends-container .trend-item .text-blue-500 {
+    color: #3b82f6 !important;
+}
+
+.realtime-trends-container .trend-item .bg-orange-100 {
+    background-color: #fed7aa !important;
+    color: #ea580c !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
 }
 
 #header.ani_fixed .header_inner .link_search_banner {
@@ -24,4 +175,100 @@
     -webkit-transform: translate(0);
     -ms-transform: translate(0);
     transform: translate(0)
+}
+
+/* 플로팅 컨테이너 스타일 */
+.realtime-trends-floating {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 2147483647 !important; /* 최대 z-index */
+    width: 280px !important;
+    max-height: 500px !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(225, 229, 233, 0.8) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 2px 16px rgba(0, 0, 0, 0.08) !important;
+    overflow: hidden !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    animation: floatingIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    opacity: 0.7 !important;
+}
+
+/* 플로팅 진입 애니메이션 */
+@keyframes floatingIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* 플로팅 컨테이너 호버 효과 */
+.realtime-trends-floating:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.16), 0 4px 20px rgba(0, 0, 0, 0.12) !important;
+    opacity: 1 !important;
+    background: rgba(255, 255, 255, 1) !important;
+    border: 1px solid rgba(225, 229, 233, 1) !important;
+}
+
+/* 드래그 가능한 헤더 */
+.realtime-trends-floating .drag-handle {
+    cursor: move !important;
+    cursor: grab !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+}
+
+.realtime-trends-floating .drag-handle:active {
+    cursor: grabbing !important;
+}
+
+
+/* 반응형 - 작은 화면에서 위치 조정 */
+@media (max-width: 768px) {
+    .realtime-trends-floating {
+        right: 10px !important;
+        bottom: 15px !important;
+        width: 260px !important;
+        max-height: 450px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .realtime-trends-floating {
+        right: 8px !important;
+        bottom: 10px !important;
+        width: 240px !important;
+        max-height: 400px !important;
+    }
+}
+
+/* 최소화된 상태 */
+.realtime-trends-floating.minimized {
+    height: 40px !important;
+    max-height: 40px !important;
+    overflow: hidden !important;
+}
+
+.realtime-trends-floating.minimized .trend-content {
+    display: none !important;
+}
+
+/* 플로팅 상태에서 기존 컨테이너 스타일 덮어쓰기 */
+.realtime-trends-floating .realtime-trends-container {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    max-width: none !important;
+    width: 100% !important;
 }
