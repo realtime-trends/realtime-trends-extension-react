@@ -28,7 +28,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth, disablePadding }
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % Math.min(trends.length, 10));
       }, 2000);
-      
+
       return () => clearInterval(interval);
     }
   }, [boxOnly, trends.length]);
@@ -76,7 +76,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth, disablePadding }
               <svg className="mr-2" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
               </svg>
-              <span className="font-medium">실시간 트렌드</span>
+              <span className="font-medium">리얼타임 트렌드</span>
             </div>
             <span className="text-gray-500">{standardTime}</span>
           </div>
@@ -107,7 +107,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth, disablePadding }
             </div>
           ))}
         </div>
-        
+
         {/* 간단한 footer */}
                 <div className={disablePadding ? 'py-3 border-t border-gray-100' : 'px-4 py-3 border-t border-gray-100'}>
           <div className="text-center text-xs text-gray-400 font-medium">
@@ -143,7 +143,7 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth, disablePadding }
             onClick={() => {
               const trend = trends[currentIndex];
               if (!trend) return;
-              
+
               const encodedKeyword = encodeURI(trend.keyword);
               if (engine === 'google') {
                 window.location.href = `https://www.google.com/search?q=${encodedKeyword}`;
@@ -158,10 +158,10 @@ function Chart({ boxOnly, engine, backgroundSelector, boxWidth, disablePadding }
               }
             }}
           >
-            <ChartRow 
-              trend={trends[currentIndex]} 
-              activeRanking={-1} 
-              ranking={currentIndex + 1} 
+            <ChartRow
+              trend={trends[currentIndex]}
+              activeRanking={-1}
+              ranking={currentIndex + 1}
             />
           </div>
         )}
