@@ -14,34 +14,56 @@ interface ChartRowProps {
 function getIconByDelta(delta: number): React.ReactNode {
   if (delta === 999) {
     return (
-      <div className="flex items-center">
-        <span className="px-1.5 py-0.5 text-xs font-medium bg-orange-100 text-orange-600 rounded">NEW</span>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <span style={{
+          padding: '2px 6px',
+          fontSize: '10px',
+          fontWeight: '600',
+          backgroundColor: '#fed7aa',
+          color: '#ea580c',
+          borderRadius: '4px'
+        }}>NEW</span>
       </div>
     );
   } else if (delta > 0) {
     return (
-      <div className="flex items-center text-red-500">
-        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M7 14l5-5 5 5z"/>
-        </svg>
-        <span className="text-xs font-medium ml-0.5">{Math.abs(delta)}</span>
+      <div style={{ display: 'flex', alignItems: 'center', color: '#ef4444' }}>
+        <span style={{ fontSize: '12px', fontWeight: '500', marginRight: '2px' }}>
+          {Math.abs(delta)}
+        </span>
+        <span style={{ 
+          width: '0', 
+          height: '0', 
+          borderLeft: '4px solid transparent', 
+          borderRight: '4px solid transparent', 
+          borderBottom: '6px solid #ef4444' 
+        }}></span>
       </div>
     );
   } else if (delta < 0) {
     return (
-      <div className="flex items-center text-blue-500">
-        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M7 10l5 5 5-5z"/>
-        </svg>
-        <span className="text-xs font-medium ml-0.5">{Math.abs(delta)}</span>
+      <div style={{ display: 'flex', alignItems: 'center', color: '#3b82f6' }}>
+        <span style={{ fontSize: '12px', fontWeight: '500', marginRight: '2px' }}>
+          {Math.abs(delta)}
+        </span>
+        <span style={{ 
+          width: '0', 
+          height: '0', 
+          borderLeft: '4px solid transparent', 
+          borderRight: '4px solid transparent', 
+          borderTop: '6px solid #3b82f6' 
+        }}></span>
       </div>
     );
   } else {
     return (
-      <div className="flex items-center text-gray-400">
-        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M19 13H5v-2h14v2z"/>
-        </svg>
+      <div style={{ display: 'flex', alignItems: 'center', color: '#9ca3af' }}>
+        <span style={{ 
+          width: '12px', 
+          height: '2px', 
+          backgroundColor: '#9ca3af',
+          borderRadius: '1px'
+        }}></span>
       </div>
     );
   }
@@ -52,27 +74,56 @@ function ChartRow({ trend, activeRanking, ranking }: ChartRowProps): React.React
   const isTopThree = ranking <= 3;
   
   return (
-    <div className="flex items-center rounded-md hover:bg-gray-50 transition-colors">
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      borderRadius: '6px',
+      padding: '4px 0',
+      transition: 'background-color 0.2s'
+    }}>
       {/* 순위 */}
-      <div className="flex-shrink-0 w-6 flex items-center justify-center">
-        <span className={`text-sm font-bold ${
-          isTopThree ? 'text-blue-600' : 'text-gray-500'
-        }`}>
+      <div style={{
+        flexShrink: 0,
+        width: '24px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
+        <span style={{
+          fontSize: '14px',
+          fontWeight: '700',
+          color: isTopThree ? '#2563eb' : '#6b7280'
+        }}>
           {ranking}
         </span>
       </div>
       
       {/* 키워드 */}
-      <div className="flex-1 px-2 min-w-0">
-        <span className={`text-sm truncate block ${
-          bold ? 'font-semibold text-gray-900' : 'font-medium text-gray-700'
-        }`}>
+      <div style={{
+        flex: 1,
+        padding: '0 8px',
+        minWidth: 0
+      }}>
+        <span style={{
+          fontSize: '13px',
+          display: 'block',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap',
+          fontWeight: bold ? '600' : '500',
+          color: bold ? '#111827' : '#374151'
+        }}>
           {trend.keyword}
         </span>
       </div>
       
       {/* 변화량 */}
-      <div className="flex-shrink-0 flex items-center justify-end">
+      <div style={{
+        flexShrink: 0,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-end'
+      }}>
         {getIconByDelta(trend.delta)}
       </div>
     </div>
