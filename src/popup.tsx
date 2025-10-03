@@ -57,51 +57,14 @@ export function getStorageBySettings(callback: (settings: SettingsState) => void
   });
 }
 
-interface ColorSwitchProps {
-  checked: boolean;
-  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
-  name: string;
-  switchColor: string;
-  label: string;
-}
-
-const ColorSwitch: React.FC<ColorSwitchProps> = ({ checked, onChange, name, switchColor, label }) => (
-  <div className="flex items-center justify-between mb-3">
-    <span className="text-sm font-medium text-gray-700">{label}</span>
-    <div className="relative">
-      <input
-        type="checkbox"
-        id={name}
-        name={name}
-        checked={checked}
-        onChange={onChange}
-        className="sr-only"
-      />
-      <label
-        htmlFor={name}
-        className={`flex items-center cursor-pointer w-12 h-6 rounded-full transition-colors duration-200 ${
-          checked ? 'bg-opacity-100' : 'bg-gray-300'
-        }`}
-        style={{ backgroundColor: checked ? switchColor : undefined }}
-      >
-        <div
-          className={`w-5 h-5 bg-white rounded-full shadow-md transition-transform duration-200 ${
-            checked ? 'translate-x-6' : 'translate-x-1'
-          }`}
-        />
-      </label>
-    </div>
-  </div>
-);
-
 export default function Popup(): React.ReactElement {
   const [state, setState] = React.useState<SettingsState>(INITIAL_STATE);
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>): void => {
-    const value = event.target.type === 'checkbox' ? event.target.checked : 
+    const value = event.target.type === 'checkbox' ? event.target.checked :
                   event.target.type === 'range' ? parseFloat(event.target.value) :
                   event.target.value;
-    
+
     const changed = {
       ...state,
       [event.target.name]: value,
@@ -158,7 +121,7 @@ export default function Popup(): React.ReactElement {
           borderRadius: '1px'
         }}></div>
       </div>
-      
+
       <div style={{
         padding: '16px',
         height: 'calc(100% - 64px)',
@@ -274,7 +237,7 @@ export default function Popup(): React.ReactElement {
                 <option value="bottom-left">왼쪽 하단</option>
               </select>
             </div>
-            
+
             <div style={{marginBottom: '16px'}}>
               <label style={{
                 display: 'block',
@@ -303,7 +266,7 @@ export default function Popup(): React.ReactElement {
                 }}
               />
             </div>
-            
+
             <div style={{marginBottom: '16px'}}>
               <label style={{
                 display: 'block',

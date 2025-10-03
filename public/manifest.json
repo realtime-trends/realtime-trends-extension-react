@@ -44,8 +44,13 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["queries.html"],
-      "matches": ["<all_urls>"]
+      "resources": [
+        "queries.html",
+        "donation/*.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
     }
   ]
 }
