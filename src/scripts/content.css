@@ -196,8 +196,6 @@
 /* 플로팅 컨테이너 스타일 */
 .realtime-trends-floating {
     position: fixed !important;
-    bottom: 20px !important;
-    right: 20px !important;
     z-index: 2147483647 !important; /* 최대 z-index */
     width: 280px !important;
     max-height: 500px !important;
@@ -211,7 +209,6 @@
     -webkit-backdrop-filter: blur(10px) !important;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     animation: floatingIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    opacity: 0.7 !important;
 }
 
 /* 플로팅 진입 애니메이션 */
@@ -226,12 +223,13 @@
     }
 }
 
-/* 플로팅 컨테이너 호버 효과 */
-.realtime-trends-floating:hover {
+/* 플로팅 컨테이너 호버 효과 - 인라인 스타일보다 우선순위 높이기 */
+.realtime-trends-floating.realtime-trends-floating:hover {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.16), 0 4px 20px rgba(0, 0, 0, 0.12) !important;
-    opacity: 1 !important;
+    opacity: 1.0 !important;
     background: rgba(255, 255, 255, 1) !important;
     border: 1px solid rgba(225, 229, 233, 1) !important;
+    transition: opacity 0.2s ease !important;
 }
 
 /* 드래그 가능한 헤더 */

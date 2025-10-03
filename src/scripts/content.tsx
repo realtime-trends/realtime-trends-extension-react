@@ -11,7 +11,11 @@ console.log('Content script loaded!', window.location.href);
 interface Settings {
   naver: boolean;
   google: boolean;
-  [key: string]: boolean;
+  position: 'bottom-left' | 'bottom-right';
+  bottomOffset: number;
+  sideOffset: number;
+  opacity: number;
+  [key: string]: boolean | string | number;
 }
 
 window.onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, column?: number, errorObj?: Error) => {
@@ -97,9 +101,11 @@ const makeDraggable = (element: HTMLElement): void => {
   document.addEventListener('mouseup', dragEnd);
 };
 
-getStorageBySettings((settings: Settings) => {
-  console.log('Settings loaded:', settings);
-  console.log('Current hostname:', window.location.hostname);
+// 플로팅 위젯을 업데이트하는 함수
+const updateFloatingWidget = (settings: Settings) => {
+  console.log('Updating floating widget with settings:', settings);
+  
+  const existingContainer = document.getElementById('realtime-trends-floating');
   
   // 네이버나 구글 사이트에서 설정이 활성화된 경우 플로팅 차트 표시
   const shouldShowFloating = 
@@ -107,46 +113,103 @@ getStorageBySettings((settings: Settings) => {
     (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname));
   
   if (shouldShowFloating) {
-    console.log('Creating floating trends chart...');
+    let floatingContainer = existingContainer;
     
-    // 기존 플로팅 컨테이너가 있다면 제거
-    const existingContainer = document.getElementById('realtime-trends-floating');
+    // 컨테이너가 없으면 새로 생성
+    if (!floatingContainer) {
+      console.log('Creating new floating trends chart...');
+      floatingContainer = createFloatingContainer();
+      
+      // 헤더에 드래그 핸들 클래스 추가
+      const trendHeader = chartElement.querySelector('.trend-header');
+      if (trendHeader) {
+        trendHeader.classList.add('drag-handle');
+      }
+      
+      // body에 플로팅 컨테이너 추가
+      document.body.appendChild(floatingContainer);
+      
+      // 드래그 기능 활성화
+      makeDraggable(floatingContainer);
+      
+      // 엔진 결정
+      const engine = ['www.naver.com', 'naver.com', 'search.naver.com'].includes(window.location.hostname) ? 'naver' : 'google';
+      
+      // React 차트 렌더링
+      const root = createRoot(chartElement);
+      root.render(
+        <Chart
+          boxOnly={false}
+          engine={engine}
+          backgroundSelector="body"
+          boxWidth="100%"
+        />
+      );
+    }
+    
+    // 설정에 따른 위치 및 스타일 업데이트
+    const position = settings.position || 'bottom-right';
+    const bottomOffset = settings.bottomOffset ?? 80; // 설정 없으면 기본값 80
+    const sideOffset = settings.sideOffset ?? 20; // 설정 없으면 기본값 20
+    const opacitySetting = settings.opacity ?? 30; // 0-70 범위, 설정 없으면 기본값 30
+    const opacity = 1 - (opacitySetting / 100); // 0(불투명) -> 1.0, 70(투명) -> 0.3
+    
+    console.log(`Opacity setting: ${opacitySetting} -> CSS opacity: ${opacity}`);
+    
+    // 기존 transform과 위치 스타일 초기화
+    floatingContainer.style.transform = '';
+    
+    if (position === 'bottom-left') {
+      floatingContainer.style.setProperty('left', `${sideOffset}px`, 'important');
+      floatingContainer.style.setProperty('right', 'auto', 'important');
+    } else {
+      floatingContainer.style.setProperty('right', `${sideOffset}px`, 'important');
+      floatingContainer.style.setProperty('left', 'auto', 'important');
+    }
+    floatingContainer.style.setProperty('bottom', `${bottomOffset}px`, 'important');
+    floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
+    
+    // hover 시 투명도 1.0으로 강제 변경하는 이벤트 리스너
+    const handleMouseEnter = () => {
+      floatingContainer.style.setProperty('opacity', '1.0', 'important');
+    };
+    
+    const handleMouseLeave = () => {
+      floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
+    };
+    
+    // 기존 이벤트 리스너 제거 (중복 방지)
+    floatingContainer.removeEventListener('mouseenter', handleMouseEnter);
+    floatingContainer.removeEventListener('mouseleave', handleMouseLeave);
+    
+    // 새 이벤트 리스너 추가
+    floatingContainer.addEventListener('mouseenter', handleMouseEnter);
+    floatingContainer.addEventListener('mouseleave', handleMouseLeave);
+    
+    console.log(`Applied styles: position=${position}, bottom=${bottomOffset}px, side=${sideOffset}px, opacity=${opacity}`);
+    
+    console.log('Floating chart updated successfully!');
+  } else {
+    // 설정이 비활성화되면 위젯 제거
     if (existingContainer) {
       existingContainer.remove();
+      console.log('Floating chart removed due to disabled settings');
     }
-    
-    const floatingContainer = createFloatingContainer();
-    
-    // 헤더에 드래그 핸들 클래스 추가
-    const trendHeader = chartElement.querySelector('.trend-header');
-    if (trendHeader) {
-      trendHeader.classList.add('drag-handle');
-    }
-    
-    // body에 플로팅 컨테이너 추가
-    document.body.appendChild(floatingContainer);
-    
-    // 드래그 기능 활성화
-    makeDraggable(floatingContainer);
-    
-    // 엔진 결정
-    const engine = ['www.naver.com', 'naver.com', 'search.naver.com'].includes(window.location.hostname) ? 'naver' : 'google';
-    
-    // React 차트 렌더링
-    const root = createRoot(chartElement);
-    root.render(
-      <Chart
-        boxOnly={false}
-        engine={engine}
-        backgroundSelector="body"
-        boxWidth="100%"
-      />
-    );
-    
-    
-    console.log('Floating chart rendered successfully!');
   }
-});
+};
+
+// 설정 변경 감지 리스너
+if (typeof chrome !== 'undefined' && chrome.storage && (chrome.storage as any).onChanged) {
+  (chrome.storage as any).onChanged.addListener((changes: any, areaName: string) => {
+    if (areaName === 'local' && changes.settings) {
+      console.log('Settings changed, updating widget...');
+      updateFloatingWidget(changes.settings.newValue);
+    }
+  });
+}
+
+// 초기 로드
+getStorageBySettings(updateFloatingWidget);
 
 function detectNaverSearchQuery(): void {
   if (['www.naver.com', 'naver.com'].includes(window.location.hostname) && window.location.pathname === '/') {
