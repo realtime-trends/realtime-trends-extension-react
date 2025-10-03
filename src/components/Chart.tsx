@@ -190,7 +190,7 @@ function Chart({ engine, backgroundSelector, boxWidth }: ChartProps): React.Reac
             </button>
             <h2 className="text-lg font-bold mb-2">카카오 페이</h2>
             {selectedDonation && selectedDonation.amount && (
-              <h3 className="text-gray-600 mb-4">{selectedDonation.name} ({selectedDonation.amount})</h3>
+              <p className="font-bold text-gray-400 mb-4">{selectedDonation.name} ({selectedDonation.amount})</p>
             )}
             <img src={donationQR} alt="Donation QR Code" className="mx-auto mb-4 w-2/3" />
             <p className="text-gray-600">
