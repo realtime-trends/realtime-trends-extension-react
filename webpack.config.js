@@ -8,7 +8,6 @@ module.exports = {
   target: 'web',
   entry: {
     popup: './src/popup.tsx',
-    queries: './src/queries.tsx',
     content: './src/scripts/content.tsx',
     background: './src/scripts/background.ts'
   },
@@ -38,7 +37,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader, 
+          MiniCssExtractPlugin.loader,
           'css-loader',
           'postcss-loader'
         ]
@@ -54,18 +53,13 @@ module.exports = {
       filename: 'popup.html',
       chunks: ['popup']
     }),
-    new HtmlWebpackPlugin({
-      template: './queries.html',
-      filename: 'queries.html',
-      chunks: ['queries']
-    }),
     new CopyWebpackPlugin({
       patterns: [
-        { 
-          from: 'public', 
+        {
+          from: 'public',
           to: '.',
           globOptions: {
-            ignore: ['**/queries.html', '**/popup.html']
+            ignore: ['**/popup.html']
           }
         }
       ]

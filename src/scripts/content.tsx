@@ -3,7 +3,6 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Chart from '../components/Chart';
 import { getStorageBySettings } from '../popup';
-import { addSearchQuery } from '../searchQueries';
 import './content.css';
 
 // 개발 모드 또는 크롬 개발자 모드에서 로드된 경우 로그 표시
@@ -231,52 +230,3 @@ if (typeof chrome !== 'undefined' && chrome.storage && (chrome.storage as any).o
 
 // 초기 로드
 getStorageBySettings(updateFloatingWidget);
-
-function detectNaverSearchQuery(): void {
-  if (['www.naver.com', 'naver.com'].includes(window.location.hostname) && window.location.pathname === '/') {
-    const searchForm = document.querySelector('#search_form') as HTMLFormElement;
-    if (searchForm) {
-      searchForm.addEventListener('submit', () => {
-        const inputElement = document.querySelector('#query') as HTMLInputElement;
-        if (inputElement && inputElement.value) {
-          addSearchQuery(inputElement.value, 'naver');
-        }
-      });
-    }
-  }
-
-  if (['search.naver.com'].includes(window.location.hostname)) {
-    const urlParams = new URLSearchParams(window.location.search);
-    const query = urlParams.get('query');
-    if (query) {
-      addSearchQuery(query, 'naver');
-    }
-  }
-}
-
-function detectGoogleSearchQuery(): void {
-  if (['www.google.com', 'google.com'].includes(window.location.hostname)) {
-    if (window.location.pathname === '/search') {
-      const urlParams = new URLSearchParams(window.location.search);
-      const query = urlParams.get('q');
-      if (query) {
-        addSearchQuery(query, 'google');
-      }
-    }
-
-    if (['/', '/webhp'].includes(window.location.pathname)) {
-      const searchForm = document.querySelector('form[action="/search"]') as HTMLFormElement;
-      if (searchForm) {
-        searchForm.addEventListener('submit', () => {
-          const inputElement = searchForm.querySelector('input[name="q"]') as HTMLInputElement;
-          if (inputElement && inputElement.value) {
-            addSearchQuery(inputElement.value, 'google');
-          }
-        });
-      }
-    }
-  }
-}
-
-detectNaverSearchQuery();
-detectGoogleSearchQuery();
