@@ -37,87 +37,12 @@ window.onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, c
 const chartElement = document.createElement('div');
 chartElement.style.height = '100%';
 
-// CSS를 Shadow DOM에 주입
-const getFloatingStyles = (): string => {
-  return `
-    * {
-      box-sizing: border-box;
-    }
-
-    .realtime-trends-floating {
-      position: fixed;
-      z-index: 2147483647;
-      width: 280px;
-      max-height: 500px;
-      background: rgba(255, 255, 255, 0.95);
-      border: 1px solid rgba(225, 229, 233, 0.8);
-      border-radius: 12px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 2px 16px rgba(0, 0, 0, 0.08);
-      overflow: hidden;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      animation: floatingIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    @keyframes floatingIn {
-      from {
-        opacity: 0;
-        transform: translateY(-20px) scale(0.95);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-      }
-    }
-
-    .realtime-trends-floating:hover {
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.16), 0 4px 20px rgba(0, 0, 0, 0.12);
-      background: rgba(255, 255, 255, 1);
-      border: 1px solid rgba(225, 229, 233, 1);
-    }
-
-    .drag-handle {
-      cursor: move;
-      cursor: grab;
-      user-select: none;
-      -webkit-user-select: none;
-    }
-
-    .drag-handle:active {
-      cursor: grabbing;
-    }
-
-    .trend-content {
-      height: 100%;
-    }
-  `;
-};
-
-// 플로팅 컨테이너 생성 (Shadow DOM 사용)
-const createFloatingContainer = (): { host: HTMLElement; shadowRoot: ShadowRoot; container: HTMLElement } => {
-  const host = document.createElement('div');
-  host.id = 'realtime-trends-host';
-
-  // Shadow DOM 생성
-  const shadowRoot = host.attachShadow({ mode: 'open' });
-
-  // CSS 주입
-  const style = document.createElement('style');
-  style.textContent = getFloatingStyles();
-  shadowRoot.appendChild(style);
-
-  // content.css 파일 로드
-  const cssLink = document.createElement('link');
-  cssLink.rel = 'stylesheet';
-  cssLink.href = chrome.runtime.getURL('static/css/content.css');
-  shadowRoot.appendChild(cssLink);
-
-  // 컨테이너
+// 플로팅 컨테이너 생성
+const createFloatingContainer = (): HTMLElement => {
   const container = document.createElement('div');
   container.className = 'realtime-trends-floating';
   container.id = 'realtime-trends-floating';
+
 
   // 차트 컨테이너
   const chartWrapper = document.createElement('div');
@@ -125,9 +50,7 @@ const createFloatingContainer = (): { host: HTMLElement; shadowRoot: ShadowRoot;
   chartWrapper.appendChild(chartElement);
   container.appendChild(chartWrapper);
 
-  shadowRoot.appendChild(container);
-
-  return { host, shadowRoot, container };
+  return container;
 };
 
 // 드래그 기능 구현
@@ -188,7 +111,7 @@ const updateFloatingWidget = (settings: Settings) => {
     console.log('Updating floating widget with settings:', settings);
   }
 
-  const existingHost = document.getElementById('realtime-trends-host');
+  const existingContainer = document.getElementById('realtime-trends-floating');
 
   // 네이버나 구글 사이트에서 설정이 활성화된 경우 플로팅 차트 표시
   const shouldShowFloating =
@@ -196,17 +119,14 @@ const updateFloatingWidget = (settings: Settings) => {
     (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname));
 
   if (shouldShowFloating) {
-    let floatingHost = existingHost;
-    let floatingContainer: HTMLElement;
+    let floatingContainer = existingContainer;
 
     // 컨테이너가 없으면 새로 생성
-    if (!floatingHost) {
+    if (!floatingContainer) {
       if (isDev) {
         console.log('Creating new floating trends chart...');
       }
-      const result = createFloatingContainer();
-      floatingHost = result.host;
-      floatingContainer = result.container;
+      floatingContainer = createFloatingContainer();
 
       // 헤더에 드래그 핸들 클래스 추가
       const trendHeader = chartElement.querySelector('.trend-header');
@@ -214,14 +134,20 @@ const updateFloatingWidget = (settings: Settings) => {
         trendHeader.classList.add('drag-handle');
       }
 
-      // body에 호스트 추가
-      document.body.appendChild(floatingHost);
+      // body에 플로팅 컨테이너 추가
+      document.body.appendChild(floatingContainer);
 
-      // 드래그 기능 활성화 (Shadow DOM 내부 컨테이너에)
+      // 드래그 기능 활성화
       makeDraggable(floatingContainer);
 
       // 엔진 결정
       const engine = ['www.naver.com', 'naver.com', 'search.naver.com'].includes(window.location.hostname) ? 'naver' : 'google';
+
+      const handleDonationOptionsVisibleChange = (visible: boolean) => {
+        if (floatingContainer) {
+          floatingContainer.style.setProperty('overflow', visible ? 'visible' : 'hidden', 'important');
+        }
+      };
 
       // React 차트 렌더링
       const root = createRoot(chartElement);
@@ -232,17 +158,14 @@ const updateFloatingWidget = (settings: Settings) => {
           boxWidth="100%"
         />
       );
-    } else {
-      // 기존 컨테이너 찾기
-      floatingContainer = (floatingHost.shadowRoot?.getElementById('realtime-trends-floating') as HTMLElement);
     }
 
     // 설정에 따른 위치 및 스타일 업데이트
     const position = settings.position || 'bottom-right';
-    const bottomOffset = settings.bottomOffset ?? 80;
-    const sideOffset = settings.sideOffset ?? 20;
-    const opacitySetting = settings.opacity ?? 30;
-    const opacity = 1 - (opacitySetting / 100);
+    const bottomOffset = settings.bottomOffset ?? 80; // 설정 없으면 기본값 80
+    const sideOffset = settings.sideOffset ?? 20; // 설정 없으면 기본값 20
+    const opacitySetting = settings.opacity ?? 30; // 0-70 범위, 설정 없으면 기본값 30
+    const opacity = 1 - (opacitySetting / 100); // 0(불투명) -> 1.0, 70(투명) -> 0.3
 
     if (isDev) {
       console.log(`Opacity setting: ${opacitySetting} -> CSS opacity: ${opacity}`);
@@ -284,8 +207,8 @@ const updateFloatingWidget = (settings: Settings) => {
     }
   } else {
     // 설정이 비활성화되면 위젯 제거
-    if (existingHost) {
-      existingHost.remove();
+    if (existingContainer) {
+      existingContainer.remove();
       if (isDev) {
         console.log('Floating chart removed due to disabled settings');
       }

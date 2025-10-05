@@ -142,7 +142,7 @@ function Chart({ engine, backgroundSelector, boxWidth }: ChartProps): React.Reac
 
           {/* Footer */}
           <div className="py-3 border-t border-gray-100">
-            <div className="flex text-xs text-gray-400 font-medium">
+            <div className="flex text-gray-400 font-medium">
               <div
                 className="w-1/2 text-center cursor-pointer hover:text-gray-600"
                 onClick={() => window.open('https://chromewebstore.google.com/detail/dmbaagbmhlhdnlmbcncneijndejlalie', '_blank')}
