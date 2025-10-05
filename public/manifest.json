@@ -4,8 +4,7 @@
   "manifest_version": 3,
   "permissions": [
     "storage",
-    "alarms",
-    "webNavigation"
+    "alarms"
   ],
   "host_permissions": ["http://*/*", "https://*/*"],
   "description": "네이버, 구글 등 웹페이지에서 실시간 급상승 검색어를 제공합니다.",
