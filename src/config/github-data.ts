@@ -63,17 +63,11 @@ export async function getLatestTrends(): Promise<GitHubTrendEntry[]> {
 
     // Convert to match original Supabase format
     return data.trends.map((trend, index) => ({
+      ...trend,
       id: index + 1, // Add id field for compatibility
       timestamp: data.timestamp,
-      keyword: trend.keyword,
-      score: trend.score,
-      maxscore: trend.maxscore,
-      hashed: trend.hashed,
-      delta: trend.delta,
       rank: index + 1,
-      engine: trend.engine,
-      created_at: data.updated,
-      ...trend
+      created_at: data.updated
     }));
   } catch (error) {
     console.error('Error getting latest trends:', error);
@@ -99,17 +93,11 @@ export async function getTrendsByTimestamp(timestamp: number): Promise<GitHubTre
 
     // Convert to match original Supabase format
     return data.trends.map((trend, index) => ({
+      ...trend,
       id: index + 1, // Add id field for compatibility
       timestamp: data.timestamp,
-      keyword: trend.keyword,
-      score: trend.score,
-      maxscore: trend.maxscore,
-      hashed: trend.hashed,
-      delta: trend.delta,
       rank: index + 1,
-      engine: trend.engine,
-      created_at: data.created_at,
-      ...trend
+      created_at: data.created_at
     }));
   } catch (error) {
     console.error(`Error getting trends for timestamp ${timestamp}:`, error);
