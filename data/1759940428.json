@@ -1,0 +1,78 @@
+{
+  "timestamp": 1759940428,
+  "trends": [
+    {
+      "keyword": "전진 류이서 2세 계획",
+      "score": 27.9,
+      "maxscore": 17,
+      "hashed": "9d8d396f70d1e13d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이장우 카레집 폐업",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "dfaa3e1386b6906b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전국 눈비 소식",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "387a043d69155613",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "가자지구 구호선 나포",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "023a5e12b97617be",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조용필 방송 출연",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "cb685cca62f8b66d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 메시급 영향력",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "a329c35e44593523",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "아육대 400m 릴레이",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "9a778b9a68b9c3a8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이은지 건강 이상",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "d1bee5367f00bfd0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 백두장사 2연패",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "cfad6266794cd562",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-08T16:20:33.018Z"
+}
