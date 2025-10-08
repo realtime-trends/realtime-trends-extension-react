@@ -10,6 +10,7 @@ crons = ["*/5 * * * *"]
 [vars]
 DATA_REPO = "realtime-trends/realtime-trends-extension-react"
 DATA_BRANCH = "data"
+TOKEN_EXPIRES = "2026-10-08"  # Update when creating new token
 
 # Secret (set via wrangler secret put)
 # GITHUB_TOKEN = "github_pat_11A..." (fine-grained token)

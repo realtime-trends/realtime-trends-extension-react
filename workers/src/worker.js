@@ -6,6 +6,12 @@ export default {
     try {
       console.log('Scheduled trigger started at:', new Date().toISOString());
       
+      // Check token expiry before triggering
+      const tokenStatus = checkTokenExpiry(env.TOKEN_EXPIRES);
+      if (tokenStatus.warning) {
+        console.warn('Token expiry warning:', tokenStatus.message);
+      }
+      
       // Trigger GitHub Actions workflow via repository_dispatch
       const response = await triggerGitHubWorkflow(env);
       
@@ -54,13 +60,16 @@ export default {
     }
     
     if (url.pathname === '/status') {
-      // Status endpoint
+      // Status endpoint with token expiry check
+      const tokenStatus = checkTokenExpiry(env.TOKEN_EXPIRES);
+      
       return new Response(JSON.stringify({
         service: 'Realtime Trends Scheduler',
         status: 'active',
         auth_method: 'fine-grained-token',
         timestamp: new Date().toISOString(),
-        nextRun: getNextCronRun()
+        nextRun: getNextCronRun(),
+        token: tokenStatus
       }), {
         headers: { 'Content-Type': 'application/json' }
       });
@@ -152,4 +161,25 @@ function getNextCronRun() {
   next.setMilliseconds(0);
   
   return next.toISOString();
+}
+
+/**
+ * Check GitHub token expiry and return status
+ */
+function checkTokenExpiry(tokenExpires) {
+  if (!tokenExpires) {
+    return { status: 'unknown', message: 'Token expiry not set', warning: true };
+  }
+  
+  const now = new Date();
+  const expiryDate = new Date(tokenExpires);
+  const daysLeft = Math.ceil((expiryDate - now) / (1000 * 60 * 60 * 24));
+  
+  if (daysLeft < 0) {
+    return { status: 'expired', message: `Expired ${Math.abs(daysLeft)} days ago`, warning: true };
+  } else if (daysLeft <= 7) {
+    return { status: 'expiring_soon', message: `Expires in ${daysLeft} days`, warning: true };
+  } else {
+    return { status: 'valid', message: `${daysLeft} days left`, warning: false };
+  }
 }
