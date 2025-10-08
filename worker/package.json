@@ -1,0 +1,29 @@
+{
+  "name": "realtime-trends-crawler",
+  "version": "1.0.0",
+  "description": "Real-time trend crawler using Cloudflare Workers and Supabase",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "wrangler dev --local",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "trends",
+    "crawler",
+    "supabase",
+    "real-time"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "wrangler": "^4.41.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "node-html-parser": "^6.1.12"
+  }
+}
