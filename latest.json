@@ -1,12 +1,12 @@
 {
-  "timestamp": 1759920618,
+  "timestamp": 1759920925,
   "trends": [
     {
       "keyword": "이스라엘 구호선 나포",
       "score": 20,
       "maxscore": 20,
       "hashed": "ac8192df29dc0095",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "a329c35e44593523",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "a6384e369b11552d",
-      "delta": 5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "9f35fcb3c6652c83",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "42a3312b26d183a3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "857f486633c000e8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "cfad6266794cd562",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "6808a677b9afdf41",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "0f049ebe282f3e24",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "476d74ca7f93d11b",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-08T10:50:19.715Z"
+  "updated": "2025-10-08T10:55:27.369Z"
 }
