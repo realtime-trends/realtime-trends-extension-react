@@ -1,86 +1,86 @@
 {
-  "timestamp": 1759886874,
+  "timestamp": 1759891224,
   "trends": [
     {
-      "keyword": "김무호 한라장사 3연패",
+      "keyword": "김정은 라오스 회담",
       "score": 20,
       "maxscore": 20,
-      "hashed": "ea2b83f6ef10d362",
+      "hashed": "99c80d7181de0e40",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "양자컴퓨터 노벨물리학상",
+      "keyword": "정세협 사망",
       "score": 19,
       "maxscore": 19,
-      "hashed": "8f1246a570d20551",
+      "hashed": "98638c6259a9400f",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "권은비 결혼식 비용",
+      "keyword": "착한 여자 부세미",
       "score": 18,
       "maxscore": 18,
-      "hashed": "b5577f4254bd9e4d",
+      "hashed": "a2f503b2d5edac0b",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "나혼산 기안84 논란",
+      "keyword": "성훈 정신병자 매도 논란",
       "score": 17,
       "maxscore": 17,
-      "hashed": "5208218f37e9349f",
+      "hashed": "2daa4692a5782f58",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "개그맨 정세협 사망",
+      "keyword": "추신수 하원미 돈자랑",
       "score": 16,
       "maxscore": 16,
-      "hashed": "622dabe5ed888e77",
+      "hashed": "2117723cace4827e",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "성훈 브아솔 폭로전",
+      "keyword": "나혼산 박나래 논란",
       "score": 15,
       "maxscore": 15,
-      "hashed": "d2cc4ce8c13a53d2",
+      "hashed": "5825117884f67a32",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "브아솔 성훈 탈퇴 폭로",
+      "keyword": "권은비 오빠 결혼식",
       "score": 14,
       "maxscore": 14,
-      "hashed": "e23e3dbee9ad709c",
+      "hashed": "dd447e79449aaf92",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한소희 좋아요 실수",
+      "keyword": "개그맨 정세협 심장마비",
       "score": 13,
       "maxscore": 13,
-      "hashed": "2359b46a53b0d011",
+      "hashed": "50edea88a55d600b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구글 양자컴퓨터 노벨상",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "cebb80adaf0a8b5a",
       "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이재명 아들 군 면제 허위사실",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "780cbf268a8eecd4",
-      "delta": 999,
-      "engine": "zum"
-    },
-    {
-      "keyword": "브아솔 성훈 폭로전",
       "score": 11,
       "maxscore": 11,
-      "hashed": "d308d579a4b917d8",
-      "delta": 999,
+      "hashed": "780cbf268a8eecd4",
+      "delta": -1,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-08T01:27:56.218Z"
+  "updated": "2025-10-08T02:40:25.913Z"
 }
