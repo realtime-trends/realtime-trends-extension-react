@@ -1,8 +1,5 @@
 // Cloudflare Worker to trigger GitHub Actions for trend updates
-// Runs every 5 minutes and triggers the external-trigger workflow
-// Uses GitHub App for secure authentication
-
-import { createJWT } from './crypto-utils.js';
+// Runs every 5 minutes using Fine-grained Personal Access Token
 
 export default {
   async scheduled(event, env, ctx) {
@@ -36,7 +33,8 @@ export default {
           success: response.success,
           message: response.success ? 'Workflow triggered successfully' : 'Failed to trigger workflow',
           error: response.error || null,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
+          method: response.method || 'fine-grained-token'
         }), {
           status: response.success ? 200 : 500,
           headers: { 'Content-Type': 'application/json' }
@@ -60,6 +58,7 @@ export default {
       return new Response(JSON.stringify({
         service: 'Realtime Trends Scheduler',
         status: 'active',
+        auth_method: 'fine-grained-token',
         timestamp: new Date().toISOString(),
         nextRun: getNextCronRun()
       }), {
@@ -69,11 +68,12 @@ export default {
     
     // Default response
     return new Response(JSON.stringify({
-      service: 'Realtime Trends Scheduler',
+      service: 'Realtime Trends Scheduler (Fine-grained Token)',
       endpoints: {
         'POST /trigger': 'Manually trigger workflow',
         'GET /status': 'Get service status'
-      }
+      },
+      setup: 'Set GITHUB_TOKEN secret with fine-grained token'
     }), {
       headers: { 'Content-Type': 'application/json' }
     });
@@ -81,119 +81,45 @@ export default {
 };
 
 /**
- * Get installation access token using GitHub App
- */
-async function getInstallationToken(appId, privateKey, installationId) {
-  try {
-    // Create JWT for GitHub App authentication
-    const jwt = await createJWT(appId, privateKey);
-    
-    // Get installation access token
-    const response = await fetch(`https://api.github.com/app/installations/${installationId}/access_tokens`, {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${jwt}`,
-        'Accept': 'application/vnd.github+json',
-        'X-GitHub-Api-Version': '2022-11-28',
-        'User-Agent': 'realtime-trends-scheduler'
-      }
-    });
-    
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`Failed to get installation token: ${response.status} ${response.statusText} - ${errorText}`);
-    }
-    
-    const data = await response.json();
-    return data.token;
-    
-  } catch (error) {
-    throw new Error(`Installation token error: ${error.message}`);
-  }
-}
-
-/**
- * Trigger GitHub Actions workflow via repository_dispatch using GitHub App
+ * Trigger GitHub Actions workflow via repository_dispatch
  */
 async function triggerGitHubWorkflow(env) {
   try {
-    const { DATA_REPO, DATA_BRANCH, APP_ID, PRIVATE_KEY, INSTALLATION_ID } = env;
+    const { DATA_REPO, DATA_BRANCH, GITHUB_TOKEN } = env;
     
-    // Check if GitHub App credentials are available
-    if (APP_ID && PRIVATE_KEY && INSTALLATION_ID) {
-      console.log('Using GitHub App authentication');
-      
-      // Get short-lived installation token
-      const token = await getInstallationToken(APP_ID, PRIVATE_KEY, INSTALLATION_ID);
-      
-      // Use token to trigger workflow
-      const response = await fetch(`https://api.github.com/repos/${DATA_REPO}/dispatches`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Accept': 'application/vnd.github+json',
-          'Content-Type': 'application/json',
-          'User-Agent': 'realtime-trends-scheduler',
-          'X-GitHub-Api-Version': '2022-11-28'
-        },
-        body: JSON.stringify({
-          event_type: 'update-trends',
-          client_payload: {
-            timestamp: Math.floor(Date.now() / 1000),
-            source: 'github-app',
-            branch: DATA_BRANCH
-          }
-        })
-      });
-      
-      if (response.ok) {
-        return { success: true, method: 'github-app' };
-      } else {
-        const errorText = await response.text();
-        return { 
-          success: false, 
-          error: `GitHub API error: ${response.status} ${response.statusText} - ${errorText}` 
-        };
-      }
-      
+    if (!GITHUB_TOKEN) {
+      throw new Error('GITHUB_TOKEN is required. Please set a Fine-grained Personal Access Token.');
+    }
+    
+    console.log('Using Fine-grained Personal Access Token');
+    
+    const response = await fetch(`https://api.github.com/repos/${DATA_REPO}/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'User-Agent': 'realtime-trends-scheduler',
+        'X-GitHub-Api-Version': '2022-11-28'
+      },
+      body: JSON.stringify({
+        event_type: 'update-trends',
+        client_payload: {
+          timestamp: Math.floor(Date.now() / 1000),
+          source: 'fine-grained-token',
+          branch: DATA_BRANCH
+        }
+      })
+    });
+    
+    if (response.ok) {
+      return { success: true, method: 'fine-grained-token' };
     } else {
-      // Fallback to Personal Access Token
-      console.log('Falling back to Personal Access Token');
-      
-      const { GITHUB_TOKEN } = env;
-      
-      if (!GITHUB_TOKEN) {
-        throw new Error('Neither GitHub App credentials nor GITHUB_TOKEN are available');
-      }
-      
-      const response = await fetch(`https://api.github.com/repos/${DATA_REPO}/dispatches`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${GITHUB_TOKEN}`,
-          'Accept': 'application/vnd.github+json',
-          'Content-Type': 'application/json',
-          'User-Agent': 'realtime-trends-scheduler',
-          'X-GitHub-Api-Version': '2022-11-28'
-        },
-        body: JSON.stringify({
-          event_type: 'update-trends',
-          client_payload: {
-            timestamp: Math.floor(Date.now() / 1000),
-            source: 'pat-fallback',
-            branch: DATA_BRANCH
-          }
-        })
-      });
-      
-      if (response.ok) {
-        return { success: true, method: 'pat-fallback' };
-      } else {
-        const errorText = await response.text();
-        return { 
-          success: false, 
-          error: `GitHub API error: ${response.status} ${response.statusText} - ${errorText}` 
-        };
-      }
+      const errorText = await response.text();
+      return { 
+        success: false, 
+        error: `GitHub API error: ${response.status} ${response.statusText} - ${errorText}` 
+      };
     }
     
   } catch (error) {

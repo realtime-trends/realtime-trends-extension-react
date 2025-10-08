@@ -1,7 +1,7 @@
 // GitHub Data Repository client for real-time trends
 // Replaces Supabase with Cloudflare Pages CDN
 
-const GITHUB_DATA_URL = 'https://realtime-trends-extension-react.pages.dev';
+const GITHUB_DATA_URL = 'https://realtime-trends-data.pages.dev';
 
 // Type definitions matching the original Supabase structure
 export interface GitHubTrendEntry {

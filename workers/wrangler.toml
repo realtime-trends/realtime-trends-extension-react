@@ -11,14 +11,8 @@ crons = ["*/5 * * * *"]
 DATA_REPO = "realtime-trends/realtime-trends-extension-react"
 DATA_BRANCH = "data"
 
-# Secrets (set via wrangler secret put)
-# GitHub App (Recommended - Most Secure):
-# APP_ID = "123456"
-# PRIVATE_KEY = "-----BEGIN RSA PRIVATE KEY-----\n...\n-----END RSA PRIVATE KEY-----"
-# INSTALLATION_ID = "12345678"
-#
-# Fallback - Personal Access Token:
-# GITHUB_TOKEN = "github_pat_11A..." (fine-grained token preferred)
+# Secret (set via wrangler secret put)
+# GITHUB_TOKEN = "github_pat_11A..." (fine-grained token)
 
 # No build needed - pure JavaScript ES modules
 
