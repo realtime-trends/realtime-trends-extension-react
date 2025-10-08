@@ -1,0 +1,21 @@
+name = "realtime-trends-scheduler"
+main = "src/worker.js"
+compatibility_date = "2024-10-08"
+
+# Cron trigger for every 5 minutes
+[triggers]
+crons = ["*/5 * * * *"]
+
+# Environment variables
+[vars]
+DATA_REPO = "realtime-trends/realtime-trends-extension-react"
+DATA_BRANCH = "data"
+
+# Secrets (set via wrangler secret put)
+# GITHUB_TOKEN = "your_github_token"
+
+[build]
+command = ""
+
+[observability.logs]
+enabled = true

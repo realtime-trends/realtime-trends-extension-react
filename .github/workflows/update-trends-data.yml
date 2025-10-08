@@ -1,28 +1,25 @@
 name: Update Trends Data
 
 on:
-  schedule:
-    # Run every 5 minutes
-    - cron: '*/5 * * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
   update-trends:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
-        
+
     - name: Install dependencies
       run: npm install
-      
+
     - name: Run trends crawler and update data repo
       run: node scripts/update-data-repo.js
       env:
