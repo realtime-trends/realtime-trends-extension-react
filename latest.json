@@ -1,12 +1,12 @@
 {
-  "timestamp": 1759895435,
+  "timestamp": 1759895728,
   "trends": [
     {
       "keyword": "삼성 최원태 화이트 선발",
       "score": 20,
       "maxscore": 20,
       "hashed": "c65b32ec22120fff",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "27afa1ec593fb967",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "cb65a757e45373b9",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "4a21a684d40d1154",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "45373d59dc71745e",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "ec777b6595653d91",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "d0ea3df6cc3d5e23",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "22df7f9030324fd4",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "355eaea91ef06074",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "a2f503b2d5edac0b",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-08T03:50:37.608Z"
+  "updated": "2025-10-08T03:55:29.210Z"
 }
