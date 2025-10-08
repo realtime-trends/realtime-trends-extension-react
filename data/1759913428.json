@@ -1,0 +1,86 @@
+{
+  "timestamp": 1759913428,
+  "trends": [
+    {
+      "keyword": "손흥민 메시급 효과",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "17bb7d3bcdefb7e6",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이은지 건강 문제",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "0f049ebe282f3e24",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김현지 국감 증인",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "0750a61bb2f23fdb",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전국 눈 소식",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "ce3e5cc6a071185a",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "일본 축구협 아동 성착취물",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "e5f9c8eec1db3e43",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 박한결 퓨처스 루키상",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "031bf1af92070c81",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "추석 연휴 귀경길",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "06c6cd172407bb06",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 캄보디아 평화협정식 주재",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "2ad485866e70c374",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "두산 잭로그 쉘힐릭스",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "847b6395ff3d44b9",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "SSG 이율예",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "541ca50093b26be9",
+      "delta": -2,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-08T08:50:31.585Z"
+}
