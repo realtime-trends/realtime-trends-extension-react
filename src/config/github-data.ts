@@ -1,7 +1,7 @@
 // GitHub Data Repository client for real-time trends
-// Replaces Supabase with GitHub Pages CDN
+// Replaces Supabase with Cloudflare Pages CDN
 
-const GITHUB_DATA_URL = 'https://hoya.github.io/realtime-trends-extension-react';
+const GITHUB_DATA_URL = 'https://realtime-trends-extension-react.pages.dev';
 
 // Type definitions matching the original Supabase structure
 export interface GitHubTrendEntry {
@@ -55,7 +55,7 @@ async function fetchGitHubData<T>(path: string): Promise<T | null> {
 export async function getLatestTrends(): Promise<GitHubTrendEntry[]> {
   try {
     const data = await fetchGitHubData<GitHubLatestResponse>('latest.json');
-    
+
     if (!data || !data.trends) {
       console.error('No trends data available from GitHub');
       return [];
@@ -91,7 +91,7 @@ export async function getTrendsByTimestamp(timestamp: number): Promise<GitHubTre
       trends: GitHubTrendEntry[];
       created_at: string;
     }>(`data/${timestamp}.json`);
-    
+
     if (!data || !data.trends) {
       console.error(`No trends data available for timestamp ${timestamp}`);
       return [];
@@ -123,7 +123,7 @@ export async function getTrendsByTimestamp(timestamp: number): Promise<GitHubTre
 export async function getRecentTimestamps(): Promise<number[]> {
   try {
     const data = await fetchGitHubData<GitHubTimestampsResponse>('timestamps.json');
-    
+
     if (!data || !data.timestamps) {
       console.error('No timestamps data available from GitHub');
       return [];
@@ -136,7 +136,3 @@ export async function getRecentTimestamps(): Promise<number[]> {
     return [];
   }
 }
-
-// Compatibility aliases for easier migration
-export const SupabaseTrendEntry = GitHubTrendEntry;
-export type { GitHubTrendEntry as SupabaseTrendEntry };
