@@ -48,7 +48,7 @@ async function getUserId(): Promise<string> {
 // 트렌드 데이터는 공개 읽기만 하므로 별도 인증 불필요
 
 // 키워드 API 관련 기능은 현재 사용하지 않음
-// 필요시 나중에 Supabase 기반으로 재구현 가능
+// 필요시 나중에 GitHub 기반으로 재구현 가능
 
 // 메시지 리스너는 필요시 나중에 추가
 
@@ -60,17 +60,17 @@ chrome.runtime.onInstalled.addListener(async (details) => {
   const userId = await getUserId();
   console.log('현재 사용자 ID:', userId);
 
-  // Supabase에서 트렌드 데이터 로드
+  // GitHub에서 트렌드 데이터 로드
   await saveTrendsInStorage();
 });
 
 async function saveTrendsInStorage(): Promise<void> {
   try {
-    // Supabase에서 트렌드 데이터 가져오기
+    // GitHub에서 트렌드 데이터 가져오기
     await setStorageByTrends();
-    console.log('Supabase에서 트렌드 데이터를 성공적으로 가져왔습니다');
+    console.log('GitHub에서 트렌드 데이터를 성공적으로 가져왔습니다');
   } catch (error) {
-    console.error('Supabase에서 트렌드 데이터 가져오기 실패:', error);
+    console.error('GitHub에서 트렌드 데이터 가져오기 실패:', error);
   }
 }
 

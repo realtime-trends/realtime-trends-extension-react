@@ -1,11 +1,11 @@
-import { getRecentTimestamps, getTrendsByTimestamp, type SupabaseTrendEntry } from './config/supabase';
+import { getRecentTimestamps, getTrendsByTimestamp, type SupabaseTrendEntry } from './config/github-data';
 
 interface TrendsObject {
   timestamps: number[];
   [key: number]: SupabaseTrendEntry[];
 }
 
-// Supabase에서 트렌드 데이터를 가져와 Chrome Storage 형식으로 변환
+// GitHub에서 트렌드 데이터를 가져와 Chrome Storage 형식으로 변환
 export async function setStorageByTrends(trendsObject?: TrendsObject): Promise<void> {
   try {
     let finalTrendsObject: TrendsObject;
@@ -14,7 +14,7 @@ export async function setStorageByTrends(trendsObject?: TrendsObject): Promise<v
       // 기존 방식 (매개변수로 받은 경우)
       finalTrendsObject = trendsObject;
     } else {
-      // 새로운 방식: Supabase에서 데이터 가져오기
+      // 새로운 방식: GitHub에서 데이터 가져오기
       const timestamps = await getRecentTimestamps();
       finalTrendsObject = { timestamps };
       
@@ -37,6 +37,6 @@ export async function setStorageByTrends(trendsObject?: TrendsObject): Promise<v
       }
     });
   } catch (error) {
-    console.error('Supabase 트렌드 데이터 처리 중 오류:', error);
+    console.error('GitHub 트렌드 데이터 처리 중 오류:', error);
   }
 }
