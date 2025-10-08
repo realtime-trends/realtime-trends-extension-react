@@ -1,12 +1,12 @@
 {
-  "timestamp": 1759906223,
+  "timestamp": 1759906529,
   "trends": [
     {
       "keyword": "손흥민 메시",
       "score": 20,
       "maxscore": 20,
       "hashed": "90db33dc07ab41aa",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "a3c3528957886909",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "031bf1af92070c81",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "24aec7b3f7635780",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "ac97ad8a81275b6e",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "c9547a7bf18f8118",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,15 +54,15 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "313fcd276926c8e8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "이종원 김대희 사돈",
+      "keyword": "���종원 김대희 사돈",
       "score": 13,
       "maxscore": 13,
-      "hashed": "d54929808f5f2eff",
-      "delta": -7,
+      "hashed": "a096d2211e6cd520",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "291c630c7135f35e",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "393ed62074c4f34e",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-08T06:50:24.571Z"
+  "updated": "2025-10-08T06:55:30.377Z"
 }
