@@ -93,10 +93,11 @@ async function triggerGitHubWorkflow(env) {
     const response = await fetch(apiUrl, {
       method: 'POST',
       headers: {
-        'Authorization': `token ${GITHUB_TOKEN}`,
-        'Accept': 'application/vnd.github.v3+json',
+        'Authorization': `Bearer ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github+json',
         'Content-Type': 'application/json',
-        'User-Agent': 'realtime-trends-scheduler'
+        'User-Agent': 'realtime-trends-scheduler',
+        'X-GitHub-Api-Version': '2022-11-28'
       },
       body: JSON.stringify({
         event_type: 'update-trends',

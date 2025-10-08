@@ -12,7 +12,7 @@ DATA_REPO = "realtime-trends/realtime-trends-extension-react"
 DATA_BRANCH = "data"
 
 # Secrets (set via wrangler secret put)
-# GITHUB_TOKEN = "your_github_token"
+# GITHUB_TOKEN = "your_github_personal_access_token_with_repo_and_workflow_permissions"
 
 [build]
 command = ""

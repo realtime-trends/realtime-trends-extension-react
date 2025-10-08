@@ -1,6 +1,8 @@
 name: Update Trends Data
 
 on:
+  repository_dispatch:
+    types: [update-trends]
   workflow_dispatch: # Allow manual trigger
 
 jobs:
