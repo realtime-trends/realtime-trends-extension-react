@@ -1,5 +1,5 @@
 {
-  "timestamp": 1759931429,
+  "timestamp": 1759931721,
   "trends": [
     {
       "keyword": "전진 류이서 2세 계획",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "dfaa3e1386b6906b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "9a778b9a68b9c3a8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "b03b52e3e8169e38",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "a329c35e44593523",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "023a5e12b97617be",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "be5f155d9b7ce7c7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "e773d849333af389",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "a2035ff16f9b0c67",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "a7a98775ffe47e48",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-08T13:50:30.784Z"
+  "updated": "2025-10-08T13:55:23.123Z"
 }
