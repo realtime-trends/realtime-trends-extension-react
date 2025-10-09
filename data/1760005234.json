@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760005234,
+  "trends": [
+    {
+      "keyword": "정일우 열애설",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "84d7822bfdbde6f4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤이나 뷰익 상하이",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "6bfc9c10c828fd1f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 노벨평화상 가능성",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "dc27d7dc4951e33c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울산 신태용 경질",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "feaa738012622e4f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 EPL 골잡이",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d1a5a447853ac572",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "해병 특검 김경호 변호사",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "a341c55eb3ad10a6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "KT 2연승",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "cce541b3ba662c2f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "롤링스톤 21세기 노래",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "f57f1ea029a45c56",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 위협적 안첼로티",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "fa8b554d97976185",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최원태 6이닝 무실점",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "a907566a157e0d25",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-09T10:20:37.344Z"
+}
