@@ -1,0 +1,86 @@
+{
+  "timestamp": 1759979426,
+  "trends": [
+    {
+      "keyword": "이스라엘 나포 석방",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "b08ea73cc74c268e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여자 월드컵 출국",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "b3d209defbba0c35",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구성환 백반증 투병",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "2ed6301b0eee1933",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤유선 이성호 변호사",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "21bb7e88066b978e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "권영국 정의당 대표 집행유예",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "ccc8ba92dcc0e094",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김하성 내년 거취",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "19beaf2cc28c01b6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "디트로이트 시애틀 ALDS",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "356b694d2bdce45d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "맨유 아모림 경질 논란",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "54c119186f66999a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "방탄소년단 봄날 롤링스톤",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "341643785a98cec6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한글날 최휘영 장관",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "fdd848a0b68a117b",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-09T03:10:29.296Z"
+}
