@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760025038,
+  "trends": [
+    {
+      "keyword": "이스라엘 사막 교도소",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "e3a3ffa6a4870595",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박영규 김성은 알코올 의존증",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1633e0d54aaaef28",
+      "delta": 3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조혜련 아들",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "fbd21fecba3a1c0f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤유선 이혼숙려캠프",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "37049d944de26caf",
+      "delta": 3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김남주 예능 도전",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "e6bf2a628c670cc6",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한가인 언니 사랑",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "2eb8ba35256d35e0",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "크러스너호르커이 노벨문학상",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "3ceb4db7ba10115e",
+      "delta": -1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정일우 CEO 열애설",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "83108d31a6732cf2",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 EPL 최고 골잡이",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "0458332ecb9195de",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "딘딘 축의금 액수",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "715ff7424f4faffd",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-09T15:50:41.076Z"
+}
