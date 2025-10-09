@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760053829,
+  "timestamp": 1760054130,
   "trends": [
     {
       "keyword": "조혜련 아들 호칭 변화",
       "score": 27.6,
       "maxscore": 18,
       "hashed": "5fbd1ffc7214d506",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 27.299999999999997,
       "maxscore": 19,
       "hashed": "ee36410a49bbf0bb",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "790ddfd7b99450d7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "536c48bd8b79dc0e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "e5c32e6e83b13d85",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,9 +62,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "83108d31a6732cf2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T23:50:31.303Z"
+  "updated": "2025-10-09T23:55:31.441Z"
 }
