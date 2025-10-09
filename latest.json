@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760010635,
+  "timestamp": 1760010936,
   "trends": [
     {
       "keyword": "이스라엘 사막 교도소 수감",
       "score": 22.2,
       "maxscore": 16,
       "hashed": "ee36410a49bbf0bb",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "0458332ecb9195de",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "6bfc9c10c828fd1f",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "715ff7424f4faffd",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "dc27d7dc4951e33c",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "b95c71fe4cb9a84a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "3c31dac8822c5cf8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T11:50:37.211Z"
+  "updated": "2025-10-09T11:55:37.678Z"
 }
