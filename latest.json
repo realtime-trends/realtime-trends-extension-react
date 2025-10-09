@@ -1,76 +1,68 @@
 {
-  "timestamp": 1760049927,
+  "timestamp": 1760050228,
   "trends": [
     {
-      "keyword": "이스라엘 사막 교도소",
-      "score": 20,
+      "keyword": "이스라엘 사막 교도소 수감",
+      "score": 27,
       "maxscore": 20,
-      "hashed": "e3a3ffa6a4870595",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "박영규 김성은 알코올 의존증",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "1633e0d54aaaef28",
-      "delta": 0,
+      "hashed": "ee36410a49bbf0bb",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "조혜련 아들",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "fbd21fecba3a1c0f",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한가인 형부 사랑꾼",
       "score": 18,
       "maxscore": 18,
-      "hashed": "fbd21fecba3a1c0f",
-      "delta": 0,
+      "hashed": "6d1ea5428f9979e5",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "윤유선 이혼숙려캠프",
+      "keyword": "김성은 알코올 의존증",
       "score": 17,
       "maxscore": 17,
-      "hashed": "37049d944de26caf",
-      "delta": 0,
+      "hashed": "072abdf375b4d254",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김남주 예능 도전",
+      "keyword": "이혼숙려캠프 이성호 판사",
       "score": 16,
       "maxscore": 16,
-      "hashed": "e6bf2a628c670cc6",
-      "delta": 0,
+      "hashed": "d95e4a53161b8350",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한가인 언니 사랑",
+      "keyword": "김남주 안목의 여왕",
       "score": 15,
       "maxscore": 15,
-      "hashed": "2eb8ba35256d35e0",
-      "delta": 0,
+      "hashed": "2fee65a8b8bde3c1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "크러스너호르커이 노벨문학상",
+      "keyword": "크러스너호르커이 라슬로 노벨문학상",
       "score": 14,
       "maxscore": 14,
-      "hashed": "3ceb4db7ba10115e",
-      "delta": 0,
+      "hashed": "594e722e3601f480",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "정일우 CEO 열애설",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "83108d31a6732cf2",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "손흥민 EPL 최고 골잡이",
+      "keyword": "정일우 열애설",
       "score": 12,
       "maxscore": 12,
-      "hashed": "0458332ecb9195de",
-      "delta": 0,
+      "hashed": "84d7822bfdbde6f4",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -78,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "715ff7424f4faffd",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T22:45:28.646Z"
+  "updated": "2025-10-09T22:50:30.149Z"
 }
