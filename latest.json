@@ -1,12 +1,12 @@
 {
-  "timestamp": 1759971027,
+  "timestamp": 1759971331,
   "trends": [
     {
       "keyword": "트럼프 이스라엘 하마스 합의",
       "score": 20,
       "maxscore": 20,
       "hashed": "4a6eba897c4053f6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "f44992b6f8ff628b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "96b3d0d75e77e743",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "15756ebf542a3ac9",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "09543bb9d634dc56",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "dfaa3e1386b6906b",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "296aad4bb2b3006d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "a329c35e44593523",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "cb685cca62f8b66d",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T00:50:28.678Z"
+  "updated": "2025-10-09T00:55:32.470Z"
 }
