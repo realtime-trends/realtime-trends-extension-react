@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760014227,
+  "trends": [
+    {
+      "keyword": "크러스너호르커이 라슬로 노벨문학상",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "594e722e3601f480",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 EPL 최고 골잡이",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "0458332ecb9195de",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울산 신태용 감독 경질",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "a4cd3174215f89e7",
+      "delta": -1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤이나 뷰익 LPGA",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "8025fecba7ed9fcc",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "딘딘 축의금 액수",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "715ff7424f4faffd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이스라엘 사막 교도소 수감",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "ee36410a49bbf0bb",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정일우 열애설",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "84d7822bfdbde6f4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 EPL 골잡이 후보",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "3c31dac8822c5cf8",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 브라질전 위협적",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "096b511b573a8ed3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 노벨평화상",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "0f496619d8ae7d9b",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-09T12:50:30.215Z"
+}
