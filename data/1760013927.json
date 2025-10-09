@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760013927,
+  "trends": [
+    {
+      "keyword": "이스라엘 사막 교도소 수감",
+      "score": 22.2,
+      "maxscore": 16,
+      "hashed": "ee36410a49bbf0bb",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울산 신태용 감독 경질",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "a4cd3174215f89e7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 EPL 최고 골잡이",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "0458332ecb9195de",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤이나 뷰익 상하이",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "6bfc9c10c828fd1f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "딘딘 축의금 액수",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "715ff7424f4faffd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 노벨평화상 가능성",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "dc27d7dc4951e33c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정일우 열애설",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "84d7822bfdbde6f4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "해병 특검 참고인 조사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "b95c71fe4cb9a84a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 EPL 골잡이 후보",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "3c31dac8822c5cf8",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-09T12:45:31.274Z"
+}
