@@ -1,12 +1,12 @@
 {
-  "timestamp": 1759974628,
+  "timestamp": 1759974925,
   "trends": [
     {
       "keyword": "제니 한글 폰트",
       "score": 20,
       "maxscore": 20,
       "hashed": "88fd6d6e960df982",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "d3221a40b5c54ff1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "b655833292c69812",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "4a6eba897c4053f6",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "15756ebf542a3ac9",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "70d11efb25786ab6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "f44992b6f8ff628b",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "96b3d0d75e77e743",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "09543bb9d634dc56",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "dfaa3e1386b6906b",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T01:50:30.035Z"
+  "updated": "2025-10-09T01:55:27.044Z"
 }
