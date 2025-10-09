@@ -1,5 +1,5 @@
 {
-  "timestamp": 1759995934,
+  "timestamp": 1759996243,
   "trends": [
     {
       "keyword": "추석 연휴 고궁",
@@ -10,77 +10,77 @@
       "engine": "zum"
     },
     {
-      "keyword": "윤유선 이성호 변호사",
+      "keyword": "손흥민 LAFC 토론토",
       "score": 19,
       "maxscore": 19,
-      "hashed": "21bb7e88066b978e",
-      "delta": 0,
+      "hashed": "41a640409e1e3c66",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "삼성 SSG 준플레이오프",
+      "keyword": "윤유선 이혼숙려캠프 합류",
       "score": 18,
       "maxscore": 18,
-      "hashed": "0a03eaf1856538fe",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "다저스 필라델피아 패배",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "45e64a81130187f8",
-      "delta": 0,
+      "hashed": "71d40673f3991ae8",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "여순사건 국가배상소송 포기",
-      "score": 16,
-      "maxscore": 16,
+      "score": 17,
+      "maxscore": 17,
       "hashed": "ed0eeb6473d15630",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "롤링스톤 21세기 노래",
+      "keyword": "롤링스톤 21세기 최고의 노래",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c8c1ebefceeb0cf6",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다저스 필라델피아 패배",
       "score": 15,
       "maxscore": 15,
-      "hashed": "f57f1ea029a45c56",
-      "delta": 0,
+      "hashed": "45e64a81130187f8",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 SSG 준플레이오프",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "0a03eaf1856538fe",
+      "delta": -4,
       "engine": "zum"
     },
     {
       "keyword": "한글날 김민석 APEC",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "adcf2dd28442c319",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "삼성 해결사 디아즈",
       "score": 13,
       "maxscore": 13,
-      "hashed": "951cef515968c53f",
-      "delta": 0,
+      "hashed": "adcf2dd28442c319",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "정몽규 회장 거취",
+      "keyword": "정몽규 회장 4선 도전",
       "score": 12,
       "maxscore": 12,
-      "hashed": "9f4c8107154204f5",
-      "delta": 0,
+      "hashed": "ac254871e7ef20d6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화 선수단 정리",
+      "keyword": "티아라 아름 아동학대 항소 기각",
       "score": 11,
       "maxscore": 11,
-      "hashed": "7911718c5b44bce9",
-      "delta": 0,
+      "hashed": "7be9556899783d25",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T07:45:36.214Z"
+  "updated": "2025-10-09T07:50:44.858Z"
 }
