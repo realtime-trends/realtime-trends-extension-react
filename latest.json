@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760003433,
+  "timestamp": 1760003733,
   "trends": [
     {
       "keyword": "정일우 열애설",
       "score": 20,
       "maxscore": 20,
       "hashed": "84d7822bfdbde6f4",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "6bfc9c10c828fd1f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "dc27d7dc4951e33c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "feaa738012622e4f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "d1a5a447853ac572",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "a341c55eb3ad10a6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "cce541b3ba662c2f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "f57f1ea029a45c56",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "fa8b554d97976185",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "a907566a157e0d25",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T09:50:35.155Z"
+  "updated": "2025-10-09T09:55:35.210Z"
 }
