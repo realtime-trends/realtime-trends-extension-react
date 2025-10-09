@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760017875,
+  "timestamp": 1760018133,
   "trends": [
     {
       "keyword": "손흥민 EPL 골잡이 후보",
       "score": 24.2,
       "maxscore": 16,
       "hashed": "3c31dac8822c5cf8",
-      "delta": 7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "e3a3ffa6a4870595",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "2fee65a8b8bde3c1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "594e722e3601f480",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "5832db31ca5002e7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "a4cd3174215f89e7",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "715ff7424f4faffd",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "84d7822bfdbde6f4",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T13:51:16.860Z"
+  "updated": "2025-10-09T13:55:35.165Z"
 }
