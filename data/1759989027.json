@@ -1,0 +1,86 @@
+{
+  "timestamp": 1759989027,
+  "trends": [
+    {
+      "keyword": "윤유선 이성호 변호사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "21bb7e88066b978e",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "BTS 봄날 롤링스톤",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "a1b7af6d668ebf1f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 디아즈 타점",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "9ccc6eb3c8de4c68",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민석 한글날 경축식",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "6d64901964e22162",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정몽규 회장 거취",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "9f4c8107154204f5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "편스토랑 손연재 은퇴 심경",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "bf33044765533f38",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "앤더슨 장염",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "d91f3b4b09326ce8",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 선수단 방출",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "dd9bfdef28046696",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울산 가을리그",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "1581e04556eb5f38",
+      "delta": -4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "티아라 아름 아동학대 혐의",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "b048c6515d86fea2",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-09T05:50:30.087Z"
+}
