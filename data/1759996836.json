@@ -1,0 +1,86 @@
+{
+  "timestamp": 1759996836,
+  "trends": [
+    {
+      "keyword": "추석 연휴 고궁",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "ea6a33ab6bf35d6b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 LAFC 토론토",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "41a640409e1e3c66",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤유선 이혼숙려캠프 합류",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "71d40673f3991ae8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여순사건 국가배상소송 포기",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "ed0eeb6473d15630",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "롤링스톤 21세기 최고의 노래",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c8c1ebefceeb0cf6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다저스 필라델피아 패배",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "45e64a81130187f8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 SSG 준플레이오프",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "0a03eaf1856538fe",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한글날 김민석 APEC",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "adcf2dd28442c319",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정몽규 회장 4선 도전",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ac254871e7ef20d6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "티아라 아름 아동학대 항소 기각",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "7be9556899783d25",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-09T08:00:39.813Z"
+}
