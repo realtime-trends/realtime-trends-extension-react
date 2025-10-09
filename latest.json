@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760014227,
+  "timestamp": 1760014524,
   "trends": [
     {
       "keyword": "크러스너호르커이 라슬로 노벨문학상",
       "score": 20,
       "maxscore": 20,
       "hashed": "594e722e3601f480",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "0458332ecb9195de",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "a4cd3174215f89e7",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "8025fecba7ed9fcc",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "ee36410a49bbf0bb",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "3c31dac8822c5cf8",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "096b511b573a8ed3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "0f496619d8ae7d9b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-09T12:50:28.810Z"
+  "updated": "2025-10-09T12:55:25.529Z"
 }
