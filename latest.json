@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760060729,
+  "timestamp": 1760061026,
   "trends": [
     {
-      "keyword": "이창원호 U-20",
+      "keyword": "이창원호 모로코 패배",
       "score": 20,
       "maxscore": 20,
-      "hashed": "c0c6707604417beb",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "윤유선 이숙캠 남편",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "2c7955d3d92133bd",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김민석 총리 인력시장",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "68cc04dad9f79fa5",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "수도권 가을비",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "329e9e885ced8235",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "조혜련 아들 감동",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "f0a1b019dea53746",
-      "delta": 0,
+      "hashed": "f2e30055a7af4b9f",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "김성은 알코올 의존증 고백",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "9c661f26b82fe3dd",
+      "delta": 4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "23기 옥순 논란",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "462f9dfdc5c8c1b5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임영웅 뭉찬4 감독 데뷔",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "2e0357b61b688f33",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김종국 아내 실루엣",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d6a5171f09de9485",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트와이스 10주년",
       "score": 15,
       "maxscore": 15,
-      "hashed": "9c661f26b82fe3dd",
-      "delta": 0,
+      "hashed": "101f58d52680be87",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이스라엘 사막 교도소 수감",
+      "keyword": "현대캐피탈 울프 독스",
       "score": 14,
       "maxscore": 14,
-      "hashed": "ee36410a49bbf0bb",
-      "delta": 0,
+      "hashed": "3b0f76c58b914606",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "정일우 CEO 열애설",
+      "keyword": "장영란 남편 폐업 이유",
       "score": 13,
       "maxscore": 13,
-      "hashed": "83108d31a6732cf2",
-      "delta": 0,
+      "hashed": "a978ca96bd61c6d7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이혼숙려캠프 이성호",
+      "keyword": "최휘영 장관 홍명보호 격려",
       "score": 12,
       "maxscore": 12,
-      "hashed": "fdeec9efd0883109",
-      "delta": 0,
+      "hashed": "b5d9f6b9de32e901",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한가인 형부 가족 공개",
+      "keyword": "신태용 감독 경질",
       "score": 11,
       "maxscore": 11,
-      "hashed": "055e9bab53dc69a4",
-      "delta": 0,
+      "hashed": "b1f118b4e3b652dd",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T01:45:30.632Z"
+  "updated": "2025-10-10T01:50:28.050Z"
 }
