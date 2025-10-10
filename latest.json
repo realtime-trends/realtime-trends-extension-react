@@ -1,70 +1,86 @@
 {
-  "timestamp": 1760057127,
+  "timestamp": 1760057427,
   "trends": [
     {
-      "keyword": "조혜련 아들 호칭 변화",
-      "score": 27.6,
+      "keyword": "이창원호 U-20",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c0c6707604417beb",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤유선 이숙캠 남편",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "2c7955d3d92133bd",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민석 총리 인력시장",
+      "score": 18,
       "maxscore": 18,
-      "hashed": "5fbd1ffc7214d506",
-      "delta": 0,
+      "hashed": "68cc04dad9f79fa5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "수도권 가을비",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "329e9e885ced8235",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조혜련 아들 감동",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "f0a1b019dea53746",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김성은 알코올 의존증 고백",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "9c661f26b82fe3dd",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이스라엘 사막 교도소 수감",
-      "score": 27.299999999999997,
-      "maxscore": 19,
+      "score": 14,
+      "maxscore": 14,
       "hashed": "ee36410a49bbf0bb",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "수도권 강원 비",
-      "score": 20,
-      "maxscore": 20,
-      "hashed": "790ddfd7b99450d7",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김성은 알코올 의존증",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "072abdf375b4d254",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이혼숙려캠프 이성호 판사",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "d95e4a53161b8350",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "국세청 홈택스 정상 운영",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "536c48bd8b79dc0e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "딘딘 축의금 액수 공개",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "e5c32e6e83b13d85",
-      "delta": 0,
+      "delta": -5,
       "engine": "zum"
     },
     {
       "keyword": "정일우 CEO 열애설",
-      "score": 11,
-      "maxscore": 11,
+      "score": 13,
+      "maxscore": 13,
       "hashed": "83108d31a6732cf2",
       "delta": 0,
       "engine": "zum"
+    },
+    {
+      "keyword": "이혼숙려캠프 이성호",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "fdeec9efd0883109",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한가인 형부 가족 공개",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "055e9bab53dc69a4",
+      "delta": 999,
+      "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T00:45:28.855Z"
+  "updated": "2025-10-10T00:50:29.131Z"
 }
