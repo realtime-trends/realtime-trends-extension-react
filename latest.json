@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760111463,
+  "timestamp": 1760111762,
   "trends": [
     {
       "keyword": "마차도 노벨평화상",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "85852fbd1b1c2534",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "84da444ba45a2a68",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "dfc05a7718117d7a",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "83471167e6e836f5",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "d336d6f8b5675c36",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "64d1aa85445a2b5c",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "94a5070db592fc7e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "0a688378e440d162",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T15:51:04.454Z"
+  "updated": "2025-10-10T15:56:03.582Z"
 }
