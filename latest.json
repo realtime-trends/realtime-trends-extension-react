@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760111164,
+  "timestamp": 1760111463,
   "trends": [
     {
       "keyword": "마차도 노벨평화상",
@@ -10,19 +10,19 @@
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대사 초치",
+      "keyword": "손연재 육아 고충",
       "score": 19,
       "maxscore": 19,
-      "hashed": "0f9cbab091e36df8",
-      "delta": 0,
+      "hashed": "85852fbd1b1c2534",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "손연재 육아 고충",
+      "keyword": "캄보디아 취업사기",
       "score": 18,
       "maxscore": 18,
-      "hashed": "85852fbd1b1c2534",
-      "delta": 0,
+      "hashed": "84da444ba45a2a68",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -34,53 +34,53 @@
       "engine": "zum"
     },
     {
-      "keyword": "정소민 우주메리미",
+      "keyword": "김혜성 결승 득점",
       "score": 16,
       "maxscore": 16,
+      "hashed": "dfc05a7718117d7a",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정소민 우주메리미",
+      "score": 15,
+      "maxscore": 15,
       "hashed": "83471167e6e836f5",
-      "delta": 0,
+      "delta": -1,
       "engine": "zum"
     },
     {
       "keyword": "브라질전 대패",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "d336d6f8b5675c36",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김혜성 결승 득점",
       "score": 14,
       "maxscore": 14,
-      "hashed": "dfc05a7718117d7a",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이예원 놀부 마스터즈",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "d51d9bfe91f2ed26",
-      "delta": 0,
+      "hashed": "d336d6f8b5675c36",
+      "delta": -1,
       "engine": "zum"
     },
     {
       "keyword": "양평군 공무원 사망 사건",
-      "score": 12,
-      "maxscore": 12,
+      "score": 13,
+      "maxscore": 13,
       "hashed": "64d1aa85445a2b5c",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "이찬원 데이트 폭력 방지",
+      "keyword": "박미선 암투병 근황",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "94a5070db592fc7e",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김재훈 금 밀수 체포",
       "score": 11,
       "maxscore": 11,
-      "hashed": "eaa77dbddbbf6eb9",
-      "delta": 0,
+      "hashed": "0a688378e440d162",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T15:46:06.024Z"
+  "updated": "2025-10-10T15:51:04.454Z"
 }
