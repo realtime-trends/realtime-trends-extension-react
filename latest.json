@@ -1,36 +1,36 @@
 {
-  "timestamp": 1760100357,
+  "timestamp": 1760100659,
   "trends": [
     {
-      "keyword": "노벨평화상 마차도",
+      "keyword": "마차도 노벨평화상 수상",
       "score": 20,
       "maxscore": 20,
-      "hashed": "58ff23c45a35ba15",
-      "delta": 0,
+      "hashed": "9cb951286046ac2f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "양평 공무원 사망 특검",
+      "keyword": "양평군 공무원 사망",
       "score": 19,
       "maxscore": 19,
-      "hashed": "04b6d8aecea57711",
-      "delta": 0,
+      "hashed": "0b6323b3fa4d53c7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "윤이나 뷰익 상하이",
+      "keyword": "선우용여 박미선 근황",
       "score": 18,
       "maxscore": 18,
-      "hashed": "6bfc9c10c828fd1f",
-      "delta": 0,
+      "hashed": "de5a2eca026d7073",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "삼성 SSG 준PO",
+      "keyword": "농구 대표팀 전희철 조상현",
       "score": 17,
       "maxscore": 17,
-      "hashed": "1231a7b9d38ef162",
-      "delta": 0,
+      "hashed": "b814f22ab58e5f5f",
+      "delta": 3,
       "engine": "zum"
     },
     {
@@ -42,45 +42,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "이스라엘군 가자지구 휴전",
+      "keyword": "양평 공무원 사망 특검",
       "score": 15,
       "maxscore": 15,
-      "hashed": "14409729e71d5eff",
-      "delta": 0,
+      "hashed": "04b6d8aecea57711",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "농구 대표팀 전희철 조상현",
+      "keyword": "윤이나 뷰익 상하이",
       "score": 14,
       "maxscore": 14,
-      "hashed": "b814f22ab58e5f5f",
-      "delta": 0,
+      "hashed": "6bfc9c10c828fd1f",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "특검 공무원 사망",
+      "keyword": "삼성 SSG 준PO",
       "score": 13,
       "maxscore": 13,
-      "hashed": "d7f6b1fa6269c843",
-      "delta": 0,
+      "hashed": "1231a7b9d38ef162",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "이찬원 모교 후배 사랑",
+      "keyword": "이스라엘군 가자지구 휴전",
       "score": 12,
       "maxscore": 12,
-      "hashed": "f84dd51c3d07e2ce",
-      "delta": 0,
+      "hashed": "14409729e71d5eff",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "금메달 금 밀수",
+      "keyword": "이찬원 데이트 폭력",
       "score": 11,
       "maxscore": 11,
-      "hashed": "5b2a198e9c34e950",
-      "delta": 0,
+      "hashed": "dfb194c15c6f86ab",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T12:45:59.157Z"
+  "updated": "2025-10-10T12:51:01.127Z"
 }
