@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760140258,
+  "timestamp": 1760140559,
   "trends": [
     {
       "keyword": "구성환 백반증",
       "score": 20,
       "maxscore": 20,
       "hashed": "9c424dae5cb64d16",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "10ee463f4ca9f038",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "893f97524192cfd4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "1484ef4702ba38b3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,14 +38,14 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "9cb951286046ac2f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "브라질전 대패 속 리더십",
+      "keyword": "브라질전 대�� 속 리더십",
       "score": 15,
       "maxscore": 15,
-      "hashed": "f111f935762d1eee",
+      "hashed": "2b02e278f8863417",
       "delta": 999,
       "engine": "zum"
     },
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "8c07b5b7945691cd",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "85852fbd1b1c2534",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "84da444ba45a2a68",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "0b6323b3fa4d53c7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T23:51:03.175Z"
+  "updated": "2025-10-10T23:56:00.638Z"
 }
