@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760093733,
+  "trends": [
+    {
+      "keyword": "양평 공무원 사망",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "6683ffa6c209d08e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 SSG 2차전",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "e755f30a38b00169",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "격투기 선수 금 밀수",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "a23da743c52306d3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이찬원 모교 후배 사랑",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "f84dd51c3d07e2ce",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤이나 뷰익 상하이",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "6bfc9c10c828fd1f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노벨평화상 마차도",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "58ff23c45a35ba15",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "농구 대표팀 전희철 조상현",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "b814f22ab58e5f5f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대통령 소비쿠폰 간담회",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "4fdcbd4937d58f99",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김시우 베이커런트 클래식",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "55352f072b3eef89",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "라이칭더 대만 아이언돔",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "af6d8ded670d5b3d",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-10T10:55:36.159Z"
+}
