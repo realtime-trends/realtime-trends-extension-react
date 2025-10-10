@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760064323,
+  "timestamp": 1760064632,
   "trends": [
     {
-      "keyword": "이창원호 모로코 패배",
+      "keyword": "휴닝카이 열애설 해명",
       "score": 20,
       "maxscore": 20,
-      "hashed": "f2e30055a7af4b9f",
-      "delta": 0,
+      "hashed": "6abe7b1632b4a32c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김성은 알코올 의존증 고백",
+      "keyword": "진성 가요무대 추석 특집",
       "score": 19,
       "maxscore": 19,
-      "hashed": "9c661f26b82fe3dd",
-      "delta": 0,
+      "hashed": "e050f8c881f188fa",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "23기 옥순 논란",
+      "keyword": "트럼프 노벨평화상 불발",
       "score": 18,
       "maxscore": 18,
-      "hashed": "462f9dfdc5c8c1b5",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "임영웅 뭉찬4 감독 데뷔",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "2e0357b61b688f33",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김종국 아내 실루엣",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "d6a5171f09de9485",
-      "delta": 0,
+      "hashed": "b81c90537cf9ffec",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "트와이스 10주년",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "101f58d52680be87",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다비치 타임캡슐 이무진",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d0691eac80c4a781",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김혜성 끝내기 득점",
       "score": 15,
       "maxscore": 15,
-      "hashed": "101f58d52680be87",
-      "delta": 0,
+      "hashed": "c227a69560c1a772",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조희대 대법원장 국감",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "57bddd52ac9bf915",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이숙캠 부부 이혼",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "7359dbb513e8389a",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "현대캐피탈 울프 독스",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "3b0f76c58b914606",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "장영란 남편 폐업 이유",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "a978ca96bd61c6d7",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "최휘영 장관 홍명보호 격려",
       "score": 12,
       "maxscore": 12,
-      "hashed": "b5d9f6b9de32e901",
-      "delta": 0,
+      "hashed": "3b0f76c58b914606",
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "신태용 감독 경질",
+      "keyword": "김건우 승부수",
       "score": 11,
       "maxscore": 11,
-      "hashed": "b1f118b4e3b652dd",
-      "delta": 0,
+      "hashed": "e7f0f9afc0fd38ff",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T02:45:24.743Z"
+  "updated": "2025-10-10T02:50:33.890Z"
 }
