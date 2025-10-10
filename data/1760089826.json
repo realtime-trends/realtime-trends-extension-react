@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760089826,
+  "trends": [
+    {
+      "keyword": "오세훈 때리기",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "9db2b4793cea9ed8",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이찬원 모교 후배 사랑",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "f84dd51c3d07e2ce",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 SSG 2차전",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "e755f30a38b00169",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "필리핀 민다나오섬 강진",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "19a3731b06480a55",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박정민 화사 굿 굿바이",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4e5f4f937a0f23fa",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김현지 국감 출석",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "081f496f91490459",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "격투기 선수 금 밀수",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "a23da743c52306d3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤이나 뷰익 상하이",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "6bfc9c10c828fd1f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "금호강 수상 레저",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "496f84d90769d7b1",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 정부 국정감사",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "a96b029a13a57569",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-10T09:50:29.384Z"
+}
