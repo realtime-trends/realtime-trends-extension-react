@@ -1,20 +1,12 @@
 {
-  "timestamp": 1760055620,
+  "timestamp": 1760055932,
   "trends": [
-    {
-      "keyword": "조혜련 아들 호칭 변화",
-      "score": 27.6,
-      "maxscore": 18,
-      "hashed": "5fbd1ffc7214d506",
-      "delta": 0,
-      "engine": "zum"
-    },
     {
       "keyword": "이스라엘 사막 교도소 수감",
       "score": 27.299999999999997,
       "maxscore": 19,
       "hashed": "ee36410a49bbf0bb",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
@@ -22,7 +14,15 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "790ddfd7b99450d7",
-      "delta": 0,
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조혜련 아���",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "7c97a20f82a709c9",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -42,11 +42,19 @@
       "engine": "zum"
     },
     {
+      "keyword": "조혜련 아들 호칭 변화",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "5fbd1ffc7214d506",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
       "keyword": "국세청 홈택스 정상 운영",
       "score": 13,
       "maxscore": 13,
       "hashed": "536c48bd8b79dc0e",
-      "delta": 0,
+      "delta": -1,
       "engine": "zum"
     },
     {
@@ -54,7 +62,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "e5c32e6e83b13d85",
-      "delta": 0,
+      "delta": -1,
       "engine": "zum"
     },
     {
@@ -62,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "83108d31a6732cf2",
-      "delta": 0,
+      "delta": -1,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T00:20:22.494Z"
+  "updated": "2025-10-10T00:25:34.096Z"
 }
