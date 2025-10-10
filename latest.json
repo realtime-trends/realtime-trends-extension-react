@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760089535,
+  "timestamp": 1760089826,
   "trends": [
     {
-      "keyword": "박지현 열애설 일축",
+      "keyword": "오세훈 때리기",
       "score": 20,
       "maxscore": 20,
-      "hashed": "54cc7233b1653d84",
-      "delta": 0,
+      "hashed": "9db2b4793cea9ed8",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "국정자원 화재 복구",
+      "keyword": "이찬원 모교 후배 사랑",
       "score": 19,
       "maxscore": 19,
-      "hashed": "da2ddfdfbcdd2537",
-      "delta": 0,
+      "hashed": "f84dd51c3d07e2ce",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "최우식 정소민 우주메리미",
+      "keyword": "삼성 SSG 2차전",
       "score": 18,
       "maxscore": 18,
-      "hashed": "c66d4b5fb06c870c",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "한학자 쪼개기 후원",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "75cfe01667f19631",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "삼성 SSG 준플레이오프",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "0a03eaf1856538fe",
-      "delta": 0,
+      "hashed": "e755f30a38b00169",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "필리핀 민다나오섬 강진",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "19a3731b06480a55",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박정민 화사 굿 굿바이",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4e5f4f937a0f23fa",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김현지 국감 출석",
       "score": 15,
       "maxscore": 15,
-      "hashed": "19a3731b06480a55",
-      "delta": 0,
+      "hashed": "081f496f91490459",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "공명당 연정 이탈",
+      "keyword": "격투기 선수 금 밀수",
       "score": 14,
       "maxscore": 14,
-      "hashed": "2ae5e36568079dc7",
-      "delta": 0,
+      "hashed": "a23da743c52306d3",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "박정민 화사 뮤비",
+      "keyword": "윤이나 뷰익 상하이",
       "score": 13,
       "maxscore": 13,
-      "hashed": "d1a2a4790bf11ce7",
-      "delta": 0,
+      "hashed": "6bfc9c10c828fd1f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "콩콩팡팡 김우빈",
+      "keyword": "금호강 수상 레저",
       "score": 12,
       "maxscore": 12,
-      "hashed": "8d6a88ea9c3fefb1",
-      "delta": 0,
+      "hashed": "496f84d90769d7b1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "장동혁 특검 수사 비판",
+      "keyword": "이재명 정부 국정감사",
       "score": 11,
       "maxscore": 11,
-      "hashed": "ec61641d472419ef",
-      "delta": 0,
+      "hashed": "a96b029a13a57569",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T09:45:36.769Z"
+  "updated": "2025-10-10T09:50:28.049Z"
 }
