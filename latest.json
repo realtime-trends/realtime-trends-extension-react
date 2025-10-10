@@ -1,52 +1,52 @@
 {
-  "timestamp": 1760096735,
+  "timestamp": 1760097066,
   "trends": [
     {
-      "keyword": "양평 공무원 사망",
+      "keyword": "노벨평화상 마차도",
       "score": 20,
       "maxscore": 20,
-      "hashed": "6683ffa6c209d08e",
-      "delta": 0,
+      "hashed": "58ff23c45a35ba15",
+      "delta": 5,
       "engine": "zum"
     },
     {
-      "keyword": "삼성 SSG 2차전",
+      "keyword": "양평 공무원 사망 특검",
       "score": 19,
       "maxscore": 19,
-      "hashed": "e755f30a38b00169",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "격투기 선수 금 밀수",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "a23da743c52306d3",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이찬원 모교 후배 사랑",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "f84dd51c3d07e2ce",
-      "delta": 0,
+      "hashed": "04b6d8aecea57711",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "윤이나 뷰익 상하이",
-      "score": 16,
-      "maxscore": 16,
+      "score": 18,
+      "maxscore": 18,
       "hashed": "6bfc9c10c828fd1f",
-      "delta": 0,
+      "delta": 2,
       "engine": "zum"
     },
     {
-      "keyword": "노벨평화상 마차도",
+      "keyword": "삼성 SSG 준PO",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "1231a7b9d38ef162",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이예원 놀부 마스터즈",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d51d9bfe91f2ed26",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이스라엘군 가자지구 휴전",
       "score": 15,
       "maxscore": 15,
-      "hashed": "58ff23c45a35ba15",
-      "delta": 0,
+      "hashed": "14409729e71d5eff",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -58,29 +58,29 @@
       "engine": "zum"
     },
     {
-      "keyword": "대통령 소비쿠폰 간담회",
+      "keyword": "특검 공무원 사망",
       "score": 13,
       "maxscore": 13,
-      "hashed": "4fdcbd4937d58f99",
-      "delta": 0,
+      "hashed": "d7f6b1fa6269c843",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김시우 베이커런트 클래식",
+      "keyword": "이찬원 모교 후배 사랑",
       "score": 12,
       "maxscore": 12,
-      "hashed": "55352f072b3eef89",
-      "delta": 0,
+      "hashed": "f84dd51c3d07e2ce",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "라이칭더 대만 아이언돔",
+      "keyword": "금메달 금 밀수",
       "score": 11,
       "maxscore": 11,
-      "hashed": "af6d8ded670d5b3d",
-      "delta": 0,
+      "hashed": "5b2a198e9c34e950",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T11:45:36.367Z"
+  "updated": "2025-10-10T11:51:08.214Z"
 }
