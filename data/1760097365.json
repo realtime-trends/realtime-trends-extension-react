@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760097365,
+  "trends": [
+    {
+      "keyword": "노벨평화상 마차도",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "58ff23c45a35ba15",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평 공무원 사망 특검",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "04b6d8aecea57711",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤이나 뷰익 상하이",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "6bfc9c10c828fd1f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 SSG 준PO",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "1231a7b9d38ef162",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이예원 놀부 마스터즈",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d51d9bfe91f2ed26",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이스라엘군 가자지구 휴전",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "14409729e71d5eff",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "농구 대표팀 전희철 조상현",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "b814f22ab58e5f5f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "특검 공무원 사망",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "d7f6b1fa6269c843",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이찬원 모교 후배 사랑",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f84dd51c3d07e2ce",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "금메달 금 밀수",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "5b2a198e9c34e950",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-10T11:56:08.829Z"
+}
