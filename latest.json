@@ -1,86 +1,78 @@
 {
-  "timestamp": 1760147162,
+  "timestamp": 1760147460,
   "trends": [
     {
-      "keyword": "구성환 백반증",
+      "keyword": "구성환 백반증 고통",
+      "score": 26.9,
+      "maxscore": 17,
+      "hashed": "1ac65ee0ae6270dd",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "우주메리미 정소민 청혼 엔딩",
       "score": 20,
       "maxscore": 20,
-      "hashed": "9c424dae5cb64d16",
-      "delta": 0,
+      "hashed": "5396139ad95ec139",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이서진 엄지원 케미",
+      "keyword": "손연재 육아 일상",
       "score": 19,
       "maxscore": 19,
-      "hashed": "10ee463f4ca9f038",
-      "delta": 0,
+      "hashed": "214585209eb12192",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "양평군 공무원 사망",
+      "keyword": "파이브 장해영 사망",
       "score": 18,
       "maxscore": 18,
-      "hashed": "0b6323b3fa4d53c7",
-      "delta": 0,
+      "hashed": "74fcbba2f2142949",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "마차도 노벨평화상 수상",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "9cb951286046ac2f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "박미선 암투병 호전",
+      "keyword": "이서진 비서진 멜로",
       "score": 16,
       "maxscore": 16,
-      "hashed": "1484ef4702ba38b3",
-      "delta": 0,
+      "hashed": "7034f10594ad8624",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "브라질전 대패 속 리더십",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "f111f935762d1eee",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "손연재 육아 고충",
+      "keyword": "김현주 유채영 우정",
       "score": 14,
       "maxscore": 14,
-      "hashed": "85852fbd1b1c2534",
-      "delta": 0,
+      "hashed": "da3191e385a7c43a",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 취업 사기",
+      "keyword": "김재훈 금 밀수 체포",
       "score": 13,
       "maxscore": 13,
-      "hashed": "84da444ba45a2a68",
-      "delta": 0,
+      "hashed": "0a688378e440d162",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김재훈 금 밀수",
+      "keyword": "미국 셧다운 공무원 해고",
       "score": 12,
       "maxscore": 12,
-      "hashed": "8c07b5b7945691cd",
-      "delta": 0,
+      "hashed": "e02e1fa2f3d9c398",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이스라엘 인질 석방",
+      "keyword": "양평군 공무원 사망 사건",
       "score": 11,
       "maxscore": 11,
-      "hashed": "098f512fc5b84d98",
-      "delta": 0,
+      "hashed": "64d1aa85445a2b5c",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T01:46:03.636Z"
+  "updated": "2025-10-11T01:51:01.827Z"
 }
