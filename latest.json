@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760179567,
+  "timestamp": 1760179871,
   "trends": [
     {
-      "keyword": "캄보디아 취업 사기",
+      "keyword": "양평 공무원 특검",
       "score": 20,
       "maxscore": 20,
-      "hashed": "84da444ba45a2a68",
-      "delta": 0,
+      "hashed": "81fd98c78505532c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "시애틀 ALCS 진출",
+      "keyword": "캄보디아 한국인 감금 사건",
       "score": 19,
       "maxscore": 19,
-      "hashed": "a1ce8961b4608ba2",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "최홍만 식비",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "2f08d1f14a9d8923",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김우빈 수지 다지니",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "7374aa502fb9ae4f",
-      "delta": 0,
+      "hashed": "66cee1b0aa9e179c",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "김시우 안병훈 PGA",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "b2c3caf64cf5e6d7",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김연경 은퇴식",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "1d5261f79ef4b3af",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이소미 뷰익 LPGA",
       "score": 16,
       "maxscore": 16,
-      "hashed": "b2c3caf64cf5e6d7",
-      "delta": 0,
+      "hashed": "ed0399c3aad2a057",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "삼성전자 특허 침해 배상",
+      "keyword": "캄보디아 취업 사기",
       "score": 15,
       "maxscore": 15,
-      "hashed": "8fbad873565b60b1",
-      "delta": 0,
+      "hashed": "84da444ba45a2a68",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "양평군 공무원 사망",
+      "keyword": "시애틀 ALCS 진출",
       "score": 14,
       "maxscore": 14,
-      "hashed": "0b6323b3fa4d53c7",
-      "delta": 0,
+      "hashed": "a1ce8961b4608ba2",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "현대캐피탈 코치 문성민",
+      "keyword": "최홍만 식비",
       "score": 13,
       "maxscore": 13,
-      "hashed": "326296132d897b3b",
-      "delta": 0,
+      "hashed": "2f08d1f14a9d8923",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 건강 탁월",
+      "keyword": "김우빈 수지 다지니",
       "score": 12,
       "maxscore": 12,
-      "hashed": "fc555ee2765fb91a",
-      "delta": 0,
+      "hashed": "7374aa502fb9ae4f",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "화사 굿 굿바이",
+      "keyword": "양평 공무원 사망 사건",
       "score": 11,
       "maxscore": 11,
-      "hashed": "9e69e51ca5fc2311",
-      "delta": 0,
+      "hashed": "2d134854cacfc96d",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T10:46:09.323Z"
+  "updated": "2025-10-11T10:51:13.425Z"
 }
