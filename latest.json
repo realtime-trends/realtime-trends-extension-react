@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760190636,
+  "timestamp": 1760190937,
   "trends": [
     {
       "keyword": "곽튜브 결혼식",
       "score": 20,
       "maxscore": 20,
       "hashed": "8f95a4fdc1718a75",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "64b6938bdad636d7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "1d5261f79ef4b3af",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "62e793fd271a8205",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "dd038e1bb47fe657",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "04b6d8aecea57711",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "c4b6137214a105e3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "23374160db79708c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "4998c734c80226ce",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T13:50:37.986Z"
+  "updated": "2025-10-11T13:55:38.825Z"
 }
