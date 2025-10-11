@@ -1,28 +1,28 @@
 {
-  "timestamp": 1760186767,
+  "timestamp": 1760187065,
   "trends": [
     {
-      "keyword": "캄보디아 한국인 감금 사건",
+      "keyword": "김연경 은퇴식 흥국생명",
+      "score": 26.299999999999997,
+      "maxscore": 19,
+      "hashed": "83ecd3f1393b07e3",
+      "delta": 4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "곽튜브 결혼식",
       "score": 20,
       "maxscore": 20,
-      "hashed": "66cee1b0aa9e179c",
-      "delta": 0,
+      "hashed": "8f95a4fdc1718a75",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "허웅 KCC 현대모비스",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "4998c734c80226ce",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이소미 뷰익 LPGA",
+      "keyword": "월드컵 브라질전 완패",
       "score": 18,
       "maxscore": 18,
-      "hashed": "ed0399c3aad2a057",
-      "delta": 0,
+      "hashed": "62e793fd271a8205",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -34,53 +34,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "김연경 은퇴식 흥국생명",
+      "keyword": "캄보디아 한국인 살해",
       "score": 16,
       "maxscore": 16,
-      "hashed": "83ecd3f1393b07e3",
-      "delta": 0,
+      "hashed": "e0c046f73702dc3b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "허웅 KCC 현대모비스",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "4998c734c80226ce",
+      "delta": -4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이소미 뷰익 상하이",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "a46402d73ec8bfb8",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "두바이 김우빈",
-      "score": 15,
-      "maxscore": 15,
+      "score": 12,
+      "maxscore": 12,
       "hashed": "7e8ecb4fe53c01f9",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "양평 공무원 특검",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "81fd98c78505532c",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김시우 안병훈 우승 도전",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "6f83eb53fcf9d02a",
-      "delta": 0,
+      "delta": -2,
       "engine": "zum"
     },
     {
       "keyword": "양평 공무원 사망 사건",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "2d134854cacfc96d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 감금 폭행",
       "score": 11,
       "maxscore": 11,
-      "hashed": "fab7c0ec4becc6e8",
+      "hashed": "2d134854cacfc96d",
       "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T12:46:09.006Z"
+  "updated": "2025-10-11T12:51:06.945Z"
 }
