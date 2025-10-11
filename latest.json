@@ -1,20 +1,28 @@
 {
-  "timestamp": 1760168776,
+  "timestamp": 1760169073,
   "trends": [
+    {
+      "keyword": "김재훈 금 밀수 사건",
+      "score": 20.1,
+      "maxscore": 13,
+      "hashed": "39f9c67c95cd12e2",
+      "delta": 9,
+      "engine": "zum"
+    },
     {
       "keyword": "삼성전자 특허 침해 배상",
       "score": 20,
       "maxscore": 20,
       "hashed": "8fbad873565b60b1",
-      "delta": 0,
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 취업 사기",
+      "keyword": "양평군 공무원 사망",
       "score": 19,
       "maxscore": 19,
-      "hashed": "84da444ba45a2a68",
-      "delta": 0,
+      "hashed": "0b6323b3fa4d53c7",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -22,65 +30,49 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "326296132d897b3b",
-      "delta": 0,
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "양평군 공무원 부검",
+      "keyword": "트럼프 건강 탁월",
       "score": 17,
       "maxscore": 17,
-      "hashed": "cd93309a8dbf194c",
-      "delta": 0,
+      "hashed": "fc555ee2765fb91a",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "우주메리미 청혼 엔딩",
+      "keyword": "캄보디아 대학생 사망사건",
       "score": 16,
       "maxscore": 16,
-      "hashed": "06ffa49e45e36b5e",
-      "delta": 0,
+      "hashed": "855abaaf3fe30666",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "엑스디너리 히어로즈 월드투어",
+      "keyword": "캄보디아 감금 사망 사건",
       "score": 15,
       "maxscore": 15,
-      "hashed": "8c8b97efe39055dd",
-      "delta": 0,
+      "hashed": "3fd7e506b780c3e8",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "파이브 장해영 사망",
+      "keyword": "파이브 장해영 암투병 사망",
       "score": 14,
       "maxscore": 14,
-      "hashed": "74fcbba2f2142949",
-      "delta": 0,
+      "hashed": "938b02c9af90ad54",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "우주메리미 로맨스",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "ce760fd61fd6516d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김건희 특검 양평 공무원 사망",
+      "keyword": "우주메리미 위장 신혼부부",
       "score": 12,
       "maxscore": 12,
-      "hashed": "802a6ee17a72e931",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김재훈 금 밀수 사건",
-      "score": 11,
-      "maxscore": 11,
-      "hashed": "39f9c67c95cd12e2",
-      "delta": 0,
+      "hashed": "ad72af3f6b976894",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T07:46:18.144Z"
+  "updated": "2025-10-11T07:51:15.361Z"
 }
