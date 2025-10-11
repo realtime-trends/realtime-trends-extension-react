@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760172675,
+  "timestamp": 1760172968,
   "trends": [
     {
       "keyword": "삼성전자 특허 침해 배상",
       "score": 20,
       "maxscore": 20,
       "hashed": "8fbad873565b60b1",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "2f08d1f14a9d8923",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "c36f67ac0395619c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "938b02c9af90ad54",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "3fd7e506b780c3e8",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "8c07b5b7945691cd",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "ad72af3f6b976894",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T08:51:16.244Z"
+  "updated": "2025-10-11T08:56:09.462Z"
 }
