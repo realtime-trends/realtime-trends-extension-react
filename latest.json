@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760187065,
+  "timestamp": 1760187371,
   "trends": [
     {
       "keyword": "김연경 은퇴식 흥국생명",
       "score": 26.299999999999997,
       "maxscore": 19,
       "hashed": "83ecd3f1393b07e3",
-      "delta": 4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "8f95a4fdc1718a75",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "62e793fd271a8205",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "e0c046f73702dc3b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "4998c734c80226ce",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "a46402d73ec8bfb8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "7e8ecb4fe53c01f9",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T12:51:06.945Z"
+  "updated": "2025-10-11T12:56:12.895Z"
 }
