@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760165473,
+  "trends": [
+    {
+      "keyword": "삼성전자 특허 침해 배상",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "8fbad873565b60b1",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 취업 사기",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "84da444ba45a2a68",
+      "delta": -1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "현대캐피탈 코치 문성민",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "326296132d897b3b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평군 공무원 부검",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "cd93309a8dbf194c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "우주메리미 청혼 엔딩",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "06ffa49e45e36b5e",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "엑스디너리 히어로즈 월드투어",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "8c8b97efe39055dd",
+      "delta": -1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "파이브 장해영 사망",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "74fcbba2f2142949",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "우주메리미 로맨스",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "ce760fd61fd6516d",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김건희 특검 양평 공무원 사망",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "802a6ee17a72e931",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김재훈 금 밀수 사건",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "39f9c67c95cd12e2",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-11T06:51:15.909Z"
+}
