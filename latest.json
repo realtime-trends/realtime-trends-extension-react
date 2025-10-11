@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760169073,
+  "timestamp": 1760169376,
   "trends": [
     {
       "keyword": "김재훈 금 밀수 사건",
       "score": 20.1,
       "maxscore": 13,
       "hashed": "39f9c67c95cd12e2",
-      "delta": 9,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "8fbad873565b60b1",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "0b6323b3fa4d53c7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "326296132d897b3b",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "fc555ee2765fb91a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "855abaaf3fe30666",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "3fd7e506b780c3e8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "938b02c9af90ad54",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "ad72af3f6b976894",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T07:51:15.361Z"
+  "updated": "2025-10-11T07:56:17.240Z"
 }
