@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760157063,
+  "trends": [
+    {
+      "keyword": "트럼프 노벨평화상 불발",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "b81c90537cf9ffec",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평 공무원 사망",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "6683ffa6c209d08e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케데헌 골든 싱글차트",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "5e1524161f3eaaad",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "우주메리미 정소민 청혼 엔딩",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "5396139ad95ec139",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "스트레이 키즈 앙코르 팝업",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "109b2f6637a36f5b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "파이브 장해영 사망",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "74fcbba2f2142949",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쌍둥이 피겨 김유재 김유성",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "22a2b25f30b81883",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평군 공무원 사망 사건",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "64d1aa85445a2b5c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손연재 육아 고충",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "85852fbd1b1c2534",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김재훈 금 밀수",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "8c07b5b7945691cd",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-11T04:31:06.107Z"
+}
