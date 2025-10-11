@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760158262,
+  "timestamp": 1760158559,
   "trends": [
     {
       "keyword": "캄보디아 대학생 사건",
       "score": 20,
       "maxscore": 20,
       "hashed": "d91de500fe9cfa40",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "f34bfcd3df48090a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "109b2f6637a36f5b",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "5e1524161f3eaaad",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "74fcbba2f2142949",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "b81c90537cf9ffec",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "6683ffa6c209d08e",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "845654fd16ab96c8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T04:51:03.708Z"
+  "updated": "2025-10-11T04:56:01.128Z"
 }
