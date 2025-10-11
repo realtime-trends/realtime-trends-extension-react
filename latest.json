@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760140559,
+  "timestamp": 1760140857,
   "trends": [
     {
       "keyword": "구성환 백반증",
@@ -42,10 +42,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "브라질전 대�� 속 리더십",
+      "keyword": "브라질전 대패 속 리더십",
       "score": 15,
       "maxscore": 15,
-      "hashed": "2b02e278f8863417",
+      "hashed": "f111f935762d1eee",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-10T23:56:00.638Z"
+  "updated": "2025-10-11T00:00:58.417Z"
 }
