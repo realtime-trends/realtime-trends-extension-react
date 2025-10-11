@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760153163,
+  "timestamp": 1760153463,
   "trends": [
     {
       "keyword": "파이브 장해영 사망",
@@ -18,11 +18,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "우주메리미 정소민 청혼 엔딩",
+      "keyword": "우주메리미 ���소민 청혼 엔딩",
       "score": 18,
       "maxscore": 18,
-      "hashed": "5396139ad95ec139",
-      "delta": 0,
+      "hashed": "15ebdb0dfe0d6bbb",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T03:26:04.645Z"
+  "updated": "2025-10-11T03:31:04.918Z"
 }
