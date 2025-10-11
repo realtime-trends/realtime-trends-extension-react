@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760194238,
+  "timestamp": 1760194538,
   "trends": [
     {
       "keyword": "이준호 성동일 부자",
       "score": 20,
       "maxscore": 20,
       "hashed": "37f772f9a7c68113",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "7dfc4dff63d1893b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "87da4a66bedb5a7e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "8f95a4fdc1718a75",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "64b6938bdad636d7",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "1d5261f79ef4b3af",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "5da6e51ea4a026b9",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "6f854032bb7380ba",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "64d1aa85445a2b5c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "dd038e1bb47fe657",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T14:50:39.729Z"
+  "updated": "2025-10-11T14:55:39.782Z"
 }
