@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760143878,
+  "timestamp": 1760144158,
   "trends": [
     {
       "keyword": "구성환 백반증",
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "0b6323b3fa4d53c7",
-      "delta": 7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "9cb951286046ac2f",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "1484ef4702ba38b3",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "85852fbd1b1c2534",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "84da444ba45a2a68",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "8c07b5b7945691cd",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "098f512fc5b84d98",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-11T00:51:19.611Z"
+  "updated": "2025-10-11T00:55:59.430Z"
 }
