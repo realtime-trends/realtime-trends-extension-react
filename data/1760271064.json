@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760271064,
+  "trends": [
+    {
+      "keyword": "지귀연 판사 불출석",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "1832f0165466596e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 취업사기",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "84da444ba45a2a68",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이소미 뷰익 상하이",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "a46402d73ec8bfb8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "배준호 어깨 부상",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "7d1b0e1585bd8ca5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "성남 인천 무승부",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "b9cd16a76d746f24",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "황희태 강력계 형사",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "6c9307acb07c27b0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "베이비몬스터 위 고 업",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "822841937b632a61",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노벨평화상 트럼프 감사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "bf9dee20aea7f160",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 코리안데스크",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "d4efe774a6b49751",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김상욱 심근경색",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "507287eac712b32d",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-12T12:11:06.946Z"
+}
