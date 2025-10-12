@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760263267,
+  "timestamp": 1760263567,
   "trends": [
     {
       "keyword": "캄보디아 코리안데스크 설치",
@@ -50,11 +50,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "배준호 어깨 부상",
+      "keyword": "배준호 ��깨 부상",
       "score": 14,
       "maxscore": 14,
-      "hashed": "7d1b0e1585bd8ca5",
-      "delta": 0,
+      "hashed": "24c2698ab690612f",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T10:01:08.646Z"
+  "updated": "2025-10-12T10:06:09.065Z"
 }
