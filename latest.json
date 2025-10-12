@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760311535,
+  "timestamp": 1760311834,
   "trends": [
     {
       "keyword": "윤민수 미우새 이혼",
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "871bc73d9fee093c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T23:25:36.753Z"
+  "updated": "2025-10-12T23:30:35.262Z"
 }
