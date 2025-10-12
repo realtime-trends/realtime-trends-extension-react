@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760273766,
+  "timestamp": 1760274065,
   "trends": [
     {
       "keyword": "송가인 가짜뉴스 해명",
@@ -42,11 +42,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "지귀연 판사 불출석",
+      "keyword": "지귀연 판�� 불출석",
       "score": 15,
       "maxscore": 15,
-      "hashed": "1832f0165466596e",
-      "delta": 0,
+      "hashed": "46273e3031597320",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T12:56:07.697Z"
+  "updated": "2025-10-12T13:01:06.970Z"
 }
