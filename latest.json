@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760288468,
+  "timestamp": 1760288761,
   "trends": [
     {
       "keyword": "윤민수 미우새 이혼",
@@ -42,11 +42,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "홍명보호 파라과이전 위기",
+      "keyword": "��명보호 파라과이전 위기",
       "score": 15,
       "maxscore": 15,
-      "hashed": "b6c1c1509755e67c",
-      "delta": 0,
+      "hashed": "7c1d063b2f5b4b43",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T17:01:10.001Z"
+  "updated": "2025-10-12T17:06:03.063Z"
 }
