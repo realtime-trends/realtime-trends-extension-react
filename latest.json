@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760265069,
+  "timestamp": 1760265366,
   "trends": [
     {
       "keyword": "캄보디아 코리안데스크 설치",
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "b2e928c77c31a34c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T10:31:11.173Z"
+  "updated": "2025-10-12T10:36:07.917Z"
 }
