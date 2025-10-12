@@ -1,52 +1,52 @@
 {
-  "timestamp": 1760233561,
+  "timestamp": 1760233861,
   "trends": [
     {
-      "keyword": "캄보디아 범죄 대응",
+      "keyword": "김선진 방송 복귀",
       "score": 20,
       "maxscore": 20,
-      "hashed": "7dfc4dff63d1893b",
-      "delta": 0,
+      "hashed": "2132d0adf3823287",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이준호 성동일 부자",
+      "keyword": "이준호 태풍상사",
       "score": 19,
       "maxscore": 19,
-      "hashed": "37f772f9a7c68113",
-      "delta": 0,
+      "hashed": "735b79e157ff4093",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대학생 살해",
+      "keyword": "다이앤 키튼 별세",
       "score": 18,
       "maxscore": 18,
-      "hashed": "87da4a66bedb5a7e",
-      "delta": 0,
+      "hashed": "c9fb97e3ec8d0ae8",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "곽튜브 결혼식",
+      "keyword": "신생아 매수 학대",
       "score": 17,
       "maxscore": 17,
-      "hashed": "8f95a4fdc1718a75",
-      "delta": 0,
+      "hashed": "ff5251d2393f8a39",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 범죄 총력 대응",
+      "keyword": "정소민 우주메리미 로코",
       "score": 16,
       "maxscore": 16,
-      "hashed": "a4b373a4b121f25b",
-      "delta": 0,
+      "hashed": "c5ce75eee511c6f6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 한국인 살해 사건",
+      "keyword": "쇼트트랙 임종언 금메달",
       "score": 15,
       "maxscore": 15,
-      "hashed": "5da6e51ea4a026b9",
-      "delta": 0,
+      "hashed": "3f188848ffe0696c",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -58,29 +58,29 @@
       "engine": "zum"
     },
     {
-      "keyword": "브라질전 완패 분석",
+      "keyword": "역도 박혜정",
       "score": 13,
       "maxscore": 13,
-      "hashed": "6f854032bb7380ba",
-      "delta": 0,
+      "hashed": "04812abe72546415",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "미중 갈등 솔라나",
+      "keyword": "트럼프 가자 평화 정상회의",
       "score": 12,
       "maxscore": 12,
-      "hashed": "8267cad6102af8bd",
-      "delta": 0,
+      "hashed": "2c4375d69b7e1161",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김우빈 라면 먹방",
+      "keyword": "조코비치 패배",
       "score": 11,
       "maxscore": 11,
-      "hashed": "47e7968e353b73e0",
-      "delta": 0,
+      "hashed": "76c60647cba5acb6",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T01:46:02.679Z"
+  "updated": "2025-10-12T01:51:02.771Z"
 }
