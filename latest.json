@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760237461,
+  "timestamp": 1760237754,
   "trends": [
     {
       "keyword": "이준호 태풍상사",
       "score": 20,
       "maxscore": 20,
       "hashed": "735b79e157ff4093",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "5688a382959e6564",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "6a855314f459e20b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "c9fb97e3ec8d0ae8",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "1232341599031008",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "4699815dd8030ce2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "4f1c15c9018677e2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "3f188848ffe0696c",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "04812abe72546415",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T02:51:02.320Z"
+  "updated": "2025-10-12T02:55:55.896Z"
 }
