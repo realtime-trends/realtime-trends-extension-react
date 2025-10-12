@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760244662,
+  "timestamp": 1760244959,
   "trends": [
     {
       "keyword": "홀란 해트트릭 작렬",
       "score": 20,
       "maxscore": 20,
       "hashed": "3e3dd6caad2a9ca2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "64be2a44bace6b23",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "e0e814812db7c1ab",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "1cd29c5b0f41c64e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "3f188848ffe0696c",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "9946a4561505127c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "4476a08f93bfd0a9",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "263e411a3d3c9545",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "c9fb97e3ec8d0ae8",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "83471167e6e836f5",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T04:51:03.811Z"
+  "updated": "2025-10-12T04:56:00.946Z"
 }
