@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760255468,
+  "timestamp": 1760255764,
   "trends": [
     {
       "keyword": "요네쿠라 료코 마약 혐의",
       "score": 20,
       "maxscore": 20,
       "hashed": "82b2e60ddfa904be",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "d4efe774a6b49751",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "c6ab8590d84dd74f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "0fc604ad31934791",
-      "delta": 4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "cedce001150bdfea",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "28935e6a748280f7",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "2431d7a657eab1e3",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "04b6d8aecea57711",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T07:51:10.388Z"
+  "updated": "2025-10-12T07:56:05.935Z"
 }
