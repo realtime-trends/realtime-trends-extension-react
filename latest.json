@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760268663,
+  "timestamp": 1760268968,
   "trends": [
     {
       "keyword": "마약 수사 의혹",
@@ -42,11 +42,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "배준호 어깨 부상",
+      "keyword": "배준호 ��깨 부상",
       "score": 15,
       "maxscore": 15,
-      "hashed": "7d1b0e1585bd8ca5",
-      "delta": 0,
+      "hashed": "24c2698ab690612f",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T11:31:05.114Z"
+  "updated": "2025-10-12T11:36:09.415Z"
 }
