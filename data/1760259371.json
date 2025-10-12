@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760259371,
+  "trends": [
+    {
+      "keyword": "캄보디아 코리안데스크 설치",
+      "score": 25.7,
+      "maxscore": 18,
+      "hashed": "1270816e0f568d3f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이준호 태풍상사 시청률",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c6ab8590d84dd74f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "메시 MLS 득점 선두",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1c48b4d11540a6c5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신인감독 김연경 한일전",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "90afc82cf1a7b3ea",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "밀워키 다저스 NLCS",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "64be2a44bace6b23",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안병훈 베이커런트 클래식",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "2aba68d63458dfce",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "앤더슨 원태인 맞대결",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "2b6ea11a3c9ba193",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김건희 특검 폭력수사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "832bcbf30ba4a3e2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "요네쿠라 료코 마약 혐의",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "82b2e60ddfa904be",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-12T08:56:13.895Z"
+}
