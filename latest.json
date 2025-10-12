@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760259063,
+  "timestamp": 1760259371,
   "trends": [
     {
       "keyword": "캄보디아 코리안데스크 설치",
       "score": 25.7,
       "maxscore": 18,
       "hashed": "1270816e0f568d3f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "c6ab8590d84dd74f",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "1c48b4d11540a6c5",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "90afc82cf1a7b3ea",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "2aba68d63458dfce",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "2b6ea11a3c9ba193",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "832bcbf30ba4a3e2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "82b2e60ddfa904be",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T08:51:05.131Z"
+  "updated": "2025-10-12T08:56:12.072Z"
 }
