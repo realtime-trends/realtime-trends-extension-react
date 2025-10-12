@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760237461,
+  "trends": [
+    {
+      "keyword": "이준호 태풍상사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "735b79e157ff4093",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조민기 아내 김선진",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "5688a382959e6564",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장나라 바달집 남편",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "6a855314f459e20b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다이앤 키튼 별세",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "c9fb97e3ec8d0ae8",
+      "delta": -1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김상욱 교수 심근경색",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "1232341599031008",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미시시피 고교 총격",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "4699815dd8030ce2",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홀란 해트트릭",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "4f1c15c9018677e2",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쇼트트랙 임종언 금메달",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "3f188848ffe0696c",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 가자 평화 정상회의",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "2c4375d69b7e1161",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "역도 박혜정",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "04812abe72546415",
+      "delta": -2,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-12T02:51:03.475Z"
+}
