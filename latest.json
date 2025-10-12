@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760251560,
+  "timestamp": 1760251862,
   "trends": [
     {
-      "keyword": "홀란 해트트릭",
+      "keyword": "친일파 이해승 후손 소송",
       "score": 20,
       "maxscore": 20,
-      "hashed": "4f1c15c9018677e2",
-      "delta": 0,
+      "hashed": "28935e6a748280f7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "쇼트트랙 임종언 금메달",
+      "keyword": "메시 득점 선두",
       "score": 19,
       "maxscore": 19,
-      "hashed": "3f188848ffe0696c",
-      "delta": 0,
+      "hashed": "8b5d7ccb5ef3b9c6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "환호공원 식물원",
+      "keyword": "정청래 자기정치 논란",
       "score": 18,
       "maxscore": 18,
-      "hashed": "0fc604ad31934791",
-      "delta": 0,
+      "hashed": "2431d7a657eab1e3",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대학생 사망 사건",
+      "keyword": "요네쿠라 료코 마약 혐의",
       "score": 17,
       "maxscore": 17,
-      "hashed": "855abaaf3fe30666",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이민우 딸 입양",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "8a759deb08f17cb4",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "자율주행 마을버스",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "384aec0938123496",
-      "delta": 0,
+      "hashed": "82b2e60ddfa904be",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "밀워키 다저스 NLCS",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "64be2a44bace6b23",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "태풍상사 이준호",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "5644785d549f4a0f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평 공무원 사망 특검",
       "score": 14,
       "maxscore": 14,
-      "hashed": "64be2a44bace6b23",
-      "delta": 0,
+      "hashed": "04b6d8aecea57711",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "야구 대표팀 평가전",
+      "keyword": "전북현대 PSV 아인트호벤 유스 연수",
       "score": 13,
       "maxscore": 13,
-      "hashed": "5c34921534c1b2a0",
-      "delta": 0,
+      "hashed": "9cc4a21ca600c85f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화 이글스 신인",
+      "keyword": "국정감사 외교 셈법",
       "score": 12,
       "maxscore": 12,
-      "hashed": "263e411a3d3c9545",
-      "delta": 0,
+      "hashed": "f1ccf318a53e7f05",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "발테리 보타스 프레스 컨퍼런스",
+      "keyword": "환호공원 식물원",
       "score": 11,
       "maxscore": 11,
-      "hashed": "f9fb29f180ee7a8c",
-      "delta": 0,
+      "hashed": "0fc604ad31934791",
+      "delta": -7,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T06:46:02.057Z"
+  "updated": "2025-10-12T06:51:03.860Z"
 }
