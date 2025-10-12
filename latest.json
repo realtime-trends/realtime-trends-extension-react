@@ -1,28 +1,28 @@
 {
-  "timestamp": 1760312737,
+  "timestamp": 1760313036,
   "trends": [
     {
-      "keyword": "윤민수 미우새 이혼",
+      "keyword": "김우빈 비인두암 투병",
       "score": 20,
       "maxscore": 20,
-      "hashed": "6c661a291ced72b2",
-      "delta": 0,
+      "hashed": "1e0b85f547401d92",
+      "delta": 2,
       "engine": "zum"
     },
     {
-      "keyword": "윤민수 위장이혼설 일축",
+      "keyword": "윤민수 이혼 후 일상",
       "score": 19,
       "maxscore": 19,
-      "hashed": "7a906c73611f4d3d",
-      "delta": 0,
+      "hashed": "1a714f311c7014d0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김우빈 비인두암 투병",
+      "keyword": "캄보디아 마약음료 살해",
       "score": 18,
       "maxscore": 18,
-      "hashed": "1e0b85f547401d92",
-      "delta": 0,
+      "hashed": "0ec62d2cc71d67c5",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -34,53 +34,53 @@
       "engine": "zum"
     },
     {
-      "keyword": "김상욱 심근경색 시술",
+      "keyword": "미중 무역 갈등",
       "score": 16,
       "maxscore": 16,
-      "hashed": "9dd9e0bd2837dd12",
-      "delta": 0,
+      "hashed": "c5caea3380d55fef",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "홍명보호 파라과이전 위기",
+      "keyword": "김정은 당창건 80돌",
       "score": 15,
       "maxscore": 15,
-      "hashed": "b6c1c1509755e67c",
-      "delta": 0,
+      "hashed": "49dca9c39cf4b01b",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "송가인 루머 해명",
+      "keyword": "홍명보호 파라과이전",
       "score": 14,
       "maxscore": 14,
-      "hashed": "3b529725fbf77de4",
-      "delta": 0,
+      "hashed": "8908a308371c7cbd",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "대통령 탄핵 압박",
+      "keyword": "여자 탁구 아시아선수권",
       "score": 13,
       "maxscore": 13,
-      "hashed": "1130c10231e43537",
-      "delta": 0,
+      "hashed": "8904f2ac6b300bf9",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 마약 사건",
+      "keyword": "삼성 준플레이오프 3차전",
       "score": 12,
       "maxscore": 12,
-      "hashed": "e7ef0601ed02d53a",
-      "delta": 0,
+      "hashed": "6507ee2e3f14bb20",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "솔라나 DePIN 그라스",
+      "keyword": "이재명 정부 국정감사",
       "score": 11,
       "maxscore": 11,
-      "hashed": "2c2e89b806575821",
-      "delta": 0,
+      "hashed": "a96b029a13a57569",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T23:45:39.124Z"
+  "updated": "2025-10-12T23:50:37.999Z"
 }
