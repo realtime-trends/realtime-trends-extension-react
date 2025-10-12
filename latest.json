@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760255162,
+  "timestamp": 1760255468,
   "trends": [
     {
-      "keyword": "친일파 이해승 후손 소송",
+      "keyword": "요네쿠라 료코 마약 혐의",
       "score": 20,
       "maxscore": 20,
-      "hashed": "28935e6a748280f7",
-      "delta": 0,
+      "hashed": "82b2e60ddfa904be",
+      "delta": 3,
       "engine": "zum"
     },
     {
@@ -18,19 +18,19 @@
       "engine": "zum"
     },
     {
-      "keyword": "정청래 자기정치 논란",
+      "keyword": "캄보디아 코리안 데스크",
       "score": 18,
       "maxscore": 18,
-      "hashed": "2431d7a657eab1e3",
-      "delta": 0,
+      "hashed": "d4efe774a6b49751",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "요네쿠라 료코 마약 혐의",
+      "keyword": "이준호 태풍상사 시청률",
       "score": 17,
       "maxscore": 17,
-      "hashed": "82b2e60ddfa904be",
-      "delta": 0,
+      "hashed": "c6ab8590d84dd74f",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -42,45 +42,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "태풍상사 이준호",
+      "keyword": "환호공원 식물원",
       "score": 15,
       "maxscore": 15,
-      "hashed": "5644785d549f4a0f",
-      "delta": 0,
+      "hashed": "0fc604ad31934791",
+      "delta": 4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채상병 특검 이종섭 의혹",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "cedce001150bdfea",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "친일파 이해승 후손 소송",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "28935e6a748280f7",
+      "delta": -7,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정청래 자기정치 논란",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "2431d7a657eab1e3",
+      "delta": -6,
       "engine": "zum"
     },
     {
       "keyword": "양평 공무원 사망 특검",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "04b6d8aecea57711",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "전북현대 PSV 아인트호벤 유스 연수",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "9cc4a21ca600c85f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "국정감사 외교 셈법",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "f1ccf318a53e7f05",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "환호공원 식물원",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0fc604ad31934791",
-      "delta": 0,
+      "hashed": "04b6d8aecea57711",
+      "delta": -3,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T07:46:03.598Z"
+  "updated": "2025-10-12T07:51:10.388Z"
 }
