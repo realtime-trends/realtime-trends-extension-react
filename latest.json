@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760240761,
+  "timestamp": 1760241061,
   "trends": [
     {
-      "keyword": "이준호 태풍상사",
+      "keyword": "다이앤 키튼 별세",
       "score": 20,
       "maxscore": 20,
-      "hashed": "735b79e157ff4093",
-      "delta": 0,
+      "hashed": "c9fb97e3ec8d0ae8",
+      "delta": 3,
       "engine": "zum"
     },
     {
-      "keyword": "조민기 아내 김선진",
+      "keyword": "정소민 우주메리미",
       "score": 19,
       "maxscore": 19,
-      "hashed": "5688a382959e6564",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "장나라 바달집 남편",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "6a855314f459e20b",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "다이앤 키튼 별세",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "c9fb97e3ec8d0ae8",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김상욱 교수 심근경색",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "1232341599031008",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "미시시피 고교 총격",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "4699815dd8030ce2",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "홀란 해트트릭",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "4f1c15c9018677e2",
-      "delta": 0,
+      "hashed": "83471167e6e836f5",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "쇼트트랙 임종언 금메달",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "3f188848ffe0696c",
+      "delta": 5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박혜정 세계선수권 우승",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "517882f2d829ff58",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "야구 손흥민 열풍",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "e0e814812db7c1ab",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "자율주행 마을버스",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "384aec0938123496",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김병만 아내 첫 데이트",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "3c7775c4485b91d4",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "앤더슨 원태인 선발",
       "score": 13,
       "maxscore": 13,
-      "hashed": "3f188848ffe0696c",
-      "delta": 0,
+      "hashed": "abfb985cc0e26cc1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 가자 평화 정상회의",
+      "keyword": "한화 이글스 신인",
       "score": 12,
       "maxscore": 12,
-      "hashed": "2c4375d69b7e1161",
-      "delta": 0,
+      "hashed": "263e411a3d3c9545",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "역도 박혜정",
+      "keyword": "홀란 해트트릭",
       "score": 11,
       "maxscore": 11,
-      "hashed": "04812abe72546415",
-      "delta": 0,
+      "hashed": "4f1c15c9018677e2",
+      "delta": -3,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T03:46:03.068Z"
+  "updated": "2025-10-12T03:51:02.821Z"
 }
