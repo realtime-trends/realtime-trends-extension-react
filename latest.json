@@ -1,36 +1,36 @@
 {
-  "timestamp": 1760258768,
+  "timestamp": 1760259063,
   "trends": [
     {
-      "keyword": "요네쿠라 료코 마약 혐의",
-      "score": 20,
-      "maxscore": 20,
-      "hashed": "82b2e60ddfa904be",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "메시 득점 선두",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "8b5d7ccb5ef3b9c6",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 코리안 데스크",
-      "score": 18,
+      "keyword": "캄보디아 코리안데스크 설치",
+      "score": 25.7,
       "maxscore": 18,
-      "hashed": "d4efe774a6b49751",
-      "delta": 0,
+      "hashed": "1270816e0f568d3f",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이준호 태풍상사 시청률",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c6ab8590d84dd74f",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "메시 MLS 득점 선두",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1c48b4d11540a6c5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신인감독 김연경 한일전",
       "score": 17,
       "maxscore": 17,
-      "hashed": "c6ab8590d84dd74f",
-      "delta": 0,
+      "hashed": "90afc82cf1a7b3ea",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -42,45 +42,37 @@
       "engine": "zum"
     },
     {
-      "keyword": "환호공원 식물원",
+      "keyword": "안병훈 베이커런트 클래식",
       "score": 15,
       "maxscore": 15,
-      "hashed": "0fc604ad31934791",
-      "delta": 0,
+      "hashed": "2aba68d63458dfce",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "채상병 특검 이종섭 의혹",
+      "keyword": "앤더슨 원태인 맞대결",
       "score": 14,
       "maxscore": 14,
-      "hashed": "cedce001150bdfea",
-      "delta": 0,
+      "hashed": "2b6ea11a3c9ba193",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "친일파 이해승 후손 소송",
+      "keyword": "김건희 특검 폭력수사",
       "score": 13,
       "maxscore": 13,
-      "hashed": "28935e6a748280f7",
-      "delta": 0,
+      "hashed": "832bcbf30ba4a3e2",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "정청래 자기정치 논란",
+      "keyword": "요네쿠라 료코 마약 혐의",
       "score": 12,
       "maxscore": 12,
-      "hashed": "2431d7a657eab1e3",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "양평 공무원 사망 특검",
-      "score": 11,
-      "maxscore": 11,
-      "hashed": "04b6d8aecea57711",
-      "delta": 0,
+      "hashed": "82b2e60ddfa904be",
+      "delta": -8,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-12T08:46:09.561Z"
+  "updated": "2025-10-12T08:51:05.131Z"
 }
