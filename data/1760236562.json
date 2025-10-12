@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760236562,
+  "trends": [
+    {
+      "keyword": "김선진 방송 복귀",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "2132d0adf3823287",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이준호 태풍상사",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "735b79e157ff4093",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다이앤 키튼 별세",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c9fb97e3ec8d0ae8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신생아 매수 학대",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "ff5251d2393f8a39",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정소민 우주메리미 로코",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c5ce75eee511c6f6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쇼트트랙 임종언 금메달",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "3f188848ffe0696c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김연경 은퇴식",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "1d5261f79ef4b3af",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "역도 박혜정",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "04812abe72546415",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 가자 평화 정상회의",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "2c4375d69b7e1161",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조코비치 패배",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "76c60647cba5acb6",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-12T02:36:05.799Z"
+}
