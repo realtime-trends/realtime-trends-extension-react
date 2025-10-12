@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760274660,
+  "trends": [
+    {
+      "keyword": "송가인 가짜뉴스 해명",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "871bc73d9fee093c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "성남 인천 무승부",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "b9cd16a76d746f24",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "배준호 어깨 부상",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "7d1b0e1585bd8ca5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍명보호 파라과이전",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "8908a308371c7cbd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이소미 뷰익 상하이",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "a46402d73ec8bfb8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지귀연 판사 불출석",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1832f0165466596e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 취업사기",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "84da444ba45a2a68",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "마약 수사 외압 의혹",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "1ec8053c1a982e81",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노벨평화상 트럼프 감사",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "bf9dee20aea7f160",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "황희태 강력계 형사",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "6c9307acb07c27b0",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-12T13:11:03.405Z"
+}
