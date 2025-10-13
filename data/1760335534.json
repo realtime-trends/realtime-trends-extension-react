@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760335534,
+  "trends": [
+    {
+      "keyword": "조희대 국정감사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "284916f60a6b3434",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김홍은 쉬어매드니스 소감",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "55530cbcedc3faa2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "마리와 별난 아빠들",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "08ff812f625dfd18",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤민수 위장이혼설",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "33ed9dc1f24dce02",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "월드컵 평가전",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "f8bb412461754c8a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "하마스 인질 석방",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "bd34523b0beb9b3b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "계엄 대통령실 CCTV",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "af0e11941ade3ae9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 디아즈 MVP",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "863e8931567cdd0b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "롤리 동점포 시애틀",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ff0d2dabb43b24b6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케데헌 이재",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "386f5d08f9925960",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T06:05:37.684Z"
+}
