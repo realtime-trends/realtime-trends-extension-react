@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760328941,
+  "trends": [
+    {
+      "keyword": "조희대 대법원장 국감",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "57bddd52ac9bf915",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신인감독 김연경 시청률",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "c1377aafa2f140ff",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이도현 그랜드 갤럭시 호텔",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "adcf627c27d8e5f2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쇼트트랙 임종언 2관왕",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "73a44fbfdc63c96e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "로코 우주메리미",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "9e3cf2ce28e4432c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "마리와 별난 아빠들",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "08ff812f625dfd18",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정웅인 사채업자 무릎",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "081f8079e3aa68d7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "의정부 아파트 칼부림",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "db1efbba234ec481",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍명보호 월드컵 포트",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "98604ca856b83f07",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신유빈 아시아선수권 4강",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "0f80ecaa110b93d8",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T04:15:44.565Z"
+}
