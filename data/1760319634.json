@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760319634,
+  "trends": [
+    {
+      "keyword": "송가인 가짜뉴스 해명",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "871bc73d9fee093c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "백번의 추억 김다미 허남준",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "9224c7e0cf036501",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쇼트트랙 임종언 2관왕",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "73a44fbfdc63c96e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 우크라 토마호크",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "439302b54cac59cc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤민수 위장이혼 해명",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "57a633078031581c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김우빈 비인두암 투병",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1e0b85f547401d92",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 준플레이오프 3차전",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "6507ee2e3f14bb20",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정세협 개콘 마지막 무대",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "bcf69c892c8bcf79",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여자 탁구 아시아선수권",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "8904f2ac6b300bf9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장나라 바퀴달린집 일본",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "7a1fe4f7a14be4c1",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T01:40:37.792Z"
+}
