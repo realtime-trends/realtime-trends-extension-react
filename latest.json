@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760322635,
+  "timestamp": 1760322938,
   "trends": [
     {
       "keyword": "조희대 대법원장 국정감사",
@@ -26,10 +26,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "송가인 가짜뉴�� 해명",
+      "keyword": "송가인 가짜뉴스 해명",
       "score": 17,
       "maxscore": 17,
-      "hashed": "772df24221fe5aaf",
+      "hashed": "871bc73d9fee093c",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T02:30:37.001Z"
+  "updated": "2025-10-13T02:35:40.098Z"
 }
