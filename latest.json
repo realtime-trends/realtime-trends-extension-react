@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760330739,
+  "timestamp": 1760331037,
   "trends": [
     {
-      "keyword": "조희대 대법원장 국감",
+      "keyword": "신인감독 김연경",
       "score": 20,
       "maxscore": 20,
-      "hashed": "57bddd52ac9bf915",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "신인감독 김연경 시청률",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "c1377aafa2f140ff",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이도현 그랜드 갤럭시 호텔",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "adcf627c27d8e5f2",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "쇼트트랙 임종언 2관왕",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "73a44fbfdc63c96e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "로코 우주메리미",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "9e3cf2ce28e4432c",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "마리와 별난 아빠들",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "08ff812f625dfd18",
-      "delta": 0,
+      "hashed": "45484837d3ee2504",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "정웅인 사채업자 무릎",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "081f8079e3aa68d7",
+      "delta": 5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 납치",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "b88a10e552e37ab5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "마리와 별난 아빠들",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "08ff812f625dfd18",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미중 갈등 촉발",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4ecfc5a4543019c7",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤현숙 1형 당뇨 투병",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "40004a1a65f56fc2",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 디아즈 MVP",
       "score": 14,
       "maxscore": 14,
-      "hashed": "081f8079e3aa68d7",
-      "delta": 0,
+      "hashed": "863e8931567cdd0b",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "의정부 아파트 칼부림",
+      "keyword": "다저스 스넬 야마모토 선발",
       "score": 13,
       "maxscore": 13,
-      "hashed": "db1efbba234ec481",
-      "delta": 0,
+      "hashed": "04693633ff4aceaf",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "홍명보호 월드컵 포트",
+      "keyword": "트뤼도 케이티 페리 요트 데이트",
       "score": 12,
       "maxscore": 12,
-      "hashed": "98604ca856b83f07",
-      "delta": 0,
+      "hashed": "c8c9337e715ba4eb",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "신유빈 아시아선수권 4강",
+      "keyword": "흥국생명 스파이더 유니폼",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0f80ecaa110b93d8",
-      "delta": 0,
+      "hashed": "2b40156ebf354b9c",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T04:45:40.924Z"
+  "updated": "2025-10-13T04:50:39.181Z"
 }
