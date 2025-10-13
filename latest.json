@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760367064,
+  "timestamp": 1760367363,
   "trends": [
     {
       "keyword": "정웅인 매니저 사기",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "a6182ada9fd92123",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "97cab49b8106033c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "fb6119f526e87f83",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "f7a5b2f9fe868b0f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "1d8788116c4d5bb4",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "0f51ad5c933e6bc9",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "20f3d2288e45f020",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "46cd82f1e7136570",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "c46eec648ab90c75",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T14:51:05.684Z"
+  "updated": "2025-10-13T14:56:05.278Z"
 }
