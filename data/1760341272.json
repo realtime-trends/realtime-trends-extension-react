@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760341272,
+  "trends": [
+    {
+      "keyword": "한석준 건강 회복",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "205c00ed02f84002",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이스라엘 인질 석방",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "098f512fc5b84d98",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "계엄 대통령실 CCTV",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "af0e11941ade3ae9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케데헌 이재 가요광장",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "b0a89d570e53f666",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "롤리 동점포 시애틀",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "ff0d2dabb43b24b6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조희대 대법원장 국정감사",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "59c4ac9bf82795f9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "흥국생명 스파이더 스폰서십",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "ec8174d3e917db44",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "디아즈 월간 MVP",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "30f92dbd77c78357",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케데헌 루미",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "5ffbc9d2e04f734a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 협조 미흡",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "fdc8ae7de68365ae",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T07:41:16.044Z"
+}
