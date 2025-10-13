@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760359870,
+  "timestamp": 1760360177,
   "trends": [
     {
       "keyword": "은지원 재혼 짠한형",
       "score": 20,
       "maxscore": 20,
       "hashed": "bae39d85f873240c",
-      "delta": 6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "ac2eaf7ad1c0b06d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "882fa602a14ce990",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "b9eabe16f02d6754",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "2e1bdc314ec95dd7",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "f3c302821abefffe",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "2955b3122e620f34",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,15 +62,15 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "f4917f8da75afaba",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "이준호 태풍상사 시청률",
+      "keyword": "��준호 태풍상사 시청률",
       "score": 12,
       "maxscore": 12,
-      "hashed": "c6ab8590d84dd74f",
-      "delta": -3,
+      "hashed": "5fc696293e9cd800",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "08ff812f625dfd18",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T12:51:12.325Z"
+  "updated": "2025-10-13T12:56:18.869Z"
 }
