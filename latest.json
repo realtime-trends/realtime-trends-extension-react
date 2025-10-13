@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760370662,
+  "timestamp": 1760370962,
   "trends": [
     {
       "keyword": "정웅인 매니저 사기 피해",
       "score": 29,
       "maxscore": 20,
       "hashed": "4627107d5de4ee06",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "fb6119f526e87f83",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "f7a5b2f9fe868b0f",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "a6182ada9fd92123",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "b9fa8f4b057339b8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "ac2eaf7ad1c0b06d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "bae39d85f873240c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "d793b188679c9699",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T15:51:04.084Z"
+  "updated": "2025-10-13T15:56:04.306Z"
 }
