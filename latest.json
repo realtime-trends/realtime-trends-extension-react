@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760381766,
+  "timestamp": 1760382057,
   "trends": [
     {
       "keyword": "정웅인 매니저 사기 피해",
@@ -26,11 +26,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 부상",
+      "keyword": "���흥민 부상",
       "score": 17,
       "maxscore": 17,
-      "hashed": "f7a5b2f9fe868b0f",
-      "delta": 0,
+      "hashed": "90ca4261eb4d7788",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T18:56:07.535Z"
+  "updated": "2025-10-13T19:00:58.600Z"
 }
