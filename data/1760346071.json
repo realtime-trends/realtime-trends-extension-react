@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760346071,
+  "trends": [
+    {
+      "keyword": "손흥민 LAFC 패배",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "8ecd41c97ea78193",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케데헌 이재 골든",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "707f743ca3bd0918",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "하마스 인질 석방",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "bd34523b0beb9b3b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "롤리 시애틀 승리",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "517a9a50e72f12f4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 기동력 강화",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "6b4279bb7a36b8d4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평 공무원 사망 사건",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "2d134854cacfc96d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "흥국생명 스파이더",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "34920a0c8e9c978e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 APEC 불참",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "848a8bd05b39baf6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "폭탄 설치 협박 메일",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ee7d41a8e9bf7c86",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국가인권위원장 전원위원회",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "698e79c391cbcef3",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T09:01:14.980Z"
+}
