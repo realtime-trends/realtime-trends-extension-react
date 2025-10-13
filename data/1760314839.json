@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760314839,
+  "trends": [
+    {
+      "keyword": "김우빈 비인두암 투병",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "1e0b85f547401d92",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤민수 이혼 후 일상",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1a714f311c7014d0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 마약음료 살해",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "0ec62d2cc71d67c5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "송가인 가짜뉴스 해명",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "871bc73d9fee093c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미중 무역 갈등",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c5caea3380d55fef",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김정은 당창건 80돌",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "49dca9c39cf4b01b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍명보호 파라과이전",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "8908a308371c7cbd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여자 탁구 아시아선수권",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "8904f2ac6b300bf9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 준플레이오프 3차전",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "6507ee2e3f14bb20",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 정부 국정감사",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "a96b029a13a57569",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T00:20:42.117Z"
+}
