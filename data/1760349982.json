@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760349982,
+  "trends": [
+    {
+      "keyword": "손흥민 LAFC 오스틴 패배",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "a2dc9dd353edbc33",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이스라엘 인질 석방",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "098f512fc5b84d98",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케데헌 이재",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "386f5d08f9925960",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김우빈 수지 호흡",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "5903d8f58aa55464",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대왕고래 프로젝트 계엄",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "718ad94f8078f124",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정수빈 코리아드라마어워즈 3관왕",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "f4917f8da75afaba",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 APEC 불참",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "848a8bd05b39baf6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "골프장 캐디 성희롱 피해",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "9f7c96f6801edf2c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 특검",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "e1c2ecaa8f04a789",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "류희림 민원사주 의혹",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "2772439b1f49ddb8",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T10:06:26.339Z"
+}
