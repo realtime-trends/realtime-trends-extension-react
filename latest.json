@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760382363,
+  "timestamp": 1760382662,
   "trends": [
     {
       "keyword": "정웅인 매니저 사기 피해",
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "f7a5b2f9fe868b0f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T19:06:05.374Z"
+  "updated": "2025-10-13T19:11:03.603Z"
 }
