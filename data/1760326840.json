@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760326840,
+  "trends": [
+    {
+      "keyword": "조희대 대법원장 국정감사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "59c4ac9bf82795f9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케인 손흥민 조언",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "28c9e9db2e4a4b4f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쇼트트랙 임종언 2관왕",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "73a44fbfdc63c96e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "의정부 아파트 칼부림",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "db1efbba234ec481",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신인감독 김연경 시청률",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c1377aafa2f140ff",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "그랜드 갤럭시 호텔",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "aae361b0340c5b63",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "소란 1인 체제",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "9350a7b1dff97c59",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "우크라 토마호크 지원",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "9c2e6bcce934e247",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "케이티 페리 요트 데이트",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "1b1c6d5f9bf47af3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장나라 바달집 트레일러",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "d3272f6b49453914",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T03:40:43.202Z"
+}
