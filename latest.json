@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760323839,
+  "timestamp": 1760324133,
   "trends": [
     {
       "keyword": "조희대 대법원장 국정감사",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "28c9e9db2e4a4b4f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "db1efbba234ec481",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "aae361b0340c5b63",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "9350a7b1dff97c59",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "9c2e6bcce934e247",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "1b1c6d5f9bf47af3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "d3272f6b49453914",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T02:50:40.776Z"
+  "updated": "2025-10-13T02:55:35.281Z"
 }
