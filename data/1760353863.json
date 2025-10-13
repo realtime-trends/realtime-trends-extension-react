@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760353863,
+  "trends": [
+    {
+      "keyword": "서부지법 녹색점퍼남 감형",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "385976e41862f752",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 LAFC 오스틴 패배",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "a2dc9dd353edbc33",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 감금 사태",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c8962985ea0d9fa6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정부조직 개편",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "fa0517e758eb267e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한덕수 계엄 문건",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "1706ca2a46e30cbd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "가자지구 인질 석방",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "7d42c99a4117c854",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "나주 영산강 축제",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "feac676eb6813326",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 APEC 불참",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "848a8bd05b39baf6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "AI 에너지 미래도시",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "a9f00340c7652a18",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "클린스만 감독",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "bac6ee446617fd66",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-13T11:11:06.531Z"
+}
