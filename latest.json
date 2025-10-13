@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760326840,
+  "timestamp": 1760327133,
   "trends": [
     {
       "keyword": "조희대 대법원장 국정감사",
@@ -26,11 +26,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "의정부 아파트 칼부림",
+      "keyword": "의정�� 아파트 칼부림",
       "score": 17,
       "maxscore": 17,
-      "hashed": "db1efbba234ec481",
-      "delta": 0,
+      "hashed": "37de173b55ddcfb6",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-13T03:40:41.789Z"
+  "updated": "2025-10-13T03:45:34.983Z"
 }
