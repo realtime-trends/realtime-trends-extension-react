@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760453454,
+  "timestamp": 1760453756,
   "trends": [
     {
       "keyword": "김광현 디아즈 홈런",
@@ -14,7 +14,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "c7f953d6a861c981",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "8eb0f0bf2aef00ef",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "bf809c9b466ac6f9",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "22d9ed2bc5fda206",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "bb25ed4aac5ff7d8",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "3fa10da61fae728c",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "c43ec6ba45e7da1a",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "72d795e707ecc40d",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T14:50:55.427Z"
+  "updated": "2025-10-14T14:55:57.648Z"
 }
