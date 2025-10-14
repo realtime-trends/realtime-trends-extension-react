@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760456756,
+  "trends": [
+    {
+      "keyword": "김광현 디아즈 홈런",
+      "score": 22.9,
+      "maxscore": 17,
+      "hashed": "5f44f7535a190cca",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손민수 임라라 쌍둥이 출산",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c7f953d6a861c981",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성전자 리더십",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "8eb0f0bf2aef00ef",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "엄지성 손흥민 A매치",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "bf809c9b466ac6f9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "현대모비스 연패 탈출",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "22d9ed2bc5fda206",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "백해룡 합수단 반발",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "bb25ed4aac5ff7d8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "브아솔 살롱드립 나얼",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "3fa10da61fae728c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화오션 중국 제재",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "c43ec6ba45e7da1a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이민정 파우치",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "72d795e707ecc40d",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-14T15:45:59.973Z"
+}
