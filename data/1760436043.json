@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760436043,
+  "trends": [
+    {
+      "keyword": "박성재 구속 심사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "d8b520045864f108",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "강균성 성매매 루머 해명",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1f54d065bcb31930",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여자 탁구 아시아선수권",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "8904f2ac6b300bf9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평 공무원 사망",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "6683ffa6c209d08e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "송재희 지소연 쌍둥이 출산",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c487ee42cf16b634",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화오션 중국 제재",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "c43ec6ba45e7da1a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "제주 축제 바가지 논란",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "7c7e646c8391eaaf",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국정자원 시스템 복구",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "9048a4bb5da00e74",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이화영 김현지 논란",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ddc2d60a1760cf4d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김현지 종북 논란",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "5cb5cc6d08029b79",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-14T10:00:47.097Z"
+}
