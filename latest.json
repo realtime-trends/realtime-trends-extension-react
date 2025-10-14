@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760403068,
+  "timestamp": 1760403365,
   "trends": [
     {
       "keyword": "파라과이전 승리 도전",
       "score": 26.299999999999997,
       "maxscore": 19,
       "hashed": "2ae14e25ac9869b6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "1c9c71911e0089c6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "d6162b659521f96a",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T00:51:09.805Z"
+  "updated": "2025-10-14T00:56:06.258Z"
 }
