@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760403972,
+  "timestamp": 1760404260,
   "trends": [
     {
       "keyword": "파라과이전 승리 도전",
@@ -18,11 +18,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "카보베르데 월드컵 진출",
+      "keyword": "카보���르데 월드컵 진출",
       "score": 18,
       "maxscore": 18,
-      "hashed": "152369dbbb6f22ab",
-      "delta": 0,
+      "hashed": "101d15cff79e455d",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T01:06:13.080Z"
+  "updated": "2025-10-14T01:11:01.816Z"
 }
