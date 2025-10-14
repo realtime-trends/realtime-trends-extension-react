@@ -1,20 +1,20 @@
 {
-  "timestamp": 1760438731,
+  "timestamp": 1760439037,
   "trends": [
     {
-      "keyword": "박성재 구속 심사",
+      "keyword": "사이버 렉카 쯔양",
       "score": 20,
       "maxscore": 20,
-      "hashed": "d8b520045864f108",
-      "delta": 0,
+      "hashed": "8fc64a1fd8c670ba",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "강균성 성매매 루머 해명",
+      "keyword": "이상순 이효리 부부애",
       "score": 19,
       "maxscore": 19,
-      "hashed": "1f54d065bcb31930",
-      "delta": 0,
+      "hashed": "663b6619565e3f62",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -26,61 +26,61 @@
       "engine": "zum"
     },
     {
-      "keyword": "양평 공무원 사망",
+      "keyword": "손흥민 파라과이 알미론",
       "score": 17,
       "maxscore": 17,
-      "hashed": "6683ffa6c209d08e",
-      "delta": 0,
+      "hashed": "8545ef4ab0eea631",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "송재희 지소연 쌍둥이 출산",
+      "keyword": "백해룡 별도 수사팀",
       "score": 16,
       "maxscore": 16,
-      "hashed": "c487ee42cf16b634",
-      "delta": 0,
+      "hashed": "2cc47ce49331d0ae",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화오션 중국 제재",
+      "keyword": "정동영 두 국가론",
       "score": 15,
       "maxscore": 15,
-      "hashed": "c43ec6ba45e7da1a",
-      "delta": 0,
+      "hashed": "22cc7d946d48c858",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "제주 축제 바가지 논란",
+      "keyword": "클로즈 유어 아이즈 켄신 대상포진",
       "score": 14,
       "maxscore": 14,
-      "hashed": "7c7e646c8391eaaf",
-      "delta": 0,
+      "hashed": "24a710c71d2ed149",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평 공무원 조서 조작",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "a58b5380cf74d6e6",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민효린 엄마 모습",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ab9f6ea211fb9a0a",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "국정자원 시스템 복구",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "9048a4bb5da00e74",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이화영 김현지 논란",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "ddc2d60a1760cf4d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김현지 종북 논란",
       "score": 11,
       "maxscore": 11,
-      "hashed": "5cb5cc6d08029b79",
-      "delta": 0,
+      "hashed": "9048a4bb5da00e74",
+      "delta": -2,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T10:45:33.372Z"
+  "updated": "2025-10-14T10:50:38.921Z"
 }
