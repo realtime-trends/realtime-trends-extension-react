@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760433936,
+  "trends": [
+    {
+      "keyword": "스넬 다저스 완벽투",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "0200cfe2c96b5cef",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이동욱 사생팬 법적대응",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "ea4f12e56ba2a0fc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양치승 전세사기 피해",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "1a63a95a71096a75",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임창정 대한민국군가합창단 홍보대사",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "2eee20caf1fd658c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양세형 티엔엔터 계약",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "8db50d9b1be72d1f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정동영 두 국가론",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "22cc7d946d48c858",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "알티 담다디 표절 논란",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "4db4f3d72275cfb0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "카보베르데 월드컵 진출",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "152369dbbb6f22ab",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 합동 대응팀",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "b282b2cb200b59bd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박태하 감독 재계약",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "a5bf6fcd0103fd01",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-14T09:25:39.865Z"
+}
