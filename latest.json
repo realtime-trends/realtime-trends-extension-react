@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760439037,
+  "timestamp": 1760439339,
   "trends": [
     {
       "keyword": "사이버 렉카 쯔양",
       "score": 20,
       "maxscore": 20,
       "hashed": "8fc64a1fd8c670ba",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "663b6619565e3f62",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "8545ef4ab0eea631",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "2cc47ce49331d0ae",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "22cc7d946d48c858",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "24a710c71d2ed149",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "a58b5380cf74d6e6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "ab9f6ea211fb9a0a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "9048a4bb5da00e74",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T10:50:38.921Z"
+  "updated": "2025-10-14T10:55:40.889Z"
 }
