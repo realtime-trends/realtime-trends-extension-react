@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760421064,
+  "timestamp": 1760421335,
   "trends": [
     {
       "keyword": "양세형 티엔엔터테인먼트",
       "score": 20,
       "maxscore": 20,
       "hashed": "4cef19524545082f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "2d134854cacfc96d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "ba1f1cb3581bc520",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,14 +30,14 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "790679bd34207a10",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "다저스 챔피언십시리즈",
+      "keyword": "다저��� 챔피언십시리즈",
       "score": 16,
       "maxscore": 16,
-      "hashed": "7c18621e20bcba7f",
+      "hashed": "cbf7f1def8b179c9",
       "delta": 999,
       "engine": "zum"
     },
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "d41eb8ee5ed434b4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "1aa7952856d4b4c5",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "9be7de3763a359a6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "2096fa9eebba1642",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "152369dbbb6f22ab",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T05:51:05.570Z"
+  "updated": "2025-10-14T05:55:37.093Z"
 }
