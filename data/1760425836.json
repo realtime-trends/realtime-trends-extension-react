@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760425836,
+  "trends": [
+    {
+      "keyword": "이동욱 사생활 침해",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "3d6c1f0e03464c1a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양세형 티엔엔터테인먼트",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "4cef19524545082f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 대통령 AI 가짜 영상",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "dedeac5fe20bfd25",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정은경 보건의료 위기 해제",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "0406df91f5184ef5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이화영 김현지 변호인 교체",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "25aaa1747668a23a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "알티 뮤비 표절 논란",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "023437e56315f2e6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다저스 챔피언십시리즈",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "7c18621e20bcba7f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전경준 감독 이달의 감독상",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "478b3fa0061e27db",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김건희 특검 고발",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "73c45701ba95bed6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임창정 군가합창단 홍보대사",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "6259ad28d9d65571",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-14T07:10:39.919Z"
+}
