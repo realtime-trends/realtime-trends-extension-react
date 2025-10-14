@@ -1,20 +1,12 @@
 {
-  "timestamp": 1760456756,
+  "timestamp": 1760457048,
   "trends": [
-    {
-      "keyword": "김광현 디아즈 홈런",
-      "score": 22.9,
-      "maxscore": 17,
-      "hashed": "5f44f7535a190cca",
-      "delta": 0,
-      "engine": "zum"
-    },
     {
       "keyword": "손민수 임라라 쌍둥이 출산",
       "score": 20,
       "maxscore": 20,
       "hashed": "c7f953d6a861c981",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
@@ -22,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "8eb0f0bf2aef00ef",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
@@ -30,7 +22,15 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "bf809c9b466ac6f9",
-      "delta": 0,
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "디아즈 결승 투런포",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "d5e73181ef86ac1e",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -42,37 +42,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "백해룡 합수단 반발",
+      "keyword": "백해룡 마약 수사",
       "score": 15,
       "maxscore": 15,
-      "hashed": "bb25ed4aac5ff7d8",
-      "delta": 0,
+      "hashed": "c772e605a5af7788",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "브아솔 살롱드립 나얼",
+      "keyword": "백해룡 수사팀 반발",
       "score": 14,
       "maxscore": 14,
-      "hashed": "3fa10da61fae728c",
-      "delta": 0,
+      "hashed": "d4f1e1a1828e11f0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화오션 중국 제재",
+      "keyword": "일본 브라질 역전승",
       "score": 13,
       "maxscore": 13,
-      "hashed": "c43ec6ba45e7da1a",
-      "delta": 0,
+      "hashed": "6b3090fc7f24e8e6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이민정 파우치",
+      "keyword": "한화오션 중국 제재 대응",
       "score": 12,
       "maxscore": 12,
-      "hashed": "72d795e707ecc40d",
-      "delta": 0,
+      "hashed": "20cef093f981006e",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이민정 8년된 화장품",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "ba9f40a6b12f4ba4",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T15:45:57.818Z"
+  "updated": "2025-10-14T15:50:50.269Z"
 }
