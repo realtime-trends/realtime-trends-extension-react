@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760442334,
+  "timestamp": 1760442633,
   "trends": [
     {
-      "keyword": "사이버 렉카 쯔양",
+      "keyword": "손흥민 A매치",
       "score": 20,
       "maxscore": 20,
-      "hashed": "8fc64a1fd8c670ba",
-      "delta": 0,
+      "hashed": "4d667fc637f739d8",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이상순 이효리 부부애",
+      "keyword": "백해룡 마약 외압",
       "score": 19,
       "maxscore": 19,
-      "hashed": "663b6619565e3f62",
-      "delta": 0,
+      "hashed": "4f2535a05e1af738",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "여자 탁구 아시아선수권",
+      "keyword": "이숭용 화이트 불펜",
       "score": 18,
       "maxscore": 18,
-      "hashed": "8904f2ac6b300bf9",
-      "delta": 0,
+      "hashed": "5b9f12d28d264adf",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 파라과이 알미론",
+      "keyword": "신진서 란커배 결승",
       "score": 17,
       "maxscore": 17,
-      "hashed": "8545ef4ab0eea631",
-      "delta": 0,
+      "hashed": "d710faad751ec883",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "백해룡 별도 수사팀",
+      "keyword": "이민정 파우치",
       "score": 16,
       "maxscore": 16,
-      "hashed": "2cc47ce49331d0ae",
-      "delta": 0,
+      "hashed": "72d795e707ecc40d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "정동영 두 국가론",
+      "keyword": "합동대응팀 캄보디아",
       "score": 15,
       "maxscore": 15,
-      "hashed": "22cc7d946d48c858",
-      "delta": 0,
+      "hashed": "2fc712cf7b25ada0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "클로즈 유어 아이즈 켄신 대상포진",
+      "keyword": "김현지 논란 국정감사",
       "score": 14,
       "maxscore": 14,
-      "hashed": "24a710c71d2ed149",
-      "delta": 0,
+      "hashed": "9124bb6306ec642d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "양평 공무원 조서 조작",
+      "keyword": "아시아선수권 여자 탁구 동메달",
       "score": 13,
       "maxscore": 13,
-      "hashed": "a58b5380cf74d6e6",
-      "delta": 0,
+      "hashed": "f4534f789f3a887f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "민효린 엄마 모습",
+      "keyword": "국정자원 화재 복구",
       "score": 12,
       "maxscore": 12,
-      "hashed": "ab9f6ea211fb9a0a",
-      "delta": 0,
+      "hashed": "da2ddfdfbcdd2537",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "국정자원 시스템 복구",
+      "keyword": "국민의힘 해산 청구",
       "score": 11,
       "maxscore": 11,
-      "hashed": "9048a4bb5da00e74",
-      "delta": 0,
+      "hashed": "d90cfb59e9d5adfc",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T11:45:35.408Z"
+  "updated": "2025-10-14T11:50:34.863Z"
 }
