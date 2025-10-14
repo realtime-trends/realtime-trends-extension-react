@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760473852,
+  "timestamp": 1760474152,
   "trends": [
     {
       "keyword": "손민수 임라라 쌍둥이 출산",
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "d5e73181ef86ac1e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T20:30:53.182Z"
+  "updated": "2025-10-14T20:35:53.861Z"
 }
