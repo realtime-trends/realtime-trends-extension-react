@@ -1,86 +1,78 @@
 {
-  "timestamp": 1760449551,
+  "timestamp": 1760449848,
   "trends": [
     {
-      "keyword": "백해룡 마약 외압",
+      "keyword": "김광현 디아즈 홈런",
+      "score": 21.7,
+      "maxscore": 14,
+      "hashed": "5f44f7535a190cca",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "백해룡 합수단 반발",
       "score": 20,
       "maxscore": 20,
-      "hashed": "4f2535a05e1af738",
-      "delta": 0,
+      "hashed": "bb25ed4aac5ff7d8",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "브아솔 살롱드립 나얼",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "3fa10da61fae728c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화오션 중국 제재",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c43ec6ba45e7da1a",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손민수 쌍둥이 출산",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "b9d9866514b524dc",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이민정 파우치",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "72d795e707ecc40d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김광현 플레이오프 탈삼진",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "dfa1d151eefb1de2",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "엔리케 마르티넬리",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "65ba44353e50dc73",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "신진서 란커배 결승",
       "score": 16,
       "maxscore": 16,
-      "hashed": "d710faad751ec883",
-      "delta": 0,
+      "hashed": "72d795e707ecc40d",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 A매치",
+      "keyword": "현대모비스 연패 탈출",
       "score": 15,
       "maxscore": 15,
-      "hashed": "4d667fc637f739d8",
-      "delta": 0,
+      "hashed": "22d9ed2bc5fda206",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이숭용 화이트 불펜",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "5b9f12d28d264adf",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "합동대응팀 캄보디아",
+      "keyword": "우리들의 발라드 박서정",
       "score": 13,
       "maxscore": 13,
-      "hashed": "2fc712cf7b25ada0",
-      "delta": 0,
+      "hashed": "c1ef24e22e82c92b",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김현지 논란 국정감사",
+      "keyword": "엄지성 오현규 파라과이전",
       "score": 12,
       "maxscore": 12,
-      "hashed": "9124bb6306ec642d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "아시아선수권 여자 탁구 동메달",
-      "score": 11,
-      "maxscore": 11,
-      "hashed": "f4534f789f3a887f",
-      "delta": 0,
+      "hashed": "c3cc38d4b9044a16",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T13:45:52.629Z"
+  "updated": "2025-10-14T13:50:50.429Z"
 }
