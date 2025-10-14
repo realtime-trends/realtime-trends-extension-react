@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760423133,
+  "trends": [
+    {
+      "keyword": "양세형 티엔엔터테인먼트",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "4cef19524545082f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양평 공무원 사망 사건",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "2d134854cacfc96d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "화성-20형 러시아 기술",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "ba1f1cb3581bc520",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 납치 감금",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "790679bd34207a10",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다저스 챔피언십시리즈",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "7c18621e20bcba7f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구의원 폭행 비서관",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "d41eb8ee5ed434b4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "싱어게인4 심사 태연",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "1aa7952856d4b4c5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "단독 콘서트 개최",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "9be7de3763a359a6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 후라도 맞불",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "2096fa9eebba1642",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "카보베르데 월드컵 진출",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "152369dbbb6f22ab",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-14T06:25:36.246Z"
+}
