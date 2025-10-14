@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760429435,
+  "timestamp": 1760429736,
   "trends": [
     {
       "keyword": "박성재 구속 심사",
       "score": 20,
       "maxscore": 20,
       "hashed": "d8b520045864f108",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T08:10:36.946Z"
+  "updated": "2025-10-14T08:15:37.444Z"
 }
