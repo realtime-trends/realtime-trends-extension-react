@@ -1,18 +1,18 @@
 {
-  "timestamp": 1760402765,
+  "timestamp": 1760403068,
   "trends": [
     {
-      "keyword": "파라과이전 승리",
-      "score": 20,
-      "maxscore": 20,
-      "hashed": "03205e204ede1a86",
-      "delta": 0,
+      "keyword": "파라과이전 승리 도전",
+      "score": 26.299999999999997,
+      "maxscore": 19,
+      "hashed": "2ae14e25ac9869b6",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "정웅인 사기 피해",
-      "score": 19,
-      "maxscore": 19,
+      "score": 20,
+      "maxscore": 20,
       "hashed": "13d6369d3fb005ef",
       "delta": 0,
       "engine": "zum"
@@ -58,29 +58,21 @@
       "engine": "zum"
     },
     {
-      "keyword": "이승훈 올림픽 좌절",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "d6162b659521f96a",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "은지원 2세 계획",
+      "keyword": "이강인 초대형 이적",
       "score": 12,
       "maxscore": 12,
-      "hashed": "27aabcda00e4dde0",
-      "delta": 0,
+      "hashed": "1c9c71911e0089c6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "은지원 재혼 스타일리스트",
+      "keyword": "이승훈 올림픽 좌절",
       "score": 11,
       "maxscore": 11,
-      "hashed": "e6ea626ca4fad57b",
-      "delta": 0,
+      "hashed": "d6162b659521f96a",
+      "delta": -1,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T00:46:06.938Z"
+  "updated": "2025-10-14T00:51:09.805Z"
 }
