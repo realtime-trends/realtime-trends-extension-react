@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760421335,
+  "timestamp": 1760421641,
   "trends": [
     {
       "keyword": "양세형 티엔엔터테인먼트",
@@ -34,10 +34,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "다저��� 챔피언십시리즈",
+      "keyword": "다저스 챔피언십시리즈",
       "score": 16,
       "maxscore": 16,
-      "hashed": "cbf7f1def8b179c9",
+      "hashed": "7c18621e20bcba7f",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T05:55:37.093Z"
+  "updated": "2025-10-14T06:00:42.446Z"
 }
