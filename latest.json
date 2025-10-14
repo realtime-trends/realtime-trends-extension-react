@@ -1,44 +1,44 @@
 {
-  "timestamp": 1760406360,
+  "timestamp": 1760406668,
   "trends": [
     {
-      "keyword": "파라과이전 승리 도전",
-      "score": 26.299999999999997,
-      "maxscore": 19,
-      "hashed": "2ae14e25ac9869b6",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "정웅인 사기 피해",
+      "keyword": "정웅인 사채업자 무릎",
       "score": 20,
       "maxscore": 20,
-      "hashed": "13d6369d3fb005ef",
-      "delta": 0,
+      "hashed": "081f8079e3aa68d7",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "카보베르데 월드컵 진출",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "152369dbbb6f22ab",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지예은 갑상선 질환",
       "score": 18,
       "maxscore": 18,
-      "hashed": "152369dbbb6f22ab",
-      "delta": 0,
+      "hashed": "9b2a275cd1c951f3",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 이적 가능성",
+      "keyword": "설리 6주기",
       "score": 17,
       "maxscore": 17,
-      "hashed": "9e3a04d99f4afd72",
-      "delta": 0,
+      "hashed": "bc0f8ca4451785d6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "정웅인 매니저 사기 사건",
+      "keyword": "모범택시3 완전체",
       "score": 16,
       "maxscore": 16,
-      "hashed": "91f1abc86d28c4fd",
-      "delta": 0,
+      "hashed": "2fa813c152217318",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -50,29 +50,37 @@
       "engine": "zum"
     },
     {
-      "keyword": "중랑천 중학생 실종",
+      "keyword": "다카이치 내각 인선",
       "score": 14,
       "maxscore": 14,
-      "hashed": "ac2eaf7ad1c0b06d",
-      "delta": 0,
+      "hashed": "cd3865299a21d277",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이강인 초대형 이적",
+      "keyword": "착한여자 부세미 전여빈",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "708d7061f9303304",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "시애틀 월드시리즈",
       "score": 12,
       "maxscore": 12,
-      "hashed": "1c9c71911e0089c6",
-      "delta": 0,
+      "hashed": "1cb8b56c3f139e00",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이승훈 올림픽 좌절",
+      "keyword": "캄보디아 실종 사건",
       "score": 11,
       "maxscore": 11,
-      "hashed": "d6162b659521f96a",
-      "delta": 0,
+      "hashed": "15d2773df0bb7bbd",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T01:46:01.740Z"
+  "updated": "2025-10-14T01:51:09.569Z"
 }
