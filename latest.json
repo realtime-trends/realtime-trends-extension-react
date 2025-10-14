@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760421641,
+  "timestamp": 1760421936,
   "trends": [
     {
       "keyword": "양세형 티엔엔터테인먼트",
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "7c18621e20bcba7f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T06:00:42.446Z"
+  "updated": "2025-10-14T06:05:38.303Z"
 }
