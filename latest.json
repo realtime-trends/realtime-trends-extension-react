@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760404565,
+  "timestamp": 1760404866,
   "trends": [
     {
       "keyword": "파라과이전 승리 도전",
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "152369dbbb6f22ab",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-14T01:16:06.522Z"
+  "updated": "2025-10-14T01:21:07.954Z"
 }
