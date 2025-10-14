@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760453150,
+  "trends": [
+    {
+      "keyword": "김광현 디아즈 홈런",
+      "score": 21.7,
+      "maxscore": 14,
+      "hashed": "5f44f7535a190cca",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "백해룡 합수단 반발",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "bb25ed4aac5ff7d8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "브아솔 살롱드립 나얼",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "3fa10da61fae728c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화오션 중국 제재",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c43ec6ba45e7da1a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손민수 쌍둥이 출산",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "b9d9866514b524dc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이민정 파우치",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "72d795e707ecc40d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "현대모비스 연패 탈출",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "22d9ed2bc5fda206",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "우리들의 발라드 박서정",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "c1ef24e22e82c92b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "엄지성 오현규 파라과이전",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "c3cc38d4b9044a16",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-14T14:45:53.666Z"
+}
