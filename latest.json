@@ -1,86 +1,78 @@
 {
-  "timestamp": 1760528721,
+  "timestamp": 1760529052,
   "trends": [
     {
-      "keyword": "류필립 수지 댓글",
-      "score": 20,
+      "keyword": "이상민 별세 애도",
+      "score": 27,
       "maxscore": 20,
-      "hashed": "ed0e4119175b85f9",
-      "delta": 0,
+      "hashed": "cf02b191117f34e4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "대법원 국정감사 파행",
+      "keyword": "이병헌 전유성 문화훈장",
       "score": 19,
       "maxscore": 19,
-      "hashed": "2e4f6fe47d752793",
-      "delta": 0,
+      "hashed": "bb10b4b511e06f61",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 범죄 척결",
+      "keyword": "스웨덴 왕세녀 이재명 대통령 접견",
       "score": 18,
       "maxscore": 18,
-      "hashed": "b468ef63df006676",
-      "delta": 0,
+      "hashed": "1c6b8b84eb603961",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 하마스 무장해제",
+      "keyword": "캄보디아 여행 금지",
       "score": 17,
       "maxscore": 17,
-      "hashed": "13641f7ff044d866",
-      "delta": 0,
+      "hashed": "0486ec0e3819ba6f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "강호동 회장 수뢰 혐의",
+      "keyword": "강호동 뇌물수수 혐의",
       "score": 16,
       "maxscore": 16,
-      "hashed": "8d5596ebdc36d5bd",
-      "delta": 0,
+      "hashed": "28fb19acb464fad6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김민석 총리 스웨덴 왕세녀 만찬",
+      "keyword": "트럼프 중국 식용유",
       "score": 15,
       "maxscore": 15,
-      "hashed": "2c714384f2ba8f21",
-      "delta": 0,
+      "hashed": "3f7ee14d2305c65b",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이상민 별세 추모",
+      "keyword": "류필립 미나 수지 논란",
       "score": 14,
       "maxscore": 14,
-      "hashed": "00742f2a0218d02d",
-      "delta": 0,
+      "hashed": "7b6d5586844aa3d0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "탐라문화제 부실 김밥",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "b847e2e7de7f9934",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "박정훈 김우영 문자 폭로",
+      "keyword": "대법원 현장검증 논란",
       "score": 12,
       "maxscore": 12,
-      "hashed": "9cbd2d04067fbe28",
-      "delta": 0,
+      "hashed": "bce787368d084428",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "게임 산업 크런치 모드",
+      "keyword": "하마스 무장해제",
       "score": 11,
       "maxscore": 11,
-      "hashed": "28b3ea2168b61b93",
-      "delta": 0,
+      "hashed": "f58f8ed2acb044e7",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T11:45:22.813Z"
+  "updated": "2025-10-15T11:50:54.224Z"
 }
