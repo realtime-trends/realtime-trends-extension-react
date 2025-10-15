@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760503823,
+  "trends": [
+    {
+      "keyword": "힙팝 프린세스",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "8afca58e1e1dd2a9",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "야마모토 완투승",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "d359e699d9d25d15",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이국주 애닉이엔티 계약",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "9a8cccbe8cecec90",
+      "delta": 5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 스페인 관세 보복",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "04ff4138b3026756",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "호날두 월드컵 예선 최다골",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "f66c3490a14fe49b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 재외국민 안전대책단",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "05404aba88a51483",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "밀양 성폭행 유튜버 실형",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "a7fe9dc7f3f26022",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오동운 공수처장 직무유기",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "3079e51ff540a63b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "하은호 군포시장 뇌물수수 의혹",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "1bf51cf601cc1424",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김영훈 노동부 장관",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "ff02c8a0e3ca40d2",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-15T04:50:25.834Z"
+}
