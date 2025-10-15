@@ -1,60 +1,60 @@
 {
-  "timestamp": 1760510719,
+  "timestamp": 1760511020,
   "trends": [
     {
-      "keyword": "탁류 박서함",
+      "keyword": "야마모토 완투승",
       "score": 20,
       "maxscore": 20,
-      "hashed": "388bf322b7d9400c",
-      "delta": 0,
+      "hashed": "d359e699d9d25d15",
+      "delta": 3,
       "engine": "zum"
     },
     {
-      "keyword": "힙팝 프린세스",
+      "keyword": "오요안나 명예사원증",
       "score": 19,
       "maxscore": 19,
-      "hashed": "8afca58e1e1dd2a9",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "호날두 월드컵 예선 최다골",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "f66c3490a14fe49b",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "야마모토 완투승",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "d359e699d9d25d15",
-      "delta": 0,
+      "hashed": "9e68b036d038551c",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이재명 대통령 K-게임",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "ea2e25b177794324",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구성환 백반증 해명",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "655f5ca2e8f31479",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "디아즈 폰세 맞대결",
       "score": 16,
       "maxscore": 16,
-      "hashed": "ea2e25b177794324",
-      "delta": 0,
+      "hashed": "b8d8a2af328a9a91",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 중국 식용유 교역",
+      "keyword": "트럼프 식용유 교역",
       "score": 15,
       "maxscore": 15,
-      "hashed": "5058af725f386025",
-      "delta": 0,
+      "hashed": "19eaaab574008998",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "윤석열 진술 거부",
+      "keyword": "LG 청백전",
       "score": 14,
       "maxscore": 14,
-      "hashed": "1e422c6aad67fe45",
-      "delta": 0,
+      "hashed": "2240e1c672917f3f",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -66,21 +66,21 @@
       "engine": "zum"
     },
     {
-      "keyword": "한미 관세 협상",
+      "keyword": "부동산 주택 완박",
       "score": 12,
       "maxscore": 12,
-      "hashed": "b54a597a15241802",
-      "delta": 0,
+      "hashed": "3c94798807905467",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "노태악 중앙선관위원장 국정감사",
+      "keyword": "캄보디아 스캠 조직",
       "score": 11,
       "maxscore": 11,
-      "hashed": "99dfeddfb7afd4c5",
-      "delta": 0,
+      "hashed": "230d2bbbd1d3c3b7",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T06:45:21.133Z"
+  "updated": "2025-10-15T06:50:21.254Z"
 }
