@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760519720,
+  "timestamp": 1760520022,
   "trends": [
     {
       "keyword": "구성환 백반증 성형외과 해명",
       "score": 20,
       "maxscore": 20,
       "hashed": "10ecc89848e5167e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T09:15:22.349Z"
+  "updated": "2025-10-15T09:20:23.797Z"
 }
