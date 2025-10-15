@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760545254,
+  "timestamp": 1760545556,
   "trends": [
     {
       "keyword": "심형탁 도라에몽 태교",
@@ -42,11 +42,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "심형탁 둘째 계획",
+      "keyword": "심형탁 둘째 ���획",
       "score": 15,
       "maxscore": 15,
-      "hashed": "40d6c84dd4008ede",
-      "delta": 0,
+      "hashed": "4259cc8f47e1492d",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T16:20:55.648Z"
+  "updated": "2025-10-15T16:25:58.181Z"
 }
