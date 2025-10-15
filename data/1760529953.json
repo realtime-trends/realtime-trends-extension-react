@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760529953,
+  "trends": [
+    {
+      "keyword": "이상민 별세 애도",
+      "score": 27,
+      "maxscore": 20,
+      "hashed": "cf02b191117f34e4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이병헌 전유성 문화훈장",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "bb10b4b511e06f61",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "스웨덴 왕세녀 이재명 대통령 접견",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "1c6b8b84eb603961",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 여행 금지",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "0486ec0e3819ba6f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "강호동 뇌물수수 혐의",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "28fb19acb464fad6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 중국 식용유",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "3f7ee14d2305c65b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "류필립 미나 수지 논란",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "7b6d5586844aa3d0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대법원 현장검증 논란",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "bce787368d084428",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "하마스 무장해제",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "f58f8ed2acb044e7",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-15T12:05:56.587Z"
+}
