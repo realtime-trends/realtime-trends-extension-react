@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760521820,
+  "timestamp": 1760522120,
   "trends": [
     {
       "keyword": "이상민 별세 추모",
       "score": 20,
       "maxscore": 20,
       "hashed": "00742f2a0218d02d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "b847e2e7de7f9934",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "9cbd2d04067fbe28",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "28b3ea2168b61b93",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "10ecc89848e5167e",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "3a6b7b8443e31b3b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "fe30164664f07e28",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "3f1f2b617002f34b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "5ae998e3d8989145",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "06b92f2a283dbb14",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T09:50:22.086Z"
+  "updated": "2025-10-15T09:55:21.309Z"
 }
