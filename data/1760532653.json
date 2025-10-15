@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760532653,
+  "trends": [
+    {
+      "keyword": "이상민 별세 애도",
+      "score": 26,
+      "maxscore": 20,
+      "hashed": "cf02b191117f34e4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민석 스웨덴 왕세녀",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1283211092b3484f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 구금 납치",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "7c87d9c219324704",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤석열 진술 거부",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "1e422c6aad67fe45",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이병헌 전유성 문화훈장",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "bb10b4b511e06f61",
+      "delta": -3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신진서 란커배 준우승",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "94a7ab30ca4a54de",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김현지 김용 사건",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "41ec026522605d7c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "심형탁 자녀 계획",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "e36abb193bb261ed",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 여행 금지",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "0486ec0e3819ba6f",
+      "delta": -5,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-15T12:50:56.856Z"
+}
