@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760545855,
+  "timestamp": 1760546147,
   "trends": [
     {
       "keyword": "심형탁 도라에몽 태교",
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "40d6c84dd4008ede",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T16:30:56.470Z"
+  "updated": "2025-10-15T16:35:48.672Z"
 }
