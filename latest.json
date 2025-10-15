@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760517921,
+  "timestamp": 1760518220,
   "trends": [
     {
-      "keyword": "구성환 백반증 해명",
+      "keyword": "구성환 백반증 성형외과 해명",
       "score": 20,
       "maxscore": 20,
-      "hashed": "655f5ca2e8f31479",
-      "delta": 0,
+      "hashed": "10ecc89848e5167e",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -18,27 +18,27 @@
       "engine": "zum"
     },
     {
-      "keyword": "야마모토 완투승",
+      "keyword": "다저스 야마모토 완투승",
       "score": 18,
       "maxscore": 18,
-      "hashed": "d359e699d9d25d15",
-      "delta": 0,
+      "hashed": "fe30164664f07e28",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김영훈 노란봉투법 검토",
+      "keyword": "이재명 대통령 게임",
       "score": 17,
       "maxscore": 17,
-      "hashed": "7bb840f9e626af8b",
-      "delta": 0,
+      "hashed": "a522142f027ccb0b",
+      "delta": 3,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 월드컵 보스턴",
+      "keyword": "탐라문화제 김밥 논란",
       "score": 16,
       "maxscore": 16,
-      "hashed": "074c0457f01fd01d",
-      "delta": 0,
+      "hashed": "38f415edf01fbd21",
+      "delta": 3,
       "engine": "zum"
     },
     {
@@ -50,37 +50,37 @@
       "engine": "zum"
     },
     {
-      "keyword": "이재명 대통령 게임",
+      "keyword": "이연복 셰프 원주만두축제",
       "score": 14,
       "maxscore": 14,
-      "hashed": "a522142f027ccb0b",
-      "delta": 0,
+      "hashed": "e32720de828ab0c4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "탐라문화제 김밥 논란",
+      "keyword": "수도권 교육감 간담회",
       "score": 13,
       "maxscore": 13,
-      "hashed": "38f415edf01fbd21",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "V리그 남자부 감독",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "fff38c0a553db739",
-      "delta": 0,
+      "hashed": "06b92f2a283dbb14",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "노태악 선관위원장 국감",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "31bfa346893408a0",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김영훈 노동정책",
       "score": 11,
       "maxscore": 11,
-      "hashed": "31bfa346893408a0",
-      "delta": 0,
+      "hashed": "9232a993a46bf867",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T08:45:22.907Z"
+  "updated": "2025-10-15T08:50:22.059Z"
 }
