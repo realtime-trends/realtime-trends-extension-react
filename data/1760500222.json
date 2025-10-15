@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760500222,
+  "trends": [
+    {
+      "keyword": "양평 공무원 사망",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "6683ffa6c209d08e",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오요안나 명예사원증",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "9e68b036d038551c",
+      "delta": 5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "곽튜브 결혼식 최초 공개",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "246bcaf7b428409b",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이제훈 모범택시3 김도기",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "cd0750fc70e6ba72",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이준영 앙코르 팬미팅",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "1a839899162843db",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미중 무역 갈등",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "c5caea3380d55fef",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "착한 여자 부세미",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "a2f503b2d5edac0b",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이국주 애닉이엔티 계약",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "9a8cccbe8cecec90",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "콩콩팡팡 멕시코 탐방",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "e367c383430da0e3",
+      "delta": -3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "양세찬 갑상선암 투병",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "6781ef10aa32cf78",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-15T03:50:25.609Z"
+}
