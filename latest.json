@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760571620,
+  "timestamp": 1760571920,
   "trends": [
     {
       "keyword": "심형탁 도라에몽 태교",
@@ -34,10 +34,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "���경규 약물 운전 논란",
+      "keyword": "이경규 약물 운전 논란",
       "score": 16,
       "maxscore": 16,
-      "hashed": "10f28dca177cc064",
+      "hashed": "d4a6e8b02d3d0143",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T23:40:21.425Z"
+  "updated": "2025-10-15T23:45:21.632Z"
 }
