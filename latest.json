@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760518220,
+  "timestamp": 1760518523,
   "trends": [
     {
       "keyword": "구성환 백반증 성형외과 해명",
       "score": 20,
       "maxscore": 20,
       "hashed": "10ecc89848e5167e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "fe30164664f07e28",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "a522142f027ccb0b",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "38f415edf01fbd21",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "e32720de828ab0c4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "06b92f2a283dbb14",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "31bfa346893408a0",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "9232a993a46bf867",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-15T08:50:22.059Z"
+  "updated": "2025-10-15T08:55:24.703Z"
 }
