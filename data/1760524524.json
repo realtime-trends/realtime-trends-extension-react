@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760524524,
+  "trends": [
+    {
+      "keyword": "이상민 별세 추모",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "00742f2a0218d02d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "탐라문화제 부실 김밥",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "b847e2e7de7f9934",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박정훈 김우영 문자 폭로",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "9cbd2d04067fbe28",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "게임 산업 크런치 모드",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "28b3ea2168b61b93",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구성환 백반증 성형외과 해명",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "10ecc89848e5167e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박서함 탁류",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "3a6b7b8443e31b3b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다저스 야마모토 완투승",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "fe30164664f07e28",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 한국인 사건",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "3f1f2b617002f34b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이연복 원주만두축제",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "5ae998e3d8989145",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "수도권 교육감 간담회",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "06b92f2a283dbb14",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-15T10:35:27.478Z"
+}
