@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760597472,
+  "timestamp": 1760597775,
   "trends": [
     {
       "keyword": "배우 박상조 폐암 별세",
       "score": 20,
       "maxscore": 20,
       "hashed": "275849eddf55ad98",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "ba65a837c1957b5d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "7729c1d5c3197ea5",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "f934772b972b5ee7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "b73ac103a5b5f337",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "257fa837dc4edf26",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "699b67aaae649f95",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "8f658093980e8d8b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "96c71d0d20dbcf7d",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "3e9a5b30b0c0c3c4",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T06:51:14.218Z"
+  "updated": "2025-10-16T06:56:16.857Z"
 }
