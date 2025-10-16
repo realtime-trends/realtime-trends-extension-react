@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760618721,
+  "timestamp": 1760619020,
   "trends": [
     {
-      "keyword": "노재헌 주중대사 시진핑 방한",
+      "keyword": "캄보디아 온라인 사기",
       "score": 20,
       "maxscore": 20,
-      "hashed": "9b44bb6427d9356b",
-      "delta": 0,
+      "hashed": "74344cb5d9aa5acc",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "홍명보호 가나 평가전",
+      "keyword": "노재헌 주중대사 시진핑 방한",
       "score": 19,
       "maxscore": 19,
-      "hashed": "f8344ce0a77b0b7c",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 한국인 사망 사건",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "6cccedeb5f6fede3",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이요원 살림남 MC",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "f555ce6ca50c7a0c",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "신태용 클라위버르트 경질",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "fedd6d364e7957f3",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김용원 인권위원 압수수색",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "1381a60d9dcdf93e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "한화 안치홍",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "e08bd6110124b469",
-      "delta": 0,
+      "hashed": "9b44bb6427d9356b",
+      "delta": -1,
       "engine": "zum"
     },
     {
       "keyword": "박보겸 KLPGA 선두",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "cd1fbc7ee2d62977",
+      "delta": 5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍진경 심경 고백",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "2034bca0dadb2242",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안세영 덴마크오픈 8강",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "9286c43838f7bc88",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이수민 채리티클래식 선두",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "df08218e6fa88073",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "문소리 장준환 박명수",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "103b58f5eb07fa3d",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍명보호 가나 평가전",
       "score": 13,
       "maxscore": 13,
-      "hashed": "cd1fbc7ee2d62977",
-      "delta": 0,
+      "hashed": "f8344ce0a77b0b7c",
+      "delta": -6,
       "engine": "zum"
     },
     {
-      "keyword": "이수민 더 채리티클래식",
+      "keyword": "이요원 살림남 MC",
       "score": 12,
       "maxscore": 12,
-      "hashed": "dd9f5b7ef14bac03",
-      "delta": 0,
+      "hashed": "f555ce6ca50c7a0c",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "김세영 선두 질주",
+      "keyword": "신태�� 감독 복귀",
       "score": 11,
       "maxscore": 11,
-      "hashed": "c54ce26f2f0d22fe",
-      "delta": 0,
+      "hashed": "f1ed184dfdf7f108",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T12:45:22.440Z"
+  "updated": "2025-10-16T12:50:21.907Z"
 }
