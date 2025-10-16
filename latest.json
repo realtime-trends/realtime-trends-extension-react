@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760600776,
+  "timestamp": 1760601070,
   "trends": [
     {
       "keyword": "배우 박상조 폐암 별세",
@@ -10,77 +10,77 @@
       "engine": "zum"
     },
     {
-      "keyword": "토론토 홈런 5방",
+      "keyword": "내부자들 주연 교체",
       "score": 19,
       "maxscore": 19,
-      "hashed": "ba65a837c1957b5d",
-      "delta": 0,
+      "hashed": "f8df481c260a8c26",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김민재 유벤투스 이적설",
+      "keyword": "서프라이즈 재정비 김하영",
       "score": 18,
       "maxscore": 18,
-      "hashed": "7729c1d5c3197ea5",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김형석 독립기념관장 사퇴 거부",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "f934772b972b5ee7",
-      "delta": 0,
+      "hashed": "be1c53070ac70778",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "박재범 유방암 캠페인 논란",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "b73ac103a5b5f337",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 유벤투스 이적설",
       "score": 16,
       "maxscore": 16,
-      "hashed": "b73ac103a5b5f337",
-      "delta": 0,
+      "hashed": "7729c1d5c3197ea5",
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "제주항공 환경부장관상",
+      "keyword": "김형석 독립기념관장 사퇴 거부",
       "score": 15,
       "maxscore": 15,
-      "hashed": "257fa837dc4edf26",
-      "delta": 0,
+      "hashed": "f934772b972b5ee7",
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "에스파 윈터 자선 행사",
+      "keyword": "SNS 대상 최우수상",
       "score": 14,
       "maxscore": 14,
-      "hashed": "699b67aaae649f95",
-      "delta": 0,
+      "hashed": "beba76484b55f5b6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "제자 성추행 의혹",
+      "keyword": "다비치 타임캡슐 이무진",
       "score": 13,
       "maxscore": 13,
-      "hashed": "8f658093980e8d8b",
-      "delta": 0,
+      "hashed": "d0691eac80c4a781",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "길치라도 괜찮아",
+      "keyword": "전국체전 개회식 리허설",
       "score": 12,
       "maxscore": 12,
-      "hashed": "96c71d0d20dbcf7d",
-      "delta": 0,
+      "hashed": "0658d636fe355d1e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손연재 결혼 스토리",
+      "keyword": "트와이스 빅토리아 시크릿",
       "score": 11,
       "maxscore": 11,
-      "hashed": "3e9a5b30b0c0c3c4",
-      "delta": 0,
+      "hashed": "d22263b2995bf93c",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T07:46:17.693Z"
+  "updated": "2025-10-16T07:51:12.044Z"
 }
