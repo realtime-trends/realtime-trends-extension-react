@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760658648,
+  "timestamp": 1760658946,
   "trends": [
     {
       "keyword": "한화 오션 제재 비난",
       "score": 20,
       "maxscore": 20,
       "hashed": "85691489c2b8fdb6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "f54354b1c8e63f9e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "ed01c034a50a1e2c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "abdff6af1f726636",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "cf6730e89014bdfc",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "dcfb170ac42ccbb0",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "71241677b6addcb0",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "72f2c2365b7217a6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "29c724b0f7cabd4a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "f8344ce0a77b0b7c",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T23:50:49.665Z"
+  "updated": "2025-10-16T23:55:47.861Z"
 }
