@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760588420,
+  "timestamp": 1760588715,
   "trends": [
     {
       "keyword": "장우혁 오채이 커플링",
@@ -34,10 +34,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "���호진 안보실장 이종섭 도피 의혹",
+      "keyword": "장호진 안보실장 이종섭 도피 의혹",
       "score": 16,
       "maxscore": 16,
-      "hashed": "1b56df68b5886733",
+      "hashed": "cf7a132d3a03777c",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T04:20:21.840Z"
+  "updated": "2025-10-16T04:25:16.979Z"
 }
