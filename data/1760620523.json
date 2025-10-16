@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760620523,
+  "trends": [
+    {
+      "keyword": "캄보디아 온라인 사기",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "74344cb5d9aa5acc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노재헌 주중대사 시진핑 방한",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "9b44bb6427d9356b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박보겸 KLPGA 선두",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "cd1fbc7ee2d62977",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍진경 심경 고백",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "2034bca0dadb2242",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안세영 덴마크오픈 8강",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "9286c43838f7bc88",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이수민 채리티클래식 선두",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "df08218e6fa88073",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "문소리 장준환 박명수",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "103b58f5eb07fa3d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍명보호 가나 평가전",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "f8344ce0a77b0b7c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이요원 살림남 MC",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f555ce6ca50c7a0c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신태용 감독 복귀",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "3b0736738cc140d8",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-16T13:15:27.110Z"
+}
