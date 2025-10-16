@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760633426,
+  "timestamp": 1760633726,
   "trends": [
     {
       "keyword": "나기수 사별 후 근황",
@@ -10,11 +10,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "홍진경 최진실 인연",
+      "keyword": "홍진경 최진실 인���",
       "score": 19,
       "maxscore": 19,
-      "hashed": "b4693826de2d5dbc",
-      "delta": 0,
+      "hashed": "62143c88d04c80fa",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T16:50:27.508Z"
+  "updated": "2025-10-16T16:55:27.332Z"
 }
