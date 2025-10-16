@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760604677,
+  "timestamp": 1760604974,
   "trends": [
     {
       "keyword": "박상조 폐암 별세",
       "score": 20,
       "maxscore": 20,
       "hashed": "d5feb8cfac3a12a8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "7729c1d5c3197ea5",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "d22263b2995bf93c",
-      "delta": 6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "be1c53070ac70778",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "345c89e6d352d7e1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "d0691eac80c4a781",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "f934772b972b5ee7",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "dca53ea6a7ba26a9",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "3f42c5e988103a94",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T08:51:18.082Z"
+  "updated": "2025-10-16T08:56:15.294Z"
 }
