@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760629519,
+  "timestamp": 1760629827,
   "trends": [
     {
-      "keyword": "나기수 사별",
-      "score": 20,
+      "keyword": "나기수 사별 후 근황",
+      "score": 27,
       "maxscore": 20,
-      "hashed": "aafde45471cfe00e",
-      "delta": 0,
+      "hashed": "140a910ef2ae28d0",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -18,69 +18,61 @@
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 한국인 납치",
+      "keyword": "홍진경 이혼 심경 고백",
       "score": 18,
       "maxscore": 18,
-      "hashed": "a9f9de709e84738b",
-      "delta": 0,
+      "hashed": "76509e47fb33c02c",
+      "delta": 5,
       "engine": "zum"
     },
     {
-      "keyword": "홍진경 심경 고백",
+      "keyword": "캄보디아 한국인 범죄",
       "score": 17,
       "maxscore": 17,
-      "hashed": "2034bca0dadb2242",
-      "delta": 0,
+      "hashed": "dd038e1bb47fe657",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화 삼성 관세협상",
+      "keyword": "한화 삼성 한국시리즈",
       "score": 16,
       "maxscore": 16,
-      "hashed": "f408b7d0f68fedda",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "안세영 덴마크 오픈 8강",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "9286c43838f7bc88",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "각집부부 문소리",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "d49b4e7c7aaea23d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "홍진경 이혼 심경 고백",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "76509e47fb33c02c",
-      "delta": 0,
+      "hashed": "9f0a29a565cc6f42",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "캄보디아 스캠 한국인 추방",
-      "score": 12,
-      "maxscore": 12,
+      "score": 15,
+      "maxscore": 15,
       "hashed": "97ad5cdfd66bf857",
-      "delta": 0,
+      "delta": 3,
       "engine": "zum"
     },
     {
-      "keyword": "신태용 감독 재부임설",
+      "keyword": "안세영 덴마크 오픈",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "96a66cc251316ad7",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍진경 심경 고백",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "2034bca0dadb2242",
+      "delta": -4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍명보호 가나 평가전",
       "score": 11,
       "maxscore": 11,
-      "hashed": "3634e40d6df20823",
-      "delta": 0,
+      "hashed": "f8344ce0a77b0b7c",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T15:45:20.937Z"
+  "updated": "2025-10-16T15:50:28.735Z"
 }
