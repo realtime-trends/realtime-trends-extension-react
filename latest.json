@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760646628,
+  "timestamp": 1760646937,
   "trends": [
     {
       "keyword": "나기수 사별 후 근황",
@@ -34,11 +34,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "한화 삼성 한국시리즈",
+      "keyword": "한��� 삼성 한국시리즈",
       "score": 16,
       "maxscore": 16,
-      "hashed": "9f0a29a565cc6f42",
-      "delta": 0,
+      "hashed": "a47a52c5822be78e",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T20:30:29.729Z"
+  "updated": "2025-10-16T20:35:39.113Z"
 }
