@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760595020,
+  "trends": [
+    {
+      "keyword": "길치라도 괜찮아",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "96c71d0d20dbcf7d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손연재 결혼 스토리",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "3e9a5b30b0c0c3c4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 홈런 반격",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "3881a833ae47c1dd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 유벤투스 이적설",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "7729c1d5c3197ea5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "규제 합리화",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "acb5544f27c46ff8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김형석 독립기념관장 사퇴 압박",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "db7a55e506e29b9a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "유철환 권익위원장 사퇴 압박",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "539e5f8b6f39d4c6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "부산 전국체전 개최",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "292fb7a03b083587",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최재해 감사원장 감사",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "256c1485566c8031",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한미 관세 협상",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "b54a597a15241802",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-16T06:10:23.455Z"
+}
