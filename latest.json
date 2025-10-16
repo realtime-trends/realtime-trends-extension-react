@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760579114,
+  "timestamp": 1760579418,
   "trends": [
     {
-      "keyword": "이현이 코뼈 골절",
+      "keyword": "신랑수업 장우혁 오채이",
       "score": 20,
       "maxscore": 20,
-      "hashed": "e1ee0a63a73652d1",
-      "delta": 0,
+      "hashed": "d6cc7b463ca3caed",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이상민 별세",
+      "keyword": "이현이 코뼈 골절",
       "score": 19,
       "maxscore": 19,
-      "hashed": "3164f23a3b8373dc",
-      "delta": 0,
+      "hashed": "e1ee0a63a73652d1",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "이경규 약물 운전 트라우마",
+      "keyword": "양평고속도로 국토부 압수수색",
       "score": 18,
       "maxscore": 18,
-      "hashed": "e5b1b7a3ad6e15c3",
-      "delta": 0,
+      "hashed": "0886e75bad5fb285",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "순직 해경 당직팀장 구속",
+      "keyword": "백해룡 불법단체 비판",
       "score": 17,
       "maxscore": 17,
-      "hashed": "dcdcc90ea4a20694",
-      "delta": 0,
+      "hashed": "a91dc172a508ff77",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "스웨덴 왕세녀 태종대 참배",
+      "keyword": "노재헌 주중대사 임명",
       "score": 16,
       "maxscore": 16,
-      "hashed": "512815fce188e14a",
-      "delta": 0,
+      "hashed": "ed6f6ccc7dc58917",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "심형탁 도라에몽 태교여행",
+      "keyword": "우주메리미 시청률",
       "score": 15,
       "maxscore": 15,
-      "hashed": "5a970c8aeffd8bc9",
-      "delta": 0,
+      "hashed": "3de6c7560e8ae6c1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "홈택스 시스템 정상 운영",
+      "keyword": "트럼프 러시아산 원유",
       "score": 14,
       "maxscore": 14,
-      "hashed": "59bb438b46f92061",
-      "delta": 0,
+      "hashed": "010af3ca8a97c3ec",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "태풍상사 이준호 하트",
+      "keyword": "최태원 노소영 재산분할",
       "score": 13,
       "maxscore": 13,
-      "hashed": "95160c370f4757bd",
-      "delta": 0,
+      "hashed": "bdbcc1228564c4d4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "강호동 회장 뇌물수수",
+      "keyword": "천우희 마이 유스",
       "score": 12,
       "maxscore": 12,
-      "hashed": "41b312c816100e98",
-      "delta": 0,
+      "hashed": "216d892118054078",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "심형탁 둘째 계획",
+      "keyword": "장호진 해병특검 소환",
       "score": 11,
       "maxscore": 11,
-      "hashed": "40d6c84dd4008ede",
-      "delta": 0,
+      "hashed": "67146832b06096f1",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T01:45:16.144Z"
+  "updated": "2025-10-16T01:50:19.621Z"
 }
