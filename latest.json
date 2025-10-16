@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760588715,
+  "timestamp": 1760589015,
   "trends": [
     {
       "keyword": "장우혁 오채이 커플링",
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "cf7a132d3a03777c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T04:25:16.979Z"
+  "updated": "2025-10-16T04:30:17.289Z"
 }
