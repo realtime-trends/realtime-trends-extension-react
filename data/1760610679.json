@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760610679,
+  "trends": [
+    {
+      "keyword": "최태원 AI 협력",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "15b8c438fedb9acd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "서프라이즈 재정비 김하영",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "be1c53070ac70778",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신태용 클라위버르트 경질",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "fedd6d364e7957f3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오산기지 압수수색 논란",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "9d37f803a0f6ca50",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "내부자들 이성민 주지훈",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "eaf354689af6eb63",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노재헌 주중대사 취임",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "88c7ad31d2da4e0b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트와이스 빅토리아 시크릿",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "d22263b2995bf93c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김세영 BMW 레이디스 챔피언십",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "b22248642ac83471",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 백악관 연회장 모금",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "1ffb0ae5e6b61d6d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "포옛 감독 상벌위",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "665a9738bb421ab2",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-16T10:31:22.268Z"
+}
