@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760615176,
+  "timestamp": 1760615476,
   "trends": [
     {
-      "keyword": "캄보디아 한국인 보호",
+      "keyword": "노재헌 주중대사 시진핑 방한",
       "score": 20,
       "maxscore": 20,
-      "hashed": "f433a3abf87a41d8",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "최태원 미국 출국",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "3737a030d7b63e46",
-      "delta": 0,
+      "hashed": "9b44bb6427d9356b",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "홍명보호 가나 평가전",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "f8344ce0a77b0b7c",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 한국인 사망 사건",
       "score": 18,
       "maxscore": 18,
-      "hashed": "f8344ce0a77b0b7c",
-      "delta": 0,
+      "hashed": "6cccedeb5f6fede3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이요원 살림남 MC",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "f555ce6ca50c7a0c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신태용 클라위버르트 경질",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "fedd6d364e7957f3",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "김용원 인권위원 압수수색",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "1381a60d9dcdf93e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김세영 BMW 레이디스 챔피언십",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "b22248642ac83471",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "노재헌 주중대사 취임",
       "score": 15,
       "maxscore": 15,
-      "hashed": "88c7ad31d2da4e0b",
-      "delta": 0,
+      "hashed": "1381a60d9dcdf93e",
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "안세영 세계배드민턴연맹 선수위원",
+      "keyword": "한화 안치홍",
       "score": 14,
       "maxscore": 14,
-      "hashed": "e67ba0168371f493",
-      "delta": 0,
+      "hashed": "e08bd6110124b469",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "백해룡 합수팀 불법단체",
+      "keyword": "박보겸 KLPGA 선두",
       "score": 13,
       "maxscore": 13,
-      "hashed": "d8976eac9ca9b314",
-      "delta": 0,
+      "hashed": "cd1fbc7ee2d62977",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "백시연 층간 주인공",
+      "keyword": "이수민 더 채리티클래식",
       "score": 12,
       "maxscore": 12,
-      "hashed": "c2aa29339cddb8dd",
-      "delta": 0,
+      "hashed": "dd9f5b7ef14bac03",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한-스웨덴 협력",
+      "keyword": "김세영 선두 질주",
       "score": 11,
       "maxscore": 11,
-      "hashed": "6c14a601408f7f36",
-      "delta": 0,
+      "hashed": "c54ce26f2f0d22fe",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-16T11:46:17.552Z"
+  "updated": "2025-10-16T11:51:17.805Z"
 }
