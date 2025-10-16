@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760618124,
+  "trends": [
+    {
+      "keyword": "노재헌 주중대사 시진핑 방한",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "9b44bb6427d9356b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍명보호 가나 평가전",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "f8344ce0a77b0b7c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 한국인 사망 사건",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "6cccedeb5f6fede3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이요원 살림남 MC",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "f555ce6ca50c7a0c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신태용 클라위버르트 경질",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "fedd6d364e7957f3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김용원 인권위원 압수수색",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1381a60d9dcdf93e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 안치홍",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "e08bd6110124b469",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박보겸 KLPGA 선두",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "cd1fbc7ee2d62977",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이수민 더 채리티클래식",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "dd9f5b7ef14bac03",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김세영 선두 질주",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "c54ce26f2f0d22fe",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-16T12:35:27.817Z"
+}
