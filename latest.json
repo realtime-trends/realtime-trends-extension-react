@@ -1,28 +1,28 @@
 {
-  "timestamp": 1760708729,
+  "timestamp": 1760709022,
   "trends": [
     {
-      "keyword": "손흥민 토트넘 복귀",
+      "keyword": "캄보디아 구금 한국인 송환",
       "score": 20,
       "maxscore": 20,
-      "hashed": "22192d2b9d06e12e",
-      "delta": 0,
+      "hashed": "1ceb455ffce1c47d",
+      "delta": 5,
       "engine": "zum"
     },
     {
-      "keyword": "한화 삼성 플레이오프",
+      "keyword": "안세영 덴마크오픈 준결승",
       "score": 19,
       "maxscore": 19,
-      "hashed": "cf6730e89014bdfc",
-      "delta": 0,
+      "hashed": "124fc1cb9307b9ea",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "안세영 덴마크 오픈",
+      "keyword": "전국체전 부산 개최",
       "score": 18,
       "maxscore": 18,
-      "hashed": "96a66cc251316ad7",
-      "delta": 0,
+      "hashed": "d831ed238e29a07a",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -34,53 +34,53 @@
       "engine": "zum"
     },
     {
-      "keyword": "이상희 더채리티클래식 선두",
+      "keyword": "트럼프 푸틴 회담",
       "score": 16,
       "maxscore": 16,
-      "hashed": "cadec3f4f3a9a1c1",
-      "delta": 0,
+      "hashed": "926dc25dc7df8336",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 구금 한국인 송환",
+      "keyword": "현대모비스 정준원",
       "score": 15,
       "maxscore": 15,
-      "hashed": "1ceb455ffce1c47d",
-      "delta": 0,
+      "hashed": "51b4c10d6ebd70a4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "전국체전 개회식",
+      "keyword": "베를린 소녀상 강제 철거",
       "score": 14,
       "maxscore": 14,
-      "hashed": "6010ba8a4dde1c4f",
-      "delta": 0,
+      "hashed": "bc43aea4071c5d2e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김세영 BMW 챔피언십 선두",
+      "keyword": "한화 삼성 플레이오프",
       "score": 13,
       "maxscore": 13,
-      "hashed": "4eb7b09ae881af7b",
-      "delta": 0,
+      "hashed": "cf6730e89014bdfc",
+      "delta": -6,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 사기",
+      "keyword": "일본 야스쿠니 공물",
       "score": 12,
       "maxscore": 12,
-      "hashed": "27fe10770e7872f1",
-      "delta": 0,
+      "hashed": "62563238846e2ef1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "홈택스 시스템 정상 운영",
+      "keyword": "손흥민 토트넘 복귀",
       "score": 11,
       "maxscore": 11,
-      "hashed": "59bb438b46f92061",
-      "delta": 0,
+      "hashed": "22192d2b9d06e12e",
+      "delta": -9,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T13:45:30.887Z"
+  "updated": "2025-10-17T13:50:23.830Z"
 }
