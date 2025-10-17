@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760701873,
+  "timestamp": 1760702179,
   "trends": [
     {
       "keyword": "손흥민 토트넘 복귀",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "cf6730e89014bdfc",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "6010ba8a4dde1c4f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "4eb7b09ae881af7b",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "27fe10770e7872f1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "e03d33e0b8a2b45f",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "6673e065b905cc4d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "d7795b15829fe2b6",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "2dac8d987e9cd37a",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T11:51:14.513Z"
+  "updated": "2025-10-17T11:56:20.911Z"
 }
