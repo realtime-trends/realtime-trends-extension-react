@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760694081,
+  "trends": [
+    {
+      "keyword": "무라야마 담화",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "e03d33e0b8a2b45f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 토트넘 복귀",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "22192d2b9d06e12e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박보영 유방암 캠페인 논란",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "dd5c6b9f573ed904",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "베를린 평화의 소녀상 철거",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "bb271fbae30755a6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "동남아 불법 구인광고",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c82a194ade00d4c9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민희진 직장 내 괴롭힘",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "31624af533b96225",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 송환 작전",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "45166fb06a312aba",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "재판소원 국정감사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "397d795b89a84f05",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이진숙 체포 공방",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "b310315b81e711d1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오타니 사사키 다저스",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "f4347f7fecd14cbd",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-17T09:41:23.901Z"
+}
