@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760731226,
+  "timestamp": 1760731524,
   "trends": [
     {
       "keyword": "야구선수 추락사",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "124fc1cb9307b9ea",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T20:00:27.887Z"
+  "updated": "2025-10-17T20:05:26.323Z"
 }
