@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760690779,
+  "timestamp": 1760691076,
   "trends": [
     {
-      "keyword": "박미선 유퀴즈 복귀",
+      "keyword": "무라야마 담화",
       "score": 20,
       "maxscore": 20,
-      "hashed": "d871819c4acc51e4",
-      "delta": 0,
+      "hashed": "e03d33e0b8a2b45f",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "무라야마 담화",
+      "keyword": "손흥민 토트넘 복귀",
       "score": 19,
       "maxscore": 19,
-      "hashed": "e03d33e0b8a2b45f",
-      "delta": 0,
+      "hashed": "22192d2b9d06e12e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 유럽 복귀",
+      "keyword": "박보영 유방암 캠페인 논란",
       "score": 18,
       "maxscore": 18,
-      "hashed": "4b8f492a555a0bb4",
-      "delta": 0,
+      "hashed": "dd5c6b9f573ed904",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "베를린 평화의 소녀상 철거",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "bb271fbae30755a6",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "동남아 불법 구인광고",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "c82a194ade00d4c9",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "민희진 직장 내 괴롭힘",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "31624af533b96225",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김강우 아내 사랑꾼",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "741010c62e441941",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "강훈식 방산 특사",
       "score": 15,
       "maxscore": 15,
-      "hashed": "6b2855d5f668a581",
-      "delta": 0,
+      "hashed": "31624af533b96225",
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "화사 정희",
+      "keyword": "캄보디아 송환 작전",
       "score": 14,
       "maxscore": 14,
-      "hashed": "db13fa32b88dba4d",
-      "delta": 0,
+      "hashed": "45166fb06a312aba",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "재판소원 국정감사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "397d795b89a84f05",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이진숙 체포 공방",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "b310315b81e711d1",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이강인 AFC 올해의 국제선수상",
       "score": 12,
       "maxscore": 12,
-      "hashed": "4715ffcea66c0af8",
-      "delta": 0,
+      "hashed": "b310315b81e711d1",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "슈팅스타2 최용수 감독",
+      "keyword": "오타니 사사키 다저스",
       "score": 11,
       "maxscore": 11,
-      "hashed": "7be6bac0345719a7",
-      "delta": 0,
+      "hashed": "f4347f7fecd14cbd",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T08:46:20.387Z"
+  "updated": "2025-10-17T08:51:18.004Z"
 }
