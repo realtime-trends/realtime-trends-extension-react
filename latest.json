@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760683553,
+  "timestamp": 1760683844,
   "trends": [
     {
       "keyword": "무라야마 전 총리 별세",
@@ -18,11 +18,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "온나라시스템 해킹",
+      "keyword": "슈팅스타2 최용수",
       "score": 18,
       "maxscore": 18,
-      "hashed": "ed53bfeacfbcd322",
-      "delta": 0,
+      "hashed": "f6ce92157720a7eb",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -34,11 +34,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "다저스 월드시리즈 진출",
+      "keyword": "전략경제협력 강훈식 특사",
       "score": 16,
       "maxscore": 16,
-      "hashed": "d5686bafeb971919",
-      "delta": 0,
+      "hashed": "5cc2a254ab5feb5d",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -50,37 +50,37 @@
       "engine": "zum"
     },
     {
-      "keyword": "강릉 가뭄 예측 실패",
+      "keyword": "헌재 정당해산 심판",
       "score": 14,
       "maxscore": 14,
-      "hashed": "9349601e2cad7808",
-      "delta": 0,
+      "hashed": "6b6664017e12eeae",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "채해병 특검 박성웅",
+      "keyword": "베이비몬스터 엠카 1위",
       "score": 13,
       "maxscore": 13,
-      "hashed": "17ea52e9e9bfe1b2",
-      "delta": 0,
+      "hashed": "a33ee9bc71e224a9",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "서울약령시 한방문화축제",
+      "keyword": "이상민 전 장관 재판",
       "score": 12,
       "maxscore": 12,
-      "hashed": "23470540515b4239",
-      "delta": 0,
+      "hashed": "0d57566e6d2eb598",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "국정조사 보고서 채택",
+      "keyword": "화사 정희 먹방",
       "score": 11,
       "maxscore": 11,
-      "hashed": "252573c657fe2c5e",
-      "delta": 0,
+      "hashed": "112cb9974fd4fdab",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T06:45:55.232Z"
+  "updated": "2025-10-17T06:50:46.327Z"
 }
