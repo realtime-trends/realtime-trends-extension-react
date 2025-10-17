@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760689582,
+  "timestamp": 1760689875,
   "trends": [
     {
       "keyword": "박미선 유퀴즈 복귀",
       "score": 20,
       "maxscore": 20,
       "hashed": "d871819c4acc51e4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T08:26:23.566Z"
+  "updated": "2025-10-17T08:31:16.644Z"
 }
