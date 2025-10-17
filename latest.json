@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760680543,
+  "timestamp": 1760680844,
   "trends": [
     {
       "keyword": "무라야마 전 총리 별세",
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "ed53bfeacfbcd322",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T05:55:44.717Z"
+  "updated": "2025-10-17T06:00:45.770Z"
 }
