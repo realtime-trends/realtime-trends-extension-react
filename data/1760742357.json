@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760742357,
+  "trends": [
+    {
+      "keyword": "야구선수 추락사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "a7a0e17b69bb7d95",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안세영 덴마크 오픈 준결승",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "124fc1cb9307b9ea",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "무라야마 담화",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "e03d33e0b8a2b45f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 푸틴 회담",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "926dc25dc7df8336",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 대포통장 모집책",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "5474e10899451082",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이광수 김우빈 도경수 콩콩팡팡",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "5db75901d2da3c0e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "1차전 우천 취소",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "11557f31ac6d230a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 토트넘 단기 복귀",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "6a3591fe56e8808c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민희진 직장 내 괴롭힘 과태료",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "197ca825bd8dd7ec",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 스캠 범죄 송환",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "0efcb42dd32d4c57",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-17T23:06:00.904Z"
+}
