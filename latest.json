@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760697985,
+  "timestamp": 1760698271,
   "trends": [
     {
       "keyword": "손흥민 토트넘 복귀",
@@ -10,19 +10,19 @@
       "engine": "zum"
     },
     {
-      "keyword": "민희진 직장 내 괴롭힘",
+      "keyword": "한화 삼성 1차전 우천 취소",
       "score": 19,
       "maxscore": 19,
-      "hashed": "31624af533b96225",
-      "delta": 0,
+      "hashed": "9a00f7d313bc7d0e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "슈팅스타2 K리그",
+      "keyword": "민희진 직장 내 괴롭힘",
       "score": 18,
       "maxscore": 18,
-      "hashed": "2dac8d987e9cd37a",
-      "delta": 0,
+      "hashed": "31624af533b96225",
+      "delta": -1,
       "engine": "zum"
     },
     {
@@ -34,53 +34,53 @@
       "engine": "zum"
     },
     {
-      "keyword": "김세영 BMW 챔피언십 선두",
+      "keyword": "재판소원 논쟁",
       "score": 16,
       "maxscore": 16,
-      "hashed": "4eb7b09ae881af7b",
-      "delta": 0,
+      "hashed": "11a935e1ada5c242",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "박보영 유방암 캠페인 논란",
+      "keyword": "김경문 삼성 흐름",
       "score": 15,
       "maxscore": 15,
-      "hashed": "dd5c6b9f573ed904",
-      "delta": 0,
+      "hashed": "d7795b15829fe2b6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "베를린 평화의 소녀상 철거",
+      "keyword": "김세영 BMW 챔피언십 선두",
       "score": 14,
       "maxscore": 14,
-      "hashed": "bb271fbae30755a6",
-      "delta": 0,
+      "hashed": "4eb7b09ae881af7b",
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "재판소원 국정감사",
+      "keyword": "슈팅스타2 K리그",
       "score": 13,
       "maxscore": 13,
-      "hashed": "397d795b89a84f05",
-      "delta": 0,
+      "hashed": "2dac8d987e9cd37a",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "김영광 은수 좋은 날",
+      "keyword": "불꽃야구 정근우",
       "score": 12,
       "maxscore": 12,
-      "hashed": "9a508fad873280de",
-      "delta": 0,
+      "hashed": "786e8fecffa7daf6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "민중기 주식거래 의혹",
+      "keyword": "캄보디아 방문 주의",
       "score": 11,
       "maxscore": 11,
-      "hashed": "7ac5ef1fa2daf902",
-      "delta": 0,
+      "hashed": "7341a4b11dcca274",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T10:46:26.685Z"
+  "updated": "2025-10-17T10:51:12.794Z"
 }
