@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760701577,
+  "timestamp": 1760701873,
   "trends": [
     {
       "keyword": "손흥민 토트넘 복귀",
@@ -10,11 +10,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "한화 삼성 1차전 우천 취소",
+      "keyword": "한화 삼성 플레이오프",
       "score": 19,
       "maxscore": 19,
-      "hashed": "9a00f7d313bc7d0e",
-      "delta": 0,
+      "hashed": "cf6730e89014bdfc",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -26,61 +26,61 @@
       "engine": "zum"
     },
     {
-      "keyword": "무라야마 담화",
+      "keyword": "전국체전 개회식",
       "score": 17,
       "maxscore": 17,
-      "hashed": "e03d33e0b8a2b45f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "재판소원 논쟁",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "11a935e1ada5c242",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김경문 삼성 흐름",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "d7795b15829fe2b6",
-      "delta": 0,
+      "hashed": "6010ba8a4dde1c4f",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "김세영 BMW 챔피언십 선두",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4eb7b09ae881af7b",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 사기",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "27fe10770e7872f1",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "무라야마 담화",
       "score": 14,
       "maxscore": 14,
-      "hashed": "4eb7b09ae881af7b",
-      "delta": 0,
+      "hashed": "e03d33e0b8a2b45f",
+      "delta": -3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "헌법재판소 재판소원",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "6673e065b905cc4d",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김경문 삼성 흐름",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "d7795b15829fe2b6",
+      "delta": -3,
       "engine": "zum"
     },
     {
       "keyword": "슈팅스타2 K리그",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "2dac8d987e9cd37a",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "불꽃야구 정근우",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "786e8fecffa7daf6",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 방문 주의",
       "score": 11,
       "maxscore": 11,
-      "hashed": "7341a4b11dcca274",
-      "delta": 0,
+      "hashed": "2dac8d987e9cd37a",
+      "delta": -2,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T11:46:19.262Z"
+  "updated": "2025-10-17T11:51:14.513Z"
 }
