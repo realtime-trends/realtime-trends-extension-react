@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760712319,
+  "timestamp": 1760712627,
   "trends": [
     {
-      "keyword": "캄보디아 구금 한국인 송환",
+      "keyword": "안세영 덴마크오픈 준결승",
       "score": 20,
       "maxscore": 20,
-      "hashed": "1ceb455ffce1c47d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "안세영 덴마크오픈 준결승",
-      "score": 19,
-      "maxscore": 19,
       "hashed": "124fc1cb9307b9ea",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "전국체전 부산 개최",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "d831ed238e29a07a",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "민희진 직장 내 괴롭힘",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "31624af533b96225",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
       "keyword": "트럼프 푸틴 회담",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "926dc25dc7df8336",
+      "delta": 3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "야구선수 추락사",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "a7a0e17b69bb7d95",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 대포통장 모집책",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "5474e10899451082",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이광수 김우빈 도경수 콩콩팡팡",
       "score": 16,
       "maxscore": 16,
-      "hashed": "926dc25dc7df8336",
-      "delta": 0,
+      "hashed": "5db75901d2da3c0e",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 구금 한국인 송환",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1ceb455ffce1c47d",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전국체전 부산 개최",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "d831ed238e29a07a",
+      "delta": -4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민희진 직장 내 괴롭힘",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "31624af533b96225",
+      "delta": -4,
       "engine": "zum"
     },
     {
       "keyword": "현대모비스 정준원",
-      "score": 15,
-      "maxscore": 15,
+      "score": 12,
+      "maxscore": 12,
       "hashed": "51b4c10d6ebd70a4",
-      "delta": 0,
+      "delta": -3,
       "engine": "zum"
     },
     {
       "keyword": "베를린 소녀상 강제 철거",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "bc43aea4071c5d2e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "한화 삼성 플레이오프",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "cf6730e89014bdfc",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "일본 야스쿠니 공물",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "62563238846e2ef1",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "손흥민 토트넘 복귀",
       "score": 11,
       "maxscore": 11,
-      "hashed": "22192d2b9d06e12e",
-      "delta": 0,
+      "hashed": "bc43aea4071c5d2e",
+      "delta": -3,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T14:45:20.489Z"
+  "updated": "2025-10-17T14:50:29.238Z"
 }
