@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760682953,
+  "trends": [
+    {
+      "keyword": "무라야마 전 총리 별세",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "4850956b26df1d8e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이강인 AFC 국제선수상",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "f54354b1c8e63f9e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "온나라시스템 해킹",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "ed53bfeacfbcd322",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 시애틀 ALCS",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "9c45680bf878911b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다저스 월드시리즈 진출",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d5686bafeb971919",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 특검 주식 거래 의혹",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1cfc59d70e403893",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "강릉 가뭄 예측 실패",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "9349601e2cad7808",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채해병 특검 박성웅",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "17ea52e9e9bfe1b2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "서울약령시 한방문화축제",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "23470540515b4239",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국정조사 보고서 채택",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "252573c657fe2c5e",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-17T06:35:56.156Z"
+}
