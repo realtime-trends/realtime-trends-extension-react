@@ -1,11 +1,11 @@
 {
-  "timestamp": 1760689280,
+  "timestamp": 1760689582,
   "trends": [
     {
-      "keyword": "박미선 유퀴즈 ��귀",
+      "keyword": "박미선 유퀴즈 복귀",
       "score": 20,
       "maxscore": 20,
-      "hashed": "8bd2b45f77e2108b",
+      "hashed": "d871819c4acc51e4",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T08:21:21.573Z"
+  "updated": "2025-10-17T08:26:23.566Z"
 }
