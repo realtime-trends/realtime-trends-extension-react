@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760677552,
+  "trends": [
+    {
+      "keyword": "다저스 월드시리즈 진출",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "d5686bafeb971919",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "백세희 작가 별세",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "b60fe430edd6a8ba",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이강인 AFC 국제선수상",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "f54354b1c8e63f9e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 특검 주식투자 의혹",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "f80e21b561db759c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "해병특검 박성웅 참고인",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "ec8873266010e560",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "온나라시스템 해킹 정황",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "649b485a7718a04a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "광고상 수상",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "47884678a76868bf",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "유재성 캄보디아 대응",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "099b8e913231851e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "주토피아 팝업스토어",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "bb71ed90c2e59681",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 푸틴 회담",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "926dc25dc7df8336",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-17T05:05:55.539Z"
+}
