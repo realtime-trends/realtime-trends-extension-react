@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760699776,
+  "timestamp": 1760700076,
   "trends": [
     {
       "keyword": "손흥민 토트넘 복귀",
@@ -74,13 +74,13 @@
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 ���문 주의",
+      "keyword": "캄보디아 방문 주의",
       "score": 11,
       "maxscore": 11,
-      "hashed": "ede3ce6b99b40c6f",
+      "hashed": "7341a4b11dcca274",
       "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T11:16:17.932Z"
+  "updated": "2025-10-17T11:21:17.503Z"
 }
