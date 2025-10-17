@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760697379,
+  "trends": [
+    {
+      "keyword": "손흥민 토트넘 복귀",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "22192d2b9d06e12e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민희진 직장 내 괴롭힘",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "31624af533b96225",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "슈팅스타2 K리그",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "2dac8d987e9cd37a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "무라야마 담화",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "e03d33e0b8a2b45f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김세영 BMW 챔피언십 선두",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4eb7b09ae881af7b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박보영 유방암 캠페인 논란",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "dd5c6b9f573ed904",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "베를린 평화의 소녀상 철거",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "bb271fbae30755a6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "재판소원 국정감사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "397d795b89a84f05",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김영광 은수 좋은 날",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "9a508fad873280de",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 주식거래 의혹",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "7ac5ef1fa2daf902",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-17T10:36:22.293Z"
+}
