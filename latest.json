@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760672745,
+  "timestamp": 1760673045,
   "trends": [
     {
-      "keyword": "함은정 결혼",
+      "keyword": "함은정 결혼 발표",
       "score": 20,
       "maxscore": 20,
-      "hashed": "430dfd02d47a81e8",
-      "delta": 0,
+      "hashed": "7bea1bab3bfb0b03",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "다저스 NLCS 3연승",
+      "keyword": "다저스 월드시리즈 진출",
       "score": 19,
       "maxscore": 19,
-      "hashed": "3d4e1bae0f8e4d28",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "여배우 담배 썩은내",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "39ef8b2b0d85118b",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "모범택시3 이제훈",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "9f1cf3323f8d36bb",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "조태용 전 국정원장 내란 동조 의혹",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "14888b26520b632c",
-      "delta": 0,
+      "hashed": "d5686bafeb971919",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이강인 AFC 국제선수상",
-      "score": 15,
-      "maxscore": 15,
+      "score": 18,
+      "maxscore": 18,
       "hashed": "f54354b1c8e63f9e",
-      "delta": 0,
+      "delta": 3,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 한국인 송환",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "71e2352692ba6ec4",
-      "delta": 0,
+      "keyword": "오재일 은퇴",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "8cda8e9f36e32548",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "야스쿠니 공물 봉납",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "c31d7c6b45668ef6",
-      "delta": 0,
+      "keyword": "온나라시스템 해킹 정황",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "649b485a7718a04a",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "불꽃 파이터즈 동의과학대",
-      "score": 12,
-      "maxscore": 12,
+      "score": 15,
+      "maxscore": 15,
       "hashed": "022c23e64ea1ae40",
-      "delta": 0,
+      "delta": 3,
       "engine": "zum"
     },
     {
-      "keyword": "주토피아 팝업스토어",
+      "keyword": "유방암 캠페인 논란",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "b78410bf4f85cef2",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "콩콩팡팡 갈등",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "5bdce8e21be5b7da",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 특검 주식투자 의혹",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f80e21b561db759c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 사태 대응",
       "score": 11,
       "maxscore": 11,
-      "hashed": "bb71ed90c2e59681",
-      "delta": 0,
+      "hashed": "44f93e075c1b08d0",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T03:45:47.189Z"
+  "updated": "2025-10-17T03:50:46.692Z"
 }
