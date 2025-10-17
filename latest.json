@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760683844,
+  "timestamp": 1760684184,
   "trends": [
     {
       "keyword": "무라야마 전 총리 별세",
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "f6ce92157720a7eb",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "5cc2a254ab5feb5d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "6b6664017e12eeae",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "a33ee9bc71e224a9",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "0d57566e6d2eb598",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "112cb9974fd4fdab",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T06:50:46.327Z"
+  "updated": "2025-10-17T06:56:26.007Z"
 }
