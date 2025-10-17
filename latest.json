@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760730630,
+  "timestamp": 1760730918,
   "trends": [
     {
       "keyword": "야구선수 추락사",
@@ -10,11 +10,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "안세영 덴마크 오픈 준결승",
+      "keyword": "안세영 덴마크 오픈 준결���",
       "score": 19,
       "maxscore": 19,
-      "hashed": "124fc1cb9307b9ea",
-      "delta": 0,
+      "hashed": "1a8740022624aca6",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T19:50:32.172Z"
+  "updated": "2025-10-17T19:55:20.442Z"
 }
