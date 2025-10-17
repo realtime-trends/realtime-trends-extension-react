@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760665856,
+  "timestamp": 1760666146,
   "trends": [
     {
       "keyword": "함은정 김병우 결혼",
       "score": 20,
       "maxscore": 20,
       "hashed": "190b161c8665638b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "c347766dc285b23d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "c31d7c6b45668ef6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "14888b26520b632c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "defb4a874fa9572a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "13ee0a2b8244dfdd",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "5ae267b713214e02",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "ed01c034a50a1e2c",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "dcfb170ac42ccbb0",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T01:50:57.756Z"
+  "updated": "2025-10-17T01:55:47.657Z"
 }
