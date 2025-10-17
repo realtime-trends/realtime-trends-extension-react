@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760708423,
+  "trends": [
+    {
+      "keyword": "손흥민 토트넘 복귀",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "22192d2b9d06e12e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 삼성 플레이오프",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "cf6730e89014bdfc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안세영 덴마크 오픈",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "96a66cc251316ad7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민희진 직장 내 괴롭힘",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "31624af533b96225",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이상희 더채리티클래식 선두",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "cadec3f4f3a9a1c1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 구금 한국인 송환",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1ceb455ffce1c47d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전국체전 개회식",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "6010ba8a4dde1c4f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김세영 BMW 챔피언십 선두",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "4eb7b09ae881af7b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 사기",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "27fe10770e7872f1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홈택스 시스템 정상 운영",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "59bb438b46f92061",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-17T13:40:26.947Z"
+}
