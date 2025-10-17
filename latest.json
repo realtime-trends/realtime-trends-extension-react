@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760687179,
+  "timestamp": 1760687476,
   "trends": [
     {
-      "keyword": "무라야마 전 총리 별세",
+      "keyword": "박미선 유퀴즈 복귀",
       "score": 20,
       "maxscore": 20,
-      "hashed": "4850956b26df1d8e",
-      "delta": 0,
+      "hashed": "d871819c4acc51e4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이강인 AFC 국제선수상",
+      "keyword": "무라야마 담화",
       "score": 19,
       "maxscore": 19,
-      "hashed": "f54354b1c8e63f9e",
-      "delta": 0,
+      "hashed": "e03d33e0b8a2b45f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "슈팅스타2 최용수",
+      "keyword": "손흥민 유럽 복귀",
       "score": 18,
       "maxscore": 18,
-      "hashed": "f6ce92157720a7eb",
-      "delta": 0,
+      "hashed": "4b8f492a555a0bb4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "토론토 시애틀 ALCS",
+      "keyword": "민희진 직장 내 괴롭힘",
       "score": 17,
       "maxscore": 17,
-      "hashed": "9c45680bf878911b",
-      "delta": 0,
+      "hashed": "31624af533b96225",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "전략경제협력 강훈식 특사",
+      "keyword": "김강우 아내 사랑꾼",
       "score": 16,
       "maxscore": 16,
-      "hashed": "5cc2a254ab5feb5d",
-      "delta": 0,
+      "hashed": "741010c62e441941",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "민중기 특검 주식 거래 의혹",
+      "keyword": "강훈식 방산 특사",
       "score": 15,
       "maxscore": 15,
-      "hashed": "1cfc59d70e403893",
-      "delta": 0,
+      "hashed": "6b2855d5f668a581",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "헌재 정당해산 심판",
+      "keyword": "화사 정희",
       "score": 14,
       "maxscore": 14,
-      "hashed": "6b6664017e12eeae",
-      "delta": 0,
+      "hashed": "db13fa32b88dba4d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "베이비몬스터 엠카 1위",
+      "keyword": "이진숙 체포 공방",
       "score": 13,
       "maxscore": 13,
-      "hashed": "a33ee9bc71e224a9",
-      "delta": 0,
+      "hashed": "b310315b81e711d1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이상민 전 장관 재판",
+      "keyword": "이강인 AFC 올해의 국제선수상",
       "score": 12,
       "maxscore": 12,
-      "hashed": "0d57566e6d2eb598",
-      "delta": 0,
+      "hashed": "4715ffcea66c0af8",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "화사 정희 먹방",
+      "keyword": "슈팅스타2 최용수 감독",
       "score": 11,
       "maxscore": 11,
-      "hashed": "112cb9974fd4fdab",
-      "delta": 0,
+      "hashed": "7be6bac0345719a7",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T07:46:20.929Z"
+  "updated": "2025-10-17T07:51:17.768Z"
 }
