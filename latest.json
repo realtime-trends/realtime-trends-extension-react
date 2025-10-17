@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760680246,
+  "timestamp": 1760680543,
   "trends": [
     {
       "keyword": "무라야마 전 총리 별세",
       "score": 20,
       "maxscore": 20,
       "hashed": "4850956b26df1d8e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,14 +14,14 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "f54354b1c8e63f9e",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "���나라시스템 해킹",
+      "keyword": "온나라시스템 해킹",
       "score": 18,
       "maxscore": 18,
-      "hashed": "0fdc90f3dbec9133",
+      "hashed": "ed53bfeacfbcd322",
       "delta": 999,
       "engine": "zum"
     },
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "9c45680bf878911b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "d5686bafeb971919",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "1cfc59d70e403893",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "9349601e2cad7808",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "17ea52e9e9bfe1b2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "23470540515b4239",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "252573c657fe2c5e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T05:50:47.542Z"
+  "updated": "2025-10-17T05:55:44.717Z"
 }
