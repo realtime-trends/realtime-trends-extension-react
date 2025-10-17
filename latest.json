@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760709022,
+  "timestamp": 1760709324,
   "trends": [
     {
       "keyword": "캄보디아 구금 한국인 송환",
       "score": 20,
       "maxscore": 20,
       "hashed": "1ceb455ffce1c47d",
-      "delta": 5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "124fc1cb9307b9ea",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "d831ed238e29a07a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "926dc25dc7df8336",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "51b4c10d6ebd70a4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "bc43aea4071c5d2e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "cf6730e89014bdfc",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "62563238846e2ef1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "22192d2b9d06e12e",
-      "delta": -9,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-17T13:50:23.830Z"
+  "updated": "2025-10-17T13:55:26.147Z"
 }
