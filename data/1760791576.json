@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760791576,
+  "trends": [
+    {
+      "keyword": "인천행 여객기 배터리 화재",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "9be4b85c3ba9d2df",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤석열 면회",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "715e20a041309d05",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "흥국생명 레베카 활약",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "e2b3020932a47452",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이청용 골프 세리머니",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "098b65865713a49f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 플레이오프 1차전 승리",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "940cd5d8c92c8660",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전북 현대 우승",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "0da1aa163de15274",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "놀뭐 유재석",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "20a43efedbea20d9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안세영 덴마크오픈 우승 도전",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "dee46d6131161c70",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 감금 구출",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "fb43ba7e527d7f8e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "문동주 구원 역투",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "cce3aec0a4bcdb41",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-18T12:46:19.530Z"
+}
