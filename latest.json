@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760759449,
+  "timestamp": 1760759749,
   "trends": [
     {
       "keyword": "하마스 무장해제 거부",
       "score": 20,
       "maxscore": 20,
       "hashed": "4144d4932be26a73",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "42ca122038cda43f",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "101498d28df4f487",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "45d6cc1dfa6486ad",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "9ad62119183ed34b",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "3a9370aa88c0a05c",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "22192d2b9d06e12e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T03:50:50.729Z"
+  "updated": "2025-10-18T03:55:51.603Z"
 }
