@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760764247,
+  "trends": [
+    {
+      "keyword": "캄보디아 송환 수사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "9be8d37507c64972",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김경문 감독 선취점",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "45d6cc1dfa6486ad",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구준엽 서희원 묘역",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c4f755ccbc125583",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "마이 유스 송중기 천우희",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "101498d28df4f487",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김종국 아이큐 고백",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "42ca122038cda43f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "하마스 무장해제 거부",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "4144d4932be26a73",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전북 조기 우승",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "9abcacbcf8d9bdf3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쇼트트랙 최민정 월드투어",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "2339e44318233dff",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조용훈 추락사",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "5d2791f9e92f9ce3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이강인 골대 강타",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "9ad62119183ed34b",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-18T05:10:50.295Z"
+}
