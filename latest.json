@@ -1,28 +1,44 @@
 {
-  "timestamp": 1760798769,
+  "timestamp": 1760799072,
   "trends": [
     {
-      "keyword": "유재석 놀뭐 광희",
-      "score": 20,
-      "maxscore": 20,
-      "hashed": "7d4fe1483adcff15",
-      "delta": 0,
+      "keyword": "장동혁 윤석열 뭉쳐 싸우자",
+      "score": 22.799999999999997,
+      "maxscore": 14,
+      "hashed": "881705225041063c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "인천행 여객기 배터리 화재",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "9be4b85c3ba9d2df",
-      "delta": 0,
+      "keyword": "여자배구 김연경 은퇴",
+      "score": 22.7,
+      "maxscore": 15,
+      "hashed": "d8ee4d43f99bfcdf",
+      "delta": 3,
       "engine": "zum"
     },
     {
       "keyword": "트럼프 김정은 회동",
-      "score": 18,
-      "maxscore": 18,
+      "score": 20,
+      "maxscore": 20,
       "hashed": "1dfc07c057f8f210",
       "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "태풍상사 이준호",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "5644785d549f4a0f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "유재석 놀뭐 광희",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "7d4fe1483adcff15",
+      "delta": -4,
       "engine": "zum"
     },
     {
@@ -30,57 +46,25 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "8f50c4fb609241b0",
-      "delta": 0,
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "여자배구 김연경 은퇴",
+      "keyword": "인천행 여객기 배터리 화재",
       "score": 16,
       "maxscore": 16,
-      "hashed": "d8ee4d43f99bfcdf",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "흥국생명 레베카 활약",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "e2b3020932a47452",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "안세영 덴마크 오픈 우승",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "075f739dbacbe3d0",
-      "delta": 0,
+      "hashed": "9be4b85c3ba9d2df",
+      "delta": -5,
       "engine": "zum"
     },
     {
       "keyword": "조용훈 추락사",
-      "score": 13,
-      "maxscore": 13,
+      "score": 12,
+      "maxscore": 12,
       "hashed": "5d2791f9e92f9ce3",
       "delta": 0,
       "engine": "zum"
-    },
-    {
-      "keyword": "윤석열 뭉쳐 싸우자",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "7d9c8643eda48d92",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "장동혁 윤석열 면회",
-      "score": 11,
-      "maxscore": 11,
-      "hashed": "11896e7e1cef1fc8",
-      "delta": 999,
-      "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T14:46:10.574Z"
+  "updated": "2025-10-18T14:51:13.936Z"
 }
