@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760815273,
+  "trends": [
+    {
+      "keyword": "유재석 놀뭐 멤버",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "74d94a686ff1eecd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 김정은 회동",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1dfc07c057f8f210",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "태풍상사 이준호",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "5644785d549f4a0f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전북 현대 우승",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "0da1aa163de15274",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조용훈 추락사",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "5d2791f9e92f9ce3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "인천행 여객기 배터리",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "436919f6eb633f82",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여객기 배터리 화재",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "9b58c42f4ab58bea",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤석열 뭉쳐 싸우자",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "7d9c8643eda48d92",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김연경 은퇴식",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "1d5261f79ef4b3af",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "솔라나 유니스왑 지원",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "d9b3eec4b5f4f6eb",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-18T19:21:17.176Z"
+}
