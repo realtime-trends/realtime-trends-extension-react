@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760784675,
+  "timestamp": 1760784974,
   "trends": [
     {
       "keyword": "장동혁 윤석열 면회",
       "score": 25,
       "maxscore": 20,
       "hashed": "11896e7e1cef1fc8",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "cce3aec0a4bcdb41",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "0698d5d6a9f34bd7",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "d69c0d5a0d39370d",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "098b65865713a49f",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "dee46d6131161c70",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "abf7df811e88749f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "af20ea1c1d089baa",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "0532318ad94217f6",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T10:51:16.809Z"
+  "updated": "2025-10-18T10:56:15.981Z"
 }
