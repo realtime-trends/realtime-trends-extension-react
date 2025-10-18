@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760792173,
+  "trends": [
+    {
+      "keyword": "트럼프 김정은 회동 논의",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c6e46e4ad787031d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "인천행 여객기 배터리 화재",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "9be4b85c3ba9d2df",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전북 현대 우승",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "0da1aa163de15274",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "레베카 흥국생명 요시하라",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "df57afc4b5f72234",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안세영 덴마크오픈 우승 도전",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "dee46d6131161c70",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김연경 은퇴식",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1d5261f79ef4b3af",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장동혁 윤석열 면회",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "11896e7e1cef1fc8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이청용 골프 세리머니",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "098b65865713a49f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 승리 기선 제압",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "e95f696d2c45c0af",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "놀뭐 유재석",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "20a43efedbea20d9",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-18T12:56:16.521Z"
+}
