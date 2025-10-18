@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760775388,
+  "trends": [
+    {
+      "keyword": "오타니 3홈런 10K",
+      "score": 26,
+      "maxscore": 20,
+      "hashed": "b7e703bed7e7d43e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구준엽 서희원 묘소",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "b8c801357b510fb0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "주우재 최홍만",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "225dc45c0ecdd002",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다카이치 총리 선출",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "bafb674a51b39ae8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김우빈 콩콩팡팡",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "f9ab4695876e579f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전북 현대 우승",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "0da1aa163de15274",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "뉴비트 컴백 스케줄러",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "828681b53fd75e39",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "기성용 포항 재계약",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "d282c4134c652541",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조용훈 추락사",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "5d2791f9e92f9ce3",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-18T08:16:31.560Z"
+}
