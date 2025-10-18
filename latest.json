@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760777476,
+  "timestamp": 1760777771,
   "trends": [
     {
       "keyword": "전북 K리그 우승",
       "score": 20,
       "maxscore": 20,
       "hashed": "0698d5d6a9f34bd7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "6b077c233f4fe442",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "2d5a3fe0ae4e449c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "80766bde07949674",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "098b65865713a49f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "f138d164e5e38673",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "3988143ccb9f046e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "b8c801357b510fb0",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "225dc45c0ecdd002",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "d434a1f2e8c9c2a3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T08:51:18.349Z"
+  "updated": "2025-10-18T08:56:12.939Z"
 }
