@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760784376,
+  "trends": [
+    {
+      "keyword": "전북 K리그 우승",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "0698d5d6a9f34bd7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 송환 조사",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "d69c0d5a0d39370d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장동혁 윤석열 면회",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "11896e7e1cef1fc8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이청용 골프 세리머니",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "098b65865713a49f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "러시아 동결자산 우크라 지원",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "2f6b53e0830ffa38",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미중 경제수장 회동",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "9ea6bb6f4a19ad04",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 감금 범죄",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "6b077c233f4fe442",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "기성용 포항 서울",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "2d5a3fe0ae4e449c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김은중 감독 파이널 라운드",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "80766bde07949674",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울진공항 경비행기 불시착",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "f138d164e5e38673",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-18T10:46:18.962Z"
+}
