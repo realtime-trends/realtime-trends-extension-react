@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760769349,
+  "trends": [
+    {
+      "keyword": "오타니 3홈런",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "e3e1cbe4fdfa8aed",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구준엽 서희원 묘역",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "c4f755ccbc125583",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울진공항 경비행기 불시착",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "f138d164e5e38673",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 구금 한국인 송환",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "1ceb455ffce1c47d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "기성용 재계약",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d230072746792199",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전북 우승 도전",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "247b2412d446463d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "포스테코글루 경질 위기",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "a60fcbc440ea32d2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김경문 감독",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "bd8b85c6a0df4e44",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "마이 유스 송중기 천우희",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "101498d28df4f487",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김종국 아이큐 고백",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "42ca122038cda43f",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-18T06:35:51.749Z"
+}
