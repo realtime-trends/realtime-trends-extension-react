@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760773872,
+  "timestamp": 1760774176,
   "trends": [
     {
       "keyword": "오타니 3홈런 10K",
       "score": 26,
       "maxscore": 20,
       "hashed": "b7e703bed7e7d43e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "b8c801357b510fb0",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "bafb674a51b39ae8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "f9ab4695876e579f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "0da1aa163de15274",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "828681b53fd75e39",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "d282c4134c652541",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "5d2791f9e92f9ce3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T07:51:13.620Z"
+  "updated": "2025-10-18T07:56:17.728Z"
 }
