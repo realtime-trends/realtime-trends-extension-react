@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760799072,
+  "timestamp": 1760799369,
   "trends": [
     {
       "keyword": "장동혁 윤석열 뭉쳐 싸우자",
       "score": 22.799999999999997,
       "maxscore": 14,
       "hashed": "881705225041063c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 22.7,
       "maxscore": 15,
       "hashed": "d8ee4d43f99bfcdf",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "5644785d549f4a0f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "7d4fe1483adcff15",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "8f50c4fb609241b0",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "9be4b85c3ba9d2df",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -66,5 +66,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T14:51:13.936Z"
+  "updated": "2025-10-18T14:56:11.309Z"
 }
