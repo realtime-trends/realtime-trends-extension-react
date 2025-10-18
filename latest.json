@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760748350,
+  "timestamp": 1760748647,
   "trends": [
     {
-      "keyword": "야구선수 추락사",
+      "keyword": "선우용여 박미선",
       "score": 20,
       "maxscore": 20,
-      "hashed": "a7a0e17b69bb7d95",
-      "delta": 0,
+      "hashed": "b51e08f134d8e676",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "안세영 덴마크 오픈 준결승",
+      "keyword": "손연재 둘째 계획",
       "score": 19,
       "maxscore": 19,
-      "hashed": "124fc1cb9307b9ea",
-      "delta": 0,
+      "hashed": "97635869f889503f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "무라야마 담화",
+      "keyword": "트럼프 젤렌스키 토마호크",
       "score": 18,
       "maxscore": 18,
-      "hashed": "e03d33e0b8a2b45f",
-      "delta": 0,
+      "hashed": "0368527007c802be",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 푸틴 회담",
+      "keyword": "홍명보호 월드컵 2포트",
       "score": 17,
       "maxscore": 17,
-      "hashed": "926dc25dc7df8336",
-      "delta": 0,
+      "hashed": "d25ba0e004f2831f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대포통장 모집책",
+      "keyword": "캄보디아 구금 한국인 송환",
       "score": 16,
       "maxscore": 16,
-      "hashed": "5474e10899451082",
-      "delta": 0,
+      "hashed": "1ceb455ffce1c47d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이광수 김우빈 도경수 콩콩팡팡",
+      "keyword": "손흥민 토트넘 복귀",
       "score": 15,
       "maxscore": 15,
-      "hashed": "5db75901d2da3c0e",
-      "delta": 0,
+      "hashed": "22192d2b9d06e12e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "1차전 우천 취소",
+      "keyword": "김강우 애처가",
       "score": 14,
       "maxscore": 14,
-      "hashed": "11557f31ac6d230a",
-      "delta": 0,
+      "hashed": "0dc1d93913844cac",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 토트넘 단기 복귀",
+      "keyword": "김우빈 공항패션",
       "score": 13,
       "maxscore": 13,
-      "hashed": "6a3591fe56e8808c",
-      "delta": 0,
+      "hashed": "6ecff1032582e7f1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "민희진 직장 내 괴롭힘 과태료",
+      "keyword": "조용훈 추락사",
       "score": 12,
       "maxscore": 12,
-      "hashed": "197ca825bd8dd7ec",
-      "delta": 0,
+      "hashed": "5d2791f9e92f9ce3",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 스캠 범죄 송환",
+      "keyword": "안세영 덴마크오픈 준결승",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0efcb42dd32d4c57",
-      "delta": 0,
+      "hashed": "124fc1cb9307b9ea",
+      "delta": -8,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T00:45:51.028Z"
+  "updated": "2025-10-18T00:50:48.429Z"
 }
