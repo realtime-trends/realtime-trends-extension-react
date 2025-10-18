@@ -1,70 +1,86 @@
 {
-  "timestamp": 1760802370,
+  "timestamp": 1760802677,
   "trends": [
     {
-      "keyword": "장동혁 윤석열 뭉쳐 싸우자",
-      "score": 22.799999999999997,
-      "maxscore": 14,
-      "hashed": "881705225041063c",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "여자배구 김연경 은퇴",
-      "score": 22.7,
-      "maxscore": 15,
-      "hashed": "d8ee4d43f99bfcdf",
-      "delta": 0,
+      "keyword": "유재석 놀뭐 멤버",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "74d94a686ff1eecd",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "트럼프 김정은 회동",
-      "score": 20,
-      "maxscore": 20,
+      "score": 19,
+      "maxscore": 19,
       "hashed": "1dfc07c057f8f210",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
       "keyword": "태풍상사 이준호",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "5644785d549f4a0f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "유재석 놀뭐 광희",
       "score": 18,
       "maxscore": 18,
-      "hashed": "7d4fe1483adcff15",
-      "delta": 0,
+      "hashed": "5644785d549f4a0f",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "전북 우승 확정",
+      "keyword": "전북 현대 우승",
       "score": 17,
       "maxscore": 17,
-      "hashed": "8f50c4fb609241b0",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "인천행 여객기 배터리 화재",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "9be4b85c3ba9d2df",
-      "delta": 0,
+      "hashed": "0da1aa163de15274",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "조용훈 추락사",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "5d2791f9e92f9ce3",
+      "delta": 3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "인천행 여객기 배터리",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "436919f6eb633f82",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여객기 배터리 화재",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "9b58c42f4ab58bea",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤석열 뭉쳐 싸우자",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "7d9c8643eda48d92",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김연경 은퇴식",
       "score": 12,
       "maxscore": 12,
-      "hashed": "5d2791f9e92f9ce3",
-      "delta": 0,
+      "hashed": "1d5261f79ef4b3af",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "솔라나 유니스왑 지원",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "d9b3eec4b5f4f6eb",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-18T15:46:12.041Z"
+  "updated": "2025-10-18T15:51:18.690Z"
 }
