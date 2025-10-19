@@ -1,87 +1,73 @@
 import React from 'react';
-
-interface TrendsObject {
-  timestamps: number[];
-  [key: number]: {keyword: string, delta: number}[];
-}
+import { getTrendsFromBackground } from './services/messaging';
+import type { TrendEntry } from './services/trendsCrawler';
 
 export interface TrendItem {
   keyword: string;
   delta: number;
 }
 
-function getStorageByTrends(callback: (trendsObject: TrendsObject) => void): void {
-  chrome.storage.local.get('trends', (items) => {
-    if (chrome.runtime.lastError) {
-      console.error({
-        status: 'error',
-        msg: chrome.runtime.lastError,
-      });
-    } else {
-      let trendsObject: TrendsObject = { timestamps: [] };
-      console.log(items);
-      if (items.hasOwnProperty('trends')) {
-        trendsObject = items.trends as TrendsObject;
-      }
-      callback(trendsObject);
-    }
-  });
+
+/**
+ * 트렌드 업데이트 (Background Worker에서 가져오기)
+ */
+export async function updateTrends(setTrends: React.Dispatch<React.SetStateAction<TrendItem[]>>): Promise<void> {
+  const trendsData = await getTrendsFromBackground();
+
+  if (!trendsData || !trendsData.trends || trendsData.trends.length === 0) {
+    // 데이터가 없어도 조용히 처리 (확장 프로그램 업데이트 시 정상)
+    setTrends([]);
+    return;
+  }
+
+  // TrendEntry를 TrendItem으로 변환
+  const trendItems: TrendItem[] = trendsData.trends.map((trend: TrendEntry) => ({
+    keyword: trend.keyword,
+    delta: trend.delta
+  }));
+
+  setTrends(trendItems);
 }
 
-export function setStorageByTrends(trendsObject: TrendsObject): void {
-  chrome.storage.local.set({ trends: trendsObject }, () => {
-    if (chrome.runtime.lastError) {
-      console.error({
-        status: 'error',
-        msg: chrome.runtime.lastError,
-      });
-    }
-  });
+/**
+ * 트렌드 시간 가져오기 (Background Worker에서)
+ */
+export async function getStandardTime(setStandardTime: (time: string) => void): Promise<void> {
+  const trendsData = await getTrendsFromBackground();
+
+  if (!trendsData) {
+    setStandardTime('데이터 없음');
+    return;
+  }
+
+  const standardTime = new Date(trendsData.timestamp * 1000);
+  const year = standardTime.getFullYear();
+  const month = (`0${standardTime.getMonth() + 1}`).slice(-2);
+  const day = (`0${standardTime.getDate()}`).slice(-2);
+  const hour = (`0${standardTime.getHours()}`).slice(-2);
+  const minute = (`0${standardTime.getMinutes()}`).slice(-2);
+
+  setStandardTime(`${year}년 ${month}월 ${day}일 ${hour}:${minute}`);
 }
 
-export function updateTrends(setTrends: React.Dispatch<React.SetStateAction<TrendItem[]>>): void {
-  getStorageByTrends((trendsObject) => {
-    const latestTimeStamp = Math.max.apply(null, trendsObject.timestamps);
-    const keywords = trendsObject[latestTimeStamp];
-
-    // 디버깅을 위한 콘솔 로그 추가
-    console.log('keywords 배열:', keywords);
-
-    // 키워드 배열을 TrendItem 배열로 변환
-    const trendItems: TrendItem[] = [];
-
-    if (Array.isArray(keywords)) {
-      keywords.forEach((keyword, index) => {
-        // 키워드가 문자열인지 확인
-        let keywordStr = `키워드${index+1}`;
-
-        if (typeof keyword === 'string') {
-          keywordStr = keyword;
-        } else if (keyword && typeof keyword === 'object') {
-          const keywordObj = keyword as { keyword?: string };
-          if ('keyword' in keywordObj && typeof keywordObj.keyword === 'string') {
-            keywordStr = keywordObj.keyword;
-          }
-        }
-
-        trendItems.push({ keyword: keywordStr, delta: keyword.delta });
-      });
+/**
+ * 트렌드 변경 리스너 등록
+ * 5분마다 자동 새로고침
+ */
+export function setupTrendsListener(
+  setTrends: React.Dispatch<React.SetStateAction<TrendItem[]>>,
+  setStandardTime?: (time: string) => void
+): () => void {
+  // 5분마다 데이터 새로고침
+  const interval = setInterval(async () => {
+    await updateTrends(setTrends);
+    if (setStandardTime) {
+      await getStandardTime(setStandardTime);
     }
+  }, 5 * 60 * 1000); // 5분
 
-    console.log('생성된 trendItems:', trendItems);
-    setTrends(trendItems);
-  });
-}
-
-export function getStandardTime(setStandardTime: (time: string) => void): void {
-  getStorageByTrends((trendsObject) => {
-    const latestTimeStamp = Math.max.apply(null, trendsObject.timestamps);
-    const standardTime = new Date(latestTimeStamp * 1000);
-    const year = standardTime.getFullYear();
-    const month = (`0${standardTime.getMonth() + 1}`).slice(-2);
-    const day = (`0${standardTime.getDate()}`).slice(-2);
-    const hour = (`0${standardTime.getHours()}`).slice(-2);
-    const minute = (`0${standardTime.getMinutes()}`).slice(-2);
-    setStandardTime(`${year}년 ${month}월 ${day}일 ${hour}:${minute}`);
-  });
+  // cleanup 함수
+  return () => {
+    clearInterval(interval);
+  };
 }

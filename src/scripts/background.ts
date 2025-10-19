@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 /* global chrome */
-import { setStorageByTrends } from '../background-trends';
-
-import type { ChromeMessage, ChromeMessageResponse, MessageSender } from '../types/chrome-extension';
+import { updateTrendsData } from '../services/trendsService';
+import { getLatestTrends, getSettings, saveSettings } from '../utils/indexedDB';
+import type { MessageRequest, MessageResponse } from '../services/messaging';
 
 // Service Worker에서의 전역 오류 핸들러
 (self as any).onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, column?: number, errorObj?: Error) => {
@@ -45,13 +45,6 @@ async function getUserId(): Promise<string> {
   });
 }
 
-// 트렌드 데이터는 공개 읽기만 하므로 별도 인증 불필요
-
-// 키워드 API 관련 기능은 현재 사용하지 않음
-// 필요시 나중에 GitHub 기반으로 재구현 가능
-
-// 메시지 리스너는 필요시 나중에 추가
-
 // 확장 프로그램 설치 또는 업데이트 시 실행
 chrome.runtime.onInstalled.addListener(async (details) => {
   console.log('확장 프로그램이 설치되었습니다. 이유:', details.reason);
@@ -60,32 +53,242 @@ chrome.runtime.onInstalled.addListener(async (details) => {
   const userId = await getUserId();
   console.log('현재 사용자 ID:', userId);
 
-  // GitHub에서 트렌드 데이터 로드
-  await saveTrendsInStorage();
+  // 초기 설정 생성
+  const existingSettings = await getSettings();
+  if (!existingSettings) {
+    console.log('초기 설정 생성 중...');
+    const INITIAL_SETTINGS = {
+      naver: true,
+      google: true,
+      position: 'bottom-right' as const,
+      bottomOffset: 80,
+      sideOffset: 20,
+      opacity: 30,
+      allowClickBehindChart: false
+    };
+    await saveSettings(INITIAL_SETTINGS);
+    console.log('초기 설정 생성 완료');
+  }
+
+  // 즉시 트렌드 데이터 크롤링 및 저장
+  await updateTrendsFromSources();
 });
 
-async function saveTrendsInStorage(): Promise<void> {
+/**
+ * 다음 5분 단위 시간 계산 (00, 05, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55)
+ */
+function getNext5MinuteTime(): number {
+  const now = new Date();
+  const minutes = now.getMinutes();
+
+  // 현재 분을 5분 단위로 올림
+  const nextMinute = Math.ceil((minutes + 1) / 5) * 5;
+
+  // 다음 5분 단위 시간 계산
+  const nextTime = new Date(now);
+  nextTime.setMinutes(nextMinute);
+  nextTime.setSeconds(0);
+  nextTime.setMilliseconds(0);
+
+  // 60분을 넘어가면 다음 시간으로
+  if (nextMinute >= 60) {
+    nextTime.setHours(nextTime.getHours() + 1);
+    nextTime.setMinutes(0);
+  }
+
+  return nextTime.getTime();
+}
+
+/**
+ * 현재 5분 단위 시간 키 생성 (예: "2024-01-15T10:05:00")
+ */
+function getCurrent5MinuteKey(): string {
+  const now = new Date();
+  const minutes = Math.floor(now.getMinutes() / 5) * 5;
+  const roundedTime = new Date(now);
+  roundedTime.setMinutes(minutes);
+  roundedTime.setSeconds(0);
+  roundedTime.setMilliseconds(0);
+  return roundedTime.toISOString().slice(0, 16) + ':00';
+}
+
+/**
+ * 트렌드 소스에서 직접 크롤링하여 IndexedDB에 저장
+ * 중복 방지: 같은 5분 단위 시간에는 한 번만 업데이트
+ */
+async function updateTrendsFromSources(): Promise<void> {
   try {
-    // GitHub에서 트렌드 데이터 가져오기
-    await setStorageByTrends();
-    console.log('GitHub에서 트렌드 데이터를 성공적으로 가져왔습니다');
+    console.log('트렌드 크롤링 시작...');
+
+    // 현재 5분 단위 시간 키
+    const currentTimeKey = getCurrent5MinuteKey();
+    console.log('현재 5분 단위 시간:', currentTimeKey);
+
+    // 마지막 업데이트 시간 확인
+    const lastTrends = await getLatestTrends();
+
+    if (lastTrends) {
+      const lastUpdateTime = new Date(lastTrends.updated).toISOString().slice(0, 16) + ':00';
+      console.log('마지막 업데이트 시간:', lastUpdateTime);
+
+      // 같은 5분 단위 시간이면 중복 업데이트 방지
+      if (lastUpdateTime === currentTimeKey) {
+        console.log('이미 이 시간대에 업데이트됨, 스킵');
+        return;
+      }
+    }
+
+    // 새로운 데이터 크롤링 및 저장
+    const result = await updateTrendsData();
+
+    if (result) {
+      console.log('트렌드 데이터 업데이트 성공:', currentTimeKey);
+    } else {
+      console.warn('트렌드 데이터 업데이트 실패 (데이터 없음)');
+    }
   } catch (error) {
-    console.error('GitHub에서 트렌드 데이터 가져오기 실패:', error);
+    console.error('트렌드 업데이트 중 오류:', error);
   }
 }
 
-chrome.alarms.create('saveTrendsInStorage', {
-  when: 1000,
-  periodInMinutes: 1,
+/**
+ * 다음 5분 단위까지 알람 설정
+ */
+function scheduleNextUpdate(): void {
+  const nextTime = getNext5MinuteTime();
+  const now = Date.now();
+  const delay = nextTime - now;
+
+  const nextDate = new Date(nextTime);
+  console.log(`다음 업데이트 예정: ${nextDate.toLocaleTimeString('ko-KR')} (${Math.round(delay / 1000)}초 후)`);
+
+  chrome.alarms.create('updateTrends', {
+    when: nextTime,
+    periodInMinutes: 5,
+  });
+}
+
+// 초기 알람 설정
+scheduleNextUpdate();
+
+// 알람 리스너
+chrome.alarms.onAlarm.addListener(async (alarm: any) => {
+  if (alarm.name === 'updateTrends') {
+    if (chrome.runtime.lastError) {
+      console.log({
+        status: 'error',
+        msg: chrome.runtime.lastError,
+      });
+    } else {
+      await updateTrendsFromSources();
+    }
+  }
 });
 
-chrome.alarms.onAlarm.addListener(async () => {
-  if (chrome.runtime.lastError) {
-    console.log({
-      status: 'error',
-      msg: chrome.runtime.lastError,
+// 메시지 리스너 (Content Script <-> Background)
+chrome.runtime.onMessage.addListener((message: any, _sender: any, sendResponse: any) => {
+  console.log('Message received:', message);
+
+  // 타입 체크
+  if (!message || !message.type) {
+    sendResponse({
+      success: false,
+      error: 'Invalid message format'
     });
-  } else {
-    await saveTrendsInStorage();
+    return true;
   }
+
+  // async 함수이므로 Promise 반환
+  (async () => {
+    try {
+      let response: MessageResponse;
+
+      switch (message.type) {
+        case 'GET_TRENDS':
+          console.log('Getting trends from IndexedDB...');
+          const trendsData = await getLatestTrends();
+          console.log('Trends data:', trendsData);
+          response = {
+            success: true,
+            data: trendsData
+          };
+          break;
+
+        case 'GET_SETTINGS':
+          console.log('Getting settings from IndexedDB...');
+          let settings = await getSettings();
+
+          // 설정이 없으면 기본 설정 생성
+          if (!settings) {
+            console.log('설정이 없음, 기본 설정 생성 중...');
+            const INITIAL_SETTINGS = {
+              naver: true,
+              google: true,
+              position: 'bottom-right' as const,
+              bottomOffset: 80,
+              sideOffset: 20,
+              opacity: 30,
+              allowClickBehindChart: false
+            };
+            await saveSettings(INITIAL_SETTINGS);
+            settings = INITIAL_SETTINGS;
+          } else {
+            // 기존 설정에 새 필드 추가 (마이그레이션)
+            if (settings.allowClickBehindChart === undefined) {
+              settings.allowClickBehindChart = false;
+              await saveSettings(settings);
+              console.log('설정 마이그레이션: allowClickBehindChart 추가됨');
+            }
+          }
+
+          console.log('Settings data:', settings);
+          response = {
+            success: true,
+            data: settings
+          };
+          break;
+
+        case 'SAVE_SETTINGS':
+          console.log('Saving settings to IndexedDB...');
+          await saveSettings(message.data);
+
+          // 모든 탭에 설정 변경 알림
+          chrome.tabs.query({}, (tabs) => {
+            tabs.forEach((tab) => {
+              if (tab.id) {
+                chrome.tabs.sendMessage(tab.id, {
+                  type: 'SETTINGS_CHANGED',
+                  data: message.data
+                }).catch(() => {
+                  // 일부 탭에서 메시지를 받을 수 없을 수 있음 (무시)
+                });
+              }
+            });
+          });
+
+          response = {
+            success: true
+          };
+          break;
+
+        default:
+          response = {
+            success: false,
+            error: 'Unknown message type: ' + message.type
+          };
+      }
+
+      console.log('Sending response:', response);
+      sendResponse(response);
+    } catch (error) {
+      console.error('Message handler error:', error);
+      sendResponse({
+        success: false,
+        error: error instanceof Error ? error.message : 'Unknown error'
+      });
+    }
+  })();
+
+  // async 응답을 위해 true 반환
+  return true;
 });

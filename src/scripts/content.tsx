@@ -2,7 +2,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Chart from '../components/Chart';
-import { getStorageBySettings } from '../popup';
+import { getSettingsFromBackground } from '../services/messaging';
+import type { SettingsState } from '../utils/indexedDB';
 import './content.css';
 
 // 개발 모드 또는 크롬 개발자 모드에서 로드된 경우 로그 표시
@@ -12,15 +13,8 @@ if (isDev) {
   console.log('Content script loaded!', window.location.href);
 }
 
-interface Settings {
-  naver: boolean;
-  google: boolean;
-  position: 'bottom-left' | 'bottom-right';
-  bottomOffset: number;
-  sideOffset: number;
-  opacity: number;
-  [key: string]: boolean | string | number;
-}
+// Settings 타입은 indexedDB에서 가져옴
+type Settings = SettingsState;
 
 window.onerror = (errorMsg: string | Event, url?: string, lineNumber?: number, column?: number, errorObj?: Error) => {
   console.error('Caught content script error');
@@ -109,6 +103,7 @@ const makeDraggable = (element: HTMLElement): void => {
 const updateFloatingWidget = (settings: Settings) => {
   if (isDev) {
     console.log('Updating floating widget with settings:', settings);
+    console.log('Settings details:', JSON.stringify(settings, null, 2));
   }
 
   const existingContainer = document.getElementById('realtime-trends-floating');
@@ -118,8 +113,28 @@ const updateFloatingWidget = (settings: Settings) => {
     (settings.naver && ['www.naver.com', 'naver.com', 'search.naver.com'].includes(window.location.hostname)) ||
     (settings.google && ['www.google.com', 'google.com'].includes(window.location.hostname));
 
+  if (isDev) {
+    console.log('shouldShowFloating:', shouldShowFloating);
+    console.log('hostname:', window.location.hostname);
+    console.log('settings.naver:', settings.naver);
+    console.log('settings.google:', settings.google);
+  }
+
   if (shouldShowFloating) {
     let floatingContainer = existingContainer;
+
+    // 설정 값 미리 계산
+    const position = settings.position || 'bottom-right';
+    const bottomOffset = settings.bottomOffset ?? 80;
+    const sideOffset = settings.sideOffset ?? 20;
+    const opacitySetting = settings.opacity ?? 30;
+    const opacity = 1 - (opacitySetting / 100);
+    const allowClickBehind = settings.allowClickBehindChart ?? false;
+
+    if (isDev) {
+      console.log(`Opacity setting: ${opacitySetting} -> CSS opacity: ${opacity}`);
+      console.log(`Allow click behind: ${allowClickBehind}`);
+    }
 
     // 컨테이너가 없으면 새로 생성
     if (!floatingContainer) {
@@ -128,11 +143,21 @@ const updateFloatingWidget = (settings: Settings) => {
       }
       floatingContainer = createFloatingContainer();
 
-      // 헤더에 드래그 핸들 클래스 추가
-      const trendHeader = chartElement.querySelector('.trend-header');
-      if (trendHeader) {
-        trendHeader.classList.add('drag-handle');
+      // 컨테이너를 DOM에 추가하기 전에 초기 스타일 설정
+      floatingContainer.style.transform = '';
+
+      // 위치 설정
+      if (position === 'bottom-left') {
+        floatingContainer.style.setProperty('left', `${sideOffset}px`, 'important');
+        floatingContainer.style.setProperty('right', 'auto', 'important');
+      } else {
+        floatingContainer.style.setProperty('right', `${sideOffset}px`, 'important');
+        floatingContainer.style.setProperty('left', 'auto', 'important');
       }
+      floatingContainer.style.setProperty('bottom', `${bottomOffset}px`, 'important');
+
+      // 투명도 초기 설정
+      floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
 
       // body에 플로팅 컨테이너 추가
       document.body.appendChild(floatingContainer);
@@ -143,12 +168,6 @@ const updateFloatingWidget = (settings: Settings) => {
       // 엔진 결정
       const engine = ['www.naver.com', 'naver.com', 'search.naver.com'].includes(window.location.hostname) ? 'naver' : 'google';
 
-      const handleDonationOptionsVisibleChange = (visible: boolean) => {
-        if (floatingContainer) {
-          floatingContainer.style.setProperty('overflow', visible ? 'visible' : 'hidden', 'important');
-        }
-      };
-
       // React 차트 렌더링
       const root = createRoot(chartElement);
       root.render(
@@ -158,52 +177,121 @@ const updateFloatingWidget = (settings: Settings) => {
           boxWidth="100%"
         />
       );
-    }
 
-    // 설정에 따른 위치 및 스타일 업데이트
-    const position = settings.position || 'bottom-right';
-    const bottomOffset = settings.bottomOffset ?? 80; // 설정 없으면 기본값 80
-    const sideOffset = settings.sideOffset ?? 20; // 설정 없으면 기본값 20
-    const opacitySetting = settings.opacity ?? 30; // 0-70 범위, 설정 없으면 기본값 30
-    const opacity = 1 - (opacitySetting / 100); // 0(불투명) -> 1.0, 70(투명) -> 0.3
+      // React 렌더링 후 pointer-events 설정 적용
+      setTimeout(() => {
+        if (!floatingContainer) return;
 
-    if (isDev) {
-      console.log(`Opacity setting: ${opacitySetting} -> CSS opacity: ${opacity}`);
-    }
+        if (allowClickBehind) {
+          // 클릭 허용 모드 클래스 추가
+          floatingContainer.classList.add('click-through-mode');
 
-    // 기존 transform과 위치 스타일 초기화
-    floatingContainer.style.transform = '';
+          // 플로팅 컨테이너는 완전히 클릭/hover 통과
+          floatingContainer.style.setProperty('pointer-events', 'none', 'important');
 
-    if (position === 'bottom-left') {
-      floatingContainer.style.setProperty('left', `${sideOffset}px`, 'important');
-      floatingContainer.style.setProperty('right', 'auto', 'important');
+          // 모든 하위 요소에도 pointer-events: none 적용
+          const allElements = floatingContainer.querySelectorAll('*');
+          allElements.forEach((element) => {
+            (element as HTMLElement).style.setProperty('pointer-events', 'none', 'important');
+          });
+
+          if (isDev) {
+            console.log(`차트 뒤 클릭 허용 모드 활성화 (투명도: ${Math.round(opacity * 100)}%, hover 비활성화)`);
+            console.log(`총 ${allElements.length}개 요소에 pointer-events: none 적용됨`);
+          }
+        } else {
+          // 일반 모드 설정
+          floatingContainer.style.setProperty('pointer-events', 'auto', 'important');
+
+          // hover 시 투명도 1.0으로 변경
+          const handleMouseEnter = () => {
+            if (!floatingContainer) return;
+            floatingContainer.style.setProperty('opacity', '1.0', 'important');
+          };
+
+          const handleMouseLeave = () => {
+            if (!floatingContainer) return;
+            floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
+          };
+
+          floatingContainer.addEventListener('mouseenter', handleMouseEnter);
+          floatingContainer.addEventListener('mouseleave', handleMouseLeave);
+
+          if (isDev) {
+            console.log('차트 일반 모드');
+          }
+        }
+
+        if (isDev) {
+          console.log(`Applied styles: position=${position}, bottom=${bottomOffset}px, side=${sideOffset}px, opacity=${opacity}`);
+          console.log('Floating chart created successfully!');
+        }
+      }, 100);
     } else {
-      floatingContainer.style.setProperty('right', `${sideOffset}px`, 'important');
-      floatingContainer.style.setProperty('left', 'auto', 'important');
-    }
-    floatingContainer.style.setProperty('bottom', `${bottomOffset}px`, 'important');
-    floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
+      // 기존 컨테이너가 있는 경우 설정 업데이트
+      floatingContainer.style.transform = '';
 
-    // hover 시 투명도 1.0으로 강제 변경하는 이벤트 리스너
-    const handleMouseEnter = () => {
-      floatingContainer.style.setProperty('opacity', '1.0', 'important');
-    };
+      if (position === 'bottom-left') {
+        floatingContainer.style.setProperty('left', `${sideOffset}px`, 'important');
+        floatingContainer.style.setProperty('right', 'auto', 'important');
+      } else {
+        floatingContainer.style.setProperty('right', `${sideOffset}px`, 'important');
+        floatingContainer.style.setProperty('left', 'auto', 'important');
+      }
+      floatingContainer.style.setProperty('bottom', `${bottomOffset}px`, 'important');
 
-    const handleMouseLeave = () => {
-      floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
-    };
+      // 차트 뒤 클릭 허용 설정
+      if (allowClickBehind) {
+        floatingContainer.classList.add('click-through-mode');
+        floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
+        floatingContainer.style.setProperty('pointer-events', 'none', 'important');
 
-    // 기존 이벤트 리스너 제거 (중복 방지)
-    floatingContainer.removeEventListener('mouseenter', handleMouseEnter);
-    floatingContainer.removeEventListener('mouseleave', handleMouseLeave);
+        const allElements = floatingContainer.querySelectorAll('*');
+        allElements.forEach((element) => {
+          (element as HTMLElement).style.setProperty('pointer-events', 'none', 'important');
+        });
 
-    // 새 이벤트 리스너 추가
-    floatingContainer.addEventListener('mouseenter', handleMouseEnter);
-    floatingContainer.addEventListener('mouseleave', handleMouseLeave);
+        if (isDev) {
+          console.log(`차트 뒤 클릭 허용 모드 활성화 (투명도: ${Math.round(opacity * 100)}%, hover 비활성화)`);
+        }
+      } else {
+        floatingContainer.classList.remove('click-through-mode');
+        floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
+        floatingContainer.style.setProperty('pointer-events', 'auto', 'important');
 
-    if (isDev) {
-      console.log(`Applied styles: position=${position}, bottom=${bottomOffset}px, side=${sideOffset}px, opacity=${opacity}`);
-      console.log('Floating chart updated successfully!');
+        const allElements = floatingContainer.querySelectorAll('*');
+        allElements.forEach((element) => {
+          (element as HTMLElement).style.removeProperty('pointer-events');
+        });
+
+        // hover 시 투명도 1.0으로 변경
+        const handleMouseEnter = () => {
+          if (!floatingContainer) return;
+          floatingContainer.style.setProperty('opacity', '1.0', 'important');
+        };
+
+        const handleMouseLeave = () => {
+          if (!floatingContainer) return;
+          floatingContainer.style.setProperty('opacity', opacity.toString(), 'important');
+        };
+
+        // 기존 이벤트 리스너 제거 (중복 방지)
+        floatingContainer.removeEventListener('mouseenter', handleMouseEnter);
+        floatingContainer.removeEventListener('mouseleave', handleMouseLeave);
+
+        // 새 이벤트 리스너 추가
+        floatingContainer.addEventListener('mouseenter', handleMouseEnter);
+        floatingContainer.addEventListener('mouseleave', handleMouseLeave);
+
+        if (isDev) {
+          console.log('차트 일반 모드');
+        }
+      }
+
+      if (isDev) {
+        console.log(`Applied styles: position=${position}, bottom=${bottomOffset}px, side=${sideOffset}px, opacity=${opacity}`);
+        console.log('Floating chart updated successfully!');
+      }
     }
   } else {
     // 설정이 비활성화되면 위젯 제거
@@ -216,17 +304,59 @@ const updateFloatingWidget = (settings: Settings) => {
   }
 };
 
-// 설정 변경 감지 리스너
-if (typeof chrome !== 'undefined' && chrome.storage && (chrome.storage as any).onChanged) {
-  (chrome.storage as any).onChanged.addListener((changes: any, areaName: string) => {
-    if (areaName === 'local' && changes.settings) {
-      if (isDev) {
-        console.log('Settings changed, updating widget...');
-      }
-      updateFloatingWidget(changes.settings.newValue);
+// 설정 변경 메시지 리스너
+chrome.runtime.onMessage.addListener((message: any, sender: any, sendResponse: any) => {
+  if (message.type === 'SETTINGS_CHANGED') {
+    if (isDev) {
+      console.log('설정 변경 감지:', message.data);
     }
-  });
-}
+    updateFloatingWidget(message.data);
+  }
+});
 
-// 초기 로드
-getStorageBySettings(updateFloatingWidget);
+// 초기 로드 (Background Worker에서 가져오기)
+// DOM이 완전히 로드된 후 실행하도록 지연
+const initializeWidget = async () => {
+  try {
+    if (isDev) {
+      console.log('위젯 초기화 시작...');
+    }
+
+    const settings = await getSettingsFromBackground();
+
+    if (isDev) {
+      console.log('초기 설정 로드 결과:', settings);
+    }
+
+    if (settings) {
+      // 설정이 로드되었으면 바로 위젯 업데이트
+      updateFloatingWidget(settings);
+      if (isDev) {
+        console.log('초기 설정 로드 완료 및 위젯 업데이트:', settings);
+      }
+    } else {
+      console.warn('초기 설정을 불러올 수 없습니다');
+
+      // 설정이 없어도 기본값으로 한 번 더 시도
+      setTimeout(async () => {
+        const retrySettings = await getSettingsFromBackground();
+        if (retrySettings) {
+          if (isDev) {
+            console.log('재시도로 설정 로드 성공:', retrySettings);
+          }
+          updateFloatingWidget(retrySettings);
+        }
+      }, 500);
+    }
+  } catch (error) {
+    console.error('초기 설정 로드 실패:', error);
+  }
+};
+
+// DOM이 준비되면 실행
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeWidget);
+} else {
+  // 이미 로드된 경우 바로 실행
+  initializeWidget();
+}

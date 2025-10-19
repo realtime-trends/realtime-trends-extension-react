@@ -44,7 +44,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "donation/*.png"
+        "donation.png"
       ],
       "matches": [
         "<all_urls>"
