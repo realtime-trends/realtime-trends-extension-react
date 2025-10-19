@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760853922,
+  "timestamp": 1760854226,
   "trends": [
     {
       "keyword": "반트럼프 노킹스 시위",
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "f334d8fd5a683ccc",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -50,10 +50,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "��영환 돈봉투 수수 의혹",
+      "keyword": "김영환 돈봉투 수수 의혹",
       "score": 14,
       "maxscore": 14,
-      "hashed": "f17a6de75b33adff",
+      "hashed": "d43fd22aa0641041",
       "delta": 999,
       "engine": "zum"
     },
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T06:05:23.749Z"
+  "updated": "2025-10-19T06:10:27.207Z"
 }
