@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760874678,
+  "timestamp": 1760874974,
   "trends": [
     {
       "keyword": "임채무 두리랜드 가족회사",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "2d2ea11c7388aa10",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "25169e04c399f433",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "5cfe9c5d21cb9e11",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "30c3e684d8b79f33",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "61616c37c329eb9e",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "aaf7bc05f802de08",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "72ecee1ed57185a1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T11:51:20.295Z"
+  "updated": "2025-10-19T11:56:15.327Z"
 }
