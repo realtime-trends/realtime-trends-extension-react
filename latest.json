@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760888749,
+  "timestamp": 1760889050,
   "trends": [
     {
       "keyword": "안세영 덴마크 오픈 우승",
@@ -10,19 +10,19 @@
       "engine": "zum"
     },
     {
-      "keyword": "신인감독 김연경 한일전",
+      "keyword": "루브르 박물관 나폴레옹 보석 강도",
       "score": 19,
       "maxscore": 19,
-      "hashed": "90afc82cf1a7b3ea",
-      "delta": 0,
+      "hashed": "470f9cf3feeb3ce5",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "루브르 박물관 나폴레옹 보석 강도",
+      "keyword": "신인감독 김연경 한일전",
       "score": 18,
       "maxscore": 18,
-      "hashed": "470f9cf3feeb3ce5",
-      "delta": 0,
+      "hashed": "90afc82cf1a7b3ea",
+      "delta": -1,
       "engine": "zum"
     },
     {
@@ -50,37 +50,37 @@
       "engine": "zum"
     },
     {
-      "keyword": "런닝맨 유재석 나경은 키스",
+      "keyword": "임채무 두리랜드 진상 환불",
       "score": 14,
       "maxscore": 14,
-      "hashed": "2a33d4912b23dfd2",
-      "delta": 0,
+      "hashed": "25172bc149c9cc06",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "구미 푸드 페스티벌 인파",
+      "keyword": "런닝맨 유재석 나경은 키스",
       "score": 13,
       "maxscore": 13,
-      "hashed": "51e354e031253cc9",
-      "delta": 0,
+      "hashed": "2a33d4912b23dfd2",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "김민주 우승",
+      "keyword": "북한군 귀순",
       "score": 12,
       "maxscore": 12,
-      "hashed": "80c537b30b15a867",
-      "delta": 0,
+      "hashed": "5cfe9c5d21cb9e11",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "배정남 반려견 벨 오열",
+      "keyword": "배정남 반려견 벨 사망",
       "score": 11,
       "maxscore": 11,
-      "hashed": "5634b62082bc7063",
-      "delta": 0,
+      "hashed": "3bc1c781e5e0d063",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T15:45:50.679Z"
+  "updated": "2025-10-19T15:50:51.353Z"
 }
