@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760842219,
+  "trends": [
+    {
+      "keyword": "임채무 부채",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "6f776e1809283c85",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장동혁 윤석열 면회 논란",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "ffd1f4d2972d866e",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "유방암 파티 논란 사과",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "4c61d20d15c30134",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임영웅 선수 복귀",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "005125c1a47822b1",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이준호 김민하 태풍상사",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "fc6399f493c61ff8",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 반대 시위",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "e2a1ab2cba6bc03b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김영환 충북도지사 소환",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "0b2cdd0d33e76c47",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쇼트트랙 최민정 은메달",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "43c30156868e5427",
+      "delta": -4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정근식 교육감 책 잔치",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "63390fd21bcbb855",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 우크라이나 정책",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "fb091ee1065ad0c3",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-19T02:50:22.317Z"
+}
