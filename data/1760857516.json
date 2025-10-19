@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760857516,
+  "trends": [
+    {
+      "keyword": "강훈식 유럽 방산",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "10f50cea3420e963",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "윤석열 면회 장동혁",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "c9119e55b0239823",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 피살 대학생",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "74b2100ba7a8c501",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "메시 해트트릭 득점왕",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "f334d8fd5a683ccc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "폰세 구자욱 신경전",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "9c0020586b4e4951",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 노 킹스 시위 조롱",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "99054e217d8645d1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "부동산 보유세 대책",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "a884d0ce6085c84c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "아이돌 협박 렌터카",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "aef8bc4e77ec9e97",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김영환 돈봉투 수수",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f5a0da257d638d22",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "푸틴 우크라이나 동부",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "a00892ec4f7594bd",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-19T07:05:18.672Z"
+}
