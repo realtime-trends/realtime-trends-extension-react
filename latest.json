@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760867173,
+  "timestamp": 1760867471,
   "trends": [
     {
-      "keyword": "김세영 LPGA 우승",
+      "keyword": "최원태 호투",
       "score": 20,
       "maxscore": 20,
-      "hashed": "cf6c449ea699946d",
-      "delta": 0,
+      "hashed": "d3e0c4add445d199",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "장동혁 윤석열 면회 논란",
+      "keyword": "김세영 빨간바지 우승",
       "score": 19,
       "maxscore": 19,
-      "hashed": "ffd1f4d2972d866e",
-      "delta": 0,
+      "hashed": "202c27f366a8de4f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "푸틴 우크라 동부 영토",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "0ef76a61811b32e2",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노엘 갤러거 오아시스 공연",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "373c7d641a124376",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 김정은 회동",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "1dfc07c057f8f210",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "추미애 김현지 방지법",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "a7ac0e62c61f56ab",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "딩고 용준형 사진",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "58bb172a1818f392",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 대포통장 사건",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "4e2ead151dd7a75a",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "메시 MLS 득점왕",
       "score": 15,
       "maxscore": 15,
-      "hashed": "4ca1a8dc7448cb13",
-      "delta": 0,
+      "hashed": "a7ac0e62c61f56ab",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "우크라 동부영토 포기",
+      "keyword": "최승빈 더채리티 클래식 우승",
       "score": 14,
       "maxscore": 14,
-      "hashed": "e6b6d61489cbd018",
-      "delta": 0,
+      "hashed": "72ecee1ed57185a1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김연경 한일전 승부수",
+      "keyword": "한미 관세 협상",
       "score": 13,
       "maxscore": 13,
-      "hashed": "a53b120b15107591",
-      "delta": 0,
+      "hashed": "b54a597a15241802",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트리플스타 횡령 무혐의",
+      "keyword": "딩고 용준형 논란",
       "score": 12,
       "maxscore": 12,
-      "hashed": "c0939a3202cd481d",
-      "delta": 0,
+      "hashed": "ee6ffdc9ddecff7c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "폰세 구자욱 신경전",
+      "keyword": "캄보디아 취업 사기",
       "score": 11,
       "maxscore": 11,
-      "hashed": "9c0020586b4e4951",
-      "delta": 0,
+      "hashed": "84da444ba45a2a68",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T09:46:14.500Z"
+  "updated": "2025-10-19T09:51:12.792Z"
 }
