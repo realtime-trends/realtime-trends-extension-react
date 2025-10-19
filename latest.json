@@ -1,28 +1,28 @@
 {
-  "timestamp": 1760856323,
+  "timestamp": 1760856622,
   "trends": [
     {
-      "keyword": "반트럼프 노킹스 시위",
-      "score": 26,
+      "keyword": "강훈식 유럽 방산",
+      "score": 20,
       "maxscore": 20,
-      "hashed": "dffcbc16e6bd2622",
-      "delta": 0,
+      "hashed": "10f50cea3420e963",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "강훈식 방산협력 특사",
+      "keyword": "윤석열 면회 장동혁",
       "score": 19,
       "maxscore": 19,
-      "hashed": "c853e8a7d8ff8b18",
-      "delta": 0,
+      "hashed": "c9119e55b0239823",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "주택공급 보유세",
+      "keyword": "캄보디아 피살 대학생",
       "score": 18,
       "maxscore": 18,
-      "hashed": "7af9d6003e87d0b1",
-      "delta": 0,
+      "hashed": "74b2100ba7a8c501",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -34,45 +34,53 @@
       "engine": "zum"
     },
     {
-      "keyword": "김채연 신지아 피겨 그랑프리",
+      "keyword": "폰세 구자욱 신경전",
       "score": 16,
       "maxscore": 16,
-      "hashed": "bb39eff43b4cfae9",
-      "delta": 0,
+      "hashed": "9c0020586b4e4951",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "푸틴 우크라이나 동부 영토",
+      "keyword": "트럼프 노 킹스 시위 조롱",
       "score": 15,
       "maxscore": 15,
-      "hashed": "45ace7185823cacb",
-      "delta": 0,
+      "hashed": "99054e217d8645d1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김영환 돈봉투 수수 의혹",
+      "keyword": "부동산 보유세 대책",
       "score": 14,
       "maxscore": 14,
-      "hashed": "d43fd22aa0641041",
-      "delta": 0,
+      "hashed": "a884d0ce6085c84c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "아이돌 협박 렌터카 사장",
+      "keyword": "아이돌 협박 렌터카",
       "score": 13,
       "maxscore": 13,
-      "hashed": "7afcd05cb24d022f",
-      "delta": 0,
+      "hashed": "aef8bc4e77ec9e97",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "여순사건 추념식",
+      "keyword": "김영환 돈봉투 수수",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f5a0da257d638d22",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "푸틴 우크라이나 동부",
       "score": 11,
       "maxscore": 11,
-      "hashed": "04be853196133903",
-      "delta": 0,
+      "hashed": "a00892ec4f7594bd",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T06:45:24.701Z"
+  "updated": "2025-10-19T06:50:23.858Z"
 }
