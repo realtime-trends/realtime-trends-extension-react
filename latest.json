@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760853320,
+  "timestamp": 1760853621,
   "trends": [
     {
       "keyword": "반트럼프 노킹스 시위",
@@ -26,11 +26,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "메시 해트트릭 득점왕",
+      "keyword": "메�� 해트트릭 득점왕",
       "score": 17,
       "maxscore": 17,
-      "hashed": "f334d8fd5a683ccc",
-      "delta": 0,
+      "hashed": "79aa84e6a2e3674a",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T05:55:22.091Z"
+  "updated": "2025-10-19T06:00:22.944Z"
 }
