@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760853021,
+  "timestamp": 1760853320,
   "trends": [
     {
       "keyword": "반트럼프 노킹스 시위",
       "score": 26,
       "maxscore": 20,
       "hashed": "dffcbc16e6bd2622",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "c853e8a7d8ff8b18",
-      "delta": 6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "7af9d6003e87d0b1",
-      "delta": 4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "f334d8fd5a683ccc",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "bb39eff43b4cfae9",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "45ace7185823cacb",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "d43fd22aa0641041",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "7afcd05cb24d022f",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T05:50:22.530Z"
+  "updated": "2025-10-19T05:55:22.091Z"
 }
