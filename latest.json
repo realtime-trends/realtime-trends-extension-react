@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760860273,
+  "timestamp": 1760860583,
   "trends": [
     {
       "keyword": "캄보디아 송환 보이스피싱",
       "score": 25.1,
       "maxscore": 16,
       "hashed": "3bbae093b7a43a71",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "c0939a3202cd481d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "cf6c449ea699946d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "9c0020586b4e4951",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "ffd1f4d2972d866e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "8a8c979395a07219",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "486057cf4625f433",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "f334d8fd5a683ccc",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "8ffd8c4b545a924e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T07:51:15.098Z"
+  "updated": "2025-10-19T07:56:24.467Z"
 }
