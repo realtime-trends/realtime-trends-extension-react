@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760889050,
+  "timestamp": 1760889352,
   "trends": [
     {
       "keyword": "안세영 덴마크 오픈 우승",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "470f9cf3feeb3ce5",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "90afc82cf1a7b3ea",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "25172bc149c9cc06",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "2a33d4912b23dfd2",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "5cfe9c5d21cb9e11",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "3bc1c781e5e0d063",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T15:50:51.353Z"
+  "updated": "2025-10-19T15:55:53.325Z"
 }
