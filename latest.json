@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760854226,
+  "timestamp": 1760854517,
   "trends": [
     {
       "keyword": "반트럼프 노킹스 시위",
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "d43fd22aa0641041",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T06:10:27.207Z"
+  "updated": "2025-10-19T06:15:18.774Z"
 }
