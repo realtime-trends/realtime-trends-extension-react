@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760868977,
+  "trends": [
+    {
+      "keyword": "최원태 호투",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "d3e0c4add445d199",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김세영 빨간바지 우승",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "202c27f366a8de4f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "푸틴 우크라 동부 영토",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "0ef76a61811b32e2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노엘 갤러거 오아시스 공연",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "373c7d641a124376",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 김정은 회동",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "1dfc07c057f8f210",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "추미애 김현지 방지법",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "a7ac0e62c61f56ab",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최승빈 더채리티 클래식 우승",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "72ecee1ed57185a1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한미 관세 협상",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "b54a597a15241802",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "딩고 용준형 논란",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ee6ffdc9ddecff7c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 취업 사기",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "84da444ba45a2a68",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-19T10:16:20.746Z"
+}
