@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760910650,
+  "timestamp": 1760910948,
   "trends": [
     {
       "keyword": "안세영 덴마크 오픈 우승",
@@ -34,10 +34,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "권민아 유방��� 행사 비판",
+      "keyword": "권민아 유방암 행사 비판",
       "score": 16,
       "maxscore": 16,
-      "hashed": "0f5a501d9a84ebd5",
+      "hashed": "9108776dc2e552e1",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T21:50:52.263Z"
+  "updated": "2025-10-19T21:55:50.327Z"
 }
