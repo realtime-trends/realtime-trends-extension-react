@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760849418,
+  "trends": [
+    {
+      "keyword": "메시 해트트릭 득점왕",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "f334d8fd5a683ccc",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김채연 신지아 피겨 그랑프리",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "bb39eff43b4cfae9",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "푸틴 우크라이나 동부 영토",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "45ace7185823cacb",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김영환 돈봉투 수수 의혹",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "d43fd22aa0641041",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "아이돌 협박 렌터카 사장",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "7afcd05cb24d022f",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "반트럼프 시위",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "f5c7500da6248f9d",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "주택공급 보유세",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "7af9d6003e87d0b1",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "강훈식 방산협력 특사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "c853e8a7d8ff8b18",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여순사건 추념식",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "04be853196133903",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 골프 회동",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "70bd2edcfca83435",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-19T04:50:21.168Z"
+}
