@@ -1,20 +1,20 @@
 {
-  "timestamp": 1760881548,
+  "timestamp": 1760881848,
   "trends": [
     {
-      "keyword": "임채무 두리랜드 환불",
+      "keyword": "유재석 런닝맨",
       "score": 20,
       "maxscore": 20,
-      "hashed": "f209261e0fed469e",
-      "delta": 0,
+      "hashed": "6a656914aa01c0a3",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "유재석 런닝맨",
+      "keyword": "구미 푸드 페스티벌 먹거리",
       "score": 19,
       "maxscore": 19,
-      "hashed": "6a656914aa01c0a3",
-      "delta": 0,
+      "hashed": "997e0a55da3142e5",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -26,61 +26,61 @@
       "engine": "zum"
     },
     {
-      "keyword": "푸틴 우크라이나 영토",
+      "keyword": "배정남 반려견 벨",
       "score": 17,
       "maxscore": 17,
-      "hashed": "e6219c086ef5db42",
-      "delta": 0,
+      "hashed": "819fc5e7a12fd77c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 범죄수익 환수",
+      "keyword": "신인감독 김연경 원더독스",
       "score": 16,
       "maxscore": 16,
-      "hashed": "f5acd08197c28abf",
-      "delta": 0,
+      "hashed": "6191491241e800f5",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "최원태 포스트시즌 사나이",
+      "keyword": "우크라 동부 영토",
       "score": 15,
       "maxscore": 15,
-      "hashed": "2d2ea11c7388aa10",
-      "delta": 0,
+      "hashed": "a7b9f6991c2854d7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "남규리 제주살이",
+      "keyword": "임채무 두리랜드 운영",
       "score": 14,
       "maxscore": 14,
-      "hashed": "25169e04c399f433",
-      "delta": 0,
+      "hashed": "9aac12c4c52467d1",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 범죄조직",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "4d6998545b4d34ba",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "북한군 귀순",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "5cfe9c5d21cb9e11",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "북미 대화 가능성",
       "score": 12,
       "maxscore": 12,
-      "hashed": "b503208a9986315e",
-      "delta": 0,
+      "hashed": "5cfe9c5d21cb9e11",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "전소민 런닝맨 복귀",
+      "keyword": "임채무 두리랜드 가족 관계",
       "score": 11,
       "maxscore": 11,
-      "hashed": "61616c37c329eb9e",
-      "delta": 0,
+      "hashed": "b7269c1724f06b78",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T13:45:50.101Z"
+  "updated": "2025-10-19T13:50:50.203Z"
 }
