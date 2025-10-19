@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760863871,
+  "timestamp": 1760864176,
   "trends": [
     {
       "keyword": "김세영 LPGA 우승",
       "score": 20,
       "maxscore": 20,
       "hashed": "cf6c449ea699946d",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "ffd1f4d2972d866e",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "a7ac0e62c61f56ab",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "58bb172a1818f392",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "4e2ead151dd7a75a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "4ca1a8dc7448cb13",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "e6b6d61489cbd018",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "a53b120b15107591",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "c0939a3202cd481d",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "9c0020586b4e4951",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-19T08:51:12.451Z"
+  "updated": "2025-10-19T08:56:17.354Z"
 }
