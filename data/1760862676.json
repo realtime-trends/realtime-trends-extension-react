@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760862676,
+  "trends": [
+    {
+      "keyword": "캄보디아 송환 보이스피싱",
+      "score": 25.1,
+      "maxscore": 16,
+      "hashed": "3bbae093b7a43a71",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트리플스타 횡령 무혐의",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c0939a3202cd481d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김세영 LPGA 우승",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "cf6c449ea699946d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "폰세 구자욱 신경전",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "9c0020586b4e4951",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장동혁 윤석열 면회 논란",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "ffd1f4d2972d866e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 8승 투수",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "8a8c979395a07219",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "강훈식 K-방산 유럽",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "486057cf4625f433",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "메시 해트트릭 득점왕",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f334d8fd5a683ccc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 노킹스 조롱",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "8ffd8c4b545a924e",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-19T08:31:19.430Z"
+}
