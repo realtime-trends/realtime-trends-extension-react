@@ -1,44 +1,44 @@
 {
-  "timestamp": 1760957156,
+  "timestamp": 1760957455,
   "trends": [
     {
-      "keyword": "초등생 살해 명재완 무기징역",
+      "keyword": "초등생 살해 명재완",
       "score": 20,
       "maxscore": 20,
-      "hashed": "c31242723019659a",
+      "hashed": "036b745e2a21c5d4",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 콜롬비아 마약 퇴치",
+      "keyword": "황선우 아시아 신기록",
       "score": 19,
       "maxscore": 19,
-      "hashed": "c4500bd40b743acf",
-      "delta": 0,
+      "hashed": "0df4cd6c676e64d4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대학생 피살",
+      "keyword": "두산 김원형 감독 선임",
       "score": 18,
       "maxscore": 18,
-      "hashed": "c4d9f4da3a0b740b",
-      "delta": 0,
+      "hashed": "93ae2421a8585f3e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "전현희 표적 감사 의혹",
+      "keyword": "유정복 선거법 위반 의혹",
       "score": 17,
       "maxscore": 17,
-      "hashed": "1bbba5b4c006f101",
-      "delta": 0,
+      "hashed": "fb165d8c4ddb09f7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "노재헌 주중대사 혐중시위",
+      "keyword": "최민정 금메달",
       "score": 16,
       "maxscore": 16,
-      "hashed": "05c8b32c0252440c",
-      "delta": 0,
+      "hashed": "42a733a56cd2dc21",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -50,37 +50,37 @@
       "engine": "zum"
     },
     {
-      "keyword": "울산 히로시마전",
+      "keyword": "영유아 사교육 규제",
       "score": 14,
       "maxscore": 14,
-      "hashed": "b1415ebc967e8d20",
-      "delta": 0,
+      "hashed": "d00954be8bcdefb0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "제주 바가지 논란",
+      "keyword": "최재해 표적 감사 의혹",
       "score": 13,
       "maxscore": 13,
-      "hashed": "e93a19d608f57fd4",
-      "delta": 0,
+      "hashed": "70de00c148e120ac",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이태원 참사 3주기",
+      "keyword": "부동산 공급대책 추진",
       "score": 12,
       "maxscore": 12,
-      "hashed": "48008c46182f8dbc",
-      "delta": 0,
+      "hashed": "af6e0de52ab5514f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "조엘진 2관왕",
+      "keyword": "안규백 방산 협력",
       "score": 11,
       "maxscore": 11,
-      "hashed": "cf568279e3397ab7",
-      "delta": 0,
+      "hashed": "ac891e8a6a273260",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T10:45:57.918Z"
+  "updated": "2025-10-20T10:50:56.116Z"
 }
