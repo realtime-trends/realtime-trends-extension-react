@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760945753,
+  "trends": [
+    {
+      "keyword": "민중기 주식 거래 논란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "fc75adbc0972dbfe",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이종섭 구속영장 청구",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "b3c2e2be36dcf82c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "두산 김원형 감독 선임",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "93ae2421a8585f3e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "클럽 월드컵 울산",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "b9e2d5bd4997ac01",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "송중기 안효섭 골든디스크어워즈",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "f846b2e3fe4cae87",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이준호 태풍상사",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "735b79e157ff4093",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 젤렌스키 압박",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "bfdcba6b46466af5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 송환 피의자",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "61497dd90726f5ac",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "명재완 무기징역 선고",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "dfb041530b757161",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김인호 김현지 인사 논란",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "42029fdc50a732c8",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T07:35:56.939Z"
+}
