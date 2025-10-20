@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760990756,
+  "timestamp": 1760991055,
   "trends": [
     {
       "keyword": "삼성전자 폭파 협박 신고",
@@ -70,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "7cc690ea9284fac4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T20:05:57.906Z"
+  "updated": "2025-10-20T20:10:56.957Z"
 }
