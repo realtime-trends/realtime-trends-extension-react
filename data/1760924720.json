@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760924720,
+  "trends": [
+    {
+      "keyword": "김연경 한일전 감독",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "5ae267b713214e02",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임영웅 안정환 리턴매치",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "c3b4840fff804554",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안세영 덴마크 오픈 우승",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "075f739dbacbe3d0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "배정남 반려견 벨",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "819fc5e7a12fd77c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 젤렌스키 압박",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "bfdcba6b46466af5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 실종 한국인",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "ff46477d9a4c54a3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최민정 1500m 금메달",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "7dea39a98f2ca35c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "엔비디아 블랙웰 미국 생산",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "36b9792f9a7d0ea0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오현규 헹크 1골1도움",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "29ec00bdd032982f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "플리트우드 챔피언십 우승",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "a008e384ae1f93c6",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T01:45:24.023Z"
+}
