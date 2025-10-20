@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760921120,
+  "timestamp": 1760921428,
   "trends": [
     {
-      "keyword": "안세영 덴마크 오픈 우승",
+      "keyword": "김연경 한일전 감독",
       "score": 20,
       "maxscore": 20,
-      "hashed": "075f739dbacbe3d0",
-      "delta": 0,
+      "hashed": "5ae267b713214e02",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김나영 마이큐 결혼",
+      "keyword": "임영웅 안정환 리턴매치",
       "score": 19,
       "maxscore": 19,
-      "hashed": "27de68fce8b595c5",
-      "delta": 0,
+      "hashed": "c3b4840fff804554",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 젤렌스키 영토 양보",
+      "keyword": "안세영 덴마크 오픈 우승",
       "score": 18,
       "maxscore": 18,
-      "hashed": "40f294d3afca147b",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "우가팸 불화설",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "8c1143c81dc86cc5",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "엔비디아 블랙웰 생산",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "51f019ca458d5062",
-      "delta": 0,
+      "hashed": "075f739dbacbe3d0",
+      "delta": -2,
       "engine": "zum"
     },
     {
       "keyword": "배정남 반려견 벨",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "819fc5e7a12fd77c",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 젤렌스키 압박",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "bfdcba6b46466af5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 실종 한국인",
       "score": 15,
       "maxscore": 15,
-      "hashed": "819fc5e7a12fd77c",
-      "delta": 0,
+      "hashed": "ff46477d9a4c54a3",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 콜롬비아 마약",
+      "keyword": "최민정 1500m 금메달",
       "score": 14,
       "maxscore": 14,
-      "hashed": "73cd9166f102c568",
-      "delta": 0,
+      "hashed": "7dea39a98f2ca35c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 후계자 양민혁",
+      "keyword": "엔비디아 블랙웰 미국 생산",
       "score": 13,
       "maxscore": 13,
-      "hashed": "b45bc2bb0e3c16b8",
-      "delta": 0,
+      "hashed": "36b9792f9a7d0ea0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "권민아 유방암 술파티 비판",
+      "keyword": "오현규 헹크 1골1도움",
       "score": 12,
       "maxscore": 12,
-      "hashed": "269e163aa7c4f0a7",
-      "delta": 0,
+      "hashed": "29ec00bdd032982f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "중부전선 북한군 귀순",
+      "keyword": "플리트우드 챔피언십 우승",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0f82e39020ed0a7a",
-      "delta": 0,
+      "hashed": "a008e384ae1f93c6",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T00:45:20.995Z"
+  "updated": "2025-10-20T00:50:30.090Z"
 }
