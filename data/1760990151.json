@@ -1,0 +1,78 @@
+{
+  "timestamp": 1760990151,
+  "trends": [
+    {
+      "keyword": "삼성전자 폭파 협박 신고",
+      "score": 23.9,
+      "maxscore": 17,
+      "hashed": "4ccae4c09dc3ee48",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이이경 사생활 논란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "ec039fd94f4ea8d7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김병만 결혼식",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1f53b0dfa9484ff1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "서울 아침 기온",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "abc853535b8dfe1a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 젤렌스키 푸틴 회담",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "6e1d2a8a7df15e93",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "아라우조 우리카드",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "9aab1266afef41c4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 대학생 사망 사건",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "855abaaf3fe30666",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "서장훈 분노",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "eb7d63df45921875",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "영유아 영어유치원 규제",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "7cc690ea9284fac4",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T19:55:55.336Z"
+}
