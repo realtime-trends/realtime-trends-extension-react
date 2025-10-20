@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760971851,
+  "timestamp": 1760972151,
   "trends": [
     {
       "keyword": "이이경 사생활 논란",
       "score": 20,
       "maxscore": 20,
       "hashed": "ec039fd94f4ea8d7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "d954b8a7a5e86d5a",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "abc853535b8dfe1a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "1f53b0dfa9484ff1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "375e560b73712e66",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "c7f6f3e7a7b866f1",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "9b6e6f56c9b5ce63",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "860ddd5a90937e30",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "c51df6b793d32516",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "429fead1b1a48a80",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T14:50:52.681Z"
+  "updated": "2025-10-20T14:55:52.640Z"
 }
