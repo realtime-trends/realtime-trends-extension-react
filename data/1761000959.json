@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761000959,
+  "trends": [
+    {
+      "keyword": "손흥민 동상 건립",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "e028c4255b9e1354",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김병만 아내 사랑꾼",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "ced7eb3669efca69",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 송환 사기",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "699d9a580b7cfb21",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "두산 김원형 감독 선임",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "93ae2421a8585f3e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미러 정상회담 준비",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "abcd846e96b301bb",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이이경 사생활 폭로 논란",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "59791e307f1ee6ac",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "초겨울 추위",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "1f1cd6fe49082c2d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "서장훈 분노 폭발",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "1541daa37cba585a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김병만 재혼식",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "07b4ab64677f3fb3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성전자 폭파 협박 신고",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "4ccae4c09dc3ee48",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T22:56:02.455Z"
+}
