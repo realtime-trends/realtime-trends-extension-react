@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760956369,
+  "trends": [
+    {
+      "keyword": "초등생 살해 명재완 무기징역",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c31242723019659a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 콜롬비아 마약 퇴치",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "c4500bd40b743acf",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 대학생 피살",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c4d9f4da3a0b740b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전현희 표적 감사 의혹",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "1bbba5b4c006f101",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노재헌 주중대사 혐중시위",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "05c8b32c0252440c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 한강버스 안전",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "3dce088bfbea9046",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울산 히로시마전",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "b1415ebc967e8d20",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "제주 바가지 논란",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "e93a19d608f57fd4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이태원 참사 3주기",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "48008c46182f8dbc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조엘진 2관왕",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "cf568279e3397ab7",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T10:32:52.566Z"
+}
