@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760952175,
+  "trends": [
+    {
+      "keyword": "이준호 태풍상사 흥행",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "0a84c025b06d5de4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대법관 증원 사법개혁안",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "f31867bed7db94a3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 감독 선임",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "7548280125667fca",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "골든디스크어워즈 시상자",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "81febfbe6dba78d9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 특검 주식 논란",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "92f71c33181964cc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노재헌 주중대사 혐중시위",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "05c8b32c0252440c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "초등생 살해 명재완 무기징역",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "c31242723019659a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한강버스 안전 문제",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "c094b3a90236a449",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김현지 인사 논란",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "58bf6fbd4a44e63d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 시애틀 7차전",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "ed6a8dee4b3c8013",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T09:22:58.326Z"
+}
