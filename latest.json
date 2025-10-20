@@ -1,86 +1,86 @@
 {
-  "timestamp": 1760935517,
+  "timestamp": 1760935820,
   "trends": [
     {
-      "keyword": "손흥민 양민혁",
+      "keyword": "캄보디아 프린스그룹",
       "score": 20,
       "maxscore": 20,
-      "hashed": "d4d7884595504f04",
-      "delta": 0,
+      "hashed": "172593ee0eca66a1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김연경 MBC 속았다",
+      "keyword": "김원형 두산 감독 선임",
       "score": 19,
       "maxscore": 19,
-      "hashed": "e0b6c501b70f1ef5",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "안세영 덴마크 오픈 우승",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "075f739dbacbe3d0",
-      "delta": 0,
+      "hashed": "cbdddacc102286ad",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "트럼프 젤렌스키 요구",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "cf5b150446b333c0",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김흥국 연예계 복귀",
       "score": 17,
       "maxscore": 17,
-      "hashed": "cf5b150446b333c0",
-      "delta": 0,
+      "hashed": "34b10cde94b89fb4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "임영웅 콘서트 투어",
+      "keyword": "NC 이승호 김상훈 코치",
       "score": 16,
       "maxscore": 16,
-      "hashed": "d05d90c1c082e5df",
-      "delta": 0,
+      "hashed": "5b6f9cbccc43a6fe",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "맨유 리버풀 경기 결과",
+      "keyword": "설악산 첫눈",
       "score": 15,
       "maxscore": 15,
-      "hashed": "e168fc0b600b6a68",
-      "delta": 0,
+      "hashed": "30763f6032941277",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김나영 옷장전쟁",
+      "keyword": "블랙핑크 컴백",
       "score": 14,
       "maxscore": 14,
-      "hashed": "7d27e80d51cb99dd",
-      "delta": 0,
+      "hashed": "804c613b739275e1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "백번의 추억",
+      "keyword": "대통령 게임 질병",
       "score": 13,
       "maxscore": 13,
-      "hashed": "45b2770bd02a906e",
-      "delta": 0,
+      "hashed": "18a9812d14f70e62",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김병만 결혼식 눈물",
+      "keyword": "지방세 체납액 일제정리",
       "score": 12,
       "maxscore": 12,
-      "hashed": "3b4700453262c043",
-      "delta": 0,
+      "hashed": "4cb8daa9fd1137ee",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "모로코 U-20 월드컵 우승",
+      "keyword": "오세훈 부동산 규제",
       "score": 11,
       "maxscore": 11,
-      "hashed": "9378d0250fc2a976",
-      "delta": 0,
+      "hashed": "b5e1907bc496677c",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T04:45:18.357Z"
+  "updated": "2025-10-20T04:50:22.397Z"
 }
