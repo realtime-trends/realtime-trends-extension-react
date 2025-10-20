@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760950073,
+  "trends": [
+    {
+      "keyword": "이준호 태풍상사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "735b79e157ff4093",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "명재완 무기징역 선고",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "dfb041530b757161",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 감독 선임",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "7548280125667fca",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대법관 증원",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "caa853ef43a5478e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 시애틀 7차전",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "ed6a8dee4b3c8013",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 특검 주식 논란",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "92f71c33181964cc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "골든디스크어워즈 시상자",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "81febfbe6dba78d9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한강버스 안전 흑자",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "ab9c404799e884e7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 증인 철회",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "df11ef8c0cf6698d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 대학생 부검",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "0cd8f16f381a96b4",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T08:47:56.192Z"
+}
