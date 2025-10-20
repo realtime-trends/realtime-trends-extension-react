@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760940620,
+  "trends": [
+    {
+      "keyword": "김원형 감독 선임",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "7548280125667fca",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "태풍상사 이준호",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "5644785d549f4a0f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "모로코 아르헨 우승",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "deda22d72568f76c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 국방 강화",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "aece2469aa6845af",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "송중기 변우석 안효섭 골든디스크어워즈",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4b12a5f4ebe9e8c5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 젤렌스키 압박",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "bfdcba6b46466af5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박진주 결혼 발표",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "1f1e72f4f76ed07a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이창용 외자 전략",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "a254260fbd424b30",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 시애틀 7차전",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ed6a8dee4b3c8013",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "가수 스틸하트클럽",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "78d3a99f702b1634",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T06:10:23.152Z"
+}
