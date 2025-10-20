@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760931920,
+  "timestamp": 1760932218,
   "trends": [
     {
       "keyword": "손흥민 양민혁",
@@ -18,69 +18,69 @@
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 젤렌스키 압박",
+      "keyword": "안세영 덴마크 오픈 우승",
       "score": 18,
       "maxscore": 18,
-      "hashed": "bfdcba6b46466af5",
-      "delta": 0,
+      "hashed": "075f739dbacbe3d0",
+      "delta": 2,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 스캠단지 송환",
+      "keyword": "트럼프 젤렌스키 요구",
       "score": 17,
       "maxscore": 17,
-      "hashed": "3cbd117b10741130",
-      "delta": 0,
+      "hashed": "cf5b150446b333c0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "안세영 덴마크 오픈 우승",
+      "keyword": "임영웅 콘서트 투어",
       "score": 16,
       "maxscore": 16,
-      "hashed": "075f739dbacbe3d0",
-      "delta": 0,
+      "hashed": "d05d90c1c082e5df",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "맨유 리버풀 경기 결과",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "e168fc0b600b6a68",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김나영 옷장전쟁",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "7d27e80d51cb99dd",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "백번의 추억",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "45b2770bd02a906e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "NC 코치 영입",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "1a0dc632ae1381a9",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "임영웅 콘서트 감동",
       "score": 13,
       "maxscore": 13,
-      "hashed": "c42f0e3818acab1e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "맨유 리버풀 9년 만의 승리",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "dbad14cdac0138d2",
-      "delta": 0,
+      "hashed": "45b2770bd02a906e",
+      "delta": -2,
       "engine": "zum"
     },
     {
       "keyword": "김병만 결혼식 눈물",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "3b4700453262c043",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "모로코 U-20 월드컵 우승",
       "score": 11,
       "maxscore": 11,
-      "hashed": "3b4700453262c043",
-      "delta": 0,
+      "hashed": "9378d0250fc2a976",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T03:45:21.332Z"
+  "updated": "2025-10-20T03:50:19.791Z"
 }
