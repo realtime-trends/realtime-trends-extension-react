@@ -1,20 +1,20 @@
 {
-  "timestamp": 1760950073,
+  "timestamp": 1760950372,
   "trends": [
     {
-      "keyword": "이준호 태풍상사",
+      "keyword": "이준호 태풍상사 흥행",
       "score": 20,
       "maxscore": 20,
-      "hashed": "735b79e157ff4093",
-      "delta": 0,
+      "hashed": "0a84c025b06d5de4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "명재완 무기징역 선고",
+      "keyword": "대법관 증원 사법개혁안",
       "score": 19,
       "maxscore": 19,
-      "hashed": "dfb041530b757161",
-      "delta": 0,
+      "hashed": "f31867bed7db94a3",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -26,61 +26,61 @@
       "engine": "zum"
     },
     {
-      "keyword": "대법관 증원",
+      "keyword": "골든디스크어워즈 시상자",
       "score": 17,
       "maxscore": 17,
-      "hashed": "caa853ef43a5478e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "토론토 시애틀 7차전",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "ed6a8dee4b3c8013",
-      "delta": 0,
+      "hashed": "81febfbe6dba78d9",
+      "delta": 3,
       "engine": "zum"
     },
     {
       "keyword": "민중기 특검 주식 논란",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "92f71c33181964cc",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "노재헌 주중대사 혐중시위",
       "score": 15,
       "maxscore": 15,
-      "hashed": "92f71c33181964cc",
-      "delta": 0,
+      "hashed": "05c8b32c0252440c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "골든디스크어워즈 시상자",
+      "keyword": "초등생 살해 명재완 무기징역",
       "score": 14,
       "maxscore": 14,
-      "hashed": "81febfbe6dba78d9",
-      "delta": 0,
+      "hashed": "c31242723019659a",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한강버스 안전 흑자",
+      "keyword": "한강버스 안전 문제",
       "score": 13,
       "maxscore": 13,
-      "hashed": "ab9c404799e884e7",
-      "delta": 0,
+      "hashed": "c094b3a90236a449",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이재명 증인 철회",
+      "keyword": "김현지 인사 논란",
       "score": 12,
       "maxscore": 12,
-      "hashed": "df11ef8c0cf6698d",
-      "delta": 0,
+      "hashed": "58bf6fbd4a44e63d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대학생 부검",
+      "keyword": "토론토 시애틀 7차전",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0cd8f16f381a96b4",
-      "delta": 0,
+      "hashed": "ed6a8dee4b3c8013",
+      "delta": -5,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T08:47:54.653Z"
+  "updated": "2025-10-20T08:52:53.322Z"
 }
