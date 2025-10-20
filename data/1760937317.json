@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760937317,
+  "trends": [
+    {
+      "keyword": "캄보디아 프린스그룹",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "172593ee0eca66a1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 두산 감독 선임",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "cbdddacc102286ad",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 젤렌스키 요구",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "cf5b150446b333c0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김흥국 연예계 복귀",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "34b10cde94b89fb4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "NC 이승호 김상훈 코치",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "5b6f9cbccc43a6fe",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "설악산 첫눈",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "30763f6032941277",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "블랙핑크 컴백",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "804c613b739275e1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대통령 게임 질병",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "18a9812d14f70e62",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지방세 체납액 일제정리",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "4cb8daa9fd1137ee",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 부동산 규제",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "b5e1907bc496677c",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T05:15:20.130Z"
+}
