@@ -1,11 +1,11 @@
 {
-  "timestamp": 1760957128,
+  "timestamp": 1760957156,
   "trends": [
     {
-      "keyword": "초등생 살해 명재완 무기징��",
+      "keyword": "초등생 살해 명재완 무기징역",
       "score": 20,
       "maxscore": 20,
-      "hashed": "e1ca6fd307ec053a",
+      "hashed": "c31242723019659a",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T10:45:29.707Z"
+  "updated": "2025-10-20T10:45:57.918Z"
 }
