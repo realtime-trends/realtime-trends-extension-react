@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760990461,
+  "timestamp": 1760990756,
   "trends": [
     {
       "keyword": "삼성전자 폭파 협박 신고",
@@ -66,13 +66,13 @@
       "engine": "zum"
     },
     {
-      "keyword": "영유아 영어유치�� 규제",
+      "keyword": "영유아 영어유치원 규제",
       "score": 11,
       "maxscore": 11,
-      "hashed": "508c7bb658f16257",
+      "hashed": "7cc690ea9284fac4",
       "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T20:01:02.534Z"
+  "updated": "2025-10-20T20:05:57.906Z"
 }
