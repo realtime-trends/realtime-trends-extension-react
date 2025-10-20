@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760965253,
+  "trends": [
+    {
+      "keyword": "트럼프 푸틴 회담",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "926dc25dc7df8336",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 대학생 사망 사건",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "855abaaf3fe30666",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "영유아 사교육 규제",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "d00954be8bcdefb0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "4인용식탁 바다 슈",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "b768b1c75da8b3c4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최재해 표적감사 의혹",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "70de00c148e120ac",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 감독 선임",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "7548280125667fca",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 한강버스 안전",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "3dce088bfbea9046",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "명재완 무기징역",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "75047c4f5b16878d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "황선우 아시아 신기록",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "0df4cd6c676e64d4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최민정 아웃코스 금메달",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "ef86c4b8e474ad25",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T13:00:56.711Z"
+}
