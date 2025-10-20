@@ -1,12 +1,12 @@
 {
-  "timestamp": 1760975455,
+  "timestamp": 1760975773,
   "trends": [
     {
       "keyword": "삼성전자 폭파 협박 신고",
       "score": 23.9,
       "maxscore": 17,
       "hashed": "4ccae4c09dc3ee48",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 20,
       "maxscore": 20,
       "hashed": "ec039fd94f4ea8d7",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "1f53b0dfa9484ff1",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "abc853535b8dfe1a",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "6e1d2a8a7df15e93",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "9aab1266afef41c4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "855abaaf3fe30666",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "eb7d63df45921875",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "7cc690ea9284fac4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-20T15:50:56.355Z"
+  "updated": "2025-10-20T15:56:14.547Z"
 }
