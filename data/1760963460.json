@@ -1,0 +1,86 @@
+{
+  "timestamp": 1760963460,
+  "trends": [
+    {
+      "keyword": "캄보디아 대학생 사망 사건",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "855abaaf3fe30666",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "두산 김원형 감독 선임",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "93ae2421a8585f3e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최재해 표적 감��� 의혹",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "63ce40d39a5bb92d",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 젤렌스키 회담",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "ba830dbc3775883a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 한강버스 안전",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "3dce088bfbea9046",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "영유아 사교육 규제",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "d00954be8bcdefb0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "초등생 살해 명재완",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "036b745e2a21c5d4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "황선우 아시아 신기록",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "0df4cd6c676e64d4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "유정복 선거법 위반 의혹",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "fb165d8c4ddb09f7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최민정 금메달",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "42a733a56cd2dc21",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-20T12:31:03.898Z"
+}
