@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761061554,
+  "timestamp": 1761061855,
   "trends": [
     {
-      "keyword": "울산 히로시마전 승리",
+      "keyword": "이재명 대통령 경제협력",
       "score": 20,
       "maxscore": 20,
-      "hashed": "b8ecc470ad72837c",
-      "delta": 0,
+      "hashed": "a41e344f63821cd2",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -18,27 +18,27 @@
       "engine": "zum"
     },
     {
-      "keyword": "토론토 월드시리즈 진출",
+      "keyword": "울산 히로시마",
       "score": 18,
       "maxscore": 18,
+      "hashed": "e7c2d0c4b33c63fd",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 월드시리즈 진출",
+      "score": 17,
+      "maxscore": 17,
       "hashed": "3484d69e909df898",
-      "delta": 0,
+      "delta": -1,
       "engine": "zum"
     },
     {
       "keyword": "일본 퍼스트 젠틀맨",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "75cf18df56e80cf0",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이수지 살롱드립",
       "score": 16,
       "maxscore": 16,
-      "hashed": "bc4384904f1b73ea",
-      "delta": 0,
+      "hashed": "75cf18df56e80cf0",
+      "delta": -1,
       "engine": "zum"
     },
     {
@@ -58,29 +58,29 @@
       "engine": "zum"
     },
     {
-      "keyword": "이이경 사생활 루머",
+      "keyword": "이이경 사생활 루머 법적대응",
       "score": 13,
       "maxscore": 13,
-      "hashed": "fe8a2adeca2bd5f1",
-      "delta": 0,
+      "hashed": "427743e7374257ad",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 MLS 올해의 골 후보",
+      "keyword": "손흥민 MLS 올해의 골",
       "score": 12,
       "maxscore": 12,
-      "hashed": "51f93cea1a073399",
-      "delta": 0,
+      "hashed": "e72e5f2714b6d692",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 송환 스캠단지",
+      "keyword": "이수지 살롱드립",
       "score": 11,
       "maxscore": 11,
-      "hashed": "6fa9374d2ac4fd16",
-      "delta": 0,
+      "hashed": "bc4384904f1b73ea",
+      "delta": -5,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T15:45:56.123Z"
+  "updated": "2025-10-21T15:50:56.527Z"
 }
