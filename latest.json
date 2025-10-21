@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761057954,
+  "timestamp": 1761058256,
   "trends": [
     {
       "keyword": "울산 히로시마전 승리",
@@ -10,77 +10,77 @@
       "engine": "zum"
     },
     {
-      "keyword": "이수지 살롱드립",
+      "keyword": "페퍼저축은행 승리",
       "score": 19,
       "maxscore": 19,
-      "hashed": "bc4384904f1b73ea",
-      "delta": 0,
+      "hashed": "05ebb1f2a817f8fe",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이병헌 이민정 딸",
+      "keyword": "토론토 월드시리즈 진출",
       "score": 18,
       "maxscore": 18,
-      "hashed": "fc17cafa73ddab0f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "페퍼저축은행 도로공사전 승리",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "15edd7fe337da8eb",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 송환 스캠단지",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "6fa9374d2ac4fd16",
-      "delta": 0,
+      "hashed": "3484d69e909df898",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "일본 퍼스트 젠틀맨",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "75cf18df56e80cf0",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이수지 살롱드립",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "bc4384904f1b73ea",
+      "delta": -3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이병헌 이민정 딸",
       "score": 15,
       "maxscore": 15,
-      "hashed": "75cf18df56e80cf0",
-      "delta": 0,
+      "hashed": "fc17cafa73ddab0f",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "김범수 무죄 카카오",
+      "keyword": "캄보디아 스캠 범죄",
       "score": 14,
       "maxscore": 14,
-      "hashed": "a1972ed9a794b0dc",
-      "delta": 0,
+      "hashed": "cb2914fd25f15a82",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 MLS 올해의 골",
+      "keyword": "이이경 사생활 루머",
       "score": 13,
       "maxscore": 13,
-      "hashed": "e72e5f2714b6d692",
-      "delta": 0,
+      "hashed": "fe8a2adeca2bd5f1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 백악관 연회장 증축",
+      "keyword": "손흥민 MLS 올해의 골 후보",
       "score": 12,
       "maxscore": 12,
-      "hashed": "863223e7c7318aa1",
-      "delta": 0,
+      "hashed": "51f93cea1a073399",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "포옛 감독 징계",
+      "keyword": "캄보디아 송환 스캠단지",
       "score": 11,
       "maxscore": 11,
-      "hashed": "83d69ba9ebbebccc",
-      "delta": 0,
+      "hashed": "6fa9374d2ac4fd16",
+      "delta": -5,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T14:45:55.615Z"
+  "updated": "2025-10-21T14:50:58.408Z"
 }
