@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761047422,
+  "timestamp": 1761047724,
   "trends": [
     {
       "keyword": "이병헌 이민정 딸",
       "score": 20,
       "maxscore": 20,
       "hashed": "fc17cafa73ddab0f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "427743e7374257ad",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "83d69ba9ebbebccc",
-      "delta": 5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "be5be10e8e540f80",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "e72e5f2714b6d692",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "5f70db5800f4d8a0",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "acf231d3f5b3a119",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "278bb8f8d3e8a520",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "f6d1f34dbb83a65d",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T11:50:23.581Z"
+  "updated": "2025-10-21T11:55:25.616Z"
 }
