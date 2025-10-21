@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761025860,
+  "timestamp": 1761026157,
   "trends": [
     {
       "keyword": "김범수 무죄 카카오",
       "score": 20,
       "maxscore": 20,
       "hashed": "a1972ed9a794b0dc",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "5ed1496513899ff2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "3484d69e909df898",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "42e76140415a4208",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -42,11 +42,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 백악관 연회장",
+      "keyword": "트럼프 ��악관 연회장",
       "score": 15,
       "maxscore": 15,
-      "hashed": "acf231d3f5b3a119",
-      "delta": 0,
+      "hashed": "656e02e4b06b02c3",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "d7db1107af423074",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "7f071a20d6b49273",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "80108f12742d0c2f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "fbf0eaffdf29c663",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T05:51:01.250Z"
+  "updated": "2025-10-21T05:55:58.963Z"
 }
