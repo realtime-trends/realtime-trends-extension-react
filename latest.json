@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761056454,
+  "timestamp": 1761056755,
   "trends": [
     {
       "keyword": "울산 히로시마전 승리",
@@ -10,10 +10,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "��수지 살롱드립",
+      "keyword": "이수지 살롱드립",
       "score": 19,
       "maxscore": 19,
-      "hashed": "3f7809bda2e479cf",
+      "hashed": "bc4384904f1b73ea",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T14:20:55.822Z"
+  "updated": "2025-10-21T14:25:57.218Z"
 }
