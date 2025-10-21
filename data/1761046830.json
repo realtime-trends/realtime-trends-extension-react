@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761046830,
+  "trends": [
+    {
+      "keyword": "이이경 사생활 논란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "ec039fd94f4ea8d7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김범수 무죄 선고",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "1db2a18f74336ce4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다카이치 총리",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "46487106e98c18b0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미세스 다웃파이어",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "be5be10e8e540f80",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "가자 휴전 위기",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "278bb8f8d3e8a520",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "유튜버 미미미누 명예훼손",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "f6d1f34dbb83a65d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "야마모토 타쿠 퍼스트 젠틀맨",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "49521811f6769125",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 MLS 올해의 골",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "e72e5f2714b6d692",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "포옛 감독 징계",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "83d69ba9ebbebccc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임성근 구속 심사",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "ea9e0e6c925c0797",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-21T11:40:33.643Z"
+}
