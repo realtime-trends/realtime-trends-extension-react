@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761026157,
+  "timestamp": 1761026461,
   "trends": [
     {
       "keyword": "김범수 무죄 카카오",
@@ -42,10 +42,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 ��악관 연회장",
+      "keyword": "트럼프 백악관 연회장",
       "score": 15,
       "maxscore": 15,
-      "hashed": "656e02e4b06b02c3",
+      "hashed": "acf231d3f5b3a119",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T05:55:58.963Z"
+  "updated": "2025-10-21T06:01:02.537Z"
 }
