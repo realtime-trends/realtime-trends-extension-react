@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761014759,
+  "timestamp": 1761015059,
   "trends": [
     {
-      "keyword": "이이경 사생활 논란",
+      "keyword": "캄보디아 대학생 사망",
       "score": 20,
       "maxscore": 20,
-      "hashed": "ec039fd94f4ea8d7",
-      "delta": 0,
+      "hashed": "9b6e6f56c9b5ce63",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대학생 사망",
+      "keyword": "육아휴직 남편 투자 실패",
       "score": 19,
       "maxscore": 19,
-      "hashed": "9b6e6f56c9b5ce63",
-      "delta": 0,
+      "hashed": "fd6d7855d1d586d7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김세영 세계 랭킹 상승",
+      "keyword": "전여빈 착한 여자 부세미",
       "score": 18,
       "maxscore": 18,
-      "hashed": "15c91c3e2d8d9f91",
-      "delta": 0,
+      "hashed": "f171e57781222b5d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "전여빈 부세미 드라마",
+      "keyword": "대통령 경찰의 날",
       "score": 17,
       "maxscore": 17,
-      "hashed": "9d9cc972645d4bed",
-      "delta": 0,
+      "hashed": "f83fdcddfd85d94e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 MLS 올해의 골",
+      "keyword": "서울센터빌딩 화재",
       "score": 16,
       "maxscore": 16,
-      "hashed": "e72e5f2714b6d692",
-      "delta": 0,
+      "hashed": "79a571afdd7d3c9f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "스트레이 키즈 컴백",
+      "keyword": "이이경 사생활 루머",
       "score": 15,
       "maxscore": 15,
-      "hashed": "f8f79ee64cdef356",
-      "delta": 0,
+      "hashed": "fe8a2adeca2bd5f1",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임성근 전 사단장 구속영장",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "2cb1e1259ce40e31",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이새롬 배우 전향",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "1412897bbf8fce80",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "추사랑 모델 야노시호",
       "score": 13,
       "maxscore": 13,
-      "hashed": "7229c86ae151d0d3",
-      "delta": 0,
+      "hashed": "1412897bbf8fce80",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "살라 부진",
+      "keyword": "한가을 원빈 조카",
       "score": 12,
       "maxscore": 12,
-      "hashed": "145c3560bbdbc29a",
-      "delta": 0,
+      "hashed": "e57e8411e3757399",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "가요대제전 MC",
+      "keyword": "올데프 애니 가요대제전",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0542166853a78ae9",
-      "delta": 0,
+      "hashed": "b9a32471e01a52f7",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T02:46:01.211Z"
+  "updated": "2025-10-21T02:51:00.345Z"
 }
