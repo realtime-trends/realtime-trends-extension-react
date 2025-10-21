@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761021958,
+  "timestamp": 1761022259,
   "trends": [
     {
-      "keyword": "이이경 사생활 루머",
+      "keyword": "서울센터빌딩 화재",
       "score": 20,
       "maxscore": 20,
-      "hashed": "fe8a2adeca2bd5f1",
-      "delta": 999,
+      "hashed": "79a571afdd7d3c9f",
+      "delta": 9,
       "engine": "zum"
     },
     {
-      "keyword": "전여빈 착한 여자 부세미",
+      "keyword": "경찰 치안 성과",
       "score": 19,
       "maxscore": 19,
-      "hashed": "f171e57781222b5d",
+      "hashed": "42e76140415a4208",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "육아휴직 남편 투자 실패",
+      "keyword": "이이경 사생활 폭로",
       "score": 18,
       "maxscore": 18,
-      "hashed": "fd6d7855d1d586d7",
+      "hashed": "18e388ff45b1ffe3",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대학생 사망",
+      "keyword": "김범수 무죄 판결",
       "score": 17,
       "maxscore": 17,
-      "hashed": "9b6e6f56c9b5ce63",
+      "hashed": "2d4c5704d8e17e90",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "대통령 경찰의 날",
+      "keyword": "임성근 구속영장 청구",
       "score": 16,
       "maxscore": 16,
-      "hashed": "f83fdcddfd85d94e",
+      "hashed": "acffe870fccfec00",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "올데프 애니 가요대제전",
+      "keyword": "트럼프 백악관 연회장",
       "score": 15,
       "maxscore": 15,
-      "hashed": "b9a32471e01a52f7",
+      "hashed": "acf231d3f5b3a119",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "임성근 전 사단장 구속영장",
+      "keyword": "가요대제전 애니",
       "score": 14,
       "maxscore": 14,
-      "hashed": "2cb1e1259ce40e31",
+      "hashed": "df3fc39e5f10046a",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이새롬 배우 전향",
+      "keyword": "모따 MVP",
       "score": 13,
       "maxscore": 13,
-      "hashed": "1412897bbf8fce80",
+      "hashed": "fbf0eaffdf29c663",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김세영 LPGA 우승",
+      "keyword": "원빈 친조카 한가을",
       "score": 12,
       "maxscore": 12,
-      "hashed": "cf6c449ea699946d",
+      "hashed": "7f0d2635f34349aa",
       "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "서울센터빌딩 화재",
+      "keyword": "탁류 로운 연기",
       "score": 11,
       "maxscore": 11,
-      "hashed": "79a571afdd7d3c9f",
+      "hashed": "9dfb421dc240726b",
       "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T04:45:59.887Z"
+  "updated": "2025-10-21T04:51:00.808Z"
 }
