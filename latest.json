@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761042624,
+  "timestamp": 1761042932,
   "trends": [
     {
       "keyword": "다카이치 총리 APEC",
@@ -50,11 +50,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "여자 골프 국가대항전",
+      "keyword": "여자 골�� 국가대항전",
       "score": 14,
       "maxscore": 14,
-      "hashed": "c5afe6b7fe5e9a10",
-      "delta": 0,
+      "hashed": "fa432550b866f81f",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T10:30:25.570Z"
+  "updated": "2025-10-21T10:35:33.556Z"
 }
