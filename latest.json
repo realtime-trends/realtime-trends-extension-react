@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761058256,
+  "timestamp": 1761058743,
   "trends": [
     {
       "keyword": "울산 히로시마전 승리",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "05ebb1f2a817f8fe",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "3484d69e909df898",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "75cf18df56e80cf0",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "bc4384904f1b73ea",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "fc17cafa73ddab0f",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "cb2914fd25f15a82",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "fe8a2adeca2bd5f1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "51f93cea1a073399",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "6fa9374d2ac4fd16",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T14:50:58.408Z"
+  "updated": "2025-10-21T14:59:04.709Z"
 }
