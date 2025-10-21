@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761090367,
+  "timestamp": 1761090659,
   "trends": [
     {
-      "keyword": "이재명 대통령 경제협력",
+      "keyword": "도경완 서브 논란",
       "score": 20,
       "maxscore": 20,
-      "hashed": "a41e344f63821cd2",
-      "delta": 0,
+      "hashed": "7a23d3e74aad249e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "페퍼저축은행 승리",
+      "keyword": "이강인 PSG 레버쿠젠",
       "score": 19,
       "maxscore": 19,
-      "hashed": "05ebb1f2a817f8fe",
-      "delta": 0,
+      "hashed": "03538db1e699c8de",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "울산 히로시마",
+      "keyword": "이이경 AI 사진 장난",
       "score": 18,
       "maxscore": 18,
-      "hashed": "e7c2d0c4b33c63fd",
-      "delta": 0,
+      "hashed": "52f53abce12a190f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "토론토 월드시리즈 진출",
+      "keyword": "손흥민 MLS 이적",
       "score": 17,
       "maxscore": 17,
-      "hashed": "3484d69e909df898",
-      "delta": 0,
+      "hashed": "f5f7c38d0d8399f7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "일본 퍼스트 젠틀맨",
+      "keyword": "트럼프 푸틴 회담 무산",
       "score": 16,
       "maxscore": 16,
-      "hashed": "75cf18df56e80cf0",
-      "delta": 0,
+      "hashed": "6a0577c53027c88d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이병헌 이민정 딸",
+      "keyword": "한화 노시환 역전포",
       "score": 15,
       "maxscore": 15,
-      "hashed": "fc17cafa73ddab0f",
-      "delta": 0,
+      "hashed": "e3db83cb98ecf8d9",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 스캠 범죄",
+      "keyword": "소이현 인교진",
       "score": 14,
       "maxscore": 14,
-      "hashed": "cb2914fd25f15a82",
-      "delta": 0,
+      "hashed": "e79f590e7c516555",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이이경 사생활 루머 법적대응",
+      "keyword": "울산 히로시마전 승리",
       "score": 13,
       "maxscore": 13,
-      "hashed": "427743e7374257ad",
-      "delta": 0,
+      "hashed": "b8ecc470ad72837c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 MLS 올해의 골",
+      "keyword": "이재명 대통령 친서",
       "score": 12,
       "maxscore": 12,
-      "hashed": "e72e5f2714b6d692",
-      "delta": 0,
+      "hashed": "f6e28b5bd54ff488",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이수지 살롱드립",
+      "keyword": "이민정 딸 서이",
       "score": 11,
       "maxscore": 11,
-      "hashed": "bc4384904f1b73ea",
-      "delta": 0,
+      "hashed": "0f584c6f6c5f4bd6",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T23:46:08.752Z"
+  "updated": "2025-10-21T23:51:01.169Z"
 }
