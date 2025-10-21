@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761050755,
+  "timestamp": 1761051055,
   "trends": [
     {
       "keyword": "이병헌 이민정 딸",
@@ -10,77 +10,77 @@
       "engine": "zum"
     },
     {
-      "keyword": "이이경 사생활 루머 법적대응",
+      "keyword": "캄보디아 스캠 범죄",
       "score": 19,
       "maxscore": 19,
-      "hashed": "427743e7374257ad",
-      "delta": 0,
+      "hashed": "cb2914fd25f15a82",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "다카이치 총리",
+      "keyword": "일본 퍼스트 젠틀맨",
       "score": 18,
       "maxscore": 18,
-      "hashed": "46487106e98c18b0",
-      "delta": 0,
+      "hashed": "75cf18df56e80cf0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "포옛 감독 징계",
+      "keyword": "카카오 김범수 무죄",
       "score": 17,
       "maxscore": 17,
-      "hashed": "83d69ba9ebbebccc",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "미세스 다웃파이어",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "be5be10e8e540f80",
-      "delta": 0,
+      "hashed": "362c798a0636a4fc",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "손흥민 MLS 올해의 골",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "e72e5f2714b6d692",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다카이치 총리",
       "score": 15,
       "maxscore": 15,
-      "hashed": "e72e5f2714b6d692",
-      "delta": 0,
+      "hashed": "46487106e98c18b0",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "카카오 신사업 속도",
+      "keyword": "트럼프 백악관 연회장 증축",
       "score": 14,
       "maxscore": 14,
-      "hashed": "5f70db5800f4d8a0",
-      "delta": 0,
+      "hashed": "863223e7c7318aa1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 백악관 연회장",
+      "keyword": "포옛 감독 징계",
       "score": 13,
       "maxscore": 13,
-      "hashed": "acf231d3f5b3a119",
-      "delta": 0,
+      "hashed": "83d69ba9ebbebccc",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "가자 휴전 위기",
+      "keyword": "이이경 사생활 논란",
       "score": 12,
       "maxscore": 12,
-      "hashed": "278bb8f8d3e8a520",
-      "delta": 0,
+      "hashed": "ec039fd94f4ea8d7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "유튜버 미미미누 명예훼손",
+      "keyword": "미세스 다웃파이어",
       "score": 11,
       "maxscore": 11,
-      "hashed": "f6d1f34dbb83a65d",
-      "delta": 0,
+      "hashed": "be5be10e8e540f80",
+      "delta": -5,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T12:45:57.227Z"
+  "updated": "2025-10-21T12:50:56.541Z"
 }
