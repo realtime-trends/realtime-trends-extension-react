@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761079854,
+  "timestamp": 1761080154,
   "trends": [
     {
       "keyword": "이재명 대통령 경제협력",
@@ -58,11 +58,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "이이경 사생활 루머 법적대응",
+      "keyword": "이이경 사생활 루머 법적���응",
       "score": 13,
       "maxscore": 13,
-      "hashed": "427743e7374257ad",
-      "delta": 0,
+      "hashed": "ed2ac335a8294705",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T20:50:56.008Z"
+  "updated": "2025-10-21T20:55:56.141Z"
 }
