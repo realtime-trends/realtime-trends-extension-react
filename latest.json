@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761026461,
+  "timestamp": 1761026761,
   "trends": [
     {
       "keyword": "김범수 무죄 카카오",
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "acf231d3f5b3a119",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T06:01:02.537Z"
+  "updated": "2025-10-21T06:06:02.811Z"
 }
