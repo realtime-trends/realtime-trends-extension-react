@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761061855,
+  "timestamp": 1761062158,
   "trends": [
     {
       "keyword": "이재명 대통령 경제협력",
       "score": 20,
       "maxscore": 20,
       "hashed": "a41e344f63821cd2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "e7c2d0c4b33c63fd",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "3484d69e909df898",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "75cf18df56e80cf0",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "427743e7374257ad",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "e72e5f2714b6d692",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "bc4384904f1b73ea",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T15:50:56.527Z"
+  "updated": "2025-10-21T15:55:59.680Z"
 }
