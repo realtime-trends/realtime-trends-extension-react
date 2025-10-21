@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761056755,
+  "timestamp": 1761057060,
   "trends": [
     {
       "keyword": "울산 히로시마전 승리",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "bc4384904f1b73ea",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T14:25:57.218Z"
+  "updated": "2025-10-21T14:31:01.829Z"
 }
