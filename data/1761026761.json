@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761026761,
+  "trends": [
+    {
+      "keyword": "김범수 무죄 카카오",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "a1972ed9a794b0dc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "서울센터빌딩 화재 완진",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "5ed1496513899ff2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 월드시리즈 진출",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "3484d69e909df898",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "경찰 치안 성과",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "42e76140415a4208",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임성근 구속영장 청구",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "acffe870fccfec00",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 백악관 연회장",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "acf231d3f5b3a119",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "원빈 조카 한가을",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "d7db1107af423074",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "기안84 극한 러닝",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "7f071a20d6b49273",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민석 총리 청년 일자리",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "80108f12742d0c2f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "모따 MVP",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "fbf0eaffdf29c663",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-21T06:06:04.817Z"
+}
