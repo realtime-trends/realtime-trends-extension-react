@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761039626,
+  "timestamp": 1761039923,
   "trends": [
     {
       "keyword": "티어드랍 김상영 암투병 사망",
@@ -18,10 +18,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "인교진 키스신 ��허설",
+      "keyword": "인교진 키스신 리허설",
       "score": 18,
       "maxscore": 18,
-      "hashed": "e61ddc0a5c7283c8",
+      "hashed": "4eebc56d3fdf5f01",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T09:40:28.077Z"
+  "updated": "2025-10-21T09:45:25.143Z"
 }
