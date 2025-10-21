@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761066951,
+  "timestamp": 1761067535,
   "trends": [
     {
       "keyword": "이재명 대통령 경제협력",
@@ -34,11 +34,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "일본 퍼스트 젠틀맨",
+      "keyword": "일��� 퍼스트 젠틀맨",
       "score": 16,
       "maxscore": 16,
-      "hashed": "75cf18df56e80cf0",
-      "delta": 0,
+      "hashed": "95b55ff294414905",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T17:15:52.908Z"
+  "updated": "2025-10-21T17:25:36.962Z"
 }
