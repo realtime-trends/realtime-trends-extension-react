@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761011461,
+  "trends": [
+    {
+      "keyword": "이이경 사생활 논란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "ec039fd94f4ea8d7",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 대학생 사망",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "9b6e6f56c9b5ce63",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김세영 세계 랭킹 상승",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "15c91c3e2d8d9f91",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "전여빈 부세미 드라마",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "9d9cc972645d4bed",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 MLS 올해의 골",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "e72e5f2714b6d692",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "스트레이 키즈 컴백",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "f8f79ee64cdef356",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이새롬 배우 전향",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "1412897bbf8fce80",
+      "delta": 3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "추사랑 모델 야노시호",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "7229c86ae151d0d3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "살라 부진",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "145c3560bbdbc29a",
+      "delta": -3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "가요대제전 MC",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "0542166853a78ae9",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-21T01:51:04.763Z"
+}
