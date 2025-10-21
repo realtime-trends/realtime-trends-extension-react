@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761043229,
+  "timestamp": 1761043531,
   "trends": [
     {
       "keyword": "다카이치 총리 APEC",
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "c5afe6b7fe5e9a10",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T10:40:30.318Z"
+  "updated": "2025-10-21T10:45:32.636Z"
 }
