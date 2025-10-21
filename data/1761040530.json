@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761040530,
+  "trends": [
+    {
+      "keyword": "다카이치 총리 APEC",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "28d5b7812f7af41c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이이경 사생활 루머",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "fe8a2adeca2bd5f1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미세스 다웃파이어",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "be5be10e8e540f80",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "티어드랍 김상영 별세",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "8c5f4be657947a48",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김범수 무죄 항소 검토",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "b114d54236c50f66",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "가자 휴전 위기",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "278bb8f8d3e8a520",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "여자 골프 국가대항전",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "c5afe6b7fe5e9a10",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 월드시리즈 진출",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "3484d69e909df898",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "APEC 정상회의 점검",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "c3bf513182e14612",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장성원 이달의 골",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "c30766ad32cce74f",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-21T09:55:34.286Z"
+}
