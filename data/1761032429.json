@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761032429,
+  "trends": [
+    {
+      "keyword": "이이경 사생활 논란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "ec039fd94f4ea8d7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "의료 개혁 추진",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "2795d1503c3eadef",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다카이치 첫 여성 총리",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "0fe4611b6c79dbe7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "광주 야구장 명칭",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "03579c723efd7bdd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김범수 무죄",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "b272b83940da7fa2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김우민 자유형 4연패",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "2588745bb4c5ddd1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이청용 악플 법적대응",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "98b963c85c398a91",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "안양 모따 MVP",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "cef9bbe4f33b66d9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "세징야 이달의 선수상",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "acbc6c7b742603d6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이상일 용인시장 유럽 방문",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "510fd70e5ac7cc91",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-21T07:40:32.878Z"
+}
