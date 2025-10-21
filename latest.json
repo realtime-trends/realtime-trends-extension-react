@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761036327,
+  "timestamp": 1761036628,
   "trends": [
     {
-      "keyword": "인교진 키스신 리허설",
+      "keyword": "티어드랍 김상영 암투병 사망",
       "score": 20,
       "maxscore": 20,
-      "hashed": "4eebc56d3fdf5f01",
-      "delta": 0,
+      "hashed": "5d0f6a1c39de163a",
+      "delta": 6,
       "engine": "zum"
     },
     {
-      "keyword": "김범수 무죄 카카오",
+      "keyword": "의료 개혁 필요성",
       "score": 19,
       "maxscore": 19,
-      "hashed": "a1972ed9a794b0dc",
-      "delta": 0,
+      "hashed": "0169b95a71251dab",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "인교진 키스신 리허설",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "4eebc56d3fdf5f01",
+      "delta": -2,
       "engine": "zum"
     },
     {
       "keyword": "탁류 박지환",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "91d7a1075b774d2c",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "다카이치 첫 여성 총리",
       "score": 17,
       "maxscore": 17,
-      "hashed": "0fe4611b6c79dbe7",
-      "delta": 0,
+      "hashed": "91d7a1075b774d2c",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "광주 야구장 명칭",
+      "keyword": "김범수 무죄 카카오",
       "score": 16,
       "maxscore": 16,
-      "hashed": "03579c723efd7bdd",
-      "delta": 0,
+      "hashed": "a1972ed9a794b0dc",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "의료 개혁 추진",
+      "keyword": "김우민 자유형 4연패",
       "score": 15,
       "maxscore": 15,
-      "hashed": "2795d1503c3eadef",
-      "delta": 0,
+      "hashed": "2588745bb4c5ddd1",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "티어드랍 김상영 암투병 사망",
+      "keyword": "다카이치 총리",
       "score": 14,
       "maxscore": 14,
-      "hashed": "5d0f6a1c39de163a",
-      "delta": 0,
+      "hashed": "46487106e98c18b0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "세징야 이달의 선수상",
+      "keyword": "광주 민주주의 위기",
       "score": 13,
       "maxscore": 13,
-      "hashed": "acbc6c7b742603d6",
-      "delta": 0,
+      "hashed": "91ea759bf216d802",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "스마트시티 스포츠 서밋",
+      "keyword": "이청용 악플 법적대응",
       "score": 12,
       "maxscore": 12,
-      "hashed": "6c29176ae70c0448",
-      "delta": 0,
+      "hashed": "98b963c85c398a91",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "바레인 아시아 청소년 경기대회",
+      "keyword": "국제경찰청 회의",
       "score": 11,
       "maxscore": 11,
-      "hashed": "f3168b798a5ad106",
-      "delta": 0,
+      "hashed": "30b8b64a254ab8dc",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-21T08:45:28.900Z"
+  "updated": "2025-10-21T08:50:29.880Z"
 }
