@@ -1,68 +1,60 @@
 {
-  "timestamp": 1761147964,
+  "timestamp": 1761148267,
   "trends": [
     {
-      "keyword": "현대캐피탈 레오",
-      "score": 20,
-      "maxscore": 20,
-      "hashed": "ec8d11bdbb3a4197",
-      "delta": 0,
+      "keyword": "이찬원 결혼 로망",
+      "score": 26.299999999999997,
+      "maxscore": 19,
+      "hashed": "e3572167d22af7d9",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "김혜경 여사 민생 행보",
-      "score": 19,
-      "maxscore": 19,
+      "score": 20,
+      "maxscore": 20,
       "hashed": "2546dfdc2414e701",
       "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "이찬원 결혼",
+      "keyword": "하마스 무장해제",
       "score": 18,
       "maxscore": 18,
-      "hashed": "07f264b11d962993",
-      "delta": 0,
+      "hashed": "f58f8ed2acb044e7",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "하마스 무장해제",
+      "keyword": "현대캐피탈 레오",
       "score": 17,
       "maxscore": 17,
-      "hashed": "f58f8ed2acb044e7",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "장영란 명품 신발",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "d36bbc4b3e9656cb",
-      "delta": 0,
+      "hashed": "ec8d11bdbb3a4197",
+      "delta": -3,
       "engine": "zum"
     },
     {
       "keyword": "박미선 유방암 투병",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "f0f65a8fb4b5c46c",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박미선 유방암 쾌차",
       "score": 15,
       "maxscore": 15,
-      "hashed": "f0f65a8fb4b5c46c",
-      "delta": 0,
+      "hashed": "e0150030e6251070",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "전국체전 3관왕",
+      "keyword": "장영란 명품 신발 구매",
       "score": 14,
       "maxscore": 14,
-      "hashed": "69e3e1e93c2ce337",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 프린스그룹 사기",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "6bc06f7d9c40e7b1",
-      "delta": 0,
+      "hashed": "09030e8c91fb8537",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -70,17 +62,17 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "be6eea673ba4c3e5",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "김태형 배우자상",
+      "keyword": "전국체전 수영 신기록",
       "score": 11,
       "maxscore": 11,
-      "hashed": "fcc378697906c2a5",
-      "delta": 0,
+      "hashed": "bdf2f625adf98188",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T15:46:06.141Z"
+  "updated": "2025-10-22T15:51:08.470Z"
 }
