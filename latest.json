@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761112261,
+  "timestamp": 1761112565,
   "trends": [
     {
       "keyword": "전북 포옛 감독",
       "score": 20,
       "maxscore": 20,
       "hashed": "a037e6ffe57d322f",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "6b3c605507233556",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "9d199d1d62ba5cc7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "9cfc74bd961d4ef7",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "bee35e32e5f11443",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "3a30fcfd3dbf91ae",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "e7ef0601ed02d53a",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "9aec21fdd77da6c7",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "be79b10129b8ead0",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T05:51:02.455Z"
+  "updated": "2025-10-22T05:56:07.068Z"
 }
