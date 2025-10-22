@@ -1,20 +1,20 @@
 {
-  "timestamp": 1761169566,
+  "timestamp": 1761169863,
   "trends": [
+    {
+      "keyword": "이찬원 결혼 로망",
+      "score": 26.299999999999997,
+      "maxscore": 19,
+      "hashed": "e3572167d22af7d9",
+      "delta": 7,
+      "engine": "zum"
+    },
     {
       "keyword": "김혜경 여사 민생 행보",
       "score": 20,
       "maxscore": 20,
       "hashed": "2546dfdc2414e701",
-      "delta": 1,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이찬��� 결혼",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "17e3e6dc4e49279b",
-      "delta": 999,
+      "delta": -1,
       "engine": "zum"
     },
     {
@@ -58,19 +58,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "이찬원 결혼 로망",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "e3572167d22af7d9",
-      "delta": -7,
-      "engine": "zum"
-    },
-    {
       "keyword": "김민석 국무총리 청년 일자리",
       "score": 12,
       "maxscore": 12,
       "hashed": "be6eea673ba4c3e5",
-      "delta": -1,
+      "delta": 1,
       "engine": "zum"
     },
     {
@@ -78,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "bdf2f625adf98188",
-      "delta": -1,
+      "delta": 1,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T21:46:07.536Z"
+  "updated": "2025-10-22T21:51:05.409Z"
 }
