@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761129941,
+  "timestamp": 1761130239,
   "trends": [
     {
-      "keyword": "김건희 샤넬백",
+      "keyword": "소방차 김태형 배우자상",
       "score": 20,
       "maxscore": 20,
-      "hashed": "e4e2f32781dfbba4",
-      "delta": 0,
+      "hashed": "ab5be7d04a3abdc0",
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "소방차 김태형 배우자상",
+      "keyword": "제라드 누스 감독",
       "score": 19,
       "maxscore": 19,
-      "hashed": "ab5be7d04a3abdc0",
-      "delta": 0,
+      "hashed": "b6fc2982dd653444",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "류승룡 김부장 이야기",
+      "keyword": "쇼트트랙 A코치 배제",
       "score": 18,
       "maxscore": 18,
-      "hashed": "b0ffdb386d6e4564",
-      "delta": 0,
+      "hashed": "f5b99581cd0e04ed",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김영범 황선우",
+      "keyword": "제네시스 챔피언십",
       "score": 17,
       "maxscore": 17,
-      "hashed": "c5f9e5b4ccf5232a",
-      "delta": 0,
+      "hashed": "b9371bad3beaf8fe",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "대구시 현안 논의",
+      "keyword": "AI 로맨스 스캠",
       "score": 16,
       "maxscore": 16,
-      "hashed": "566dadf024f9d830",
-      "delta": 0,
+      "hashed": "438e21979d0ad50a",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "파주 누스 감독 선임",
+      "keyword": "김혜경 여사 한부모시설 방문",
       "score": 15,
       "maxscore": 15,
-      "hashed": "6401c6c0cccb7507",
-      "delta": 0,
+      "hashed": "f10bea840dd53e2e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "문유강 다음생은",
+      "keyword": "김건희 샤넬백 목걸이",
       "score": 14,
       "maxscore": 14,
-      "hashed": "7097dcb9a57eaffa",
-      "delta": 0,
+      "hashed": "9cf1c00e2b5d89da",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 스캠 범죄",
+      "keyword": "류승룡 김부장",
       "score": 13,
       "maxscore": 13,
-      "hashed": "cb2914fd25f15a82",
-      "delta": 0,
+      "hashed": "167a0d945b400bf3",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "박진영 출장 십오야",
+      "keyword": "김영범 자유형 신기록",
       "score": 12,
       "maxscore": 12,
-      "hashed": "06287f47f9b6db78",
-      "delta": 0,
+      "hashed": "eb066329ee864e4f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이승엽 요미우리 코치",
+      "keyword": "김민석 국무총리 대구",
       "score": 11,
       "maxscore": 11,
-      "hashed": "c57d454b149f6b19",
-      "delta": 0,
+      "hashed": "a7da828d92df9074",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T10:45:42.713Z"
+  "updated": "2025-10-22T10:50:40.485Z"
 }
