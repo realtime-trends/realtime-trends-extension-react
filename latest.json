@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761126640,
+  "timestamp": 1761126940,
   "trends": [
     {
       "keyword": "김건희 샤넬백",
       "score": 20,
       "maxscore": 20,
       "hashed": "e4e2f32781dfbba4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "ab5be7d04a3abdc0",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "b0ffdb386d6e4564",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "c5f9e5b4ccf5232a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "566dadf024f9d830",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "6401c6c0cccb7507",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "7097dcb9a57eaffa",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "cb2914fd25f15a82",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "06287f47f9b6db78",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "c57d454b149f6b19",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T09:50:42.345Z"
+  "updated": "2025-10-22T09:55:41.717Z"
 }
