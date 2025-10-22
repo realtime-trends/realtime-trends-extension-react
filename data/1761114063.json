@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761114063,
+  "trends": [
+    {
+      "keyword": "전북 포옛 감독",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "a037e6ffe57d322f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 푸틴 회담 보류",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "d52ddb82285e814c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김철수 대한적십자사 국정감사",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "6b3c605507233556",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "우상혁 전국체전 10회 우승",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "9d199d1d62ba5cc7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국제치안산업대전",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "9cfc74bd961d4ef7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민중기 주식 내부자거래 의혹",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "bee35e32e5f11443",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "부동산 정책 규탄 장동혁",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "3a30fcfd3dbf91ae",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 마약사건",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "e7ef0601ed02d53a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "북한 탄도미사일 발사",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "9aec21fdd77da6c7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채상병 특검 압수수색",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "be79b10129b8ead0",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-22T06:21:05.689Z"
+}
