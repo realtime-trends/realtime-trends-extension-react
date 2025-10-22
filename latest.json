@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761157860,
+  "timestamp": 1761158168,
   "trends": [
     {
       "keyword": "이찬원 결혼 로망",
@@ -66,13 +66,13 @@
       "engine": "zum"
     },
     {
-      "keyword": "전���체전 수영 신기록",
+      "keyword": "전국체전 수영 신기록",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0799acb38e32802a",
+      "hashed": "bdf2f625adf98188",
       "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T18:31:01.248Z"
+  "updated": "2025-10-22T18:36:09.504Z"
 }
