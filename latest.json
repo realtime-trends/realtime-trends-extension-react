@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761115565,
+  "timestamp": 1761115859,
   "trends": [
     {
-      "keyword": "전북 포옛 감독",
+      "keyword": "캄보디아 마약사건",
       "score": 20,
       "maxscore": 20,
-      "hashed": "a037e6ffe57d322f",
-      "delta": 0,
+      "hashed": "e7ef0601ed02d53a",
+      "delta": 7,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 푸틴 회담 보류",
+      "keyword": "김건희 통일교 목걸이",
       "score": 19,
       "maxscore": 19,
-      "hashed": "d52ddb82285e814c",
-      "delta": 0,
+      "hashed": "4428f8b105b1ac1f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김철수 대한적십자사 국정감사",
+      "keyword": "이승엽 요미우리 임시 코치",
       "score": 18,
       "maxscore": 18,
-      "hashed": "6b3c605507233556",
-      "delta": 0,
+      "hashed": "1daf12abaffd90f7",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이찬원 하프 밀리언셀러",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "97a427c1dcbfa31c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김부장 이야기 류승룡",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "de002f9d58825e6a",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 동상 건립",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "e028c4255b9e1354",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "우상혁 전국체전 10회 우승",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "9d199d1d62ba5cc7",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "국제치안산업대전",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "9cfc74bd961d4ef7",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "민중기 주식 내부자거래 의혹",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "bee35e32e5f11443",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "부동산 정책 규탄 장동혁",
       "score": 14,
       "maxscore": 14,
-      "hashed": "3a30fcfd3dbf91ae",
-      "delta": 0,
+      "hashed": "9d199d1d62ba5cc7",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 마약사건",
+      "keyword": "진태현 박시은 성인 입양",
       "score": 13,
       "maxscore": 13,
-      "hashed": "e7ef0601ed02d53a",
-      "delta": 0,
+      "hashed": "b5bfbf9f3ab5dfe7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "북한 탄도미사일 발사",
+      "keyword": "파이널라운드 감독 목표",
       "score": 12,
       "maxscore": 12,
-      "hashed": "9aec21fdd77da6c7",
-      "delta": 0,
+      "hashed": "4d13969093c77545",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "채상병 특검 압수수색",
+      "keyword": "캄보디아 납치 감금",
       "score": 11,
       "maxscore": 11,
-      "hashed": "be79b10129b8ead0",
-      "delta": 0,
+      "hashed": "790679bd34207a10",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T06:46:06.898Z"
+  "updated": "2025-10-22T06:51:00.848Z"
 }
