@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761130239,
+  "timestamp": 1761130545,
   "trends": [
     {
       "keyword": "소방차 김태형 배우자상",
       "score": 20,
       "maxscore": 20,
       "hashed": "ab5be7d04a3abdc0",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "b6fc2982dd653444",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "f5b99581cd0e04ed",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "b9371bad3beaf8fe",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "438e21979d0ad50a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "f10bea840dd53e2e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "9cf1c00e2b5d89da",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "167a0d945b400bf3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "eb066329ee864e4f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "a7da828d92df9074",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T10:50:40.485Z"
+  "updated": "2025-10-22T10:55:46.692Z"
 }
