@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761104766,
+  "timestamp": 1761105068,
   "trends": [
     {
-      "keyword": "이강인 PSG 계약 연장",
+      "keyword": "이이경 AI 조작 해프닝",
       "score": 20,
       "maxscore": 20,
-      "hashed": "3b5c8ef66093c220",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이이경 사생활 루머",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "fe8a2adeca2bd5f1",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "채상병 특검 수사 외압",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "0ca3b93c3db09df5",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이병헌 이민정 딸",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "fc17cafa73ddab0f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "블랙핑크 가오슝 투어",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "1ee568e3c1fc88e9",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "곽튜브 결혼 전현무계획3",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "f78faa78ac46d6b7",
-      "delta": 0,
+      "hashed": "7b36a3d57b40fbba",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "트럼프 푸틴 회담 보류",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "d52ddb82285e814c",
+      "delta": 5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이병헌 이민정 딸",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "fc17cafa73ddab0f",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채해병 특검 수사 외압",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "e719f0d549b3085b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 방일",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "a5221c27638d40e6",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "졸속입법 방지법",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "0238e24ed06e2e0c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이강인 PSG 계약",
       "score": 14,
       "maxscore": 14,
-      "hashed": "d52ddb82285e814c",
-      "delta": 0,
+      "hashed": "d92d6c933fcb7014",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김용범 김정관 한미정상회담",
+      "keyword": "블랙핑크 가오슝 콘서트",
       "score": 13,
       "maxscore": 13,
-      "hashed": "d4420c3ffbdb4bec",
-      "delta": 0,
+      "hashed": "17895461481992da",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "다카이치 총리 한미일 협력",
+      "keyword": "곽튜브 결혼",
       "score": 12,
       "maxscore": 12,
-      "hashed": "6e36dedb67c38325",
-      "delta": 0,
+      "hashed": "4d36258f7c027d8c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "사법침탈 긴급토론회",
+      "keyword": "독립몰수제 입법",
       "score": 11,
       "maxscore": 11,
-      "hashed": "b6c1710cf88ebde0",
-      "delta": 0,
+      "hashed": "93542a5788f79934",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T03:46:07.764Z"
+  "updated": "2025-10-22T03:51:09.565Z"
 }
