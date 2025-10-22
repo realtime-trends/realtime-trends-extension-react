@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761092766,
+  "trends": [
+    {
+      "keyword": "도경완 서브 논란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "7a23d3e74aad249e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이강인 PSG 레버쿠젠",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "03538db1e699c8de",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이이경 AI 사진 장난",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "52f53abce12a190f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 MLS 이적",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "f5f7c38d0d8399f7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 푸틴 회담 무산",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "6a0577c53027c88d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 노시환 역전포",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "e3db83cb98ecf8d9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "소이현 인교진",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "e79f590e7c516555",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "울산 히로시마전 승리",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "b8ecc470ad72837c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 대통령 친서",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f6e28b5bd54ff488",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이민정 딸 서이",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "0f584c6f6c5f4bd6",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-22T00:26:09.814Z"
+}
