@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761174928,
+  "timestamp": 1761175227,
   "trends": [
     {
       "keyword": "이찬원 결혼 로망",
@@ -58,11 +58,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "김민석 국무총리 청년 일자리",
+      "keyword": "김민석 국무총리 청년 ��자리",
       "score": 12,
       "maxscore": 12,
-      "hashed": "be6eea673ba4c3e5",
-      "delta": 0,
+      "hashed": "63a3ac2dca94dcf8",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T23:15:30.002Z"
+  "updated": "2025-10-22T23:20:28.945Z"
 }
