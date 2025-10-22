@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761097863,
+  "timestamp": 1761098167,
   "trends": [
     {
       "keyword": "도경완 장윤정 결혼",
       "score": 20,
       "maxscore": 20,
       "hashed": "679a56d9124b5c21",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "fe8a2adeca2bd5f1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "a2f503b2d5edac0b",
-      "delta": 6,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "3b522a5460de5f15",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "29fb5b7f6dfaf695",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "03538db1e699c8de",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "86250caa6cad3772",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "95fb3628d0657b34",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "9962aeb840fedd45",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "b54a597a15241802",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-22T01:51:04.707Z"
+  "updated": "2025-10-22T01:56:08.530Z"
 }
