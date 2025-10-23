@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761187527,
+  "timestamp": 1761187827,
   "trends": [
     {
-      "keyword": "퍼스트레이디 유진 뺑소니",
+      "keyword": "이상경 국토 차관 사퇴",
       "score": 20,
       "maxscore": 20,
-      "hashed": "dd87640e3897f73a",
-      "delta": 0,
+      "hashed": "bdd8d3b889120b57",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이이경 루머 유포",
+      "keyword": "이찬원 슈돌 육아",
       "score": 19,
       "maxscore": 19,
-      "hashed": "0f93f38e1f7313c6",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "신지 문원 포르쉐",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "dea8d28324ec8454",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이찬원 슈돌 합류",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "2eac1077e0d2da55",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "캄보디아 사태",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "fe7c7dfb9ea49145",
-      "delta": 0,
+      "hashed": "4758aceb0790f3a7",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "유승준 비자 발급",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c45513e9d04e59e9",
+      "delta": 3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김정민 아들 월드컵",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "d55c69d5c7f90da5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 뮌헨 교체",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "7cf75ab377dd9813",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 푸틴 회담 취소",
       "score": 15,
       "maxscore": 15,
-      "hashed": "c45513e9d04e59e9",
-      "delta": 0,
+      "hashed": "c932fffec906aaa0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김민재 교체 출전",
+      "keyword": "나혼산 가을 운동회",
       "score": 14,
       "maxscore": 14,
-      "hashed": "ca3fcfebb435b2ba",
-      "delta": 0,
+      "hashed": "6e71e70c79787707",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김혜성 월드시리즈 엔트리",
+      "keyword": "삼성 이호성 태극마크",
       "score": 13,
       "maxscore": 13,
-      "hashed": "e9fb4953227d76e8",
-      "delta": 0,
+      "hashed": "7062e3786b244575",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이종섭 임성근 구속 심사",
+      "keyword": "송언석 캄보디아 외교부",
       "score": 12,
       "maxscore": 12,
-      "hashed": "44075891817c87b4",
-      "delta": 0,
+      "hashed": "d64fe4b168b85b25",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "조재호 강동궁 최성원",
+      "keyword": "조재호 강동궁 최성원 64강",
       "score": 11,
       "maxscore": 11,
-      "hashed": "570520f7aeaa8c39",
-      "delta": 0,
+      "hashed": "a265579603164d85",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T02:45:29.295Z"
+  "updated": "2025-10-23T02:50:28.844Z"
 }
