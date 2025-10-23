@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761180629,
+  "timestamp": 1761180924,
   "trends": [
     {
       "keyword": "이찬원 슈돌 합류",
       "score": 31.2,
       "maxscore": 20,
       "hashed": "2eac1077e0d2da55",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "ca3fcfebb435b2ba",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "c932fffec906aaa0",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "44075891817c87b4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "7ca434d057969d69",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "f58f8ed2acb044e7",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "369b2204b77d254e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "d36bbc4b3e9656cb",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "ec8d11bdbb3a4197",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T00:50:31.164Z"
+  "updated": "2025-10-23T00:55:25.453Z"
 }
