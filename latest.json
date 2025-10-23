@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761231081,
+  "timestamp": 1761231388,
   "trends": [
     {
       "keyword": "나민애 교수 공부법",
       "score": 20,
       "maxscore": 20,
       "hashed": "8276be4bdf7c03e4",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "f21bafe18309d808",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "d5df2fa990bf32d9",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "46c183b4a296e68f",
-      "delta": 5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "62d25a48485d67f1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "faaa4603d8a203a1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "39836978abf58ff0",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "33c13e72fc197b7e",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "c5386a48632e2366",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "ce21709655749dc9",
-      "delta": -6,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T14:51:23.068Z"
+  "updated": "2025-10-23T14:56:29.874Z"
 }
