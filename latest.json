@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761212753,
+  "timestamp": 1761213055,
   "trends": [
     {
-      "keyword": "24기 영식 인기",
+      "keyword": "사정 기관 문란",
       "score": 20,
       "maxscore": 20,
-      "hashed": "25bb408decb34132",
-      "delta": 0,
+      "hashed": "d6393886cef43a51",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "박봄 건강 회복",
+      "keyword": "오세훈 명태균 대질조사",
       "score": 19,
       "maxscore": 19,
-      "hashed": "a9bc94f1576c22b5",
-      "delta": 0,
+      "hashed": "f21bafe18309d808",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "오세훈 명태균 국감",
+      "keyword": "한화 폰세 최원태",
       "score": 18,
       "maxscore": 18,
-      "hashed": "79b8006860d29bf6",
-      "delta": 0,
+      "hashed": "cf51a341466a0772",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김원형 두산 감독",
+      "keyword": "김원형 두산 우승 목표",
       "score": 17,
       "maxscore": 17,
-      "hashed": "96ba63c1b28192c4",
-      "delta": 0,
+      "hashed": "2b4556aa6b95e031",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "내란 특검 박성재",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "875cff0d024abf1c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구자현 연어파티 의혹",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "25c3a35c92ef37bd",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쿠팡 수사 외압 의혹",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "de3b58c3235ea9b4",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "골든디스크 파워하우스",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "ccc84fffb2cd4634",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "한화 폰세 최동원상",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "99f3ab48bdea6e0e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "채상병 특검 박성재",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "f13566aa74e8ef6e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "국방벤처센터 포천시 선정",
       "score": 13,
       "maxscore": 13,
-      "hashed": "dbf5bffa220da1f2",
-      "delta": 0,
+      "hashed": "ccc84fffb2cd4634",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "국제사법재판소 가자 구호",
+      "keyword": "APEC 정상회의",
       "score": 12,
       "maxscore": 12,
-      "hashed": "f2f8a6c3374802fe",
-      "delta": 0,
+      "hashed": "b9de2bdc72bd9925",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "미중 무역 협상",
+      "keyword": "24기 영식 인기",
       "score": 11,
       "maxscore": 11,
-      "hashed": "b10fe56c8d7ca521",
-      "delta": 0,
+      "hashed": "25bb408decb34132",
+      "delta": -9,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T09:45:55.107Z"
+  "updated": "2025-10-23T09:50:56.605Z"
 }
