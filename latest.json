@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761227179,
+  "timestamp": 1761227479,
   "trends": [
     {
-      "keyword": "오세훈 명태균 공방",
+      "keyword": "오세훈 명태균 대질조사",
       "score": 20,
       "maxscore": 20,
-      "hashed": "1fa52527621928ab",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "미국 제재",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "05a085c9f363f966",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "사정 기관 사건 조작",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "ec7e6e3b568fb56c",
-      "delta": 0,
+      "hashed": "f21bafe18309d808",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "김민재 최유라 각집부부",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "19bb489eaac6483e",
+      "delta": 2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "나민애 교수 공부법",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "8276be4bdf7c03e4",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "관세 협상 결과",
       "score": 17,
       "maxscore": 17,
-      "hashed": "19bb489eaac6483e",
-      "delta": 0,
+      "hashed": "ce21709655749dc9",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "조정원 총재 연임",
+      "keyword": "정지석 23득점",
       "score": 16,
       "maxscore": 16,
-      "hashed": "54576ebf3f64796c",
-      "delta": 0,
+      "hashed": "39836978abf58ff0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김민규 제네시스 챔피언십 우승",
+      "keyword": "안세영 프랑스오픈 8강 진출",
       "score": 15,
       "maxscore": 15,
-      "hashed": "604df70dab424415",
-      "delta": 0,
+      "hashed": "c5386a48632e2366",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김원형 두산 가을야구",
+      "keyword": "안효섭 신인예술인상",
       "score": 14,
       "maxscore": 14,
-      "hashed": "94a4d14c62968930",
-      "delta": 0,
+      "hashed": "561dabcf2ab4aeeb",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이태원 참사 대통령실 이전",
+      "keyword": "캄보디아 국제공조협의체",
       "score": 13,
       "maxscore": 13,
-      "hashed": "912e00562517932d",
-      "delta": 0,
+      "hashed": "077c476c4b9ecba7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김서현 마무리",
+      "keyword": "포항 탬피니스 패배",
       "score": 12,
       "maxscore": 12,
-      "hashed": "e1dfdacd98e70efb",
-      "delta": 0,
+      "hashed": "46c183b4a296e68f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 범죄단지",
+      "keyword": "윤석열 부부 명성황후 침전",
       "score": 11,
       "maxscore": 11,
-      "hashed": "271b0a63cb0bd74f",
-      "delta": 0,
+      "hashed": "52fdd38aa789c2a1",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T13:46:20.915Z"
+  "updated": "2025-10-23T13:51:20.531Z"
 }
