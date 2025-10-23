@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761223879,
+  "trends": [
+    {
+      "keyword": "오세훈 명태균 공방",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "1fa52527621928ab",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미국 제재",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "05a085c9f363f966",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "사정 기관 사건 조작",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "ec7e6e3b568fb56c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 최유라 각집부부",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "19bb489eaac6483e",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조정원 총재 연임",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "54576ebf3f64796c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민규 제네시스 챔피언십 우승",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "604df70dab424415",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 두산 가을야구",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "94a4d14c62968930",
+      "delta": -4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이태원 참사 대통령실 이전",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "912e00562517932d",
+      "delta": -6,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김서현 마무리",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "e1dfdacd98e70efb",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 범죄단지",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "271b0a63cb0bd74f",
+      "delta": -3,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T12:51:22.183Z"
+}
