@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761191124,
+  "timestamp": 1761191432,
   "trends": [
     {
-      "keyword": "이상경 국토 차관 사퇴",
+      "keyword": "이태원 참사 대통령실 이전",
       "score": 20,
       "maxscore": 20,
-      "hashed": "bdd8d3b889120b57",
-      "delta": 0,
+      "hashed": "912e00562517932d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이찬원 슈돌 육아",
+      "keyword": "공효진 임신설 부인",
       "score": 19,
       "maxscore": 19,
-      "hashed": "4758aceb0790f3a7",
-      "delta": 0,
+      "hashed": "30fd1a03882e5778",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조현 캄보디아 책임 논란",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "5ffffdc1198fdbdd",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신인감독 김연경 연장",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "479c671f5bba46e6",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이상경 갭투자 논란",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "5dd2317ea71dd833",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "유승준 비자 발급",
-      "score": 18,
-      "maxscore": 18,
+      "score": 15,
+      "maxscore": 15,
       "hashed": "c45513e9d04e59e9",
-      "delta": 0,
+      "delta": -3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김혜성 월드시리즈 엔트리",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "e9fb4953227d76e8",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 러시아 관계",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "53544981862b5461",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "김정민 아들 월드컵",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "d55c69d5c7f90da5",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김민재 뮌헨 교체",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "7cf75ab377dd9813",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "트럼프 푸틴 회담 취소",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "c932fffec906aaa0",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "나혼산 가을 운동회",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "6e71e70c79787707",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "삼성 이호성 태극마크",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "7062e3786b244575",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "송언석 캄보디아 외교부",
       "score": 12,
       "maxscore": 12,
-      "hashed": "d64fe4b168b85b25",
-      "delta": 0,
+      "hashed": "d55c69d5c7f90da5",
+      "delta": -5,
       "engine": "zum"
     },
     {
-      "keyword": "조재호 강동궁 최성원 64강",
+      "keyword": "삼성 이호성 대표팀 발탁",
       "score": 11,
       "maxscore": 11,
-      "hashed": "a265579603164d85",
-      "delta": 0,
+      "hashed": "6581c36c75a8f243",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T03:45:26.100Z"
+  "updated": "2025-10-23T03:50:34.020Z"
 }
