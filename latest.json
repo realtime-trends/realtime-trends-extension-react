@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761216359,
+  "timestamp": 1761216659,
   "trends": [
     {
-      "keyword": "사정 기관 문란",
+      "keyword": "오세훈 명태균 국정감사",
       "score": 20,
       "maxscore": 20,
-      "hashed": "d6393886cef43a51",
-      "delta": 0,
+      "hashed": "7ee00e1c41a6df8f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "오세훈 명태균 대질조사",
+      "keyword": "김원형 두산 감독 우승",
       "score": 19,
       "maxscore": 19,
-      "hashed": "f21bafe18309d808",
-      "delta": 0,
+      "hashed": "a0da4a9fb52e49ac",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화 폰세 최원태",
+      "keyword": "채상병 사건 수사외압",
       "score": 18,
       "maxscore": 18,
-      "hashed": "cf51a341466a0772",
-      "delta": 0,
+      "hashed": "0278d0f8d2e150d4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김원형 두산 우승 목표",
+      "keyword": "사정 기관 문란",
       "score": 17,
       "maxscore": 17,
-      "hashed": "2b4556aa6b95e031",
-      "delta": 0,
+      "hashed": "d6393886cef43a51",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "내란 특검 박성재",
+      "keyword": "조정원 총재 연임",
       "score": 16,
       "maxscore": 16,
-      "hashed": "875cff0d024abf1c",
-      "delta": 0,
+      "hashed": "54576ebf3f64796c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "구자현 연어파티 의혹",
+      "keyword": "화성 김병오 출장 정지",
       "score": 15,
       "maxscore": 15,
-      "hashed": "25c3a35c92ef37bd",
-      "delta": 0,
+      "hashed": "7a3bdaad83dcad5f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "쿠팡 수사 외압 의혹",
+      "keyword": "한화 김서현 마무리",
       "score": 14,
       "maxscore": 14,
-      "hashed": "de3b58c3235ea9b4",
-      "delta": 0,
+      "hashed": "e780260e95b154c7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "골든디스크 파워하우스",
+      "keyword": "김민규 우정힐스 선두",
       "score": 13,
       "maxscore": 13,
-      "hashed": "ccc84fffb2cd4634",
-      "delta": 0,
+      "hashed": "c13617181e3a5211",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "APEC 정상회의",
+      "keyword": "성평등 인식격차 해소",
       "score": 12,
       "maxscore": 12,
-      "hashed": "b9de2bdc72bd9925",
-      "delta": 0,
+      "hashed": "30948d184fc03d37",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "24기 영식 인기",
+      "keyword": "선거구 평등권 침해",
       "score": 11,
       "maxscore": 11,
-      "hashed": "25bb408decb34132",
-      "delta": 0,
+      "hashed": "3bc30b5f7a29bf9f",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T10:46:00.846Z"
+  "updated": "2025-10-23T10:51:01.148Z"
 }
