@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761205556,
+  "trends": [
+    {
+      "keyword": "오세훈 국정감사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "79bc8480752f42cc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "골든디스크 파워하우스",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "ccc84fffb2cd4634",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미국 관세 협상",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "a98b52d9b78d8049",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "24기 영식 인기",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "25bb408decb34132",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 폰세 최동원상 수상",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "fb08c43f3237ef97",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국제사법재판소 가자 구호",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "f2f8a6c3374802fe",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쿠팡 수사 외압",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "cb19ef52f11ed5f5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구자현 서울고검장 국정감사",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "198bf53ade7187f0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "콘텐츠진흥원 국정감사",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "b622d1ef4f7b2a9f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이종섭 구속 심사",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "51da5a151ce07174",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T07:46:00.281Z"
+}
