@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761219359,
+  "trends": [
+    {
+      "keyword": "오세훈 명태균 국정감사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "7ee00e1c41a6df8f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 두산 감독 우승",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "a0da4a9fb52e49ac",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채상병 사건 수사외압",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "0278d0f8d2e150d4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "사정 기관 문란",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "d6393886cef43a51",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조정원 총재 연임",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "54576ebf3f64796c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "화성 김병오 출장 정지",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "7a3bdaad83dcad5f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 김서현 마무리",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "e780260e95b154c7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민규 우정힐스 선두",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "c13617181e3a5211",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "성평등 인식격차 해소",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "30948d184fc03d37",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "선거구 평등권 침해",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "3bc30b5f7a29bf9f",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T11:36:02.335Z"
+}
