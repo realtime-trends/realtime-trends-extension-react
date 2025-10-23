@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761212458,
+  "trends": [
+    {
+      "keyword": "24기 영식 인기",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "25bb408decb34132",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박봄 건강 회복",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "a9bc94f1576c22b5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 명태균 국감",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "79b8006860d29bf6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 두산 감독",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "96ba63c1b28192c4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "골든디스크 파워하우스",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "ccc84fffb2cd4634",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 폰세 최동원상",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "99f3ab48bdea6e0e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채상병 특검 박성재",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "f13566aa74e8ef6e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국방벤처센터 포천시 선정",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "dbf5bffa220da1f2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국제사법재판소 가자 구호",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "f2f8a6c3374802fe",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미중 무역 협상",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "b10fe56c8d7ca521",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T09:41:02.288Z"
+}
