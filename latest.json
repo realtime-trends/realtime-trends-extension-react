@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761198324,
+  "timestamp": 1761198629,
   "trends": [
     {
-      "keyword": "트럼프 러시아 관계",
+      "keyword": "이태원 참사 대통령실 이전 영향",
       "score": 20,
       "maxscore": 20,
-      "hashed": "53544981862b5461",
-      "delta": 0,
+      "hashed": "6ec0002e17120f55",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화 폰세 최동원상",
+      "keyword": "박봄 양현석 고소 논란",
       "score": 19,
       "maxscore": 19,
-      "hashed": "99f3ab48bdea6e0e",
-      "delta": 0,
+      "hashed": "78829dd555b44441",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이태원 참사 대통령실 이전",
+      "keyword": "김혜성 월드시리즈 엔트리",
       "score": 18,
       "maxscore": 18,
-      "hashed": "912e00562517932d",
-      "delta": 0,
+      "hashed": "e9fb4953227d76e8",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "공효진 임신설 부인",
+      "keyword": "미중 무역담판",
       "score": 17,
       "maxscore": 17,
-      "hashed": "30fd1a03882e5778",
-      "delta": 0,
+      "hashed": "53c7f3f97f7afa1f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "곽윤기 공병 줍기",
+      "keyword": "평택제천고속도로 4중 추돌",
       "score": 16,
       "maxscore": 16,
-      "hashed": "06e050fe0e6ea4f0",
-      "delta": 0,
+      "hashed": "d82fed73b7be15ae",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이상경 차관 갭투자 논란",
+      "keyword": "한화 폰세 최동원상 수상",
       "score": 15,
       "maxscore": 15,
-      "hashed": "496e191ecd796fad",
-      "delta": 0,
+      "hashed": "fb08c43f3237ef97",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "AI컴퓨팅센터 유치",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "32900e0d74735342",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "반계리 은행나무 단풍",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "27ebba339a7ba860",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "혼계영 400m",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "514b38e4f1be9f1b",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "임성근 위증 고발",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "57d01da194d3a105",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "한미 관세 협상",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "b54a597a15241802",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이총민 AHL 진출",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "a452f424f356d1ce",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "평택제천고속도로 화물차 추돌사고",
       "score": 11,
       "maxscore": 11,
-      "hashed": "338305ea31ebcee6",
-      "delta": 0,
+      "hashed": "57d01da194d3a105",
+      "delta": -3,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T05:45:25.936Z"
+  "updated": "2025-10-23T05:50:30.821Z"
 }
