@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761195629,
+  "trends": [
+    {
+      "keyword": "트럼프 러시아 관계",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "53544981862b5461",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 폰세 최동원상",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "99f3ab48bdea6e0e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이태원 참사 대통령실 이전",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "912e00562517932d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "공효진 임신설 부인",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "30fd1a03882e5778",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "곽윤기 공병 줍기",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "06e050fe0e6ea4f0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이상경 차관 갭투자 논란",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "496e191ecd796fad",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임성근 위증 고발",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "57d01da194d3a105",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한미 관세 협상",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "b54a597a15241802",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이총민 AHL 진출",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "a452f424f356d1ce",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "평택제천고속도로 화물차 추돌사고",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "338305ea31ebcee6",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T05:00:32.299Z"
+}
