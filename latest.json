@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761205855,
+  "timestamp": 1761206156,
   "trends": [
     {
       "keyword": "24기 영식 인기",
       "score": 20,
       "maxscore": 20,
       "hashed": "25bb408decb34132",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "79bc8480752f42cc",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "ccc84fffb2cd4634",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "f2f8a6c3374802fe",
-      "delta": 2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "51da5a151ce07174",
-      "delta": 4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "27ebba339a7ba860",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "a98b52d9b78d8049",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "147f067cffa7a989",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "bceecdcf5dd91087",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T07:50:57.032Z"
+  "updated": "2025-10-23T07:55:57.611Z"
 }
