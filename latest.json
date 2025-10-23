@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761219955,
+  "timestamp": 1761220258,
   "trends": [
     {
       "keyword": "오세훈 명태균 국정감사",
@@ -10,27 +10,27 @@
       "engine": "zum"
     },
     {
-      "keyword": "김원형 두산 감독 우승",
+      "keyword": "이태원 참사 대통령실 이전",
       "score": 19,
       "maxscore": 19,
-      "hashed": "a0da4a9fb52e49ac",
-      "delta": 0,
+      "hashed": "912e00562517932d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "채상병 사건 수사외압",
+      "keyword": "김원형 두산 가을야구",
       "score": 18,
       "maxscore": 18,
-      "hashed": "0278d0f8d2e150d4",
-      "delta": 0,
+      "hashed": "94a4d14c62968930",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "사정 기관 문란",
+      "keyword": "한화 김서현 마무리",
       "score": 17,
       "maxscore": 17,
-      "hashed": "d6393886cef43a51",
-      "delta": 0,
+      "hashed": "e780260e95b154c7",
+      "delta": 3,
       "engine": "zum"
     },
     {
@@ -42,45 +42,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "화성 김병오 출장 정지",
+      "keyword": "김민규 제네시스 챔피언십 우승",
       "score": 15,
       "maxscore": 15,
-      "hashed": "7a3bdaad83dcad5f",
-      "delta": 0,
+      "hashed": "604df70dab424415",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "한화 김서현 마무리",
+      "keyword": "캄보디아 범죄��지",
       "score": 14,
       "maxscore": 14,
-      "hashed": "e780260e95b154c7",
-      "delta": 0,
+      "hashed": "c6265580bff33099",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김민규 우정힐스 선두",
+      "keyword": "황선우 전국체전 MVP",
       "score": 13,
       "maxscore": 13,
-      "hashed": "c13617181e3a5211",
-      "delta": 0,
+      "hashed": "ee6712eafdd4562b",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "성평등 인식격차 해소",
+      "keyword": "화성 김병오 출장 정지",
       "score": 12,
       "maxscore": 12,
-      "hashed": "30948d184fc03d37",
-      "delta": 0,
+      "hashed": "7a3bdaad83dcad5f",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "선거구 평등권 침해",
+      "keyword": "채상병 순직 책임",
       "score": 11,
       "maxscore": 11,
-      "hashed": "3bc30b5f7a29bf9f",
-      "delta": 0,
+      "hashed": "853b74dc373f1e26",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T11:45:57.163Z"
+  "updated": "2025-10-23T11:50:59.948Z"
 }
