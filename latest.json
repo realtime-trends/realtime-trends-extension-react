@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761220258,
+  "timestamp": 1761220557,
   "trends": [
     {
       "keyword": "오세훈 명태균 국정감사",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "912e00562517932d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "94a4d14c62968930",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "e780260e95b154c7",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,14 +46,14 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "604df70dab424415",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 범죄��지",
+      "keyword": "캄보디아 범죄단지",
       "score": 14,
       "maxscore": 14,
-      "hashed": "c6265580bff33099",
+      "hashed": "271b0a63cb0bd74f",
       "delta": 999,
       "engine": "zum"
     },
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "ee6712eafdd4562b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "7a3bdaad83dcad5f",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "853b74dc373f1e26",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T11:50:59.948Z"
+  "updated": "2025-10-23T11:55:59.194Z"
 }
