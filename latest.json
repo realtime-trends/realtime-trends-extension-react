@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761247304,
+  "timestamp": 1761247583,
   "trends": [
     {
       "keyword": "나민애 교수 공부법",
@@ -26,11 +26,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "정지석 전성기",
+      "keyword": "정지�� 전성기",
       "score": 17,
       "maxscore": 17,
-      "hashed": "118013811d8b800e",
-      "delta": 0,
+      "hashed": "f8947afd87f8c60a",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T19:21:45.867Z"
+  "updated": "2025-10-23T19:26:25.130Z"
 }
