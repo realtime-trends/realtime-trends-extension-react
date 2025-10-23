@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761213656,
+  "trends": [
+    {
+      "keyword": "사정 기관 문란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "d6393886cef43a51",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 명태균 대질조사",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "f21bafe18309d808",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 폰세 최원태",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "cf51a341466a0772",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 두산 우승 목표",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "2b4556aa6b95e031",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "내란 특검 박성재",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "875cff0d024abf1c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "구자현 연어파티 의혹",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "25c3a35c92ef37bd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쿠팡 수사 외압 의혹",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "de3b58c3235ea9b4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "골든디스크 파워하우스",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "ccc84fffb2cd4634",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "APEC 정상회의",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "b9de2bdc72bd9925",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "24기 영식 인기",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "25bb408decb34132",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T10:00:59.681Z"
+}
