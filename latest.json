@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761201957,
+  "timestamp": 1761202255,
   "trends": [
     {
-      "keyword": "이태원 참사 대통령실 이전 영향",
+      "keyword": "오세훈 국정감사",
       "score": 20,
       "maxscore": 20,
-      "hashed": "6ec0002e17120f55",
-      "delta": 0,
+      "hashed": "79bc8480752f42cc",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "박봄 양현석 고소 논란",
+      "keyword": "골든디스크 파워하우스",
       "score": 19,
       "maxscore": 19,
-      "hashed": "78829dd555b44441",
-      "delta": 0,
+      "hashed": "ccc84fffb2cd4634",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김혜성 월드시리즈 엔트리",
+      "keyword": "미국 관세 협상",
       "score": 18,
       "maxscore": 18,
-      "hashed": "e9fb4953227d76e8",
-      "delta": 0,
+      "hashed": "a98b52d9b78d8049",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "미중 무역담판",
+      "keyword": "24기 영식 인기",
       "score": 17,
       "maxscore": 17,
-      "hashed": "53c7f3f97f7afa1f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "평택제천고속도로 4중 추돌",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "d82fed73b7be15ae",
-      "delta": 0,
+      "hashed": "25bb408decb34132",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "한화 폰세 최동원상 수상",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "fb08c43f3237ef97",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국제사법재판소 가자 구호",
       "score": 15,
       "maxscore": 15,
-      "hashed": "fb08c43f3237ef97",
-      "delta": 0,
+      "hashed": "f2f8a6c3374802fe",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "AI컴퓨팅센터 유치",
+      "keyword": "쿠팡 수사 외압",
       "score": 14,
       "maxscore": 14,
-      "hashed": "32900e0d74735342",
-      "delta": 0,
+      "hashed": "cb19ef52f11ed5f5",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "반계리 은행나무 단풍",
+      "keyword": "구자현 서울고검장 국정감사",
       "score": 13,
       "maxscore": 13,
-      "hashed": "27ebba339a7ba860",
-      "delta": 0,
+      "hashed": "198bf53ade7187f0",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "혼계영 400m",
+      "keyword": "콘텐츠진흥원 국정감사",
       "score": 12,
       "maxscore": 12,
-      "hashed": "514b38e4f1be9f1b",
-      "delta": 0,
+      "hashed": "b622d1ef4f7b2a9f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "임성근 위증 고발",
+      "keyword": "이종섭 구속 심사",
       "score": 11,
       "maxscore": 11,
-      "hashed": "57d01da194d3a105",
-      "delta": 0,
+      "hashed": "51da5a151ce07174",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T06:45:58.612Z"
+  "updated": "2025-10-23T06:50:56.599Z"
 }
