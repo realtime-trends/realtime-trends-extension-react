@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761222684,
+  "trends": [
+    {
+      "keyword": "오세훈 명태균 국정감사",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "7ee00e1c41a6df8f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이태원 참사 대통령실 이전",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "912e00562517932d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김원형 두산 가을야구",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "94a4d14c62968930",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 김서현 마무리",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "e780260e95b154c7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조정원 총재 연임",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "54576ebf3f64796c",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민규 제네시스 챔피언십 우승",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "604df70dab424415",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 범죄단지",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "271b0a63cb0bd74f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "황선우 전국체전 MVP",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "ee6712eafdd4562b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "화성 김병오 출장 정지",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "7a3bdaad83dcad5f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채상병 순직 책임",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "853b74dc373f1e26",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T12:31:27.595Z"
+}
