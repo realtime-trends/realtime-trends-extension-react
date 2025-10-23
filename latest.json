@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761234386,
+  "timestamp": 1761234684,
   "trends": [
     {
       "keyword": "나민애 교수 공부법",
@@ -10,11 +10,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "오세훈 명태균 대질조사",
+      "keyword": "오세훈 명태균 대질",
       "score": 19,
       "maxscore": 19,
-      "hashed": "f21bafe18309d808",
-      "delta": 0,
+      "hashed": "82e1a4141032bf51",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -26,61 +26,61 @@
       "engine": "zum"
     },
     {
-      "keyword": "포항 탬피니스 패배",
+      "keyword": "정지석 전성기",
       "score": 17,
       "maxscore": 17,
-      "hashed": "46c183b4a296e68f",
-      "delta": 0,
+      "hashed": "118013811d8b800e",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "황선우 MVP",
+      "keyword": "포항 탬피니스 패배",
       "score": 16,
       "maxscore": 16,
-      "hashed": "62d25a48485d67f1",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "청량산 수원캠핑장 개장",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "faaa4603d8a203a1",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "정지석 23득점",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "39836978abf58ff0",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김민재 최유라 각집살이",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "33c13e72fc197b7e",
-      "delta": 0,
+      "hashed": "46c183b4a296e68f",
+      "delta": -1,
       "engine": "zum"
     },
     {
       "keyword": "안세영 프랑스오픈 8강 진출",
-      "score": 12,
-      "maxscore": 12,
+      "score": 15,
+      "maxscore": 15,
       "hashed": "c5386a48632e2366",
-      "delta": 0,
+      "delta": 3,
       "engine": "zum"
     },
     {
-      "keyword": "관세 협상 결과",
+      "keyword": "황선우 MVP",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "62d25a48485d67f1",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "청량산 수원캠핑장 개장",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "faaa4603d8a203a1",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 최유라 각집",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "17471fbb8ff9b895",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "러시아 제재",
       "score": 11,
       "maxscore": 11,
-      "hashed": "ce21709655749dc9",
-      "delta": 0,
+      "hashed": "a38a39be48c59e8f",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-23T15:46:27.761Z"
+  "updated": "2025-10-23T15:51:26.037Z"
 }
