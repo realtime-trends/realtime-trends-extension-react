@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761192035,
+  "trends": [
+    {
+      "keyword": "이태원 참사 대통령실 이전",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "912e00562517932d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "공효진 임신설 부인",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "30fd1a03882e5778",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조현 캄보디아 책임 논란",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "5ffffdc1198fdbdd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신인감독 김연경 연장",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "479c671f5bba46e6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이상경 갭투자 논란",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "5dd2317ea71dd833",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "유승준 비자 발급",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "c45513e9d04e59e9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김혜성 월드시리즈 엔트리",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "e9fb4953227d76e8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 러시아 관계",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "53544981862b5461",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김정민 아들 월드컵",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "d55c69d5c7f90da5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼성 이호성 대표팀 발탁",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "6581c36c75a8f243",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T04:00:37.917Z"
+}
