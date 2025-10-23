@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761207651,
+  "trends": [
+    {
+      "keyword": "24기 영식 인기",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "25bb408decb34132",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 국정감사",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "79bc8480752f42cc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "골든디스크 파워하우스",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "ccc84fffb2cd4634",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국제사법재판소 가자 구호",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "f2f8a6c3374802fe",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한화 폰세 최동원상 수상",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "fb08c43f3237ef97",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이종섭 구속 심사",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "51da5a151ce07174",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "반계리 은행나무 단풍",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "27ebba339a7ba860",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "미국 관세 협상",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "a98b52d9b78d8049",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 푸틴 회동 취소",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "147f067cffa7a989",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대통령실 용산 이전 영향",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "bceecdcf5dd91087",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T08:20:54.386Z"
+}
