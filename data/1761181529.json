@@ -1,0 +1,78 @@
+{
+  "timestamp": 1761181529,
+  "trends": [
+    {
+      "keyword": "이찬원 슈돌 합류",
+      "score": 31.2,
+      "maxscore": 20,
+      "hashed": "2eac1077e0d2da55",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민재 교체 출전",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "ca3fcfebb435b2ba",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 푸틴 회담 취소",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c932fffec906aaa0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이종섭 임성근 구속 심사",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "44075891817c87b4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김혜경 여사 민생",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "7ca434d057969d69",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "하마스 무장해제",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "f58f8ed2acb044e7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박미선 유방암 완치",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "369b2204b77d254e",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장영란 명품 신발",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "d36bbc4b3e9656cb",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "현대캐피탈 레오",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "ec8d11bdbb3a4197",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-23T01:05:32.144Z"
+}
