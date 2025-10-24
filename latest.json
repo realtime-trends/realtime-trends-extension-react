@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761291951,
+  "timestamp": 1761292243,
   "trends": [
     {
       "keyword": "오세훈 부동산 폭탄",
@@ -10,77 +10,77 @@
       "engine": "zum"
     },
     {
-      "keyword": "이재명 교육감 선거권",
+      "keyword": "삼부토건 주가조작",
       "score": 19,
       "maxscore": 19,
-      "hashed": "7bfeba30d8b9a5dd",
-      "delta": 0,
+      "hashed": "4124f8385479d31f",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김건희 집사 횡령 혐의",
+      "keyword": "두산 김원형호 코치진",
       "score": 18,
       "maxscore": 18,
-      "hashed": "cfe0864213c87099",
-      "delta": 0,
+      "hashed": "9ec5796f95e904fd",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 교육감 선거권",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "7bfeba30d8b9a5dd",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민석 총리 APEC 점검",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "18a6fed1cb3d7541",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지창욱 문체부 장관 표창",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "02be90661a1fab57",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김예성 횡령 혐의 부인",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "9da6df74d03ac6b0",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "이완규 증인선서 거부",
-      "score": 17,
-      "maxscore": 17,
+      "score": 13,
+      "maxscore": 13,
       "hashed": "7f2c568d02d02ac8",
-      "delta": 0,
+      "delta": -4,
       "engine": "zum"
     },
     {
       "keyword": "장동혁 부동산 정책",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "eabf6bedf67ecbdf",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "국회 질의 응답",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "698d516de565074d",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "오타니 다저스 월드시리즈",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "08739e804d379798",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "베네수엘라 지상 작전",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "d698f18026a11b24",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "조원철 법제처장 사퇴 촉구",
       "score": 12,
       "maxscore": 12,
-      "hashed": "19545108afec432c",
-      "delta": 0,
+      "hashed": "eabf6bedf67ecbdf",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "수능 절대평가",
+      "keyword": "국정감사 질의",
       "score": 11,
       "maxscore": 11,
-      "hashed": "fc65917256f4b9f3",
-      "delta": 0,
+      "hashed": "4d4d657d7eadacee",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T07:45:52.306Z"
+  "updated": "2025-10-24T07:50:44.930Z"
 }
