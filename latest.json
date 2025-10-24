@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761338146,
+  "timestamp": 1761338448,
   "trends": [
     {
       "keyword": "이찬원 여자친구",
@@ -10,10 +10,10 @@
       "engine": "zum"
     },
     {
-      "keyword": "���상현 세계태권도 2연패",
+      "keyword": "강상현 세계태권도 2연패",
       "score": 19,
       "maxscore": 19,
-      "hashed": "2a7c873abf7f978c",
+      "hashed": "1e12379f475b4935",
       "delta": 999,
       "engine": "zum"
     },
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T20:35:48.145Z"
+  "updated": "2025-10-24T20:40:49.795Z"
 }
