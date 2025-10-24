@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761308749,
+  "trends": [
+    {
+      "keyword": "이재명 지역균형발전",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "013aa4912668316b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "흥국생명 이나연 영입",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "92adf225889323f8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "한복 문화 확산 챌린지",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "99a45b3a2156fc30",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쿠팡 상설특검",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "31df952c9bb68226",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임성재 제네시스 챔피언십",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4690fc5e4bb657b1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "민희진 오케이 레코즈",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "2dc6cff09454a3bb",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최우식 신슬기 우주메리미",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "99f911a633f77f66",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 무역협상 중단",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "5feeba0a952cc298",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 부동산 폭탄 회수",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "4d2bcd976d3a5558",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "루브르 사다리차 절도",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "454818ddf528bfb2",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-24T12:25:52.634Z"
+}
