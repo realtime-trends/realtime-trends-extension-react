@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761273952,
+  "timestamp": 1761274253,
   "trends": [
     {
-      "keyword": "손흥민 MLS 신인상",
+      "keyword": "메시 인터 마이애미 재계약",
       "score": 20,
       "maxscore": 20,
-      "hashed": "09120c0361f4a435",
-      "delta": 0,
+      "hashed": "c8062715b1fef5c3",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -18,19 +18,19 @@
       "engine": "zum"
     },
     {
-      "keyword": "임성근 구속 이종섭 기각",
+      "keyword": "박성재 이종섭 출국금지",
       "score": 18,
       "maxscore": 18,
-      "hashed": "2eff49ba6665037e",
-      "delta": 0,
+      "hashed": "c132bfdf5577bc02",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "퍼스트레이디 이민영",
+      "keyword": "이순재 건강이상설",
       "score": 17,
       "maxscore": 17,
-      "hashed": "41d3fc64d88cfe37",
-      "delta": 0,
+      "hashed": "d33a37a87b54af3b",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -42,45 +42,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "이순재 건강 악화",
+      "keyword": "두산 코치진 재건",
       "score": 15,
       "maxscore": 15,
-      "hashed": "36da404e3a7bc214",
-      "delta": 0,
+      "hashed": "1813ff79f3b4cd63",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이혼숙려캠프 충격 막말",
+      "keyword": "진 앙코르 팬콘",
       "score": 14,
       "maxscore": 14,
-      "hashed": "6e31f54ca312bdfd",
-      "delta": 0,
+      "hashed": "05533ac557ede678",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "안세영 프랑스오픈 8강",
+      "keyword": "NBA 도박 스캔들",
       "score": 13,
       "maxscore": 13,
-      "hashed": "e2cee9a19b03a18a",
-      "delta": 0,
+      "hashed": "348a1b666ce6ff1c",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "세븐틴 대통령 표창",
+      "keyword": "대통령 아세안 정상외교",
       "score": 12,
       "maxscore": 12,
-      "hashed": "aee21dd45bbd18a8",
-      "delta": 0,
+      "hashed": "e6e0ab9a160ed2bb",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "채상병 특검",
+      "keyword": "정청래 법 왜곡죄",
       "score": 11,
       "maxscore": 11,
-      "hashed": "35f0687fa481fa1c",
-      "delta": 0,
+      "hashed": "84a3aa0ca88b8ab9",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T02:45:53.479Z"
+  "updated": "2025-10-24T02:50:54.468Z"
 }
