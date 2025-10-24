@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761297346,
+  "trends": [
+    {
+      "keyword": "쿠팡 외압 의혹",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "7620c0dfd54228a4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "오세훈 부동산 정책 공방",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "3d2a379c567802a7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이상민 혼성그룹 제작",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "10d118cd7f746404",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김건희 샤넬백 전달",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "c3e0cec0f926ba34",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼부토건 주가조작 이응근",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4491961a322ee88a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "롯데 미야자키 캠프",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "4102b6f2a989d1ed",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 피싱조직",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "147edda61d8bab51",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "K푸드 수출 전략",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "6f9c416d7c66ce3b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "통합의장대 시범",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "0d48d22cb726798d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "캄보디아 ��학생 피살",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "b0472eadebe7dd0e",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-24T09:15:49.063Z"
+}
