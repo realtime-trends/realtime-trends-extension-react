@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761292243,
+  "timestamp": 1761292542,
   "trends": [
     {
       "keyword": "오세훈 부동산 폭탄",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "4124f8385479d31f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "9ec5796f95e904fd",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "7bfeba30d8b9a5dd",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "18a6fed1cb3d7541",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "02be90661a1fab57",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "9da6df74d03ac6b0",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "7f2c568d02d02ac8",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "eabf6bedf67ecbdf",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "4d4d657d7eadacee",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T07:50:44.930Z"
+  "updated": "2025-10-24T07:55:43.069Z"
 }
