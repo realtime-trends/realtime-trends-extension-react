@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761292844,
+  "trends": [
+    {
+      "keyword": "오세훈 부동산 폭탄",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "0844ec4346e6e559",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "삼부토건 주가조작",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "4124f8385479d31f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "두산 김원형호 코치진",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "9ec5796f95e904fd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이재명 교육감 선거권",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "7bfeba30d8b9a5dd",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김민석 총리 APEC 점검",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "18a6fed1cb3d7541",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지창욱 문체부 장관 표창",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "02be90661a1fab57",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김예성 횡령 혐의 부인",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "9da6df74d03ac6b0",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이완규 증인선서 거부",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "7f2c568d02d02ac8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "장동혁 부동산 정책",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "eabf6bedf67ecbdf",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국정감사 질의",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "4d4d657d7eadacee",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-24T08:00:47.428Z"
+}
