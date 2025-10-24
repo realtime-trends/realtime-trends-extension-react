@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761303057,
+  "timestamp": 1761303347,
   "trends": [
     {
       "keyword": "민희진 오케이 설립",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "99f911a633f77f66",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,14 +22,14 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "31df952c9bb68226",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "흥국생명 이나연 ���입",
+      "keyword": "흥국생명 이나연 영입",
       "score": 17,
       "maxscore": 17,
-      "hashed": "928343934c2d8d8e",
+      "hashed": "92adf225889323f8",
       "delta": 999,
       "engine": "zum"
     },
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "5feeba0a952cc298",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "454818ddf528bfb2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "4d2bcd976d3a5558",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "4690fc5e4bb657b1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "a52cff5c200eb605",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "5b30d1bc81dc4c9c",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T10:50:58.650Z"
+  "updated": "2025-10-24T10:55:48.287Z"
 }
