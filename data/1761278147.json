@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761278147,
+  "trends": [
+    {
+      "keyword": "물 축제 워터건 사고",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "13b155b4b9f1a2b9",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김성현 플레잉 코치 선임",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "004cf58d46006b11",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "메시 인터 마이애미 재계약",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c8062715b1fef5c3",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지드래곤 문화훈장 수훈",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "9c9872fe2520409a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "르세라핌 스파게티 제이홉",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "57c187eb1b00b691",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "임창정 너를 품에 안으면",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "588ab568a67c41d6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쯔양 망막색소변성증",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "83df8abc4a071eda",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박성재 이종섭 출국금지",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "c132bfdf5577bc02",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트와이스 국무총리 표창",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "b44b3fbc1007f750",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이순재 건강이상설",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "d33a37a87b54af3b",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-24T03:55:49.842Z"
+}
