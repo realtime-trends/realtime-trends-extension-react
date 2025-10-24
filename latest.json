@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761295547,
+  "timestamp": 1761295847,
   "trends": [
     {
-      "keyword": "오세훈 부동산 폭탄",
+      "keyword": "쿠팡 외압 의혹",
       "score": 20,
       "maxscore": 20,
-      "hashed": "0844ec4346e6e559",
-      "delta": 0,
+      "hashed": "7620c0dfd54228a4",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "삼부토건 주가조작",
+      "keyword": "오세훈 부동산 정책 공방",
       "score": 19,
       "maxscore": 19,
-      "hashed": "4124f8385479d31f",
-      "delta": 0,
+      "hashed": "3d2a379c567802a7",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "두산 김원형호 코치진",
+      "keyword": "이상민 혼성그룹 제작",
       "score": 18,
       "maxscore": 18,
-      "hashed": "9ec5796f95e904fd",
-      "delta": 0,
+      "hashed": "10d118cd7f746404",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이재명 교육감 선거권",
+      "keyword": "김건희 샤넬백 전달",
       "score": 17,
       "maxscore": 17,
-      "hashed": "7bfeba30d8b9a5dd",
-      "delta": 0,
+      "hashed": "c3e0cec0f926ba34",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김민석 총리 APEC 점검",
+      "keyword": "삼부토건 주가조작 이응근",
       "score": 16,
       "maxscore": 16,
-      "hashed": "18a6fed1cb3d7541",
-      "delta": 0,
+      "hashed": "4491961a322ee88a",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "지창욱 문체부 장관 표창",
+      "keyword": "롯데 미야자키 캠프",
       "score": 15,
       "maxscore": 15,
-      "hashed": "02be90661a1fab57",
-      "delta": 0,
+      "hashed": "4102b6f2a989d1ed",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김예성 횡령 혐의 부인",
+      "keyword": "캄보디아 피싱조직",
       "score": 14,
       "maxscore": 14,
-      "hashed": "9da6df74d03ac6b0",
-      "delta": 0,
+      "hashed": "147edda61d8bab51",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이완규 증인선서 거부",
+      "keyword": "K푸드 수출 전략",
       "score": 13,
       "maxscore": 13,
-      "hashed": "7f2c568d02d02ac8",
-      "delta": 0,
+      "hashed": "6f9c416d7c66ce3b",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "장동혁 부동산 정책",
+      "keyword": "통합의장대 시범",
       "score": 12,
       "maxscore": 12,
-      "hashed": "eabf6bedf67ecbdf",
-      "delta": 0,
+      "hashed": "0d48d22cb726798d",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "국정감사 질의",
+      "keyword": "캄보디아 대학생 피살",
       "score": 11,
       "maxscore": 11,
-      "hashed": "4d4d657d7eadacee",
-      "delta": 0,
+      "hashed": "c4d9f4da3a0b740b",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T08:45:48.973Z"
+  "updated": "2025-10-24T08:50:48.421Z"
 }
