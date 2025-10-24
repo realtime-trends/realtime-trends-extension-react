@@ -1,86 +1,86 @@
 {
-  "timestamp": 1761281152,
+  "timestamp": 1761281453,
   "trends": [
     {
-      "keyword": "물 축제 워터건 사고",
+      "keyword": "메시 마이애미 재계약",
       "score": 20,
       "maxscore": 20,
-      "hashed": "13b155b4b9f1a2b9",
-      "delta": 0,
+      "hashed": "f59f034dc2c47672",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김성현 플레잉 코치 선임",
+      "keyword": "트럼프 베네수엘라 지상 작전",
       "score": 19,
       "maxscore": 19,
-      "hashed": "004cf58d46006b11",
-      "delta": 0,
+      "hashed": "31a994883983da4b",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "메시 인터 마이애미 재계약",
+      "keyword": "배틀그라운드 e스포츠",
       "score": 18,
       "maxscore": 18,
-      "hashed": "c8062715b1fef5c3",
-      "delta": 0,
+      "hashed": "6a716337dd60d296",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "지드래곤 문화훈장 수훈",
+      "keyword": "수능 절대평가",
       "score": 17,
       "maxscore": 17,
-      "hashed": "9c9872fe2520409a",
-      "delta": 0,
+      "hashed": "fc65917256f4b9f3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국감 질의 의원",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "594303ff6b710cff",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조원철 법제처장 국감",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "b4bcc5906eacd8f3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김성현 플레잉코치 선임",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "004cf58d46006b11",
+      "delta": -5,
+      "engine": "zum"
+    },
+    {
+      "keyword": "러시아 파병 기념관",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "d6f6357be91eceb6",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "르세라핌 스파게티 제이홉",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "57c187eb1b00b691",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "임창정 너를 품에 안으면",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "588ab568a67c41d6",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "쯔양 망막색소변성증",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "83df8abc4a071eda",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "박성재 이종섭 출국금지",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "c132bfdf5577bc02",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "트와이스 국무총리 표창",
       "score": 12,
       "maxscore": 12,
-      "hashed": "b44b3fbc1007f750",
-      "delta": 0,
+      "hashed": "57c187eb1b00b691",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "이순재 건강이상설",
+      "keyword": "국민의힘 부동산 정책",
       "score": 11,
       "maxscore": 11,
-      "hashed": "d33a37a87b54af3b",
-      "delta": 0,
+      "hashed": "9aaf47a3778db010",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T04:45:53.229Z"
+  "updated": "2025-10-24T04:50:54.960Z"
 }
