@@ -1,68 +1,68 @@
 {
-  "timestamp": 1761266752,
+  "timestamp": 1761267050,
   "trends": [
     {
-      "keyword": "채상병 순직 사건",
+      "keyword": "이종섭 영장 기각",
       "score": 20,
       "maxscore": 20,
+      "hashed": "61912ca29f530c14",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홍진경 딸 징계 위기",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "79e9724a775bbaa5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지드래곤 옥관문화훈장",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "efebb3c2dfdbd19c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이혼숙려캠프 부부 갈등",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "614a56bbe3036f0b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "청년 면접수당 2차",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "2b279b8323632843",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "채상병 순직 사건",
+      "score": 15,
+      "maxscore": 15,
       "hashed": "d52a31ee9844e9f3",
-      "delta": 0,
+      "delta": -5,
       "engine": "zum"
     },
     {
       "keyword": "나민애 교수",
-      "score": 19,
-      "maxscore": 19,
+      "score": 14,
+      "maxscore": 14,
       "hashed": "f430df53a33bf05f",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "손흥민 AC밀란 임대설",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "ae6863a8df80475e",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김용범 한미 팽팽 대립",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "0bd60c6c49f86916",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "트럼프 자오창펑 사면",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "9911c23e990572df",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "손흥민 공백 인정",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "8bfef281c2f25ed3",
-      "delta": 0,
+      "delta": -5,
       "engine": "zum"
     },
     {
       "keyword": "미국 제재 러시아",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "819fcdf53b93059a",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "오세훈 명태균 대질수사",
       "score": 13,
       "maxscore": 13,
-      "hashed": "0a6903541afeee08",
-      "delta": 0,
+      "hashed": "819fcdf53b93059a",
+      "delta": -1,
       "engine": "zum"
     },
     {
@@ -74,13 +74,13 @@
       "engine": "zum"
     },
     {
-      "keyword": "홈택스 시스템 정상 운영",
+      "keyword": "오세훈 명태균 대질수사",
       "score": 11,
       "maxscore": 11,
-      "hashed": "59bb438b46f92061",
-      "delta": 0,
+      "hashed": "0a6903541afeee08",
+      "delta": -2,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T00:45:53.629Z"
+  "updated": "2025-10-24T00:50:52.322Z"
 }
