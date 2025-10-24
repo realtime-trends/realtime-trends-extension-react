@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761287456,
+  "trends": [
+    {
+      "keyword": "트럼프 베네수엘라 지상 작전",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "31a994883983da4b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "조원철 법제처장 4년 연임제",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "5a3679c34fe6a638",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국민의힘 평생당원",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "b769724740988a28",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정근식 특목고 자사고",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "3584a9800641c04a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "국회 질의 응답",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "698d516de565074d",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "메시 마이애미 재계약",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "f59f034dc2c47672",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "두산베어스 코치진",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "b2c2c85dc9ad20fc",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김성현 플레잉 코치",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "10cdb542f3331cf7",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "러시아 파병 기념관",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "d6f6357be91eceb6",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "물 축제 워터건 부상",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "d83f3f4dfebc2d26",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-24T06:30:59.112Z"
+}
