@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761347477,
+  "timestamp": 1761347777,
   "trends": [
     {
       "keyword": "이찬원 여자친구",
@@ -58,11 +58,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "지역균형발전 인센티브",
+      "keyword": "지역���형발전 인센티브",
       "score": 13,
       "maxscore": 13,
-      "hashed": "0adce91079ecd93b",
-      "delta": 0,
+      "hashed": "d3ae09dbda950ea2",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T23:11:18.572Z"
+  "updated": "2025-10-24T23:16:18.789Z"
 }
