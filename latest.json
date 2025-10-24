@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761297046,
+  "timestamp": 1761297346,
   "trends": [
     {
       "keyword": "쿠팡 외압 의혹",
@@ -74,13 +74,13 @@
       "engine": "zum"
     },
     {
-      "keyword": "캄보디아 대학생 피살",
+      "keyword": "캄보디아 ��학생 피살",
       "score": 11,
       "maxscore": 11,
-      "hashed": "c4d9f4da3a0b740b",
-      "delta": 0,
+      "hashed": "b0472eadebe7dd0e",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T09:10:47.734Z"
+  "updated": "2025-10-24T09:15:47.404Z"
 }
