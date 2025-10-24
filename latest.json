@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761321052,
+  "timestamp": 1761321353,
   "trends": [
     {
       "keyword": "이찬원 여자친구",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "1e12379f475b4935",
-      "delta": 1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "a52cff5c200eb605",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "a2dcff939cd3740d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "3720856eeebf3cb6",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "0594c6309f5d7377",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "0adce91079ecd93b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "d18de643bfad017e",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "92adf225889323f8",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T15:50:53.398Z"
+  "updated": "2025-10-24T15:55:54.639Z"
 }
