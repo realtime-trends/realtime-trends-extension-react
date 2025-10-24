@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761348073,
+  "timestamp": 1761348378,
   "trends": [
     {
       "keyword": "이찬원 여자친구",
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "0adce91079ecd93b",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-24T23:21:14.444Z"
+  "updated": "2025-10-24T23:26:19.482Z"
 }
