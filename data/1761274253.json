@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761274253,
+  "trends": [
+    {
+      "keyword": "메시 인터 마이애미 재계약",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "c8062715b1fef5c3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지드래곤 문화훈장",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "0c875c45f982a21f",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "박성재 이종섭 출국금지",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c132bfdf5577bc02",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이순재 건강이상설",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "d33a37a87b54af3b",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이국주 일본 이주",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "4837484f549232b5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "두산 코치진 재건",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "1813ff79f3b4cd63",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "진 앙코르 팬콘",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "05533ac557ede678",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "NBA 도박 스캔들",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "348a1b666ce6ff1c",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "대통령 아세안 정상외교",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "e6e0ab9a160ed2bb",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정청래 법 왜곡죄",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "84a3aa0ca88b8ab9",
+      "delta": 999,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-24T02:50:56.304Z"
+}
