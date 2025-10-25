@@ -1,78 +1,86 @@
 {
-  "timestamp": 1761371180,
+  "timestamp": 1761371477,
   "trends": [
     {
-      "keyword": "김연경 인쿠시 면담",
-      "score": 29.5,
-      "maxscore": 19,
-      "hashed": "3c5b0922a7cdf43f",
-      "delta": 0,
+      "keyword": "장동혁 다주택 논란",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "407b4018bac396cd",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "토론토 다저스 월드시리즈",
-      "score": 20,
-      "maxscore": 20,
+      "score": 19,
+      "maxscore": 19,
       "hashed": "fa5664489f36ad4a",
       "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "한화 한국시리즈 예매대란",
+      "keyword": "트럼프 김정은 회동",
       "score": 18,
       "maxscore": 18,
-      "hashed": "ebd8c14a6a4bce99",
-      "delta": 0,
+      "hashed": "1dfc07c057f8f210",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "장동혁 부동산 논란",
+      "keyword": "르세라핌 스파게티 1위",
       "score": 17,
       "maxscore": 17,
-      "hashed": "71987253bc8bdfcc",
-      "delta": 0,
+      "hashed": "5aff2b9c9960c18a",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "신유빈 런던 16강",
+      "keyword": "김연경 감독 인쿠시",
       "score": 16,
       "maxscore": 16,
-      "hashed": "bb4271d00e002679",
-      "delta": 0,
+      "hashed": "e2a4d30c2e50d1dc",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "정우영 베를린 브레멘 패배",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "83893d7b0fac2c35",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "NC 트레이닝 아카데미",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "fa1924181027b411",
-      "delta": 0,
+      "keyword": "LG 한화 한국시리즈",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "915d634f05bf236b",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "장동혁 아파트 논란",
-      "score": 12,
-      "maxscore": 12,
+      "score": 14,
+      "maxscore": 14,
       "hashed": "adb3a9655f116fb4",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 김정은 아시아 순방",
+      "keyword": "신유빈 런던 16강 진출",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "3c531a1b45ca99d3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이국주 일본 활동",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "163b8972f4523de9",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "홈택스 시스템 정상 운영",
       "score": 11,
       "maxscore": 11,
-      "hashed": "69dff5a1a83e58e8",
-      "delta": 0,
+      "hashed": "59bb438b46f92061",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T05:46:21.662Z"
+  "updated": "2025-10-25T05:51:19.163Z"
 }
