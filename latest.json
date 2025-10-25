@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761389491,
+  "timestamp": 1761389786,
   "trends": [
     {
       "keyword": "트럼프 김정은 회동",
       "score": 20,
       "maxscore": 20,
       "hashed": "1dfc07c057f8f210",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "e0792ac83f89e731",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "2688e6bbd9af96c5",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "e93efb23a463af43",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "d4917a17de96535a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "3668976b4f63bed8",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "5dd2317ea71dd833",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "1b52080b7aa0f0bc",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "ec62f55ad05cff6d",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "843770a351fb9f78",
-      "delta": -7,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T10:51:32.401Z"
+  "updated": "2025-10-25T10:56:27.835Z"
 }
