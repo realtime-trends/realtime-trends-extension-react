@@ -1,0 +1,78 @@
+{
+  "timestamp": 1761366081,
+  "trends": [
+    {
+      "keyword": "장동혁 아파트 논란",
+      "score": 20.799999999999997,
+      "maxscore": 14,
+      "hashed": "adb3a9655f116fb4",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신유빈 런던 16강",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "bb4271d00e002679",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김연경 인쿠시",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "208c5252b4bec837",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "정우영 베를린 브레멘 패배",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "83893d7b0fac2c35",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "NC 트레이닝 아카데미",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "fa1924181027b411",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신해철 추모",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "0ac9f86ab261b5b5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 김정은 회담",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "e597f3f9682f592b",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김혜성 월드시리즈",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "e5be50a6bdd46b56",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이국주 일본 활동",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "163b8972f4523de9",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-25T04:21:24.936Z"
+}
