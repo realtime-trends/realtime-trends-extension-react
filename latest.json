@@ -1,86 +1,78 @@
 {
-  "timestamp": 1761363975,
+  "timestamp": 1761364279,
   "trends": [
     {
-      "keyword": "홍경민 신해철 추모",
+      "keyword": "장동혁 아파트 논란",
+      "score": 20.799999999999997,
+      "maxscore": 14,
+      "hashed": "adb3a9655f116fb4",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신유빈 런던 16강",
       "score": 20,
       "maxscore": 20,
-      "hashed": "911a6a930ea8bc16",
-      "delta": 0,
+      "hashed": "bb4271d00e002679",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김연경 인쿠시",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "208c5252b4bec837",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "정우영 베를린 브레멘 패배",
-      "score": 19,
-      "maxscore": 19,
+      "score": 18,
+      "maxscore": 18,
       "hashed": "83893d7b0fac2c35",
-      "delta": 0,
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "신유빈 런던 대회 16강",
-      "score": 18,
-      "maxscore": 18,
-      "hashed": "7367273931b0d136",
-      "delta": 0,
+      "keyword": "NC 트레이닝 아카데미",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "fa1924181027b411",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "신해철 추모",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "0ac9f86ab261b5b5",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "트럼프 김정은 회담",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "e597f3f9682f592b",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "장동혁 아파트",
-      "score": 16,
-      "maxscore": 16,
-      "hashed": "30d6a24ccf24a778",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김혜성 월드시리즈 로스터",
       "score": 15,
       "maxscore": 15,
-      "hashed": "471680c7ae86bbb9",
-      "delta": 0,
+      "hashed": "e597f3f9682f592b",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "이국주 일본 활동 이유",
-      "score": 14,
-      "maxscore": 14,
-      "hashed": "0edaef09ba2f5884",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "김연경 흥국생명 이나연",
+      "keyword": "김혜성 월드시리즈",
       "score": 13,
       "maxscore": 13,
-      "hashed": "3204f3f9d17f9a7c",
-      "delta": 0,
+      "hashed": "e5be50a6bdd46b56",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "김혜성 WS 로스터",
+      "keyword": "이국주 일본 활동",
       "score": 12,
       "maxscore": 12,
-      "hashed": "a9fa6efc374b56d3",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "추성훈 야노시호 불화설",
-      "score": 11,
-      "maxscore": 11,
-      "hashed": "3dbe8a8ed51335aa",
-      "delta": 0,
+      "hashed": "163b8972f4523de9",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T03:46:16.535Z"
+  "updated": "2025-10-25T03:51:21.065Z"
 }
