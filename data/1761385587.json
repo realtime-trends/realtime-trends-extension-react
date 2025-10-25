@@ -1,0 +1,78 @@
+{
+  "timestamp": 1761385587,
+  "trends": [
+    {
+      "keyword": "이상경 국토차관 면직 논란",
+      "score": 25,
+      "maxscore": 20,
+      "hashed": "b6a2afc62751e5d1",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "엄상백 엔트리 제외 김종수",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "ec150ad6fc6b16c2",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "김천 김밥 축제 인파",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "c30daf291b9116ff",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "토론토 다저스 월드시리즈",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "fa5664489f36ad4a",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "인터내셔널 크라운 예선 탈락",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "3668976b4f63bed8",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "쯔양 먹방 전참시",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "45ac3b7c1eaea4e5",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 김정은 회동",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "1dfc07c057f8f210",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "다문화 페스타",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "b04f1d4a8ad06f92",
+      "delta": 0,
+      "engine": "zum"
+    },
+    {
+      "keyword": "지방선거 컷오프",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "9eb6a1319025f9f3",
+      "delta": 0,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-25T09:46:30.028Z"
+}
