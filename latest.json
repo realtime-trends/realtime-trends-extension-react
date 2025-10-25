@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761382288,
+  "timestamp": 1761382586,
   "trends": [
     {
       "keyword": "이상경 국토차관 면직 논란",
       "score": 25,
       "maxscore": 20,
       "hashed": "b6a2afc62751e5d1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "ec150ad6fc6b16c2",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "c30daf291b9116ff",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "fa5664489f36ad4a",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "3668976b4f63bed8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "45ac3b7c1eaea4e5",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "1dfc07c057f8f210",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "b04f1d4a8ad06f92",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,9 +70,9 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "9eb6a1319025f9f3",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T08:51:30.406Z"
+  "updated": "2025-10-25T08:56:27.540Z"
 }
