@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761403875,
+  "timestamp": 1761404175,
   "trends": [
     {
       "keyword": "숏박스 김원훈 엄지윤",
       "score": 20,
       "maxscore": 20,
       "hashed": "94dced3446349625",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "5644785d549f4a0f",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "5ad3493ae1187b18",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "b897e0109371b207",
-      "delta": -1,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "57c19b257dd05911",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "1b52080b7aa0f0bc",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "454713773ded3b39",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "016226b5df07326e",
-      "delta": -8,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "6511cbaebdc11df3",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T14:51:17.296Z"
+  "updated": "2025-10-25T14:56:16.436Z"
 }
