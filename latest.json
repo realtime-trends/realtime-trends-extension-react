@@ -1,86 +1,78 @@
 {
-  "timestamp": 1761399978,
+  "timestamp": 1761400271,
   "trends": [
     {
-      "keyword": "이이경 사생활 루머",
+      "keyword": "이이경 사생활 루머 해명",
+      "score": 23.5,
+      "maxscore": 15,
+      "hashed": "016226b5df07326e",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "손흥민 AC밀란 이적설",
       "score": 20,
       "maxscore": 20,
-      "hashed": "fe8a2adeca2bd5f1",
-      "delta": 0,
+      "hashed": "57c19b257dd05911",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이지윤 데뷔 도로공사 승리",
+      "keyword": "신지아 파이널 진출 좌절",
       "score": 19,
       "maxscore": 19,
-      "hashed": "454713773ded3b39",
-      "delta": 0,
+      "hashed": "38fd15349af98a52",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "동남아 초국가범죄 대응",
+      "keyword": "박혜준 광남일보 선두",
       "score": 18,
       "maxscore": 18,
-      "hashed": "f9f77cdd1ee51045",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "마다솜 박혜준 광남일보 오픈",
-      "score": 17,
-      "maxscore": 17,
-      "hashed": "6d7fec2a6031fe89",
-      "delta": 0,
+      "hashed": "b897e0109371b207",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "가스공사 8연패",
-      "score": 16,
-      "maxscore": 16,
+      "score": 17,
+      "maxscore": 17,
       "hashed": "1b52080b7aa0f0bc",
       "delta": 0,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 북한 핵보유국",
-      "score": 15,
-      "maxscore": 15,
-      "hashed": "ec62f55ad05cff6d",
-      "delta": 0,
+      "keyword": "이지윤 데뷔 도로공사 승리",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "454713773ded3b39",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "최승빈 임성재 제네시스 챔피언십",
+      "keyword": "초국가범죄 대응",
       "score": 14,
       "maxscore": 14,
-      "hashed": "e0792ac83f89e731",
-      "delta": 0,
+      "hashed": "6511cbaebdc11df3",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 북한 핵보유국 인정",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "3e78687a5b945d6c",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "트럼프 김정은 회동",
-      "score": 13,
-      "maxscore": 13,
-      "hashed": "1dfc07c057f8f210",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "수원 삼성 승격 무산",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "3d38edab194cc526",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "트럼프 김정은 핵보유국",
       "score": 11,
       "maxscore": 11,
-      "hashed": "0c867bbc8f26f57c",
-      "delta": 0,
+      "hashed": "1dfc07c057f8f210",
+      "delta": -1,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T13:46:20.145Z"
+  "updated": "2025-10-25T13:51:13.071Z"
 }
