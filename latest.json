@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761378687,
+  "timestamp": 1761378986,
   "trends": [
     {
       "keyword": "이상경 국토차관 면직",
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "45ac3b7c1eaea4e5",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "eb6a3789da1279c4",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "b8698ef1100633a7",
-      "delta": -3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "60a8c7856b53b645",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "f96c6377c9c99b52",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "c6366512b60bc333",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "9f4906ba650fa29d",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "5830c84927afc5a8",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T07:51:29.035Z"
+  "updated": "2025-10-25T07:56:28.355Z"
 }
