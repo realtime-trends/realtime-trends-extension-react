@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761368483,
+  "timestamp": 1761368778,
   "trends": [
     {
       "keyword": "김연경 인쿠시 면담",
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "71987253bc8bdfcc",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -74,5 +74,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T05:01:24.508Z"
+  "updated": "2025-10-25T05:06:20.232Z"
 }
