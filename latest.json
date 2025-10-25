@@ -1,36 +1,36 @@
 {
-  "timestamp": 1761396374,
+  "timestamp": 1761396676,
   "trends": [
     {
-      "keyword": "이지윤 데뷔 도로공사 승리",
+      "keyword": "이이경 사생활 루머",
       "score": 20,
       "maxscore": 20,
-      "hashed": "454713773ded3b39",
-      "delta": 0,
+      "hashed": "fe8a2adeca2bd5f1",
+      "delta": 2,
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 북한 핵보유국",
+      "keyword": "이지윤 데뷔 도로공사 승리",
       "score": 19,
       "maxscore": 19,
-      "hashed": "ec62f55ad05cff6d",
-      "delta": 0,
+      "hashed": "454713773ded3b39",
+      "delta": -1,
       "engine": "zum"
     },
     {
-      "keyword": "이이경 사생활 루머",
+      "keyword": "동남아 초국가범죄 대응",
       "score": 18,
       "maxscore": 18,
-      "hashed": "fe8a2adeca2bd5f1",
-      "delta": 0,
+      "hashed": "f9f77cdd1ee51045",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "최승빈 임성재 제네시스 챔피언십",
+      "keyword": "마다솜 박혜준 광남일보 오픈",
       "score": 17,
       "maxscore": 17,
-      "hashed": "e0792ac83f89e731",
-      "delta": 0,
+      "hashed": "6d7fec2a6031fe89",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -42,45 +42,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "트럼프 김정은 회동",
+      "keyword": "트럼프 북한 핵보유국",
       "score": 15,
       "maxscore": 15,
-      "hashed": "1dfc07c057f8f210",
-      "delta": 0,
+      "hashed": "ec62f55ad05cff6d",
+      "delta": -4,
       "engine": "zum"
     },
     {
-      "keyword": "레오 트리플크라운 현대캐피탈",
+      "keyword": "최승빈 임성재 제네시스 챔피언십",
       "score": 14,
       "maxscore": 14,
-      "hashed": "2688e6bbd9af96c5",
-      "delta": 0,
+      "hashed": "e0792ac83f89e731",
+      "delta": -3,
       "engine": "zum"
     },
     {
-      "keyword": "수원 삼성 다이렉트 승격",
+      "keyword": "트럼프 김정은 회동",
       "score": 13,
       "maxscore": 13,
-      "hashed": "e93efb23a463af43",
-      "delta": 0,
+      "hashed": "1dfc07c057f8f210",
+      "delta": -2,
       "engine": "zum"
     },
     {
-      "keyword": "중국 대만 광복절",
+      "keyword": "수원 삼성 승격 무산",
       "score": 12,
       "maxscore": 12,
-      "hashed": "d4917a17de96535a",
-      "delta": 0,
+      "hashed": "3d38edab194cc526",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "인터내셔널 크라운 예선 탈락",
+      "keyword": "트럼프 김정은 핵보유국",
       "score": 11,
       "maxscore": 11,
-      "hashed": "3668976b4f63bed8",
-      "delta": 0,
+      "hashed": "0c867bbc8f26f57c",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T12:46:16.246Z"
+  "updated": "2025-10-25T12:51:17.988Z"
 }
