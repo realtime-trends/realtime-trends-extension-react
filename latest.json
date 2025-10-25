@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761383781,
+  "timestamp": 1761384086,
   "trends": [
     {
       "keyword": "이상경 국토차관 면직 논란",
@@ -66,13 +66,13 @@
       "engine": "zum"
     },
     {
-      "keyword": "지방선거 컷오프",
+      "keyword": "지방선거 컷오��",
       "score": 12,
       "maxscore": 12,
-      "hashed": "9eb6a1319025f9f3",
-      "delta": 0,
+      "hashed": "db41327211f2b9fa",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T09:16:23.155Z"
+  "updated": "2025-10-25T09:21:27.319Z"
 }
