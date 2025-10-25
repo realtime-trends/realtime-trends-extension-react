@@ -1,36 +1,36 @@
 {
-  "timestamp": 1761407179,
+  "timestamp": 1761407470,
   "trends": [
     {
-      "keyword": "숏박스 김원훈 엄지윤",
+      "keyword": "태권도 장준 동메달",
       "score": 20,
       "maxscore": 20,
-      "hashed": "94dced3446349625",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "태풍상사 이준호",
-      "score": 19,
-      "maxscore": 19,
-      "hashed": "5644785d549f4a0f",
-      "delta": 0,
+      "hashed": "5ad3493ae1187b18",
+      "delta": 3,
       "engine": "zum"
     },
     {
       "keyword": "신지아 파이널 진출 좌절",
-      "score": 18,
-      "maxscore": 18,
+      "score": 19,
+      "maxscore": 19,
       "hashed": "38fd15349af98a52",
-      "delta": 0,
+      "delta": 1,
       "engine": "zum"
     },
     {
-      "keyword": "태권도 장준 동메달",
+      "keyword": "숏박스 김원훈 엄지윤",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "94dced3446349625",
+      "delta": -2,
+      "engine": "zum"
+    },
+    {
+      "keyword": "태풍상사 이준호",
       "score": 17,
       "maxscore": 17,
-      "hashed": "5ad3493ae1187b18",
-      "delta": 0,
+      "hashed": "5644785d549f4a0f",
+      "delta": -2,
       "engine": "zum"
     },
     {
@@ -42,45 +42,45 @@
       "engine": "zum"
     },
     {
-      "keyword": "손흥민 AC밀란 이적설",
+      "keyword": "손흥민 AC밀란 이적",
       "score": 15,
       "maxscore": 15,
-      "hashed": "57c19b257dd05911",
-      "delta": 0,
+      "hashed": "40384ec60dd5bc74",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "가스공사 8연패",
+      "keyword": "이이경 루머 해명",
       "score": 14,
       "maxscore": 14,
-      "hashed": "1b52080b7aa0f0bc",
-      "delta": 0,
+      "hashed": "30e7552c49643fc6",
+      "delta": 999,
       "engine": "zum"
     },
     {
-      "keyword": "이지윤 데뷔 도로공사 승리",
+      "keyword": "솔라나 가격 변동",
       "score": 13,
       "maxscore": 13,
-      "hashed": "454713773ded3b39",
-      "delta": 0,
-      "engine": "zum"
-    },
-    {
-      "keyword": "이이경 사생활 루머 해명",
-      "score": 12,
-      "maxscore": 12,
-      "hashed": "016226b5df07326e",
-      "delta": 0,
+      "hashed": "c7c99bd22faed962",
+      "delta": 999,
       "engine": "zum"
     },
     {
       "keyword": "초국가범죄 대응",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "6511cbaebdc11df3",
+      "delta": 1,
+      "engine": "zum"
+    },
+    {
+      "keyword": "중국 대만 광복절 행사",
       "score": 11,
       "maxscore": 11,
-      "hashed": "6511cbaebdc11df3",
-      "delta": 0,
+      "hashed": "d9d5bd2ced368918",
+      "delta": 999,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T15:46:20.715Z"
+  "updated": "2025-10-25T15:51:11.919Z"
 }
