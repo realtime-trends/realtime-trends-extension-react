@@ -1,5 +1,5 @@
 {
-  "timestamp": 1761376888,
+  "timestamp": 1761377186,
   "trends": [
     {
       "keyword": "이상경 국토차관 면직",
@@ -42,11 +42,11 @@
       "engine": "zum"
     },
     {
-      "keyword": "장동혁 다주택 논란",
+      "keyword": "장동혁 다주택 논���",
       "score": 15,
       "maxscore": 15,
-      "hashed": "407b4018bac396cd",
-      "delta": 0,
+      "hashed": "fcec75ace2055e16",
+      "delta": 999,
       "engine": "zum"
     },
     {
@@ -82,5 +82,5 @@
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T07:21:30.055Z"
+  "updated": "2025-10-25T07:26:27.906Z"
 }
