@@ -1,0 +1,86 @@
+{
+  "timestamp": 1761389491,
+  "trends": [
+    {
+      "keyword": "트럼프 김정은 회동",
+      "score": 20,
+      "maxscore": 20,
+      "hashed": "1dfc07c057f8f210",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "최승빈 임성재 제네시스 챔피언십",
+      "score": 19,
+      "maxscore": 19,
+      "hashed": "e0792ac83f89e731",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "레오 트리플크라운 현대캐피탈",
+      "score": 18,
+      "maxscore": 18,
+      "hashed": "2688e6bbd9af96c5",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "수원 삼성 다이렉트 승격",
+      "score": 17,
+      "maxscore": 17,
+      "hashed": "e93efb23a463af43",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "중국 대만 광복절",
+      "score": 16,
+      "maxscore": 16,
+      "hashed": "d4917a17de96535a",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "인터내셔널 크라운 예선 탈락",
+      "score": 15,
+      "maxscore": 15,
+      "hashed": "3668976b4f63bed8",
+      "delta": -4,
+      "engine": "zum"
+    },
+    {
+      "keyword": "이상경 갭투자 논란",
+      "score": 14,
+      "maxscore": 14,
+      "hashed": "5dd2317ea71dd833",
+      "delta": -3,
+      "engine": "zum"
+    },
+    {
+      "keyword": "가스공사 8연패",
+      "score": 13,
+      "maxscore": 13,
+      "hashed": "1b52080b7aa0f0bc",
+      "delta": 999,
+      "engine": "zum"
+    },
+    {
+      "keyword": "트럼프 북한 핵보유국",
+      "score": 12,
+      "maxscore": 12,
+      "hashed": "ec62f55ad05cff6d",
+      "delta": -8,
+      "engine": "zum"
+    },
+    {
+      "keyword": "서동주 스토킹 피해",
+      "score": 11,
+      "maxscore": 11,
+      "hashed": "843770a351fb9f78",
+      "delta": -7,
+      "engine": "zum"
+    }
+  ],
+  "created_at": "2025-10-25T10:51:33.757Z"
+}
