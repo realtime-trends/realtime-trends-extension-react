@@ -1,12 +1,12 @@
 {
-  "timestamp": 1761393087,
+  "timestamp": 1761393386,
   "trends": [
     {
       "keyword": "이지윤 데뷔 도로공사 승리",
       "score": 20,
       "maxscore": 20,
       "hashed": "454713773ded3b39",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -14,7 +14,7 @@
       "score": 19,
       "maxscore": 19,
       "hashed": "ec62f55ad05cff6d",
-      "delta": 7,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -22,7 +22,7 @@
       "score": 18,
       "maxscore": 18,
       "hashed": "fe8a2adeca2bd5f1",
-      "delta": 999,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -30,7 +30,7 @@
       "score": 17,
       "maxscore": 17,
       "hashed": "e0792ac83f89e731",
-      "delta": -2,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -38,7 +38,7 @@
       "score": 16,
       "maxscore": 16,
       "hashed": "1b52080b7aa0f0bc",
-      "delta": 3,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -46,7 +46,7 @@
       "score": 15,
       "maxscore": 15,
       "hashed": "1dfc07c057f8f210",
-      "delta": -5,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -54,7 +54,7 @@
       "score": 14,
       "maxscore": 14,
       "hashed": "2688e6bbd9af96c5",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -62,7 +62,7 @@
       "score": 13,
       "maxscore": 13,
       "hashed": "e93efb23a463af43",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -70,7 +70,7 @@
       "score": 12,
       "maxscore": 12,
       "hashed": "d4917a17de96535a",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     },
     {
@@ -78,9 +78,9 @@
       "score": 11,
       "maxscore": 11,
       "hashed": "3668976b4f63bed8",
-      "delta": -4,
+      "delta": 0,
       "engine": "zum"
     }
   ],
-  "updated": "2025-10-25T11:51:28.484Z"
+  "updated": "2025-10-25T11:56:27.742Z"
 }
